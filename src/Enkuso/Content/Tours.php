@@ -145,6 +145,63 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 
         ),
 
+        'naadam-festival-journey' => array(
+            'name' => 'Naadam Festival Journey',
+            'layout' => 'naadam_festival_journey.html.twig',
+            'duration' => '11 days',
+            'duration2' => '11 days / 10 nights',
+            'highlights' => array(
+                'Spectacular Naadam Festival: Horse Racing, Archery & Wrestling',
+                'Magnificent Lake Khuvsgul ',
+                'Marvel at the spectacular Gobi Desert',
+                'View the largest sand dunes in Mongolia at Khongoryn Els',
+                'Experience a camel ride with local nomads',
+                'Travel Overland through the legendary Gobi Desert.',
+                'Bayanzag (Flaming Cliffs) and Visit nomad families ',
+                'Explore the capital Ulaanbaatar and the Gandan Monastery',
+            ),
+            'pictures' => array(
+                'http:\/\/farm6.staticflickr.com\/5522\/10865360126_b0fc786cc2_b.jpg',
+                'http:\/\/farm8.staticflickr.com\/7398\/10865660243_6b4ec95bde_b.jpg',
+                //'http:\/\/farm6.staticflickr.com\/5495\/10865659933_4ccde37297_b.jpg',
+                //'http:\/\/farm4.staticflickr.com\/3712\/10865322125_c0a8fe1256_b.jpg',
+                'http:\/\/farm6.staticflickr.com\/5513\/10865659913_55ec543d20_b.jpg',
+            ),
+            'region' => 'Northern, Central & southern part of Mongolia',
+            'availableTime' => 'July 23 - Aug 2',
+            'map' => 'http://farm6.staticflickr.com/5549/12437569134_ac96e99683.jpg',
+            'mapLarge' => 'http://farm6.staticflickr.com/5549/12437569134_ac96e99683_b.jpg',
+            'bs_img' => '/img/tour/em_main.jpg',
+            'pdf' => 'naadam-festival-journey',
+            'itinerary' => "<p>July 5 -Day 1 Arrive in Ulaanbaatar</p><p>July 6 - Day 2 Cultural tour of Ulaanbaatar</p><p>July 7 - Day 3 Flight to Gobi Desert for 1.2 hours</p><p>July 8 - Day 4 Day trip to Flaming Cliffs and Sand Dune</p><p>July 9 - Day 5 Flight back to Ulaanbaatar – Terelj National Park</p><p>July 10 - Day 6 Drive to Hustai National Park</p><p>July 11 - Day 7 Naadam Festival, Opening Ceremony</p><p>July 12 - Day 8 Naadam Festival</p><p>July 13 - Day 9 Take a flight to Khuvsgul Lake for 1.2 hours</p><p>July 14 - Day 10 Explore Khuvsgul Lake</p><p>July 15 - Day 11 Flight back to Ulaanbaatar</p><p>July 16 - Day 12 Departure</p>",
+            'overview' => "<p>The Gobi Desert is a dream destination for many travelers! You will get to explore Ulaanbaatar before flying into the South Gobi Desert to explore the world's largest sand dunes, the majestic 'flaming cliffs' where many dinosaur eggs were found, go for a camel ride, and then fly back to Ulaanbaatar to visit Mongolia's largest festival, the Naadam festival!</p>
+<p>The Naadam festival means \"games\", also given the name \"eriin gurvan
+naadam\" meaning \"the three games of men\". These games are Mongolian
+wrestling, horse racing, and archery. The festival is held from July 11
+to the 13 at the National Sports Stadium. There is an elaborate ceremony
+before the games begin. During the festival, the wrestling really draws
+in the crowds. There is not any age or weight restriction, besides it
+being gender specific (no women are allowed compete). The objective is
+to pin your opponent to the ground with your elbow or knee, no part of
+the body is allowed to touch the ground besides your feet and hands. The
+winner is awarded the title of Avarga (Giant, or Titan). The horse
+racing event is very different from western horse racing as the races
+taking place are cross-country, and covering any distance between 10 to
+20 miles depending on the age of the horses. Up to 1000 horses can be
+chosen to participate. The jockeys are children between the ages of 5
+and 13, and training for the event begins many months in advance. The
+winning jockey is praised with the title of \"tumny ekh\" or \"leader of
+ten thousand\". The archery events are held between groups of ten men and
+women, and each participant is supplied with four arrows. There are
+hundreds of targets or \"surs\", and each team must hit at least 33 of
+them. The winners are declared the National Marksmen or National
+Markswomen. Some kind of version of these games have been going on for
+centuries.</p>",
+            'testimonial' => '<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide; we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight. The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated. Everything else was great.  This was one of the best trips I have ever taken. Thank you for offering it to us so we could see your wonderful country first hand.</p>
+<strong>Sandra Bremer<br/>USA</strong>',
+
+        ),
+
         'treasures-of-mongolia' => array(
             'name' => 'Treasures of Mongolia',
             'layout' => 'treasures_of_mongolia.html.twig',
