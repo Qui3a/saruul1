@@ -1,0 +1,61 @@
+<div class="cols2">
+  <div style="width: 630px; float: left;">
+    <div class="entry">
+        <div class="list_dots">
+            <ul>
+                <li><a href="{{ path('homepage') }}">Homepage</a></li>
+                <li>
+                    <a href="javascript:;">Tours</a>
+                    <ul>
+                        <li><a href="{{ path('tour_show', {'slug':'a-classic-journey-of-mongolia'}) }}">A Classic Journey Of Mongolia</a></li>
+                        <li><a href="{{ path('tour_show', {'slug':'highlights-of-mongolia'}) }}">Highlights of Mongolia</a></li>
+                        <li><a href="{{ path('tour_show', {'slug':'naadam-festival-journey'}) }}">Naadam Festival Journey</a></li>
+                        <li><a href="{{ path('tour_show', {'slug':'gobi-and-beyond'}) }}">Gobi & Beyond</a></li>
+                        <li><a href="{{ path('tour_show', {'slug':'karakorum-and-khuvsgul-lake-adventure'}) }}">Karakorum & Khuvsgul Lake Adventure</a></li>
+                        <li><a href="{{ path('tour_show', {'slug':'splendors-of-mongolia'}) }}">Splendors of Mongolia</a></li>
+                        <li><a href="{{ path('tour_show', {'slug':'bird-watching-trip'}) }}">Bird Watching Trip</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ path('page_show', {'slug':'trip-calendar-2014'}) }}">Trip Calendar</a></li>
+                <li><a href="{{ path('page_show', {'slug':'about-mongolia'}) }}">About Mongolia</a>
+                    <ul>
+                        <li><a href="{{ path('page_show', {'slug':'nomadic-experience'}) }}">Nomadic experience</a></li>
+                        <li><a href="{{ path('page_show', {'slug':'mongolian-visa'}) }}">Mongolian visa</a></li>
+                        <li><a href="{{ path('page_show', {'slug':'travel-accommodations'}) }}">Travel accommodations</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ path('page_show', {'slug':'tourist-events'}) }}">Tourist events</a></li>
+                <li><a href="{{ path('page_show', {'slug':'tourist-attractions'}) }}">Tourist attractions</a></li>
+                <li><a href="{{ path('page_show', {'slug':'about-us'}) }}">About us</a>
+                    <ul>
+                        <li><a href="{{ path('page_show', {'slug':'why-travel-with-us'}) }}">Why Travel With Us</a></li>
+                        <li><a href="{{ path('page_show', {'slug':'experience-luxury-in-mongolia'}) }}">Experience luxury in Mongolia</a></li>
+                        <li><a href="{{ path('contact') }}">Contact us</a></li>
+                    </ul>
+                </li>
+                <li><a href="{{ path('page_show', {'slug':'terms-and-conditions'}) }}"><span>Terms & Conditions</span></a></li>
+                <li><a href="{{ path('page_show', {'slug':'privacy-policy'}) }}"><span>Privacy Statement</span></a></li>
+                <li><a href="{{ path('page_show', {'slug':'frequently-asked-questions'}) }}"><span>F.A.Q.</span></a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+    <!-- sidebar -->
+    <div class="sidebar" style="width: 300px;">
+        <div class="box">
+            {{ include('Page/_quick_contact.html.twig') }}
+            <!-- subscribe buttons -->
+            <div class="widget-container subscribe_btn">
+                <mark style="padding: 10px;display: block;">OFFER 10% May sale discount</mark>
+                <br/>
+                <div>
+                    <a href="{{ path('page_show', {'slug':'trip-calendar-2014'}) }}"><img src="/images/group_travel_2014.jpg" alt="Join our group travel 2014"/></a>
+                </div>
+            </div>
+            <!--/ subscribe buttons -->
+
+        </div>
+
+    </div>
+    <!--/ sidebar -->
+</div>

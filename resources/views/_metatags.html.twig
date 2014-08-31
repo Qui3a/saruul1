@@ -1,0 +1,7 @@
+<title>{% block title %}{{ app['content_seo'].getTitle(app['seo_key']) }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ app['content_seo'].getDescription(app['seo_key']) }}{% endblock %}">
+<meta name="keyword" content="{% block keyword %}{{ app['content_seo'].getKeyword(app['seo_key']) }}{% endblock %}">
+<meta property="og:title" content="{{ app['content_seo'].getTitle(app['seo_key']) }}"/>
+<meta property="og:description" content="{{ app['content_seo'].getDescription(app['seo_key']) }}"/>
+<meta property="og:url" content="{{ app['company']['website'] ~ app['request'].getRequestUri }}"/>
+<meta property="og:type" content="website"/>

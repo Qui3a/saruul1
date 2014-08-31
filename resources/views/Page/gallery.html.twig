@@ -1,0 +1,11 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                {% include '_carousel.html.twig' with {'slides':slides} %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

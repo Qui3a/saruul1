@@ -1,0 +1,91 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider8_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>Download PDF</span></strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a>  <span class="separator">&rsaquo;</span>
+                <span class="current">Download PDF</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <!-- middle -->
+    <div id="middle" class="cols2">
+        <div class="container clearfix">
+            <!-- content -->
+            <div class="content">
+
+                <h2>Download PDF</h2>
+                <p>In order to access the detailed PDF file of the trip, please provide us the following information. Your personal information will not be shared with any other third party without your permission.</p>
+                <br/>
+                <div class="entry">
+
+                    <div class="contact_box">
+                        <div class="box_content clearfix">
+                            <!-- contact form -->
+                            <form action="{{ path('download_pdf_send') }}" method="post" id="contactForm" class="clearfix ajax_form">
+
+                                <div class="form_col_1" style="margin-right: 30px;">
+                                    <div class="row alignleft field_text">
+                                        <label class="label_title">Name:</label>
+                                        {{ form_widget(form.name, { 'attr': {'class': 'inputField required', 'placeholder':'Your Name - Required'} }) }}
+                                    </div>
+                                </div>
+
+                                <div class="form_col_1">
+
+                                    <div class="row alignleft field_text omega">
+                                        <label class="label_title">Country:</label>
+                                        {{ form_widget(form.country, { 'attr': {'class': 'inputField required', 'placeholder':'Country - Required'} }) }}
+                                    </div>
+                                </div>
+
+                                <div class="form_col_1" style="margin-right: 30px;">
+
+                                    <div class="row alignleft field_text omega">
+                                        <label class="label_title">Email (never published):</label>
+                                        {{ form_widget(form.email, { 'attr': {'class': 'inputField required', 'placeholder':'Your Email - Required'} }) }}
+                                    </div>
+                                </div>
+
+                                {{ form_rest(form) }}
+
+                                <div class="form_col_1" style="padding-top: 15px;">
+
+                                    <div class="row alignleft field_text omega">
+                                        <input type="submit" value="Submit & Download PDF" id="send" class="btn btn-submit">
+                                    </div>
+                                </div>
+                            </form>
+                            <!--/ contact form -->
+
+                        </div>
+                    </div>
+
+                </div><!--end row-->
+            </div>
+
+            <!-- sidebar -->
+            <div class="sidebar" style="margin-top: 35px;">
+                <div class="box">
+                    <div style="margin: 10px;">
+                        {% include 'Page/_contact_information.html.twig' %}
+                    </div>
+                </div>
+            </div>
+            <!--/ sidebar -->
+
+        </div>
+    </div><!--end conatiner-->
+{% endblock %}

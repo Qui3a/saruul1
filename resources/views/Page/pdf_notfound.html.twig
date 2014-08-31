@@ -1,0 +1,51 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider8_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>Download PDF</span></strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a>  <span class="separator">&rsaquo;</span>
+                <span class="current">Download PDF</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <!-- middle -->
+    <div id="middle" class="cols2">
+        <div class="container clearfix">
+            <!-- content -->
+            <div class="content">
+
+                <div class="entry">
+                    <div class="titleHeader clearfix">
+                            <h2>Sorry, "{{ filename }}" PDF program not uploaded.</h2>
+                            <div>
+                                <a href="javascript:history.go(-1)" >Go back</a>
+                            </div>
+                    </div>
+                </div><!--end span8-->
+
+            </div>
+
+            <!-- sidebar -->
+            <div class="sidebar">
+                <div class="box">
+                    {{ include('Page/_quick_contact.html.twig') }}
+                </div>
+            </div>
+            <!--/ sidebar -->
+
+        </div><!--end container-->
+    </div>
+
+{% endblock %}

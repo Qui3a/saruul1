@@ -1,0 +1,56 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider8_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>Booking sent</span></strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a>  <span class="separator">&rsaquo;</span>
+                <span class="current">Booking</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <!-- middle -->
+    <div id="middle" class="cols2">
+        <div class="container clearfix">
+            <!-- content -->
+            <div class="content">
+
+                <div class="entry">
+
+                    <div class="contact_box">
+                        <h2>Thank you</h2>
+                        <div class="box_content clearfix">
+                            Booking sent successfully.
+                            <br/><br/>
+                            <p>Thank you for submitting your inquiry. We will answer for your question shortly.</p>
+                        </div>
+                    </div>
+
+                </div><!--end row-->
+            </div>
+
+            <!-- sidebar -->
+            <div class="sidebar" style="margin-top: 35px;">
+                <div class="box">
+                    <div style="margin: 10px;">
+                        {% include 'Page/_contact_information.html.twig' %}
+                    </div>
+                </div>
+            </div>
+            <!--/ sidebar -->
+
+        </div>
+    </div><!--end conatiner-->
+    <!-- Google Code for Lead Conversion Page --> <script type="text/javascript"> /* <![CDATA[ */ var google_conversion_id = 973048679; var google_conversion_language = "en"; var google_conversion_format = "2"; var google_conversion_color = "ffffff"; var google_conversion_label = "E3l9CIGDgAgQ55b-zwM"; var google_remarketing_only = false; /* ]]> */ </script> <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"> </script> <noscript> <div style="display:inline;"> <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/973048679/?label=E3l9CIGDgAgQ55b-zwM&amp;guid=ON&amp;script=0"/> </div> </noscript>
+{% endblock %}

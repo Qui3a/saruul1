@@ -1,0 +1,73 @@
+
+<!-- header -->
+<div class="header" style="background:#000">
+
+    <!-- header slider -->
+    <div class="fullwidthbanner-container">
+        <div class="fullwidthbanner">
+            <ul>
+                {% for slide in slides %}
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="500">
+                    <img src="{{ slide.src is defined ? slide.src : slide }}" data-fullwidthcentering="on">
+                    {% if slide.alt is defined or slide.caption is defined %}
+                    <div class="caption sft text_line" data-x="10" data-y="190" data-speed="900" data-start="800" data-easing="easeOutExpo"></div>
+                    <div class="caption sfb text_line" data-x="10" data-y="300" data-speed="900" data-start="800" data-easing="easeOutExpo"></div>
+                    <div class="caption sfl white_text big_title" data-x="10" data-y="220" data-speed="900" data-start="500" data-easing="easeOutExpo">
+                        <a href="{{ slide.link }}"><strong>{{ slide.alt is defined ? slide.alt|upper : '' }}</strong></a>
+                    </div>
+                    <div class="caption sfr white_text subtitle" data-x="10" data-y="257" data-speed="900" data-start="700" data-easing="easeOutExpo">
+                        {% if slide.caption is defined and slide.caption is not empty %}
+                            {{ slide.caption | raw }}
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <script>
+
+
+        jQuery(document).ready(function($) {
+
+            if ($.fn.cssOriginal!=undefined)
+                $.fn.css = $.fn.cssOriginal;
+
+            $('.fullwidthbanner').revolution({
+                delay:5000,
+                startwidth:950,
+                startheight:617,
+
+                onHoverStop:"off",						// Stop Banner Timet at Hover on Slide on/off
+                hideThumbs:0,
+                navigationType:"bullet",				// bullet, thumb, none
+                navigationArrows:"none",				// nexttobullets, solo (old name verticalcentered), none
+
+                navigationStyle:"round",				// round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+                navigationHAlign:"center",				// Vertical Align top,center,bottom
+                navigationVAlign:"bottom",				// Horizontal Align left,center,right
+                navigationHOffset:0,
+                navigationVOffset:23,
+
+                touchenabled:"on",						// Enable Swipe Function : on/off
+
+                stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+                stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+                hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+                hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
+                hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+                fullWidth:"on",
+                shadow:0								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows -  (No Shadow in Fullwidth Version !)
+
+            });
+        });
+    </script>
+    <!--/ header slider -->
+
+</div>
+<!--/ header -->

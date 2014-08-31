@@ -1,0 +1,46 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider1_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>{{ page.title }}</span></strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a>  <span class="separator">&rsaquo;</span>
+                <span class="current">{{ page.title }}</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <!-- middle -->
+    <div id="middle" class="full_width">
+        <div class="container clearfix">
+            <!-- content -->
+            <div class="content">
+                <article class="blog-article">
+
+                    <div class="blog-content">
+                        <div class="blog-content-title">
+                            <h1>{{ page.title }}</h1>
+                        </div>
+                        <div class="blog-content-entry" style="font-size: 13px; text-align: justify;">
+                            {% if page.content is defined and page.content is not empty %}
+                                {% include('Content/'~page.content) %}
+                            {% else %}
+                                {{ page.body |raw }}
+                            {% endif %}
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+{% endblock %}

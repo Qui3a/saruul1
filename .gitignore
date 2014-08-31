@@ -1,0 +1,30 @@
+# Editors
+.idea
+nbprojects
+
+# Other
+composer.phar
+composer.lock
+*.svn
+*.zip
+*.rar
+*.7z
+*.php~
+
+# Bootstrap
+app/bootstrap*
+
+# Symfony directories
+vendor
+logs
+cache
+tmp_img/*
+web/uploads/*
+web/media/*
+web/bundles/*
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
+
+HTML/*

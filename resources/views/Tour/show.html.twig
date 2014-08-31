@@ -1,0 +1,134 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider3_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>{{ tour.name }}</span> ({{ tour.duration2 }})</strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a>  <span class="separator">&rsaquo;</span>
+                <span class="current">Tours</span>  <span class="separator">&rsaquo;</span>
+                <span class="current">{{ tour.name }}</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <!-- middle -->
+    <div id="middle" class="full_width">
+        <div class="container clearfix">
+            <!-- content -->
+            <div class="content">
+
+                <article class="post-detail">
+                    <div class="post-title">
+                        <h1>{{ tour.name }} ({{ tour.duration2 }})</h1>
+                        <br/>
+                        <b style="color: #B28E1B">Region:</b> <span>{{ tour.region }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Available time:</b> <span>{{ tour.availableTime }}</span>
+                        <br/>
+                    </div>
+                    {% include '_carousel.html.twig' with {'slides':tour.pictures} %}
+                    <br/>
+                    <div class="entry">
+                        <h2 style="color: #B28E1B">OVERVIEW</h2>
+                        {{ tour.overview |raw }}
+                        <div class="row clearfix">
+                            <div class="col col_1_2 ">
+                                <div class="inner">
+                                    <h2 style="color: #B28E1B">ITINERARY AT GLANCE</h2>
+                                    {% if tour.itinerary is defined %}
+                                        <div class="short_itinerary">
+                                            {{ tour.itinerary|raw }}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+
+                            <div class="col col_1_2 ">
+                                <h2 style="color: #B28E1B">Travel map</h2>
+                                <a href="{{ tour.mapLarge }}" target="_blank"><img src="{{ tour.map }}" width="380" /></a>
+
+                                <div>
+                                    <a href="{{ path('page_show', {'slug':'trip-calendar-2014'}) }}"><img src="/images/group_travel_2014.jpg" alt="Join our group travel 2014"/></a>
+                                </div>
+                            </div>
+                        </div>
+                        <mark style="padding: 10px;display: block;">OFFER 10% February sale discount</mark>
+
+                        {# buttons #}
+                        <a class="btn btn_default" href="{{ path('booking') }}"><span>BOOK TRIP</span></a>
+                        <a class="btn btn_blue addthis_button_email" title="Send to a friend"><i class="icon icon-envelope-alt"></i> <span>SEND TO A FRIEND</span></a>
+                        {#<a class="btn btn-info" href="{{ path('request_quote',{'slug':slug}) }}">REQUEST A QUOTE</a>#}
+                        {% if tour.pdf is defined %}
+                            <a class="btn btn_cyan" href="{{ path('download_pdf',{'slug':tour.pdf}) }}"><span>DOWNLOAD PDF</span></a>
+                        {% else %}
+                            <a class="btn btn_cyan" href="{{ path('request_quote',{'slug':slug}) }}"><span>REQUEST A QUOTE</span></a>
+                        {% endif %}
+                        <script type="text/javascript">var addthis_config = {'services' : 'facebook,twitter,email,more', "data_track_addressbar":true};</script>
+                        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52b596d25b76435f"></script>
+
+                        <div class="row clearfix">
+                            <div class="col col_1_3 alpha">
+                                <!-- login widget -->
+                                <div class="widget-container widget_login">
+                                    <h2>Quick inquiry</h2>
+
+                                    <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform">
+
+                                        {% for message in app.session.getFlashBag.get('inquiry') %}
+                                            <mark style="padding: 10px;display: block;"> {{ message }}</mark>
+                                        {% endfor %}
+
+                                        <p><label>Your name</label><br>
+                                            {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
+                                        <p><label>Your email address</label><br>
+                                            {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</p>
+                                        <p><label>Your message</label><br>
+                                            {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
+
+                                        {{ form_rest(form) }}
+                                        <p class="submit">
+                                            <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
+                                        </p>
+                                    </form>
+                                </div>
+                                <!--/ login widget -->
+                            </div>
+                            <div class="col col_2_3 omega">
+                                <div class="inner">
+                                    <div class="slider_quotes" style="margin-top: 45px;">
+                                        <div class="slider-item">
+                                            {% if tour.testimonial is defined %}
+                                                <div class="quote-text">
+                                                    {{ tour.testimonial|raw }}
+                                                </div>
+                                            {% else %}
+                                                <div class="quote-text">
+                                                    <strong>Hello Soyoloo</strong><br/><p>Just want to thank you for your wonderful hospitality and expert tour guiding during our trip to Mongolia.  We loved visiting the Husai National Park and exploring the city of Ulaanbaatar.  Our favorite part of the trip was seeing the beautiful countryside and encountering wild horses, camels and eagles.
+                                                        Thank you so much for showing us around and making sure our trip was a success.  We also enjoyed our driver, Zoloo.  Look forward to planning our next adventure with you.
+                                                    </p></div>
+                                                <div class="quote-author">
+                                                    <strong>Lisa Berkman, Tour group from USA</strong>
+                                                </div>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+{% endblock %}

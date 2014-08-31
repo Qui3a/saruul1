@@ -1,0 +1,31 @@
+
+<div class="row">
+
+    <div class="span8">
+        {% include '_carousel.html.twig' with {'slides' : app['slides']} %}
+    </div><!--end span8-->
+
+
+    <div class="span4">
+
+        <ul class="thumb-banner">
+            <li>
+                <div class="thumbnail">
+                    <a href="{{ path('tour_show', {'slug':'naadam-festival-travel'}) }}"><img src="/images/banner4.jpg" alt="banner"></a>
+                </div>
+            </li>
+            <li>
+                <div class="thumbnail">
+                    <a href="{{ path('homepage') }}"><img src="/images/banner5.jpg" alt="banner"></a>
+                </div>
+            </li>
+            <li>
+                <div class="thumbnail">
+                    <a href="{{ path('page_show', {'slug':'trip-calendar-2014'}) }}"><img src="/images/banner3.jpg" alt="banner"></a>
+                </div>
+            </li>
+        </ul><!--end homeSpecial-->
+
+    </div><!--end span4-->
+
+</div><!--end row-->

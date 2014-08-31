@@ -1,0 +1,25 @@
+{
+    "name": "vendor_name/package_name",
+    "description": "description_text",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Enkuso",
+            "email": "eegii2you@yahoo.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "v1.1.2",
+        "twig/twig": "v1.15.0",
+        "symfony/twig-bridge": "v2.3.8",
+        "symfony/form": "v2.3.8",
+        "symfony/validator": "v2.3.8",
+        "swiftmailer/swiftmailer": "4.1.7",
+        "knplabs/knp-menu": "v1.1.2",
+        "doctrine/dbal": "2.2.2",
+        "symfony/security": "v2.3.8"
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
+    }
+}

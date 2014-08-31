@@ -1,0 +1,95 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            {# BOOKING FORM #}
+            <div class="span8">
+                <div class="titleHeader clearfix">
+                    <h3>REQUEST A QUOTE</h3>
+                </div><!--end titleHeader-->
+                <form method="post" action="{{ path('booking_send') }}">
+
+                    {{ form_errors(form) }}
+
+                    <fieldset>
+                        <div class="row">
+                            <div class="span4">
+                                {{ form_errors(form.tour) }}
+                                {{ form_label(form.tour) }}
+                                <div class="input">
+                                    {{ form_widget(form.tour, { 'attr': {'class': 'span4'} }) }}
+                                </div>
+                            </div>
+
+                            <div class="span4">
+                                {{ form_errors(form.guide) }}
+                                {{ form_label(form.guide) }}
+                                <div class="input">
+                                    {{ form_widget(form.guide, { 'attr': {'class': 'span4'} }) }}
+                                </div>
+                            </div>
+
+                            <div class="span4">
+                                {{ form_errors(form.first_name) }}
+                                {{ form_label(form.first_name) }}
+                                <div class="input">
+                                    {{ form_widget(form.first_name, { 'attr': {'class': 'span4'} }) }}
+                                </div>
+
+                                {{ form_errors(form.last_name) }}
+                                {{ form_label(form.last_name) }}
+                                <div class="input">
+                                    {{ form_widget(form.last_name, { 'attr': {'class': 'span4'} }) }}
+                                </div>
+
+                                {{ form_errors(form.country) }}
+                                {{ form_label(form.country) }}
+                                <div class="input">
+                                    {{ form_widget(form.country, { 'attr': {'class': 'span4'} }) }}
+                                </div>
+                            </div>
+
+                            <div class="span4">
+                                {{ form_errors(form.phone) }}
+                                {{ form_label(form.phone) }}
+                                <div class="input">
+                                    {{ form_widget(form.phone, { 'attr': {'class': 'span4'} }) }}
+                                </div>
+
+                                {{ form_errors(form.email) }}
+                                {{ form_label(form.email) }}
+                                <div class="input">
+                                    {{ form_widget(form.email, { 'attr': {'class': 'span4'} }) }}
+                                </div>
+
+                                {{ form_errors(form.number_of_people) }}
+                                {{ form_label(form.number_of_people) }}
+                                <div class="input">
+                                    {{ form_widget(form.number_of_people, { 'attr': {'class': 'span4'} }) }}
+                                </div>
+                            </div>
+
+                            <div class="span6">
+                                {{ form_errors(form.comment) }}
+                                {{ form_label(form.comment) }}
+                                <div class="input">
+                                    {{ form_widget(form.comment, { 'attr': {'class': 'span8', 'rows': '10'} }) }}
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    {{ form_rest(form) }}
+
+                    <div class="actions">
+                        <button class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="span4">
+                {% include 'Page/_contact_information.html.twig' %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

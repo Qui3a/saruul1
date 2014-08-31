@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]><html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+    {# Basic Page Needs #}
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    {% include '_metatags.html.twig' %}
+    {# Mobile Specific Metas #}
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    {# CSS #}
+    {% block stylesheets %}
+        <link href='http://fonts.googleapis.com/css?family=Cabin:400,400italic,500,600,700|PT+Serif+Caption:400,400italic' rel='stylesheet' type='text/css'>
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <link href="/style.css" media="screen" rel="stylesheet">
+        <link href="/screen.css" media="screen" rel="stylesheet">
+        <!-- custom CSS -->
+        <link href="/custom.css" media="screen" rel="stylesheet">
+    {% endblock %}
+    {# GOOGLE ANALYTICS #}
+    {% if not app['debug'] %}
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-35644824-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    {% endif %}
+
+    {# JavaScripts #}
+    {% block javascripts %}
+        <!-- main JS libs  -->
+        <script src="/js/libs/modernizr.min.js"></script>
+        <script src="/js/libs/respond.min.js"></script>
+        <script src="/js/libs/jquery.min.js"></script>
+        <script src="/js/protects.js"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('body').contentprotector({protect: false}); // turn off content protection by set false
+            });
+        </script>
+
+        <!-- scripts  -->
+        <script src="/js/jquery.easing.min.js"></script>
+        <script src="/js/general.js"></script>
+        <script src="/js/hoverIntent.js"></script>
+        <!-- carousel -->
+        <script src="/js/jquery.carouFredSel.min.js"></script>
+        <script src="/js/jquery.touchSwipe.min.js"></script>
+        <!-- styled select -->
+        <link rel="stylesheet" href="/css/cusel.css">
+        <script src="/js/cusel-min.js"></script>
+
+        <link href="/rs-plugin/css/settings.css" media="screen" rel="stylesheet">
+        <script src="/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script src="/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+        <!-- shortcode: Lightbox prettyPhoto -->
+        <link rel="stylesheet" href="/css/prettyPhoto.css">
+        <script src="/js/jquery.prettyPhoto.js"></script>
+    {% endblock %}
+    <!--Start of Zopim Live Chat Script-->
+    <script type="text/javascript">
+        window.$zopim||(function(d,s){var z=$zopim=function(c){
+            z._.push(c)},$=z.s=
+                d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+                _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+            $.src='//v2.zopim.com/?26yMcWeE6yTtZKTg8xzP15mRfyAPcchz';z.t=+new Date;$.
+                    type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+    </script>
+    <!--End of Zopim Live Chat Script-->
+</head>
+
+<body>
+
+<div class="{% block body_wrap_class %}body_wrap{% endblock %}">
+{% include '_header.html.twig' %}
+{% block content %}{% endblock %}
+
+    {# FACEBOOK #}
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=376122772464948";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div id="fb-root"></div>
+
+    {% block fb_like %}
+        <div class="container">
+            <div class="content" style="margin-top: 20px;margin-bottom: 10px;">
+                {# FACEBOOK LIKE #}
+                <div style="background-color: #ffffff; ">
+                    <div class="fb-like-box" data-href="https://www.facebook.com/travelallmongolia" data-width="950" data-colorscheme="light" data-show-faces="true" data-header="false" data-stream="false" data-show-border="true"></div>
+                </div>
+            </div>
+            <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ftravelallmongolia&width=250&layout=standard&action=like&show_faces=true&share=true&height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:80px;" allowTransparency="true"></iframe>
+        </div>
+    {% endblock %}
+
+    <div class="footer">
+        <div class="container clearfix">
+
+            <div class="f_col f_col_3">
+                <h3>LINKS:</h3>
+                <ul>
+                    <li><a href="{{ path('homepage') }}"><span>Home</span></a></li>
+                    <li><a href="{{ path('page_show', {'slug':'about-us'}) }}"><span>About us</span></a></li>
+                    <li><a href="{{ path('page_show', {'slug':'terms-and-conditions'}) }}"><span>Terms & Conditions</span></a></li>
+                    <li><a href="{{ path('page_show', {'slug':'privacy-policy'}) }}"><span>Privacy Statement</span></a></li>
+                    <li><a href="{{ path('page_show', {'slug':'frequently-asked-questions'}) }}"><span>F.A.Q.</span></a></li>
+                    <li><a href="{{ path('page_show', {'slug':'sitemap'}) }}"><span>Sitemap</span></a></li>
+                </ul>
+            </div>
+            <!--/ footer col 3 -->
+
+            <div class="f_col f_col_1_4">
+                <h3>TOURS:</h3>
+                <ul>
+                    {% for slug, tour in app.content_tours.tours if tour.duration is defined %}
+                        <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} ({{ tour.duration2 }})</span></a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <!--/ footer col 1 -->
+
+            <div class="f_col f_col_4">
+                <h3>CONTACT INFORMATION:</h3>
+                <div class="footer_address">
+                    <div class="address">
+                        211-24, Rapid Kharsh, Khan uul<br>
+                        Ulaanbaatar, Mongolia
+                    </div>
+                    <div class="hours">
+                        E-Mail: info@travelallmongolia.com<br>
+                        Skype: soyoloo_mongolianluxurytours
+                    </div>
+                    <a href="{{ path('contact') }}" class="notice">Send us message</a>
+                </div>
+            </div>
+            <!--/ footer col 4 -->
+
+            <div class="clear"></div>
+
+            <div class="footer_social">
+            </div>
+
+            <div class="footer_contacts">
+                <span class="phone">Call us: 976-99000601</span>
+                <span class="email">Email: info@travelallmongolia.com</span>
+            </div>
+
+            <div class="copyright">
+                COPYRIGHT &copy; 2014 <a href="http://www.travelallmongolia.com">Travel All Mongolia LLC</a>. All rights reserved.
+            </div>
+
+        </div>
+    </div>
+
+</div><!--end wrapper-->
+
+</body>
+
+</html>
