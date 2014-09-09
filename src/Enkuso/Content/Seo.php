@@ -71,6 +71,21 @@ class Seo
             'description' =>  "Riding a horse around Mongolia sounds like a great idea! Most tours and trips people go on to include a few days of horseback riding and camel riding.",
             'keyword' =>      "horseback Mongolia, horse riding holidays, Mongolia horse treks, Mongolia horse riding tours"
         ),
+        'buddhism-tour' => array(
+            'title' =>        "Tour Mongolia, Mongolia travel guide, Mongolia tour travel, Mongolia tour packages",
+            'description' =>  "Visit Buddhist monasteries and the medieval capital of Genghis Khan, from where he launched his victorious cavalry. Hiking, horseback riding, are the main activities. Overnights are mainly in traditional felt covered tents locally known as gers.",
+            'keyword' =>      "Mongolia travel guide, Mongolia tour travel, Mongolia tour packages, adventure travel in Mongolia",
+        ),
+        'motor-bike-tour' => array(
+            'title' =>        "Motorbike tour in Mongolia, Moto tour in Mongolia, Mongolian adventure tours",
+            'description' =>  "Ride Yamaha, BMW and KTM motorbikes across in Gobi Desert. See some of the most amazing sights and geographical formations that this country has to offer, including big granite mountains with bizarre rock formations, pink and white colored limestone cliffs weathered by wind and rain, golden sand dunes 180 km long and a cold mountain canyon up in the Gobi mountains.",
+            'keyword' =>      "Motorbike tour in Mongolia, Moto tour in Mongolia, Mongolian adventure tours",
+        ),
+        'mountain-bike-tour' => array(
+            'title' =>        "Mongolian Mountain bike tour, mountain bike tour, cycling tours in Mongolia, biking tour in Mongolia",
+            'description' =>  "This exciting trail in the southern and central provinces of South Gobi and Karakorum, passes through varied and beautiful landscapes with wide fertile valleys, forests of silver birch and poplar, rivers and mountain passes. There are a few villages along the way, but most of the population are nomadic and live in the traditional round white gers.",
+            'keyword' =>      "Mongolian Mountain bike tour, mountain bike tour, cycling tours in Mongolia, biking tour in Mongolia",
+        ),
         'horse-trip-around-khuvsgul-lake' => array(
             'title' =>        "Mongolia horse riding tours, Mongolia horse treks, horse treks in Mongolia, horse trips Mongolia, Mongolia horse riding travel",
             'description' =>  "A horseback adventure covering many sites of central Mongolia; Karakorum, Erdene Zuu monastery, Tsenkher hot springs, Terkhiin Tsagaan Lake, Ugii Lake, Hustai national park and much more. Having maintained much of its centuries-old nomadic traditions, Mongolia is one of the only places on earth you can interact with true nomadic peoples, whilst riding traditional Mongolian horses.",

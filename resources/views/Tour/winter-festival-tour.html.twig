@@ -1,0 +1,304 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider3_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>{{ tour.name }}</span> ({{ tour.duration2 }})</strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a>  <span class="separator">&rsaquo;</span>
+                <span class="current">Tours</span>  <span class="separator">&rsaquo;</span>
+                <span class="current">{{ tour.name }}</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <!-- middle -->
+    <div id="middle" class="cols2 sidebar_left">
+        <div class="container clearfix">
+            <!-- content -->
+            <div class="content">
+                <h2>{{ tour.name }} ({{ tour.duration2 }})</h2>
+                <!-- content slider: slider_medium -->
+                <div class="slider slider_medium">
+                    <div class="slider_container clearfix" id="slider4">
+                        {% for slide in tour.pictures %}
+                            <div class="slider-item"><img src="{{ slide }}" alt="{{ tour.name }}"></div>
+                        {% endfor %}
+                    </div>
+                    <div class="slider_pagination" id="slider4_pag"></div>
+                </div>
+                <script>
+                    jQuery(document).ready(function($) {
+                        $('#slider4').carouFredSel({
+                            pagination : "#slider4_pag",
+                            infinite: true,
+                            auto: true,
+                            height: "auto",
+                            items: 1,
+                            scroll: {
+                                fx: "fade",
+                                duration: 2000
+                            }
+                        });
+                    });
+                </script>
+                <!-- content slider: medium_small -->
+                <div class="">
+                    <div class="post-item">
+                        <div class="post-aside clearfix">
+                            <div class="entry">
+                                {{ tour.overview |raw }}
+                            </div>
+
+                            {# buttons #}
+                            <a class="btn btn_default" href="{{ path('booking') }}"><span>BOOK TRIP</span></a>
+                            <a class="btn btn_blue addthis_button_email" title="Send to a friend"><i class="icon icon-envelope-alt"></i> <span>SEND TO A FRIEND</span></a>
+                            {#<a class="btn btn-info" href="{{ path('request_quote',{'slug':slug}) }}">REQUEST A QUOTE</a>#}
+                            {% if tour.pdf is defined and tour.pdf is not null %}
+                                <a class="btn btn_cyan" href="{{ path('download_pdf',{'slug':tour.pdf}) }}"><span>DOWNLOAD PDF</span></a>
+                            {% else %}
+                                <a class="btn btn_cyan" href="{{ path('request_quote',{'slug':slug}) }}"><span>REQUEST A QUOTE</span></a>
+                            {% endif %}
+
+                            <h2 style="color: #B28E1B; margin-top: 20px; ">ITINERARY AT GLANCE</h2>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 1 Ulaanbaatar</div>
+                                <div class="box_content">
+                                    <p>Arrive in Ulaanbaatar, the capital city of Mongolia. Transfer to your hotel. Depending on time of arrival and transfer to hotel and after breakfast you will enjoy city tour including: Gandan monastery and visit to Natural History Museum which is famous for its authentic dinosaur skeletons and fossils. Welcome dinner at restaurant and stay overnight in hotel. (L, D)</p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 2 travel to Khuvsgul Lake</div>
+                                <div class="box_content">
+                                    <p>In the morning transfer to airport, take a flight to Murun, center of Huvsgul province. We will be met with our drivers at local airport and travel (3-3.5 hours drive) to Ger camp near Hatgal village, is located at the south east shore of the lake. Skaters are invited to prepare for skating and warming up skate on the thick black ice of the lake. Non skating spectators would have a chance to see skaters or involve optional activities of horse riding, horse sledging, dog sledging and cultural visits to nomads. Stay overnight in Ger camp. (B, L, D)</p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 3 the Ice Festival and Skating Marathon Day</div>
+                                <div class="box_content">
+                                    <p>By 10.00am Grand Opening Ceremony of the Ice Festival and International Skating Marathon will take place. We will attend sacrificing shamanic ceremony for Mother Sea-Huvsgul and King of Mountains-Khoridol Saridag. The Marathon for first 100kms of round race will start as continuously at 10.30am. While skaters are racing on the ice there will be very interesting activities of the Ice Festival will be held according to planned schedule. You can enjoy competitions of horse sleds driven by local nomads and traditional game of Ice shagai. Around 13.00-15.00pm most of skaters complete for first 100kms race. Afternoon competition for driving by car holds on the ice and other optional activities are available. Evening you will attend a traditional art performance of local singers and dancers. Stay overnight in ger camp. (B, L, D)</p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 4 Ice Festival and Skating Marathon Day</div>
+                                <div class="box_content">
+                                    <p>Today second 100kms’s part of round race will be completed by the skaters for short distances; sumo wrestling on the ice, rope pulling competitions will be main activities on this day. Closing ceremony will be held around at 16.00pm and winners of competitions would be announced and awarded. Evening we will have exciting ceremony by famous shaman of the area and enjoy bonfire at the night. Stay overnight in the hotel. (B, L, D)</p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 5 travel back to Ulaanbaatar</div>
+                                <div class="box_content">
+                                    <p>Fly back to Ulaanaabatar and transfer to the hotel. In the afternoon time for relax. Stay overnight in the hotel. (B, L, D)</p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 6 Eagle festival</div>
+                                <div class="box_content">
+                                    <p>We will travel to the area where Eagle Festival will be held. At 10.00am the opening ceremony commences, as the participants join the parade on horse ride with their eagles. Then festival begins with each Kazakh displaying his hunting outfit and accessories. The Golden eagles will be released from a cliff and their owner will stand below and signal for them to land upon their arm, as they do during hunting. Then eagles will be released from a cliff to attack fox skins that will be dragged by their owner on horseback. Travel back to Ulaanbaatar. Stay overnight in the hotel. (B, L, D)</p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 7-8 Travel to South Gobi</div>
+                                <div class="box_content">
+                                    <p>In the morning transfer to airport, take a flight to Dalanzadgad, the capital of UmnuGobi province. The flight takes one and half hour. Camel Festival Days! This event will be organized by “Tumen Temee” (“Ten Thousand Camels”) - association in order to protect two humped Bactrian camels and reproduce camel herders, to increase their productivity, to increase herder’s income by tourism. In those days we will “breathe” by camels. You will enjoy authentic festival program including, camels racing, children s concert, camel wool product exhibition, camel polo, parade on camels and nice couple competition. Also you will enjoy relay competition with camel. An entertaining competition which shows camel training methods and customs of “Heroes of great Gobi” people, overcomes severe climate and harsh condition of Gobi by their effort and endurance. Teams each having 5 members participate in it and show many methods and techniques of catching camel with lasso, tying and bringing down, putting wooden peg into camel’s nose and loading camel. Optional camel riding is available. Stay overnights at the camp.</p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 9 Travel back to Ulaanbaatar</div>
+                                <div class="box_content">
+                                    <p>Fly back to Ulaanaabatar and transfer to the hotel. In the afternoon time for relax. Shopping includes State department store and cashmere shops. Enjoy watch national folklore performance by “Tumen Ekh” national song, throat singing, tsam mask dance and so on. A farewell dinner and stay overnight in hotel.</p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 10 Departure</div>
+                                <div class="box_content">
+                                    <p>Check out from hotel and transfer to Chinggis Khan International airport or Ulaanbaatar train station for departure</p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            {# buttons #}
+                            <a class="btn btn_default" href="{{ path('booking') }}"><span>BOOK TRIP</span></a>
+                            <a class="btn btn_blue addthis_button_email" title="Send to a friend"><i class="icon icon-envelope-alt"></i> <span>SEND TO A FRIEND</span></a>
+                            {#<a class="btn btn-info" href="{{ path('request_quote',{'slug':slug}) }}">REQUEST A QUOTE</a>#}
+                            {% if tour.pdf is defined and tour.pdf is not null %}
+                                <a class="btn btn_cyan" href="{{ path('download_pdf',{'slug':tour.pdf}) }}"><span>DOWNLOAD PDF</span></a>
+                            {% else %}
+                                <a class="btn btn_cyan" href="{{ path('request_quote',{'slug':slug}) }}"><span>REQUEST A QUOTE</span></a>
+                            {% endif %}
+                            <script type="text/javascript">var addthis_config = {'services' : 'facebook,twitter,email,more', "data_track_addressbar":true};</script>
+                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52b596d25b76435f"></script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sidebar -->
+            <div class="sidebar">
+                <div class="box">
+
+                    <!-- widget_categories -->
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title">Trip snapshot</h3>
+                        <b style="color: #B28E1B">Tour length:</b> <span>{{ tour.duration2 }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Available time:</b> <span>{{ tour.availableTime }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Region:</b> <span>{{ tour.region }}</span>
+                        <br/>
+                    </div>
+                    <!--/ widget_categories -->
+
+                    <!-- widget_categories -->
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title">Travel map</h3>
+                        <a href="{{ tour.mapLarge }}" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="{{ tour.map }}" width="380" class="frame_box"/></a>
+                    </div>
+                    <!--/ widget_categories -->
+
+                    <!-- widget_recent_comments -->
+                    <div class="widget-container widget_popular">
+                        <h3 class="widget-title">Highlights</h3>
+                        <ul>
+                            {% for highlight in tour.highlights %}
+                            <li><a href="javascript:;">{{ highlight }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <!--/ widget_recent_comments -->
+
+                    <!-- login widget -->
+                    <div class="widget-container widget_login">
+                        <h2>Quick inquiry</h2>
+
+                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform">
+
+                            {% for message in app.session.getFlashBag.get('inquiry') %}
+                                <mark style="padding: 10px;display: block;"> {{ message }}</mark>
+                            {% endfor %}
+
+                            <p><label>Your name</label><br>
+                                {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your email address</label><br>
+                                {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your message</label><br>
+                                {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
+
+                            {{ form_rest(form) }}
+                            <p class="submit">
+                                <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
+                            </p>
+                        </form>
+                    </div>
+                    <!--/ login widget -->
+
+                    <!-- subscribe buttons -->
+                    <div class="widget-container subscribe_btn">
+                        {#<mark style="padding: 10px;display: block;">OFFER 10% May sale discount</mark>
+                        <br/>#}
+                        <div>
+                            <a href="{{ path('page_show', {'slug':'trip-calendar-2014'}) }}"><img src="/images/group_travel_2014.jpg" alt="Join our group travel 2014"/></a>
+                        </div>
+                    </div>
+                    <!--/ subscribe buttons -->
+
+                </div>
+
+                <div class="sb sb_dark">
+                    <div class="box_title">Included</div>
+                    <div class="box_content">
+                        <div class="entry">
+                            <div class="list_check">
+                                <ul>
+                                    <li>Shared accommodation in ger camp</li>
+                                    <li>All meals as listed in itinerary</li>
+                                    <li>All entrance fees</li>
+                                    <li>Sightseeing as per itinerary</li>
+                                    <li>Accommodation in 4 stars hotel in Ulaanbaatar (twin standard room double occupancy)</li>
+                                    <li>Transportations by 4WD vehicles</li>
+                                    <li>English speaking guide (other language guide on request)</li>
+                                    <li>Daily supply of bottled water</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="sb sb_dark">
+                    <div class="box_title">Not included</div>
+                    <div class="box_content">
+                        <div class="entry">
+                            <div class="list_delete">
+                                <ul>
+                                    <li>International airfare</li>
+                                    <li>Travel insurance</li>
+                                    <li>Beverages</li>
+                                    <li>Optional activity cost</li>
+                                    <li>Excess baggage charge</li>
+                                    <li>Single room supplement</li>
+                                    <li>Any additional things which are not mentioned above</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="sb sb_blue">
+                    <div class="box_title">Testimonial</div>
+                    <div class="box_content">
+                        <div class="slider_quotes" style="margin-top: 45px;">
+                            <div class="slider-item">
+                                {% if tour.testimonial is defined %}
+                                    <div class="quote-text">
+                                        {{ tour.testimonial|raw }}
+                                    </div>
+                                {% else %}
+                                    <div class="quote-text">
+                                        <strong>Hello Soyoloo</strong><br/><p>Just want to thank you for your wonderful hospitality and expert tour guiding during our trip to Mongolia.  We loved visiting the Husai National Park and exploring the city of Ulaanbaatar.  Our favorite part of the trip was seeing the beautiful countryside and encountering wild horses, camels and eagles.
+                                            Thank you so much for showing us around and making sure our trip was a success.  We also enjoyed our driver, Zoloo.  Look forward to planning our next adventure with you.
+                                        </p></div>
+                                    <div class="quote-author">
+                                        <strong>Lisa Berkman, Tour group from USA</strong>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!--/ sidebar -->
+        </div>
+    </div>
+{% endblock %}

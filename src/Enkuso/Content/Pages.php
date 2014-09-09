@@ -27,7 +27,7 @@ class Pages
 <p><strong>Population:</strong></p>
 </td>
 <td valign="top" width="551">
-<p>2.8 million</p>
+<p>2.9 million</p>
 </td>
 </tr>
 <tr class="text">
@@ -139,7 +139,7 @@ class Pages
 <p><strong>National currency:</strong></p>
 </td>
 <td valign="top" width="551">
-<p>Tugrik (MNT), about MNT 1250 = USD 1 in September, 2011</p>
+<p>Tugrik (MNT), about MNT 1850 = USD 1 in September, 2014</p>
 </td>
 </tr>
 <tr class="text">
@@ -391,29 +391,30 @@ Frederic Joliot-Curie Street 52&nbsp;<br />1113 Sofia, Bulgaria&nbsp;<br />Tel: 
         ),
         'terms-and-conditions' => array(
             'title' => 'Terms and conditions',
-            'body' => '<h2>Insurance</h2>
+            'body' => "<h4>Insurance</h4>
 <p>You are embarking on an outdoor adventure tour and your personal safety is a top priority to us. However, Travel All Mongolia cannot be held accountable for circumstances beyond our control. We strongly recommend purchasing a comprehensive travel insurance plan prior to your departure.</p>
-<h2>Responsibilities to the Traveler</h2>
+<br/><h4>Responsibilities to the Travelers </h4>
 <p>As with any outdoor adventure tour, there are risks and hazards. Your tour guide will be working diligently to ensure the safety and welfare of the group. It is imperative that you follow the direction of your tour guide. However, you will be responsible for your own actions and personal safety. We reserve the right to ask anyone displaying improper behavior or risking the safety of the group to leave the tour with no right to a refund or compensation.</p>
-<p>Any medical conditions and/or dietary concerns must be brought to our attention at the time of booking. We will not be responsible for circumstances or events that may have been avoided with proper notice of these important details.</p>
-<h2>Our Responsibility to the Traveler</h2>
-<p>Our responsibility to you, the traveler, begins from the time you meet your tour guide in Ulaanbaatar until your departure. We will not assume any responsibility for late arrivals or failure to arrive at the designated place and time. Nor will be responsible for happenings beyond our control such as terrorist attacks, political unrests, natural disasters, or airline/train delays or cancellations.</p>
-<h2>Booking and payments</h2>
-<p>When you are ready to confirm your space on a tour, please complete the following booking form and submit a minimum deposit totaling 30% of the land cost. Once we receive the booking form and deposit, will we make the necessary reservations and send you a confirmation along with payment details. </p>
-<p>Payments are accepted by Visa or MasterCard, bank transfer, or international money transfer services. Mongolia Luxury Tours Co., Ltd. Will not be held responsible for payments sent by postal service.</p>
-<p>The trip balance, which is 70% of the total land cost, is due 60 days prior to your departure date. If payment is not received by the due date, your reservation may be subject to cancellation and cancellation fees may apply. Bookings made within 60 days of the departure date will require full payment.</p>
 
-<h2>Cancellation and refund</h2>
-<p>Notice of cancellation and refund request must be received in written form. </p>
-<h2>Cancellation Fees: </h2>
-<p>
+<p>Any medical conditions and/or dietary concerns must be brought to our attention at the time of booking. We will not be responsible for circumstances or events that may have been avoided with proper notice of these important details.</p>
+<br/><h4>Our responsibilities to the travelers </h4>
+<p>Our responsibility to you, the traveler, begins from the time you meet your tour guide in Ulaanbaatar until your departure. We will not assume any responsibility for late arrivals or failure to arrive at the designated place and time. Nor will be responsible for happenings beyond our control such as terrorist attacks, political unrest's, natural disasters, or airline/train delays or cancellations.</p>
+<br/><h4>Booking & Payments</h4>
+<p>When you are ready to confirm your space on a tour, please complete the following booking form and submit a minimum deposit totaling 30% of the land cost. Once we receive the booking form and deposit, will we make the necessary reservations and send you a confirmation along with payment details.</p>
+
+<p>Payments are accepted by bank transfer, or international money transfer services. Travel All Mongolia Co., Ltd. Will not be held responsible for payments sent by postal service.</p>
+
+<p>The trip balance, which is 70% of the total land cost, is due 60 days prior to your departure date. If payment is not received by the due date, your reservation may be subject to cancellation and cancellation fees may apply. Bookings made within 60 days of the departure date will require full payment.</p>
+<br/><h4>Cancellation & Refund</h4>
+<p>Notice of cancellation and refund request must be received in written form.
+Cancellation Fees: <br/>
 - 25% cancellation charge for all tours cancelled within 30-60 days of arrival. <br/>
 - 50% cancellation charge for all tours cancelled within 15-30 days of arrival. <br/>
-- 100% cancellation charge for all tours cancelled within 15 days of arrival. <br/>
-</p>
+- 100% cancellation charge for all tours cancelled within 15 days of arrival. </p>
+
 <p>We reserve the right to cancel any trip prior to departure for any reason whatsoever, including insufficient signup or logistical problems that may impede trip operations. If a trip is canceled due to force majeure (acts of God, war, labor strikes, earthquake, flooding, government rules etc.), we will promptly refund the portion of the trip cost not already advanced to suppliers and use its best efforts to recover and refund the balance as promptly as possible. However, we do not guarantee recovery of any or all of the advance payments made, and our use of best efforts to recover these payments will not include the institution of any legal proceedings in foreign jurisdictions. We are not responsible for expenses incurred by trip members in preparing for a canceled trip (e.g., non refundable advance purchase air tickets, visa fees, inoculations, equipment, etc.) or for any additional arrangements should the trip member have embarked prior to the scheduled group departure date.</p>
-<p>Travel insurance fee, visa fee, and visa handling fee are non-refundable. Since most airline tickets are discounted in our tour packages, refund may be subject to penalty from supplier/airline, may not be in full face value, and may require prepayment of processing fee to Travel All Mongolia</p>
-',
+
+<p>Travel insurance fee, visa fee, and visa handling fee are non-refundable. Since most airline tickets are discounted in our tour packages, refund may be subject to penalty from supplier/airline, may not be in full face value, and may require prepayment of processing fee to Travel All Mongolia. </p>",
         ),
         'frequently-asked-questions' => array(
             'title' => 'Frequenty Asked Questions',
@@ -511,7 +512,7 @@ Frederic Joliot-Curie Street 52&nbsp;<br />1113 Sofia, Bulgaria&nbsp;<br />Tel: 
 <img src="http://www.mongolianluxurytours.com/img/exp2.jpg" width="940" style="margin-top:10px;"/>',
         ),
         'travel-accommodations' => array(
-            'title' => 'Luxury Holiday Accommodations',
+            'title' => 'Travel Accommodations',
             'body' => '',
             'content' => 'travel-accomodations.html'
 
@@ -528,6 +529,10 @@ Frederic Joliot-Curie Street 52&nbsp;<br />1113 Sofia, Bulgaria&nbsp;<br />Tel: 
             'title' => 'Sitemap',
             'body' => '',
             'content' => 'sitemap.html',),
+        'testimonials' => array(
+            'title' => 'Testimonials',
+            'body' => '',
+            'content' => 'testimonials.html',),
     );
 
     /**

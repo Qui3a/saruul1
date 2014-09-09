@@ -15,6 +15,224 @@ class Tours
 {
     /** @var array */
     private $tours = array(
+        'winter-festival-tour' => array(
+            'name' => 'Winter festival tour',
+            'layout' => 'winter-festival-tour.html.twig',
+            'duration' => '10 days',
+            'duration2' => '10 days / 9 nights',
+            'highlights' => array(
+                'Ice festival',
+                'Skating marathon',
+                'Camel Polo',
+                'Camel racing',
+                'Eagle festival',
+                'Visit nomad families',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+            ),
+            'region' => 'Central, Southern and Northern part of Mongolia.',
+            'availableTime' => '',
+            'map' => 'http://farm9.staticflickr.com/8209/8172475881_8f7461e575_o.jpg',
+            'mapLarge' => 'http://farm9.staticflickr.com/8209/8172475881_8f7461e575_o.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "",
+            'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
+<p>Thank you for looking after us so well.</p>
+<strong>Jane Ferguson Group from Australia</strong>",
+
+        ),
+
+        'mountain-bike-tour' => array(
+            'name' => 'Mountain bike tour',
+            'layout' => 'mountain-bike-tour.html.twig',
+            'duration' => '15 days',
+            'duration2' => '15 days / 14 nights',
+            'highlights' => array(
+                'Karakorum',
+                'Erdene zuu monastery',
+                'Ongi Temple',
+                'Gobi Desert',
+                'flaming cliffs',
+                'Khongor Sand dune',
+                'Earth stone',
+                'Orkhon Waterfall',
+                'Visit nomad families',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+            ),
+            'region' => 'Central and Southern part of Mongolia.',
+            'availableTime' => 'May 01-October 1',
+            'map' => 'http://farm9.staticflickr.com/8344/8172475407_05708c0b9f_o.jpg',
+            'mapLarge' => 'http://farm9.staticflickr.com/8344/8172475407_05708c0b9f_o.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "<p>This exciting trail in the southern and central provinces of South Gobi and Karakorum, passes through varied and beautiful landscapes with wide fertile valleys, forests of silver birch and poplar, rivers and mountain passes. There are a few villages along the way, but most of the population are nomadic and live in the traditional round white gers. Depending on how much rain has fallen, wild flowers may be abundant, and there is a good chance of seeing eagles, cranes, vultures, partridge, falcons and other interesting birds along the way.</p>
+            <p>The trail is classed as moderate, requiring some technical skill to manage the steep rocky passes. The first couple of days are on hard packed mud tracks through valleys between the mountains. If there is much rain, the surface may be slippery and more difficult. Riding through the forests and over mountains on rocky tracks sometimes blocked by fallen trees will be quite challenging. The daily riding distance is between 40km - 80km, depending on the terrain. </p>",
+            'testimonial' => "<p>Hello,
+<br/>
+Just want to thank you for your wonderful hospitality and expert tour guiding during our trip to Mongolia. We loved visiting the Husai National Park and exploring the city of Ulanbatar. Our favorite part of the trip was seeing the beautiful countryside and encountering wild horses camels and eagles.
+<br/>Thank you so much for showing us around and making sure our trip was a success. We also enjoyed our driver, Zoloo. Look forward to planning our next adventure with you.</p>
+<strong>Best,
+<br/>Lisa Berkman
+<br/>Tour group from USA September</strong>",
+
+        ),
+
+        'motor-bike-tour' => array(
+            'name' => 'Motor bike tour',
+            'layout' => 'motor-bike-tour.html.twig',
+            'duration' => '10 days',
+            'duration2' => '10 days / 9 nights',
+            'highlights' => array(
+                'Khongor Sand Dune',
+                'Gobi Desert',
+                'Bayanzag',
+                'Baga Gazriin Chuluu',
+                'Visit nomad families',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+            ),
+            'region' => 'Central part of Mongolia.',
+            'availableTime' => 'May 01-October 1',
+            'map' => 'http://farm9.staticflickr.com/8349/8172474531_41db0cc315_o.jpg',
+            'mapLarge' => 'http://farm9.staticflickr.com/8349/8172474531_41db0cc315_o.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "<p>Ride Yamaha, BMW and KTM motorbikes across in Gobi Desert. See some of the most amazing sights and geographical formations that this country has to offer, including big granite mountains with bizarre rock formations, pink and white colored limestone cliffs weathered by wind and rain, golden sand dunes 180 km long and a cold mountain canyon up in the Gobi mountains. Meet families leading the ancient nomadic lifestyle and have a chance to experience their fascinating culture.</p>",
+            'testimonial' => "<p>Dear Soyoloo,
+<br/>
+I had an awesome time in Mongolia. I really came on the trip not knowing what to expect and honestly wasn't sure if it would be 'my thing' but you really did make it worth it and it was money well spent.
+</p><p>
+Thank you for your friendly, fun and professional attitude. We had a blast! Listening to Mongolian music during the drive definitely added to the mood and experience.
+The wild horses were amazing and we took so many photos, it was so hard to choose the ones we wanted to print out for our photo album.
+</p><p>
+I definitely recommend anyone who is up for an adventure, filled with culture and history and a very friendly tour guide- who basically becomes part of the family/group; to go for Travel All Mongolia. You will leave with not only leave with knowledge of the country's hidden treasures and secrets, but also FANTASTIC photos, a HUGE smile and SATISFACTION for your money well spent. seeing this gorgeous land.
+</p><p>
+Thanks again Soyoloo It was really a great experience and filled with a lifetime of memories.</p>
+<strong>Michealla from Australia</strong>",
+
+        ),
+
+        'buddhism-tour' => array(
+            'name' => 'Buddhism tour',
+            'layout' => 'buddhism-tour.html.twig',
+            'duration' => '14 days',
+            'duration2' => '14 days / 13 nights',
+            'highlights' => array(
+                'Karakorum',
+                'Erdene zuu monastery',
+                'Terkhiin Tsagaan Lake',
+                'Tuvkhun Monastery',
+                'Reindeer family',
+                'Shankh monastery',
+                'Tsenher Hop spring',
+                'Huvsgul Lake',
+                'Shamanism',
+                'Amarbayasgalant monastery',
+                'Visit nomad families',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+            ),
+            'region' => 'Central and Northern part of Mongolia.',
+            'availableTime' => 'May 01-October 1',
+            'map' => 'http://farm9.staticflickr.com/8210/8172504068_d97fe08733_o.jpg',
+            'mapLarge' => 'http://farm9.staticflickr.com/8210/8172504068_d97fe08733_o.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "<p>Explore Ulaan Baatar and Buddhist monasteries. Journey through dramatic deserts, endless steppe and forested mountains. Stay in gers and discover the Mongolians' fascinating nomadic lifestyle.</p>",
+            'testimonial' => "<p>Hello Everybody,
+<br/>
+I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. SoyolBayar, the owner and operator. He knows the landscape and the history behind the various locations that we toured as a group of six. Our tour guide understands his clients taste and is good at custom arranging tours according to the requests of the travelers in his entourage.</p>
+<p>Our tour guide had everything well timed, and calling ahead he always had our arrival destination details ready and well prepared to accommodate us when we got to our location. The sights, the food, the reception, and the accommodations were excellent. His prices included everything; tickets to enter the shows, hotel accommodations, transport, food, and guided tours. I recommend Travel All Mongolia without reservation to anyone who wishes to visit Mongolia.</p>
+<p>Mongolia is a beautiful country located in the Central Asian grasslands called the Steppes. It is a land-locked country, sandwiched between Russia and China. The wide open spaces and the friendliness of the people will leave you nostalgic for a land of extensive peacefulness and vastness, long after your visit. Mongolia is worth the visit, and Mongolian Journeys is your best bet at getting your money worth seeing this gorgeous land.</p>
+<strong>Jack Perera Elkridge, Maryland, USA</strong>",
+
+        ),
+
+        'jewels-of-mongolia' => array(
+            'name' => 'Jewels of Mongolia',
+            'layout' => 'jewels-of-mongolia.html.twig',
+            'duration' => '10 days',
+            'duration2' => '10 days / 9 nights',
+            'highlights' => array(
+                'Bayanzag Flaming Cliff',
+                'Khongor Sand Dune',
+                'Yol Valley',
+                'Awesome Khuvsgul Lake',
+                'Reindeer',
+                'Visit nomad families',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+            ),
+            'region' => 'Southern and Northern part of Mongolia.',
+            'availableTime' => 'May 01-October 1',
+            'map' => 'http://farm9.staticflickr.com/8477/8172503588_b843e0158a_o.jpg',
+            'mapLarge' => 'http://farm9.staticflickr.com/8477/8172503588_b843e0158a_o.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "<p>The focus of this trip is spending less time crossing the vast landscape of Mongolia by jeep, and more time trekking off the beaten track immersed in the landscape and this trip gives you a chance to enjoy amazing Gobi Desert, and traveling with pristine Khuvsgul Lake. We enable you to make a strong and personal connection with the locals and learn about life through the eyes of the nomad.  Travelling with us will be a small caravan of local horsemen and their horses and camels that will be taking our luggage and equipment.</p>",
+            'testimonial' => "<p>Hello,
+<br/>
+I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was the holiday of a lifetime. Mongolia is a fantastic destination because the scenery is just beautiful and the people are so friendly. Soyoloo was our tour guide and he spoke very good English, he was always punctual, very helpful and generally took care of us. He had very good knowledge of Mongolia, so we were well informed well of the history of Mongolia, the summer festival Nadaam, the traditional gers in the countryside, and the city of Ulaanbaatar. Visiting the traditional gers with Soyoloo was especially fun because We got to do so many different activities like try archery, try some of the Mongolian food, ride a camel, have our names written in Mongolian and we even had Mongolian music played to us. I had learnt that Mongolia is such a fascinating and unique country, which is extremely picturesque, and we would absolutely love to visit the country again in the future. I would recommend anyone thinking of going to Mongolia through Travel All Mongolia, to absolutely go, and get in contact with Soyoloo, because you will be well looked after and you will never forget the holiday.</p>
+<strong>Kayleigh Jones from England</strong>",
+
+        ),
+
+        'discover-central-mongolia' => array(
+            'name' => 'Discover Central Mongolia',
+            'layout' => 'discover-central-mongolia.html.twig',
+            'duration' => '10 days',
+            'duration2' => '10 days / 9 nights',
+            'highlights' => array(
+                'Karakorum and Erdene zuu monastery',
+                'Experience a camel ride with local nomads',
+                'Stay in local Ger camps',
+                'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                'Ugii Lake',
+                'Hustai national park',
+                'Relax in sensual hot springs',
+                'Elsen Tasarkhai (Sand Dune)',
+                'Tuvkhun Monastery',
+                'Wonderful Terkhiin Tsagaan Lake',
+                'Visit nomad families',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+            ),
+            'region' => 'Central part of Mongolia',
+            'availableTime' => 'May 01-October 1',
+            'map' => 'http://farm9.staticflickr.com/8209/8172475881_8f7461e575_o.jpg',
+            'mapLarge' => 'http://farm9.staticflickr.com/8209/8172475881_8f7461e575_o.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "<p>Although wilderness exploration is the essence of any adventure holiday to Mongolia, no trip would be complete without a visit to the capital of Ulaanbaatar. Home to just under half the country’s population it is a unique architectural and cultural melting pot; where else would you find a Soviet-style opera house opposite an old Tibetan-style monastery Explore the wonders of Mongolia’s scenic and cultural treasures on foot and horseback, atop a Bactrian camel or in four-wheel-drive vehicles. Adventure Mongolia! is an active trip designed for enthusiastic explorers who want to travel off the beaten track, from the meadows and pine-forested mountains of the Central Mongolian countryside to the dramatic landscapes of the legendary Gobi Desert.</p>",
+            'testimonial' => "<p>Hello, <br/>
+Just want to thank you for your wonderful hospitality and expert tour guiding during our trip to Mongolia. We loved visiting the Husai National Park and exploring the city of Ulanbatar. Our favorite part of the trip was seeing the beautiful countryside and encountering wild horses camels and eagles. <br/>
+Thank you so much for showing us around and making sure our trip was a success. We also enjoyed our driver, Zoloo. Look forward to planning our next adventure with you.</p>
+<strong>Best, <br/>
+Lisa Berkman <br/>
+Tour group from USA September</strong>",
+
+        ),
+
         'horse-trip-around-khuvsgul-lake' => array(
             'name' => 'Horse trip around khuvsgul lake',
             'layout' => 'horse-trip-around-khuvsgul-lake.html.twig',
