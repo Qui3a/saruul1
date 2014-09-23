@@ -1,13 +1,4 @@
-/* 
-
-CUSTOM STYLESHEET
----------------------
-
-Instructions:
-
-Add your custom styles here instead of style.css so it 
-is easier to update the theme. Simply copy an existing 
-style from style.css to this file, and modify it to 
-your liking.
-
-*/
+.abs-info { position: absolute; right: 0; top: 3px;}
+.abs-info span { color: #fff; margin-left: 5px;}
+.abs-info a { color: #fff; text-decoration: none}
+.abs-info a:hover {color: #34a4d8;}
