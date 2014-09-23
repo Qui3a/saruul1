@@ -216,32 +216,6 @@
                             <script type="text/javascript">var addthis_config = {'services' : 'facebook,twitter,email,more', "data_track_addressbar":true};</script>
                             <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52b596d25b76435f"></script>
 
-                            <!-- login widget -->
-                            <div class="widget-container widget_login" style="width: 100%; margin-top: 10px;">
-
-                                <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform">
-                                    <h2>Quick inquiry</h2>
-
-                                    {% for message in app.session.getFlashBag.get('inquiry') %}
-                                        <mark style="padding: 10px;display: block;"> {{ message }}</mark>
-                                    {% endfor %}
-
-                                    <div style="width: 250px;float:left;"><label>Your name</label><br>
-                                        {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</div>
-                                    <div><label>Your email address</label><br>
-                                        {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</div>
-                                    <p><label>Your phone number</label><br>
-                                        {{ form_widget(form.phone, { 'attr': {'class': 'input'} }) }}</p>
-                                    <p><label>Your message</label><br>
-                                        {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
-
-                                    {{ form_rest(form) }}
-                                    <p class="submit">
-                                        <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
-                                    </p>
-                                </form>
-                            </div>
-                            <!--/ login widget -->
                         </div>
                     </div>
                 </div>
@@ -294,10 +268,37 @@
                     </div>
                     <!--/ widget_recent_comments -->
 
+                    <!-- login widget -->
+                    <div class="widget-container widget_login">
+                        <h2>Quick inquiry</h2>
+
+                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform">
+
+                            {% for message in app.session.getFlashBag.get('inquiry') %}
+                                <mark style="padding: 10px;display: block;"> {{ message }}</mark>
+                            {% endfor %}
+
+                            <p><label>Your name</label><br>
+                                {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your email address</label><br>
+                                {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your phone number</label><br>
+                                {{ form_widget(form.phone, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your message</label><br>
+                                {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
+
+                            {{ form_rest(form) }}
+                            <p class="submit">
+                                <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
+                            </p>
+                        </form>
+                    </div>
+                    <!--/ login widget -->
+
                     <!-- subscribe buttons -->
                     <div class="widget-container subscribe_btn">
                         <div>
-                            <a href="{{ path('page_show', {'slug':'trip-calendar-2014'}) }}"><img src="/images/group_travel_2014.jpg" alt="Join our group travel 2014"/></a>
+                            <a href="{{ path('page_show', {'slug':'trip-calendar-2015'}) }}"><img src="/images/group_travel_2014.jpg" alt="Join our group travel 2014"/></a>
                         </div>
                     </div>
                     <!--/ subscribe buttons -->

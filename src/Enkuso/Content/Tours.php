@@ -178,45 +178,6 @@ Thanks again Soyoloo It was really a great experience and filled with a lifetime
 
         ),
 
-        'buddhism-tour' => array(
-            'name' => 'Buddhism tour',
-            'layout' => 'buddhism-tour.html.twig',
-            'duration' => '14 days',
-            'duration2' => '14 days / 13 nights',
-            'highlights' => array(
-                'Karakorum',
-                'Erdene zuu monastery',
-                'Terkhiin Tsagaan Lake',
-                'Tuvkhun Monastery',
-                'Reindeer family',
-                'Shankh monastery',
-                'Tsenher Hop spring',
-                'Huvsgul Lake',
-                'Shamanism',
-                'Amarbayasgalant monastery',
-                'Visit nomad families',
-            ),
-            'pictures' => array(
-                // zuragnuud
-                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
-            ),
-            'region' => 'Central and Northern part of Mongolia.',
-            'availableTime' => 'May 01-October 1',
-            'map' => 'http://farm9.staticflickr.com/8210/8172504068_d97fe08733_o.jpg',
-            'mapLarge' => 'http://farm9.staticflickr.com/8210/8172504068_d97fe08733_o.jpg',
-            'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => null,
-            'itinerary' => '',
-            'overview' => "<p>Explore Ulaan Baatar and Buddhist monasteries. Journey through dramatic deserts, endless steppe and forested mountains. Stay in gers and discover the Mongolians' fascinating nomadic lifestyle.</p>",
-            'testimonial' => "<p>Hello Everybody,
-<br/>
-I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. SoyolBayar, the owner and operator. He knows the landscape and the history behind the various locations that we toured as a group of six. Our tour guide understands his clients taste and is good at custom arranging tours according to the requests of the travelers in his entourage.</p>
-<p>Our tour guide had everything well timed, and calling ahead he always had our arrival destination details ready and well prepared to accommodate us when we got to our location. The sights, the food, the reception, and the accommodations were excellent. His prices included everything; tickets to enter the shows, hotel accommodations, transport, food, and guided tours. I recommend Travel All Mongolia without reservation to anyone who wishes to visit Mongolia.</p>
-<p>Mongolia is a beautiful country located in the Central Asian grasslands called the Steppes. It is a land-locked country, sandwiched between Russia and China. The wide open spaces and the friendliness of the people will leave you nostalgic for a land of extensive peacefulness and vastness, long after your visit. Mongolia is worth the visit, and Mongolian Journeys is your best bet at getting your money worth seeing this gorgeous land.</p>
-<strong>Jack Perera Elkridge, Maryland, USA</strong>",
-
-        ),
-
         'jewels-of-mongolia' => array(
             'name' => 'Jewels of Mongolia',
             'layout' => 'jewels-of-mongolia.html.twig',
@@ -360,6 +321,7 @@ Tour group from USA September</strong>",
             'layout' => 'khuvsgul_lake_tour.html.twig',
             'duration' => '6 days',
             'duration2' => '6 days / 5 nights',
+            'type' => 'cultural',
             'highlights' => array(
                 'Khuvsgul Lake',
                 'Reindeer people',
@@ -409,8 +371,8 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
             ),
             'region' => 'Southern part of Mongolia',
             'availableTime' => 'May 01-October 1',
-            'map' => 'http://farm9.staticflickr.com/8481/8172503670_7e429a91c2_o.jpg',
-            'mapLarge' => 'http://farm9.staticflickr.com/8481/8172503670_7e429a91c2_o.jpg',
+            'map' => 'https://farm4.staticflickr.com/3840/15146095837_1a183e59b1.jpg',
+            'mapLarge' => 'https://farm4.staticflickr.com/3840/15146095837_1a183e59b1_b.jpg',
             'bs_img' => '/img/tour/best_main.jpg',
             'pdf' => 'gobi-desert-tour',
             'itinerary' => '',
@@ -426,6 +388,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
             'layout' => 'taste-of-mongolia.html.twig',
             'duration' => '10 days',
             'duration2' => '10 days / 9 nights',
+            'type' => 'cultural',
             'highlights' => array(
                 'Stay in the cozy ger camps whilst travelling around the Mongolian wilderness',
                 'Wild, unspoilt terrain populated by nomads',
@@ -525,6 +488,46 @@ The wild horses were amazing and we took so many photos, it was so hard to choos
 <p>I definitely recommend anyone who is up for an adventure, filled with culture and history and a very friendly tour guide- who basically becomes part of the family/group; to go for Travel All Mongolia. You will leave with not only leave with knowledge of the country's hidden treasures and secrets, but also FANTASTIC photos, a HUGE smile and SATISFACTION for your money well spent. seeing this gorgeous land.</p>
 <p>Thanks again Soyoloo It was really a great experience and filled with a lifetime of memories.</p>
 <strong>Michealla from Australia</strong>",
+
+        ),
+
+        'buddhism-tour' => array(
+            'name' => 'Buddhism tour',
+            'layout' => 'buddhism-tour.html.twig',
+            'duration' => '14 days',
+            'duration2' => '14 days / 13 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+                'Karakorum',
+                'Erdene zuu monastery',
+                'Terkhiin Tsagaan Lake',
+                'Tuvkhun Monastery',
+                'Reindeer family',
+                'Shankh monastery',
+                'Tsenher Hop spring',
+                'Huvsgul Lake',
+                'Shamanism',
+                'Amarbayasgalant monastery',
+                'Visit nomad families',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+            ),
+            'region' => 'Central and Northern part of Mongolia.',
+            'availableTime' => 'May 01-October 1',
+            'map' => 'http://farm9.staticflickr.com/8210/8172504068_d97fe08733_o.jpg',
+            'mapLarge' => 'http://farm9.staticflickr.com/8210/8172504068_d97fe08733_o.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "<p>Explore Ulaan Baatar and Buddhist monasteries. Journey through dramatic deserts, endless steppe and forested mountains. Stay in gers and discover the Mongolians' fascinating nomadic lifestyle.</p>",
+            'testimonial' => "<p>Hello Everybody,
+<br/>
+I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. SoyolBayar, the owner and operator. He knows the landscape and the history behind the various locations that we toured as a group of six. Our tour guide understands his clients taste and is good at custom arranging tours according to the requests of the travelers in his entourage.</p>
+<p>Our tour guide had everything well timed, and calling ahead he always had our arrival destination details ready and well prepared to accommodate us when we got to our location. The sights, the food, the reception, and the accommodations were excellent. His prices included everything; tickets to enter the shows, hotel accommodations, transport, food, and guided tours. I recommend Travel All Mongolia without reservation to anyone who wishes to visit Mongolia.</p>
+<p>Mongolia is a beautiful country located in the Central Asian grasslands called the Steppes. It is a land-locked country, sandwiched between Russia and China. The wide open spaces and the friendliness of the people will leave you nostalgic for a land of extensive peacefulness and vastness, long after your visit. Mongolia is worth the visit, and Mongolian Journeys is your best bet at getting your money worth seeing this gorgeous land.</p>
+<strong>Jack Perera Elkridge, Maryland, USA</strong>",
 
         ),
 
