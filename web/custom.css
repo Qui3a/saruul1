@@ -2,3 +2,7 @@
 .abs-info span { color: #fff; margin-left: 5px;}
 .abs-info a { color: #fff; text-decoration: none}
 .abs-info a:hover {color: #34a4d8;}
+
+.latest_offers {background: #d8dde2;border-top: 3px solid #f1f1f1;border-bottom: 3px solid #f1f1f1;}
+.latest_offers .latest_item img {height: 62px !important;}
+.latest_offers .prev, .latest_offers .next { top: 0;}

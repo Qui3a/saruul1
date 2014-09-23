@@ -84,7 +84,7 @@
         </div>
 
         <!-- author description -->
-        <div class="author-description" style="margin-top: 4i0px;">
+        <div class="author-description" style="margin-top: 40px;">
             <div class="author-text" style="border-bottom: none;width: 600px;padding: 25px 15px 80px 15px;">
                 <p>Welcome to the Ancient land of the Great Mongolian Empire.</p>
                 <p>Travel All Mongolia invites you to join us this coming summer for an experience of lifetime in the awesome landscapes of Mongolian, from mountains, to lakes, to hot dry desert, to rolling hills of open grassland. A land of undiscovered nature and a unique culture of unforgettable experiences of nomadic herdsman heritage that spans thousands of years since antiquity.</p>
@@ -110,6 +110,92 @@
         </a>
     </div>
     </div>
+    </div>
+
+    <div class="middle_row latest_offers">
+        <div id="partners">
+            <div class="latest_item">
+                <img src="/images/partners/C_Air-China.png" alt="Air China">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/miat.jpg" alt="MIAT">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/Hunnu-Air.jpg" alt="Hunnu-Air">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/ustoa.jpg" alt="ustoa">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/shangrila.jpg" alt="shangrila">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/asta.jpg" alt="asta">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/travel-age-west.png" alt="travel-age-west">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/kempinski-hotels.png" alt="kempinski-hotels">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/Korean Air.jpg" alt="Korean Air">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/nytimestravelshow.jpg" alt="nytimestravelshow">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/OSSN.jpg" alt="OSSN">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/aero-mongolia.jpg" alt="aero-mongolia">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/ramada.jpg" alt="ramada">
+            </div>
+            <div class="latest_item">
+                <img src="/images/partners/WTM-London.jpg" alt="WTM-London">
+            </div>
+        </div>
+
+        <a class="prev" id="partners_prev" href="#"></a>
+        <a class="next" id="partners_next" href="#"></a>
+
+        <script>
+            jQuery(document).ready(function($) {
+                var screenRes = $(window).width();
+
+                $('#partners').carouFredSel({
+                    prev : "#partners_prev",
+                    next : "#partners_next",
+                    infinite: false,
+                    circular: true,
+                    auto: false,
+                    width: '100%',
+                    height: 90,
+                    scroll: {
+                        items : 1,
+                        onBefore: function (data) {
+                            if (screenRes > 900) {
+                                data.items.visible.eq(0).animate({opacity: 0.15},300);
+                                data.items.old.eq(-1).animate({opacity: 1},300);
+                                data.items.visible.eq(-1).animate({opacity: 0.15},300);
+                            }
+                        },
+                        onAfter: function (data) {
+                            if (screenRes > 900) {
+                                data.items.old.eq(0).animate({opacity: 1},300);
+                            }
+                        }
+                    }
+                });
+                if (screenRes > 900) {
+                    var vis_items = $("#latest_offers").triggerHandler("currentVisible");
+                    vis_items.eq(-1).animate({opacity: 0.15},100);
+                    vis_items.eq(0).animate({opacity: 0.15},100);
+                }
+            });
+        </script>
     </div>
 
 {% endblock %}
