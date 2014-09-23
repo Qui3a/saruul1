@@ -26,6 +26,7 @@ class ContactType extends AbstractType
     {
         $builder->add('name', 'text', array('label'=>'Your name'));
         $builder->add('email', 'email', array('label'=>'Your e-mail address'));
+        $builder->add('phone', 'text', array('label'=>'Your phone number'));
         $builder->add('content', 'textarea', array('label'=>'Your Message'));
     }
 
@@ -43,6 +44,9 @@ class ContactType extends AbstractType
                 'email'     => array(
                     new Assert\NotBlank(),
                     new Assert\Email(),
+                ),
+                'phone'     => array(
+                    new Assert\NotBlank(),
                 ),
                 'content'   => new Assert\NotBlank(),
             ),

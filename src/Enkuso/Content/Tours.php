@@ -46,6 +46,7 @@ class Tours
             'layout' => 'luxury-tour-with-naadam-festival.html.twig',
             'duration' => '12 days',
             'duration2' => '12 days / 11 nights',
+            'type' => 'cultural',
             'highlights' => array(
             ),
             'pictures' => array(
