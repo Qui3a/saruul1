@@ -15,6 +15,60 @@ class Tours
 {
     /** @var array */
     private $tours = array(
+        'a-classic-journey-of-mongolia' => array(
+            'name' => 'A Classic Journey of Mongolia',
+            'layout' => 'a-classic-journey-of-mongolia.html.twig',
+            'duration' => '16 days',
+            'duration2' => '16 days / 15 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+            ),
+            'region' => 'Central, Southern and Northern part of Mongolia.',
+            'availableTime' => '',
+            'map' => 'https://farm6.staticflickr.com/5569/15082222927_7673a79b42.jpg',
+            'mapLarge' => 'https://farm6.staticflickr.com/5569/15082222927_7673a79b42_b.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "",
+            'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
+<p>Thank you for looking after us so well.</p>
+<strong>Jane Ferguson Group from Australia</strong>",
+
+        ),
+
+        'luxury-tour-with-naadam-festival' => array(
+            'name' => 'Luxury tour with Naadam festival',
+            'layout' => 'luxury-tour-with-naadam-festival.html.twig',
+            'duration' => '12 days',
+            'duration2' => '12 days / 11 nights',
+            'highlights' => array(
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+            ),
+            'region' => 'Central, Southern and Northern part of Mongolia.',
+            'availableTime' => '',
+            'map' => 'https://farm3.staticflickr.com/2944/15331001095_36360eea6d.jpg',
+            'mapLarge' => 'https://farm3.staticflickr.com/2944/15331001095_36360eea6d_b.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "When you travel with Travel All Mongolia you will experience the very best of our country and become totally immersed in what makes our little corner of the world so great such as the beauty of our landscapes, the charm of our people, the embrace of our culture and the warmth of our welcome.
+<br/> We specialize in luxury travel so our trips include five star hotels and luxury lodge and resorts as well.
+<br/> Marvel at incredible displays of horsemanship, archery and wrestling from your seat at Mongolia’s National Naadam Festival. Enjoy an exclusive stay in traditional felt gers in the Gobi Desert. The opening ceremony of Naadam Festival, cheer wrestlers and archers, listen to famous throat singing, camp with a nomadic family, sleep in ensuite private bathroom exclusive  lodge and resort
+",
+            'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
+<p>Thank you for looking after us so well.</p>
+<strong>Jane Ferguson Group from Australia</strong>",
+
+        ),
+
         'winter-festival-tour' => array(
             'name' => 'Winter festival tour',
             'layout' => 'winter-festival-tour.html.twig',
@@ -167,6 +221,7 @@ I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. Soyol
             'layout' => 'jewels-of-mongolia.html.twig',
             'duration' => '10 days',
             'duration2' => '10 days / 9 nights',
+            'type' => 'cultural',
             'highlights' => array(
                 'Bayanzag Flaming Cliff',
                 'Khongor Sand Dune',
@@ -199,6 +254,7 @@ I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was th
             'layout' => 'discover-central-mongolia.html.twig',
             'duration' => '10 days',
             'duration2' => '10 days / 9 nights',
+            'type' => 'cultural',
             'highlights' => array(
                 'Karakorum and Erdene zuu monastery',
                 'Experience a camel ride with local nomads',
@@ -332,6 +388,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
             'layout' => 'gobi_desert_tour.html.twig',
             'duration' => '7 days',
             'duration2' => '7 days / 6 nights',
+            'type' => 'cultural',
             'highlights' => array(
                 'Explore Gobi Gurvan Saikhan National Park',
                 'View the largest sand dunes in Mongolia at Khongoryn Els',
@@ -363,58 +420,70 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 
         ),
 
-        'naadam-festival-journey' => array(
-            'name' => 'Naadam Festival Journey',
-            'layout' => 'naadam_festival_journey.html.twig',
-            'duration' => '11 days',
-            'duration2' => '11 days / 10 nights',
+        'taste-of-mongolia' => array(
+            'name' => 'Taste of Mongolia',
+            'layout' => 'taste-of-mongolia.html.twig',
+            'duration' => '10 days',
+            'duration2' => '10 days / 9 nights',
             'highlights' => array(
-                'Spectacular Naadam Festival: Horse Racing, Archery & Wrestling',
-                'Magnificent Lake Khuvsgul ',
-                'Marvel at the spectacular Gobi Desert',
-                'View the largest sand dunes in Mongolia at Khongoryn Els',
-                'Experience a camel ride with local nomads',
-                'Travel Overland through the legendary Gobi Desert.',
-                'Bayanzag (Flaming Cliffs) and Visit nomad families ',
+                'Stay in the cozy ger camps whilst travelling around the Mongolian wilderness',
+                'Wild, unspoilt terrain populated by nomads',
+                'Enjoy the hospitality of the local people by visiting a local family ‘ger’',
+                'See the massive sand dunes of the Gobi Desert',
                 'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                'Visit Mongolia’s renowned national parks.',
+                'Kharakhorum, site of ancient monasteries and location of the ancient Mongol Empire\'s capital',
+                'Flaming Cliffs in the Gobi, where Roy Chapman Andrews discovered the first dinosaur eggs',
             ),
             'pictures' => array(
                 'http:\/\/farm6.staticflickr.com\/5522\/10865360126_b0fc786cc2_b.jpg',
                 'http:\/\/farm8.staticflickr.com\/7398\/10865660243_6b4ec95bde_b.jpg',
-                //'http:\/\/farm6.staticflickr.com\/5495\/10865659933_4ccde37297_b.jpg',
-                //'http:\/\/farm4.staticflickr.com\/3712\/10865322125_c0a8fe1256_b.jpg',
                 'http:\/\/farm6.staticflickr.com\/5513\/10865659913_55ec543d20_b.jpg',
             ),
             'region' => 'Northern, Central & southern part of Mongolia',
-            'availableTime' => 'July 23 - Aug 2',
-            'map' => 'http://farm6.staticflickr.com/5549/12437569134_ac96e99683.jpg',
-            'mapLarge' => 'http://farm6.staticflickr.com/5549/12437569134_ac96e99683_b.jpg',
+            'availableTime' => '',
+            'map' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371.jpg',
+            'mapLarge' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371_b.jpg',
             'bs_img' => '/img/tour/em_main.jpg',
-            'pdf' => 'naadam-festival-journey',
-            'itinerary' => "<p>July 5 -Day 1 Arrive in Ulaanbaatar</p><p>July 6 - Day 2 Cultural tour of Ulaanbaatar</p><p>July 7 - Day 3 Flight to Gobi Desert for 1.2 hours</p><p>July 8 - Day 4 Day trip to Flaming Cliffs and Sand Dune</p><p>July 9 - Day 5 Flight back to Ulaanbaatar – Terelj National Park</p><p>July 10 - Day 6 Drive to Hustai National Park</p><p>July 11 - Day 7 Naadam Festival, Opening Ceremony</p><p>July 12 - Day 8 Naadam Festival</p><p>July 13 - Day 9 Take a flight to Khuvsgul Lake for 1.2 hours</p><p>July 14 - Day 10 Explore Khuvsgul Lake</p><p>July 15 - Day 11 Flight back to Ulaanbaatar</p><p>July 16 - Day 12 Departure</p>",
+            'pdf' => null,
+            'itinerary' => "",
+            'overview' => "<p>The Gobi Desert is a dream destination for many travelers! You will get to explore Ulaanbaatar before flying into the South Gobi Desert to explore the world's largest sand dunes, the majestic 'flaming cliffs' where many dinosaur eggs were found, go for a camel ride, and then fly back to Ulaanbaatar to visit Mongolia's largest festival, the Naadam festival!</p>",
+            'testimonial' => '<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide; we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight. The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated. Everything else was great.  This was one of the best trips I have ever taken. Thank you for offering it to us so we could see your wonderful country first hand.</p>
+<strong>Sandra Bremer<br/>USA</strong>',
+
+        ),
+
+        'taste-of-mongolia-with-naadam-festival' => array(
+            'name' => 'Taste of Mongolia with Naadam Festival',
+            'layout' => 'taste-of-mongolia-with-naadam-festival.html.twig',
+            'duration' => '12 days',
+            'duration2' => '12 days / 11 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+                'Stay in the cozy ger camps whilst travelling around the Mongolian wilderness',
+                'Wild, unspoilt terrain populated by nomads',
+                'Enjoy the hospitality of the local people by visiting a local family ‘ger’',
+                'See the massive sand dunes of the Gobi Desert',
+                'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                'Visit Mongolia’s renowned national parks.',
+                'Celebrate Naadam Festival',
+                'Kharakhorum, site of ancient monasteries and location of the ancient Mongol Empire\'s capital',
+                'Flaming Cliffs in the Gobi, where Roy Chapman Andrews discovered the first dinosaur eggs',
+            ),
+            'pictures' => array(
+                'http:\/\/farm6.staticflickr.com\/5522\/10865360126_b0fc786cc2_b.jpg',
+                'http:\/\/farm8.staticflickr.com\/7398\/10865660243_6b4ec95bde_b.jpg',
+                'http:\/\/farm6.staticflickr.com\/5513\/10865659913_55ec543d20_b.jpg',
+            ),
+            'region' => 'Northern, Central & southern part of Mongolia',
+            'availableTime' => '',
+            'map' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371.jpg',
+            'mapLarge' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371_b.jpg',
+            'bs_img' => '/img/tour/em_main.jpg',
+            'pdf' => null,
+            'itinerary' => "",
             'overview' => "<p>The Gobi Desert is a dream destination for many travelers! You will get to explore Ulaanbaatar before flying into the South Gobi Desert to explore the world's largest sand dunes, the majestic 'flaming cliffs' where many dinosaur eggs were found, go for a camel ride, and then fly back to Ulaanbaatar to visit Mongolia's largest festival, the Naadam festival!</p>
-<p>The Naadam festival means \"games\", also given the name \"eriin gurvan
-naadam\" meaning \"the three games of men\". These games are Mongolian
-wrestling, horse racing, and archery. The festival is held from July 11
-to the 13 at the National Sports Stadium. There is an elaborate ceremony
-before the games begin. During the festival, the wrestling really draws
-in the crowds. There is not any age or weight restriction, besides it
-being gender specific (no women are allowed compete). The objective is
-to pin your opponent to the ground with your elbow or knee, no part of
-the body is allowed to touch the ground besides your feet and hands. The
-winner is awarded the title of Avarga (Giant, or Titan). The horse
-racing event is very different from western horse racing as the races
-taking place are cross-country, and covering any distance between 10 to
-20 miles depending on the age of the horses. Up to 1000 horses can be
-chosen to participate. The jockeys are children between the ages of 5
-and 13, and training for the event begins many months in advance. The
-winning jockey is praised with the title of \"tumny ekh\" or \"leader of
-ten thousand\". The archery events are held between groups of ten men and
-women, and each participant is supplied with four arrows. There are
-hundreds of targets or \"surs\", and each team must hit at least 33 of
-them. The winners are declared the National Marksmen or National
-Markswomen. Some kind of version of these games have been going on for
-centuries.</p>",
+<p>Naadam is the one and only Big Event in Mongolia –a lively national festival, held every year from the 11th – 13th July. Naadam means “three manly games”. Known as the world’s second-oldest Olympics, it celebrates what defined civilization in the Steppes eight centuries ago; archery, wrestling and horse riding. The competitors in the riding events are all children aged between five and twelve, many of whom have been in the saddle since the age of one. As they race along the plains for 20 kilometers, thousands of spectators line the remote track to watch up to 650 children sitting confidently astride their small but sturdy Mongolian steed. It is claimed that such equestrian skills won Genghis Khan an empire that stretched from the Sea of Japan all the way to Europe. In recent times, women have been allowed to enter and they now compete in two of the three events, horse racing and archery. Once a religious ceremony, the festival now formally commemorates the 1921 revolution when Mongolia declared itself a free country.</p>",
             'testimonial' => '<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide; we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight. The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated. Everything else was great.  This was one of the best trips I have ever taken. Thank you for offering it to us so we could see your wonderful country first hand.</p>
 <strong>Sandra Bremer<br/>USA</strong>',
 
@@ -425,6 +494,7 @@ centuries.</p>",
             'layout' => 'treasures_of_mongolia.html.twig',
             'duration' => '11 days',
             'duration2' => '11 days / 10 nights',
+            'type' => 'cultural',
             'highlights' => array(
                 'Explore Gobi Gurvan Saikhan National Park',
                 'Karakorum and Erdene zuu monastery',

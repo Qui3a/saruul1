@@ -28,6 +28,7 @@ class DownloadPdfType extends AbstractType
         $builder->add('name', 'text', array('label'=>'Your name'));
         $builder->add('country', 'text', array('label'=>'Country'));
         $builder->add('email', 'text', array('label'=>'Your e-mail address'));
+        $builder->add('phone', 'text', array('label'=>'Your phone number'));
         $builder->add('tour', 'hidden');
     }
 
@@ -48,6 +49,9 @@ class DownloadPdfType extends AbstractType
                 'email'     => array(
                     new Assert\NotBlank(),
                     new Assert\Email(),
+                ),
+                'phone'     => array(
+                    new Assert\NotBlank(),
                 ),
                 'tour'    => new Assert\NotBlank(),
             ),

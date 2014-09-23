@@ -59,6 +59,14 @@
                                     </div>
                                 </div>
 
+                                <div class="form_col_1" style="margin-right: 30px;">
+
+                                    <div class="row alignleft field_text omega">
+                                        <label class="label_title">Phone:</label>
+                                        {{ form_widget(form.phone, { 'attr': {'class': 'inputField required', 'placeholder':'Phone number - Required'} }) }}
+                                    </div>
+                                </div>
+
                                 {{ form_rest(form) }}
 
                                 <div class="form_col_1" style="padding-top: 15px;">

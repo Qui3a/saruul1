@@ -111,7 +111,7 @@
     <div class="footer">
         <div class="container clearfix">
 
-            <div class="f_col f_col_3">
+            <div class="f_col f_col_3" style="width: 140px;">
                 <h3>LINKS:</h3>
                 <ul>
                     <li><a href="{{ path('homepage') }}"><span>Home</span></a></li>
@@ -122,19 +122,28 @@
                     <li><a href="{{ path('page_show', {'slug':'sitemap'}) }}"><span>Sitemap</span></a></li>
                 </ul>
             </div>
-            <!--/ footer col 3 -->
 
-            <div class="f_col f_col_1_4">
-                <h3>TOURS:</h3>
+            <div class="f_col f_col_3" style="width: 250px;">
+                <h3>CULTURAL JOURNEY:</h3>
                 <ul>
-                    {% for slug, tour in app.content_tours.tours if tour.duration is defined %}
+                    {% for slug, tour in app.content_tours.tours %}
+                        {% if tour.duration is defined and tour.type is defined and tour.type == 'cultural' %}
+                        <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} ({{ tour.duration2 }})</span></a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="f_col f_col_3" style="width: 300px;">
+                <h3>ADVENTURE TOURS:</h3>
+                <ul>
+                    {% for slug, tour in app.content_tours.tours if tour.duration is defined and tour.type is not defined %}
                         <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} ({{ tour.duration2 }})</span></a></li>
                     {% endfor %}
                 </ul>
             </div>
-            <!--/ footer col 1 -->
 
-            <div class="f_col f_col_4">
+            <div class="f_col f_col_3" style="width: 140px;">
                 <h3>CONTACT INFORMATION:</h3>
                 <div class="footer_address">
                     <div class="address">

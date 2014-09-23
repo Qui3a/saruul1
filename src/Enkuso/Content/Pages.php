@@ -517,8 +517,8 @@ Cancellation Fees: <br/>
             'content' => 'travel-accomodations.html'
 
         ),
-        'trip-calendar-2014' => array(
-            'title' => 'JOIN OUR GROUP TRAVEL 2014',
+        'trip-calendar-2015' => array(
+            'title' => 'JOIN OUR GROUP TRAVEL 2015',
             'body' => '',
             'content' => 'trip_calendar.html',),
         'privacy-policy' => array(

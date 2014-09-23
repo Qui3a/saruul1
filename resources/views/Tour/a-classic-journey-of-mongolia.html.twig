@@ -1,0 +1,373 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider3_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>{{ tour.name }}</span> ({{ tour.duration2 }})</strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a>  <span class="separator">&rsaquo;</span>
+                <span class="current">Tours</span>  <span class="separator">&rsaquo;</span>
+                <span class="current">{{ tour.name }}</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <!-- middle -->
+    <div id="middle" class="cols2 sidebar_left">
+        <div class="container clearfix">
+            <!-- content -->
+            <div class="content">
+                <h2>{{ tour.name }} ({{ tour.duration2 }})</h2>
+                <!-- content slider: slider_medium -->
+                <div class="slider slider_medium">
+                    <div class="slider_container clearfix" id="slider4">
+                        {% for slide in tour.pictures %}
+                            <div class="slider-item"><img src="{{ slide }}" alt="{{ tour.name }}"></div>
+                        {% endfor %}
+                    </div>
+                    <div class="slider_pagination" id="slider4_pag"></div>
+                </div>
+                <script>
+                    jQuery(document).ready(function($) {
+                        $('#slider4').carouFredSel({
+                            pagination : "#slider4_pag",
+                            infinite: true,
+                            auto: true,
+                            height: "auto",
+                            items: 1,
+                            scroll: {
+                                fx: "fade",
+                                duration: 2000
+                            }
+                        });
+                    });
+                </script>
+                <!-- content slider: medium_small -->
+                <div class="">
+                    <div class="post-item">
+                        <div class="post-aside clearfix">
+                            <div class="entry">
+                                {{ tour.overview |raw }}
+                            </div>
+
+                            {# buttons #}
+                            <a class="btn btn_default" href="{{ path('booking') }}"><span>BOOK TRIP</span></a>
+                            <a class="btn btn_blue addthis_button_email" title="Send to a friend"><i class="icon icon-envelope-alt"></i> <span>SEND TO A FRIEND</span></a>
+                            {#<a class="btn btn-info" href="{{ path('request_quote',{'slug':slug}) }}">REQUEST A QUOTE</a>#}
+                            {% if tour.pdf is defined and tour.pdf is not null %}
+                                <a class="btn btn_cyan" href="{{ path('download_pdf',{'slug':tour.pdf}) }}"><span>DOWNLOAD PDF</span></a>
+                            {% else %}
+                                <a class="btn btn_cyan" href="{{ path('request_quote',{'slug':slug}) }}"><span>REQUEST A QUOTE</span></a>
+                            {% endif %}
+
+                            <h2 style="color: #B28E1B; margin-top: 20px; ">ITINERARY AT GLANCE</h2>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 1 Arrive Ulaan Baatar</div>
+                                <div class="box_content">
+                                    <p>Arrive in Ulaan Baatar and transfer to your centrally located hotel. Enjoy an evening tour of Ulaan Baatar city, including the War Memorial at Zaisan if time permits. Rest of the day is for rest and to recover jet lag and travel fatigue.</p>
+                                    <p><strong><em>Meals: Dinner <br/> Lodging: 4 star hotel</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 2 Ulaan Baatar City Tour</div>
+                                <div class="box_content">
+                                    <p>The first stop is at Sukhbaatar Square, which is the central square named after the revolutionary hero of 1921 Damdiny Sukhbaatar whom declared independence from China. You will visit the Gandan Monastery that is the largest and most famous functioning monastery in Mongolia; here you may experience the monks in worship and see the impressive Golden Buddha Statue of Migjid Janraisig. Time permitting you can visit the Natural History Museum which is famous for its authentic dinosaur skeletons and also visit the Zaisan memorial hill to get a fantastic view of whole city. You will have a welcome dinner at local restaurant.</p>
+                                    <p><strong><em> Meals: Breakfast, Lunch, Dinner<br/> lodging: 4 star hotel</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 3 Moron / Hovsgol Lake</div>
+                                <div class="box_content">
+                                    <p>After an early breakfast at the hotel, fly into Moron, the center of the Hovsgol province. From Moron, you will be driven to the base camp at Lake Hovsgol (approx. 70 miles). With an area of 1,012 sq. miles lying near the Russian border, Hovsgol is Mongolia’s largest freshwater lake. It is more than 800 feet deep and more than a mile above sea level. The remainder of the day is at your leisure. Overnight at the camp </p>
+                                    <p><strong><em> Meals: Breakfast, Lunch, Dinner<br/> Overnight in the Ger Camp</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 6      Hovsgol Lake Hiking and Wildlife</div>
+                                <div class="box_content">
+                                    <p>After breakfast at the camp you will have a full day to explore the breathtaking shores of this beautiful lake.  There is ample opportunity to discover the local nomadic lifestyle. You can plan hiking and photo ventures along the shorelines, which are excellent habitats for wildlife and birds.
+                                        <br/> Walking and hiking in the lake shores, Horse riding trek near the lake, visiting yak breeding family and experience their unique lifestyle
+                                    </p>
+                                    <p><strong><em>Meals: Breakfast, Lunch, Dinner <br/> Overnight in the Ger Camp	</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 7   Moron to Ulaan Baatar, </div>
+                                <div class="box_content">
+                                    <p>Drive to airport after breakfast. Take the flight back to Ulaanbaatar and transfer to hotel.
+                                        <br/> Rest of the day is for rest and dinner at local restaurant in Ulaanbaatar.
+                                    </p>
+                                    <p><strong><em> Overnight in 4 star hotel, <br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 8 Fly to the Gobi Desert (1.2 hours) and then drive to Yol Valley and Gurvan saikhan National Park </div>
+                                <div class="box_content">
+                                    <p>In the morning, we drive to airport for flight to Gobi, one of the most famous and exotic areas in the world. The Gobi occupies about one-third of Mongolia and consists of sand dunes and dry mountain ranges. As one of the harshest environments on earth with extreme temperature and seasonal changes, the Gobi is surprisingly full of wildlife such as white and blacktail gazelles, wild ass or “hulan” in Mongolian, wild camel or “havtgai”, antelopes, ibex, and argali sheep, the biggest wild sheep on the planet. The majority of Mongolia’s population of bactrian camels live in this area, and you can take a camel ride if you like. Upon arrival, transfer to the base camp at the Gobi. You may visit the Yol Valley National Park for a morning trek with opportunities to photograph the stunning landscape, “Gobi Glacier”, and intriguing wildlife. </p>
+                                    <p><strong><em>Overnight in Ger Camp,  <br/>Meals: Breakfast, lunch and dinner </em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 9 Drive to Khongor sand dune </div>
+                                <div class="box_content">
+                                    <p>Today we will drive to Khongorinn Els sand dunes, the largest sand dunes in Mongolia. These dunes lie in the Gobi Gurvan Saikhan National Park. The drive is through some incredible desert scenery with flat, stony plains; outcrops of vegetation; hills of interesting rock formations; and herds of wild antelope racing across the plains. The roads are flat and fairly even so it will take at least 4 hours. The shifting sand blown by the wind or someone makes sound so it is called Singing Sand Dunes. </p>
+                                    <p><strong><em>Overnight in the Ger Camp  <br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 10 Khongor Sand Dune</div>
+                                <div class="box_content">
+                                    <p>Today we will have a full day exploring the sand dunes and rest after the long drive. The dunes seem to stretch on forever like a soft ribbon of sand draped over the desert. The shifting sand blown by the wind or someone makes sound so it is called Singing Sand Dunes. There is a beautiful green oasis known as Seruun bulag near the Khongor River. Return to the camp for lunch and enjoy feeling silence and a peaceful in the beautiful surroundings Gobi Deserts.</p>
+                                    <p><strong><em>Overnight in the Ger Camp  <br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 11 Khongor sand dunes to Bayanzag (Flaming Cliffs)</div>
+                                <div class="box_content">
+                                    <p>Drive to Bayanzag which is located 20 kilometers far from Bulgan soum, where 70 million years ago a lot of Paleontological findings have been discovered. The place is known as Flaming Cliffs so named by Roy Chapman Andrews American explorer who had visited Mongolia in 1922. During two years he searched through the Mongolian Gobi Desert and he found dinosaur fossils and dinosaur eggs about 10-15 cm from the Bayanzag for the first time in the world. Visiting and exploring native land of dinosaurs and taking some photos for beautiful surroundings. </p>
+                                    <p><strong><em> Overnight in the Ger Camp <br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 12 Bayanzag to Ongi Temple</div>
+                                <div class="box_content">
+                                    <p>Drive to Ongi temple. The ruins of Ongi Temple are found in Saikhan Ovoo soum of Dundgobi (Middle Gobi) province. It used to be a big Buddhist monastery compound built by Bari Yonzon Khamba at the bank of Ongi River. Transfer to the camp before the lunch. Visit the ruins of temple also there is small ger museum signifies ancient things.</p>
+                                    <p><strong><em> Overnight in the Ger Camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 13 Ongi temple to Karakorum (Erdenezuu monastery)</div>
+                                <div class="box_content">
+                                    <p>Early morning drive to Karakorum and arrive late afternoon, on the way picnic.  Ancient capital of Mongolia Karakorum city was located on the right bank of Orkhon River and on the north-eastern slopes of the Khangai Mountain and founded by Chinggis khan in 1220, was not only the capital of the vast Mongolian Empire but the epicentre of trade along the Silk Road. At that time the inhabitants of city were mostly Merchants craftsmen who came to karakorum from all over the world. Khubilai khan moved to the capital of the Mongolian Empire to China, establishing the Yuan Dynasty, began losing its importance.  In 1379 much of the city was badly damaged during an attack by the army of the Min Dynasty.
+                                        <br/><strong> Erdene Zuu monastery</strong>
+                                        <br/> Erdene zuu monastery was built by Avtai Sain Khan on the ruin of the Mongolian capital Karakorum in 1586. It was the first great Buddhist Monastery of Mongolia. It is part of the World Heritage Site entitled Orkhon Valley Cultural Landscape. Stones from the ruins of Karakorum were used in construction. It is surrounded by a wall featuring 108 stupas, 108 being a sacred number in Buddhism, and the number of beads in a Buddhist rosary. The monastery was damaged by warfare in the 1680s, but was rebuilt in the 18th century and by 1872 had a full 62 temples inside. The Erdene Zuu Monastery was taken to state protection and became museum in 1944.
+                                    </p>
+                                    <p><strong><em>Overnight in the Ger Camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 14 Karakorum (Erdenezuu monastery) to Hustai National park</div>
+                                <div class="box_content">
+                                    <p>Drive to Hustai National Park Hustai National Park is the site of a unique re-introduction scheme of Przewalskii’s horse (Equus przewalskii), called "takhi" by Mongolians. It became extinct in the wild in 1969 and, since 1992, has been successfully re-introduced to Hustai from zoos around the world. This has been an international effort monitored by The Foundation for the Przewalskii Horse, based in the Netherlands and MACNE (Mongolian Association for Conservation of Nature and the Environment). The national park is rolling Steppe Mountains with rather large patches of birch and aspen forests. There are also visible remains of Neolithic graves. In addition, red deer (Cervus elaphus) and wolf (Canis lupus) have increased quite a bit during the last few years, as well as Mongolian gazelle. Species present in Hustai but usually not seen include Lynx, Argali Sheep and Roe Deer. </p>
+                                    <p><strong><em> Overnight in the Ger Camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 15 Ulaan Baatar: Bogdo Khaan Winter Palace</div>
+                                <div class="box_content">
+                                    <p>After breakfast, we will drive to Ulaanbaatar and transfer to hotel.  Visit the Bogd Khaan Winter Palace Museum. The Bogdo Khaan Winter Palace is the home of the last Mongolian King, Javzun Damba Khutagt VII. The museum contains a number of Buddhist artworks and the private collection of Bogdo Khaan, composed of gifts from rulers and kings from all over the world. The artworks displayed here were made by the top Mongolian, Tibetan, and Chinese master-sculptors of the 18th and 19th centuries and represent the gods of Buddhist pantheon. In the afternoon free time do shopping for cashmere shop, souvenir shop and State Department Store. Enjoy watch national folklore performance by “Tumen Ekh” national song, throat singing, tsam mask dance and so on. A farewell dinner and stay overnight in hotel.</p>
+                                    <p><strong><em> Meals: Breakfast, Lunch, Dinner<br/>lodging: 4 star hotel </em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Day 16 Departure</div>
+                                <div class="box_content">
+                                    <p>Check out from the hotel and transfer to the “Chinggis Khan” International airport for departure. </p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            {# buttons #}
+                            <a class="btn btn_default" href="{{ path('booking') }}"><span>BOOK TRIP</span></a>
+                            <a class="btn btn_blue addthis_button_email" title="Send to a friend"><i class="icon icon-envelope-alt"></i> <span>SEND TO A FRIEND</span></a>
+                            {#<a class="btn btn-info" href="{{ path('request_quote',{'slug':slug}) }}">REQUEST A QUOTE</a>#}
+                            {% if tour.pdf is defined and tour.pdf is not null %}
+                                <a class="btn btn_cyan" href="{{ path('download_pdf',{'slug':tour.pdf}) }}"><span>DOWNLOAD PDF</span></a>
+                            {% else %}
+                                <a class="btn btn_cyan" href="{{ path('request_quote',{'slug':slug}) }}"><span>REQUEST A QUOTE</span></a>
+                            {% endif %}
+                            <script type="text/javascript">var addthis_config = {'services' : 'facebook,twitter,email,more', "data_track_addressbar":true};</script>
+                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52b596d25b76435f"></script>
+
+                            <!-- login widget -->
+                            <div class="widget-container widget_login" style="width: 100%; margin-top: 10px;">
+
+                                <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform">
+                                    <h2>Quick inquiry</h2>
+
+                                    {% for message in app.session.getFlashBag.get('inquiry') %}
+                                        <mark style="padding: 10px;display: block;"> {{ message }}</mark>
+                                    {% endfor %}
+
+                                    <div style="width: 250px;float:left;"><label>Your name</label><br>
+                                        {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</div>
+                                    <div><label>Your email address</label><br>
+                                        {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</div>
+                                    <p><label>Your message</label><br>
+                                        {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
+
+                                    {{ form_rest(form) }}
+                                    <p class="submit">
+                                        <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
+                                    </p>
+                                </form>
+                            </div>
+                            <!--/ login widget -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sidebar -->
+            <div class="sidebar">
+                <div class="box">
+
+                    <!-- widget_categories -->
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title">Trip snapshot</h3>
+                        <b style="color: #B28E1B">Tour length:</b> <span>{{ tour.duration2 }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Available time:</b> <span>{{ tour.availableTime }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Region:</b> <span>{{ tour.region }}</span>
+                        <br/>
+                    </div>
+                    <!--/ widget_categories -->
+
+                    <!-- widget_categories -->
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title">Travel map</h3>
+                        <a href="{{ tour.mapLarge }}" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="{{ tour.map }}" width="380" class="frame_box"/></a>
+                    </div>
+                    <!--/ widget_categories -->
+
+                    <!-- widget_recent_comments -->
+                    <div class="widget-container widget_popular">
+                        <h3 class="widget-title">Highlights</h3>
+                        <ul>
+                            {% for highlight in tour.highlights %}
+                            <li><a href="javascript:;">{{ highlight }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <!--/ widget_recent_comments -->
+
+                    <!-- widget_recent_comments -->
+                    <div class="widget-container widget_popular">
+                        <h3 class="widget-title">Discount</h3>
+                        <strong>Discount for children:</strong>
+                        <br/>&nbsp;&nbsp;70% for children 0-5 years old
+                        <br/>&nbsp;&nbsp;25% for children 5-12 years old
+
+                        <br/><strong>Discount for tour leader:</strong>
+                        <br/>&nbsp;&nbsp;100% 	by 15 and more!
+
+                    </div>
+                    <!--/ widget_recent_comments -->
+
+                    <!-- subscribe buttons -->
+                    <div class="widget-container subscribe_btn">
+                        <div>
+                            <a href="{{ path('page_show', {'slug':'trip-calendar-2014'}) }}"><img src="/images/group_travel_2014.jpg" alt="Join our group travel 2014"/></a>
+                        </div>
+                    </div>
+                    <!--/ subscribe buttons -->
+                </div>
+
+                <div class="sb sb_dark">
+                    <div class="box_title">Included</div>
+                    <div class="box_content">
+                        <div class="entry">
+                            <div class="list_check">
+                                <ul>
+                                    <li>Shared accommodation in ger camp</li>
+                                    <li>All meals as listed in itinerary</li>
+                                    <li>All entrance fees</li>
+                                    <li>Sightseeing as per itinerary</li>
+                                    <li>Accommodation in 4 stars hotel in Ulaanbaatar (twin standard room double occupancy)</li>
+                                    <li>Transportations by 4WD vehicles</li>
+                                    <li>English speaking guide (other language guide on request)</li>
+                                    <li>Daily supply of bottled water</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="sb sb_dark">
+                    <div class="box_title">Not included</div>
+                    <div class="box_content">
+                        <div class="entry">
+                            <div class="list_delete">
+                                <ul>
+                                    <li>International airfare</li>
+                                    <li>Travel insurance</li>
+                                    <li>Beverages</li>
+                                    <li>Optional activity cost</li>
+                                    <li>Excess baggage charge</li>
+                                    <li>Single room supplement</li>
+                                    <li>Any additional things which are not mentioned above</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="sb sb_blue">
+                    <div class="box_title">Testimonial</div>
+                    <div class="box_content">
+                        <div class="slider_quotes" style="margin-top: 45px;">
+                            <div class="slider-item">
+                                {% if tour.testimonial is defined %}
+                                    <div class="quote-text">
+                                        {{ tour.testimonial|raw }}
+                                    </div>
+                                {% else %}
+                                    <div class="quote-text">
+                                        <strong>Hello Soyoloo</strong><br/><p>Just want to thank you for your wonderful hospitality and expert tour guiding during our trip to Mongolia.  We loved visiting the Husai National Park and exploring the city of Ulaanbaatar.  Our favorite part of the trip was seeing the beautiful countryside and encountering wild horses, camels and eagles.
+                                            Thank you so much for showing us around and making sure our trip was a success.  We also enjoyed our driver, Zoloo.  Look forward to planning our next adventure with you.
+                                        </p></div>
+                                    <div class="quote-author">
+                                        <strong>Lisa Berkman, Tour group from USA</strong>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!--/ sidebar -->
+        </div>
+    </div>
+{% endblock %}

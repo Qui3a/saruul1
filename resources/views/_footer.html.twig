@@ -37,19 +37,26 @@
                 <li><a href="{{ path('page_show', {'slug':'sitemap'}) }}"><span>Sitemap</span></a></li>
             </ul>
         </div>
-        <!--/ footer col 3 -->
 
-        <div class="f_col f_col_1_4">
-            <h3>TOURS:</h3>
+        <div class="f_col f_col_3">
+            <h3>CULTURAL TOURS:</h3>
             <ul>
                 {% for slug, tour in app.content_tours.tours if tour.duration is defined %}
                 <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} ({{ tour.duration2 }})</span></a></li>
                 {% endfor %}
             </ul>
         </div>
-        <!--/ footer col 1 -->
 
-        <div class="f_col f_col_4">
+        <div class="f_col f_col_3">
+            <h3>ADVENTURE TOURS:</h3>
+            <ul>
+                {% for slug, tour in app.content_tours.tours if tour.duration is defined %}
+                <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} ({{ tour.duration2 }})</span></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="f_col f_col_3">
             <h3>CONTACT INFORMATION:</h3>
             <div class="footer_address">
                 <div class="address">
@@ -63,7 +70,6 @@
                 <a href="{{ path('contact') }}" class="notice">Send us message</a>
             </div>
         </div>
-        <!--/ footer col 4 -->
 
         <div class="clear"></div>
 
