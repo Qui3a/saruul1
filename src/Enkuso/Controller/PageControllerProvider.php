@@ -357,6 +357,60 @@ class PageControllerProvider implements ControllerProviderInterface
 
         })->bind('newsletter');
 
+        /** Request a catalog page */
+        $controllers->get('request-a-catalog/form', function() use ($app) {
+
+            $form = $app['form.factory']->create(new \Enkuso\Form\CatalogType(), array(), array());
+
+            return $app['twig']->render('Page/request_catalog.html.twig', array(
+                'form'      => $form->createView(),
+            ));
+        })->bind('catalog');
+
+        $controllers->post('request-a-catalog/send', function() use ($app) {
+
+            $form = $app['form.factory']->create(new \Enkuso\Form\CatalogType(), array(), array());
+
+            $form->handleRequest($app['request']);
+
+            if ($form->isValid()) {
+
+                $message = $form->getData();
+
+                $mail = \Swift_Message::newInstance()
+                    ->setSubject('Requesting catalog: '.$form->get('first_name')->getData())
+                    ->setFrom(array($form->get('email')->getData()))
+                    ->setTo($app['company']['email'])
+                    ->setBody('<b>First Name: </b> '.$form->get('first_name')->getData().'<br/>'
+                        .'<b>Last Name: </b>'.$form->get('last_name')->getData().'<br/>'
+                        .'<b>Title: </b>'.$form->get('title')->getData().'<br/>'
+                        .'<b>Organization: </b>'.$form->get('organization')->getData().'<br/>'
+                        .'<b>Address: </b>'.$form->get('address_line_1')->getData().'<br/>'
+                        .'<b>Address line 2: </b>'.$form->get('address_line_2')->getData().'<br/>'
+                        .'<b>City: </b>'.$form->get('city')->getData().'<br/>'
+                        .'<b>Country: </b>'.$form->get('country')->getData().'<br/>'
+                        .'<b>Zip code: </b>'.$form->get('zip_code')->getData().'<br/>'
+                        .'<b>Home phone: </b>'.$form->get('home_phone')->getData().'<br/>'
+                        .'<b>Mobile phone: </b>'.$form->get('mobile_phone')->getData().'<br/>'
+                        .'<b>Email: </b>'.$form->get('email')->getData().'<br/>'
+                        , 'text/html');
+
+                $app['mailer']->send($mail);
+
+                return $app->redirect($app['url_generator']->generate('catalog_success'));
+            }
+
+            return $app['twig']->render('Page/contact.html.twig', array(
+                'form'      => $form->createView(),
+            ));
+        })->bind('catalog_send');
+
+        $controllers->get('request-a-catalog/sent', function() use ($app) {
+
+            return $app['twig']->render('Page/catalog_success.html.twig', array(
+            ));
+        })->bind('catalog_success');
+
         return $controllers;
     }
 }
