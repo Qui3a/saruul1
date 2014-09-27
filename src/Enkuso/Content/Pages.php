@@ -487,6 +487,7 @@ Cancellation Fees: <br/>
         'why-travel-with-us' => array(
             'title' => 'Why Travel With Us',
             'body' => '<div style="font-size: 18px !important;">
+<p>✓ Travel All Mongolia will tailor a trip in accordance to your travel desires. A private tour allows you the freedom to choose your own departure dates and the flexibility to follow your own itinerary to match your travel style. Stay in the best hotels and dine in the finest restaurants in Mongolia.</p>
 <p>✓ Your satisfaction is our top priority. Travel All Mongolia takes pride in our packages to the Gobi Desert and beyond. We are the company capable of offering you the best experience and will work hard to ensure that Mongolia meets your expectations. Our hope is to make lifelong friends. We already have because many new clients come to us because of recommendations from our former travelers.</p>
 <p>✓ Want to select your own arrival and departure dates and have a customized itinerary? Do you prefer traveling in a helicopter or private jet? No problem. We can create a tour to meet your desires, needs and abilities. Just let us know what you want and we will make it happen.</p>
 <p>✓ Our professional Guides are all selected based on language skills, knowledge, personality, past travel experiences and guiding expertise. These skills ensure a high level of competence for maximizing your level of comfort and security for an experience of a lifetime.</p>
