@@ -111,7 +111,7 @@ $app['seo_key'] = 'all';
 // config
 $app['tourapi.host'] = 'http://tourapi.88125925.com';
 $app['company'] = array(
-    'name' => 'Mongolian Luxury Tours',
+    'name' => 'Travel All Mongolia',
     'email' => 'info@travelallmongolia.com',
     'website' => 'http://www.travelallmongolia.com',
     'video' => 'NShsdGOFb0k',
