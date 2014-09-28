@@ -139,8 +139,8 @@
             <div class="f_col f_col_3" style="width: 300px;">
                 <h3>ADVENTURE TOURS:</h3>
                 <ul>
-                    {% for slug, tour in app.content_tours.tours if tour.duration is defined and tour.type is not defined %}
-                        <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} ({{ tour.duration2 }})</span></a></li>
+                    {% for slug, tour in app.content_tours.tours if tour.type is not defined %}
+                        <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} {% if tour.duration is defined %}({{ tour.duration2 }}){% endif %}</span></a></li>
                     {% endfor %}
                 </ul>
                 <a href="{{ path('catalog') }}"><img src="/images/request_catalog.jpg" alt="Request a catalog"/></a>

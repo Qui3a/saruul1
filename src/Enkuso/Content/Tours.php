@@ -529,6 +529,26 @@ I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. Soyol
 
         ),
 
+        'bird-watching-trip' => array(
+            'name' => 'Bird Watching Trip',
+            'layout' => 'bird_watching_trip.html.twig',
+            'slides1' => array(
+                "/img/birding/1.jpg",
+                "/img/birding/2.jpg",
+                "/img/birding/3.jpg",
+                "/img/birding/4.jpg",
+                "/img/birding/5.jpg",
+                "/img/birding/6.jpg",
+            ),
+            'slides2' => array(
+                "/img/birding/1_t.jpg",
+                "/img/birding/2_t.jpg",
+                "/img/birding/3_t.jpg",
+                "/img/birding/4_t.jpg",
+                "/img/birding/5_t.jpg",
+                "/img/birding/6_t.jpg",
+            ),
+        ),
 /*
         'splendors-of-mongolia' => array(
             'name' => 'Splendors of Mongolia',
@@ -800,26 +820,6 @@ centuries.</p>",
 
         ),
 
-        'bird-watching-trip' => array(
-            'name' => 'Bird Watching Trip',
-            'layout' => 'bird_watching_trip.html.twig',
-            'slides1' => array(
-			    "/img/birding/1.jpg",
-			    "/img/birding/2.jpg",
-			    "/img/birding/3.jpg",
-			    "/img/birding/4.jpg",
-			    "/img/birding/5.jpg",
-			    "/img/birding/6.jpg",
-            ),
-            'slides2' => array(
-                "/img/birding/1_t.jpg",
-                "/img/birding/2_t.jpg",
-                "/img/birding/3_t.jpg",
-                "/img/birding/4_t.jpg",
-                "/img/birding/5_t.jpg",
-                "/img/birding/6_t.jpg",
-            ),
-        ),
 */
 
     );

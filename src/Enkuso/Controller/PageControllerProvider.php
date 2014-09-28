@@ -45,7 +45,7 @@ class PageControllerProvider implements ControllerProviderInterface
                 array('src' => '/images/slider5_mini.jpg', 'alt' => 'Gobi Desert tour', 'caption' => '<br/><p>This tour highlights the amazing Gobi Desert - a diversity of mountains, evergreen forests, sand dunes, and geological wonders.</p>', 'link' => '/tour/gobi-desert-tour.html'),
                 //array('src' => '/images/slider2_mini.jpg', 'alt' => 'Splendors of Mongolia', 'caption' => '<p>Blue skies and huge expanses of near-empty land epitomize Mongolia. <br/>There are few roads, and nomadic herders still roam the steppe as they have for centuries</p>', 'link' => '/tour/splendors-of-mongolia'),
                 //array('src' => '/images/slider8_mini.jpg', 'alt' => 'Highlights of Mongolia', 'caption' => '<p>A good traveller has no fixed plans and is not intent on arriving. Lao Tzu ( 570-490 BC)</p>', 'link' => '/tour/highlights-of-mongolia'),
-                //array('src' => '/images/slider9_mini.jpg', 'alt' => 'Bird watching trip', 'link' => '/tour/bird-watching-trip'),
+                array('src' => '/images/slider9_mini.jpg', 'alt' => 'Bird watching trip', 'link' => '/tour/bird-watching-trip'),
             );
             $app['seo_key'] = 'homepage';
             return $app['twig']->render('homepage.html.twig', array(
