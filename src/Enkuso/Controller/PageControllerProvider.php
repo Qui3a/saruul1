@@ -400,7 +400,7 @@ class PageControllerProvider implements ControllerProviderInterface
                 return $app->redirect($app['url_generator']->generate('catalog_success'));
             }
 
-            return $app['twig']->render('Page/contact.html.twig', array(
+            return $app['twig']->render('Page/request_catalog.html.twig', array(
                 'form'      => $form->createView(),
             ));
         })->bind('catalog_send');
