@@ -80,7 +80,10 @@ class Tours
             ),
             'pictures' => array(
                 // zuragnuud
-                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+                'https://farm4.staticflickr.com/3910/15205356478_874cbe9e55_z.jpg',
+                'https://farm3.staticflickr.com/2941/15391619012_07e24500b8_z.jpg',
+                'https://farm3.staticflickr.com/2947/15391618202_ab4d379bea_z.jpg',
+                'https://farm4.staticflickr.com/3884/15368921666_54f87f7f3c_z.jpg',
             ),
             'region' => 'Central, Southern and Northern part of Mongolia.',
             'availableTime' => '2-13th of July',
@@ -223,7 +226,11 @@ Thanks again Soyoloo It was really a great experience and filled with a lifetime
             ),
             'pictures' => array(
                 // zuragnuud
-                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+                'https://farm4.staticflickr.com/3914/15205393907_c806b3c047_z.jpg',
+                'https://farm4.staticflickr.com/3857/15388727891_7ca431c393_z.jpg',
+                'https://farm4.staticflickr.com/3841/15368882656_f34dccfbef_z.jpg',
+                'https://farm4.staticflickr.com/3909/15205158599_a7cbe3b28a_z.jpg',
+                'https://farm3.staticflickr.com/2946/15205224280_fe2ab5482d_o.jpg',
             ),
             'region' => 'Southern and Northern part of Mongolia.',
             'availableTime' => '10-19th of June, 17-26th of July',
