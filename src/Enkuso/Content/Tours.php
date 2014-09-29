@@ -15,6 +15,33 @@ class Tours
 {
     /** @var array */
     private $tours = array(
+        'a-classic-journey-of-mongolia-with-naadam-festival' => array(
+            'name' => 'A Classic Journey of Mongolia with Naadam Festival',
+            'layout' => 'a-classic-journey-of-mongolia-with-naadam-festival.html.twig',
+            'duration' => '15 days',
+            'duration2' => '15 days / 14 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'https://farm4.staticflickr.com/3856/15388563071_728d4021f8_z.jpg',
+                'https://farm3.staticflickr.com/2944/15205157188_54d6a8d4e0_z.jpg',
+                'https://farm4.staticflickr.com/3852/15205063450_059a00292b_z.jpg',
+            ),
+            'region' => 'Central, Southern and Northern part of Mongolia.',
+            'availableTime' => '9th - 23th of July, 29th of June – 13th of July ',
+            'map' => 'https://farm4.staticflickr.com/3872/15368668506_1bf7ecaabb_m.jpg',
+            'mapLarge' => 'https://farm4.staticflickr.com/3872/15368668506_8ca8785279_k.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "",
+            'testimonial' => "<p>It is truly an experience, to be with the family. Very impressed with what the desert had to offer. The kids were always up for the adventures planned for us. We were always surrounded by nice people, good food and AMAZING scenery. Quite a family destination. From this experience makes us want to come back Mongolia, again and again and again.</p>
+<strong>Adam Singer family, USA</strong>",
+
+        ),
+
         'a-classic-journey-of-mongolia' => array(
             'name' => 'A Classic Journey of Mongolia',
             'layout' => 'a-classic-journey-of-mongolia.html.twig',
@@ -25,10 +52,12 @@ class Tours
             ),
             'pictures' => array(
                 // zuragnuud
-                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+                'https://farm4.staticflickr.com/3856/15388563071_728d4021f8_z.jpg',
+                'https://farm3.staticflickr.com/2944/15205157188_54d6a8d4e0_z.jpg',
+                'https://farm4.staticflickr.com/3852/15205063450_059a00292b_z.jpg',
             ),
             'region' => 'Central, Southern and Northern part of Mongolia.',
-            'availableTime' => '',
+            'availableTime' => '15-28th of June, 25th of July – 7th of August, 10-23rd of August, 1-14th of September',
             'map' => 'https://farm6.staticflickr.com/5569/15082222927_7673a79b42.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5569/15082222927_7673a79b42_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
@@ -54,7 +83,7 @@ class Tours
                 'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
             ),
             'region' => 'Central, Southern and Northern part of Mongolia.',
-            'availableTime' => '',
+            'availableTime' => '2-13th of July',
             'map' => 'https://farm3.staticflickr.com/2944/15331001095_36360eea6d.jpg',
             'mapLarge' => 'https://farm3.staticflickr.com/2944/15331001095_36360eea6d_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
@@ -197,9 +226,9 @@ Thanks again Soyoloo It was really a great experience and filled with a lifetime
                 'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
             ),
             'region' => 'Southern and Northern part of Mongolia.',
-            'availableTime' => 'May 01-October 1',
-            'map' => 'https://farm4.staticflickr.com/3893/15331947735_43f59777b6.jpg',
-            'mapLarge' => 'https://farm4.staticflickr.com/3893/15331947735_43f59777b6_b.jpg',
+            'availableTime' => '10-19th of June, 17-26th of July',
+            'map' => 'https://farm4.staticflickr.com/3893/15331947735_2397de96b0_m.jpg',
+            'mapLarge' => 'https://farm4.staticflickr.com/3893/15331947735_43f59777b6_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
             'pdf' => null,
             'itinerary' => '',
@@ -329,7 +358,10 @@ Tour group from USA September</strong>",
             ),
             'pictures' => array(
                 // zuragnuud
-                'http://farm8.staticflickr.com/7312/10865390706_3e10d6a8a3_b.jpg',
+                'https://farm3.staticflickr.com/2941/15205265827_5ff77019b4_z.jpg',
+                'https://farm3.staticflickr.com/2945/15391779635_b66311b7b3_z.jpg',
+                'https://farm3.staticflickr.com/2944/15205029909_c50135ee8d_z.jpg',
+                'https://farm4.staticflickr.com/3894/15205030049_234438c42f_z.jpg',
             ),
             'region' => 'Northern part of Mongolia',
             'availableTime' => 'May 01-October 1',
@@ -403,7 +435,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
                 'https://farm3.staticflickr.com/2948/15374692065_38ec0396dd_z.jpg',
             ),
             'region' => 'Northern, Central & southern part of Mongolia',
-            'availableTime' => '',
+            'availableTime' => '20-29th of July, 1-10 of September',
             'map' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371_b.jpg',
             'bs_img' => '/img/tour/em_main.jpg',
@@ -438,7 +470,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
                 'http:\/\/farm6.staticflickr.com\/5513\/10865659913_55ec543d20_b.jpg',
             ),
             'region' => 'Northern, Central & southern part of Mongolia',
-            'availableTime' => '2-13th of July',
+            'availableTime' => '2-13th of July, 9-20th of July',
             'map' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371_b.jpg',
             'bs_img' => '/img/tour/em_main.jpg',
@@ -473,7 +505,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
                 'http://farm8.staticflickr.com/7312/10865390706_3e10d6a8a3_b.jpg',
             ),
             'region' => 'Central and Southern part of Mongolia',
-            'availableTime' => 'May 01-October 1',
+            'availableTime' => '19-29th of July, 5-15th of August',
             'map' => 'https://farm4.staticflickr.com/3887/15318689866_8813aea28e.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3887/15318689866_8813aea28e_b.jpg',
             'bs_img' => '/img/tour/treasure_main.jpg',
