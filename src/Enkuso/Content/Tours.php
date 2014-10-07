@@ -895,12 +895,22 @@ centuries.</p>",
     public function getBookableTours()
     {
         return array(
-            'Splendors of Mongolia' => 'Splendors of Mongolia',
+            'A Classic Journey of Mongolia with Naadam Festival' => 'A Classic Journey of Mongolia with Naadam Festival',
             'A Classic Journey of Mongolia' => 'A Classic Journey of Mongolia',
-            'Gobi and Beyond' => 'Gobi and Beyond',
-            'Naadam Festival Journey' => 'Naadam Festival Journey',
-            'Karakorum and Khuvsgul lake adventures' => 'Kharakorum and Khuvsgul lake adventures',
-            'Highlights of Mongolia' => 'Highlights of Mongolia',
+            'Luxury tour with Naadam festival' => 'Luxury tour with Naadam festival',
+            'Winter festival tour' => 'Winter festival tour',
+            'Mountain bike tour' => 'Mountain bike tour',
+            'Motor bike tour' => 'Motor bike tour',
+            'Jewels of Mongolia' => 'Jewels of Mongolia',
+            'Discover Central Mongolia' => 'Discover Central Mongolia',
+            'Horse trip around khuvsgul lake' => 'Horse trip around khuvsgul lake',
+            'Horse riding in central part of Mongolia' => 'Horse riding in central part of Mongolia',
+            'Khuvsgul lake tour' => 'Khuvsgul lake tour',
+            'Gobi Desert tour' => 'Gobi Desert tour',
+            'Taste of Mongolia' => 'Taste of Mongolia',
+            'Taste of Mongolia with Naadam Festival' => 'Taste of Mongolia with Naadam Festival',
+            'Treasures of Mongolia' => 'Treasures of Mongolia',
+            'Buddhism tour' => 'Buddhism tour',
         );
     }
 } 
