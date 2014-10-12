@@ -26,7 +26,8 @@ class ContactType extends AbstractType
     {
         $builder->add('name', 'text', array('label'=>'Your name'));
         $builder->add('email', 'email', array('label'=>'Your e-mail address'));
-        $builder->add('phone', 'text', array('label'=>'Your phone number'));
+        $builder->add('phone', 'text', array('label'=>'Day time phone'));
+        $builder->add('phone2', 'text', array('label'=>'Evening phone'));
         $builder->add('content', 'textarea', array('label'=>'Your Message'));
     }
 

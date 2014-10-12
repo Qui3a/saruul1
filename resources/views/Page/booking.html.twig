@@ -52,9 +52,14 @@
                                 {{ form_errors(form.country) }}
                             </div>
                             <div class="row alignleft field_text">
-                                {{ form_label(form.number_of_people) }}
-                                {{ form_widget(form.number_of_people, { 'attr': {'class': 'inputField required'} }) }}
-                                {{ form_errors(form.number_of_people) }}
+                                {{ form_label(form.phone) }}
+                                {{ form_widget(form.phone, { 'attr': {'class': 'inputField required'} }) }}
+                                {{ form_errors(form.phone) }}
+                            </div>
+                            <div class="row alignleft field_text">
+                                {{ form_label(form.email) }}
+                                {{ form_widget(form.email, { 'attr': {'class': 'inputField required'} }) }}
+                                {{ form_errors(form.email) }}
                             </div>
                         </div>
 
@@ -70,14 +75,14 @@
                                 {{ form_errors(form.last_name) }}
                             </div>
                             <div class="row alignleft field_text">
-                                {{ form_label(form.phone) }}
-                                {{ form_widget(form.phone, { 'attr': {'class': 'inputField required'} }) }}
-                                {{ form_errors(form.phone) }}
+                                {{ form_label(form.number_of_people) }}
+                                {{ form_widget(form.number_of_people, { 'attr': {'class': 'inputField required'} }) }}
+                                {{ form_errors(form.number_of_people) }}
                             </div>
                             <div class="row alignleft field_text">
-                                {{ form_label(form.email) }}
-                                {{ form_widget(form.email, { 'attr': {'class': 'inputField required'} }) }}
-                                {{ form_errors(form.email) }}
+                                {{ form_label(form.phone2) }}
+                                {{ form_widget(form.phone2, { 'attr': {'class': 'inputField required'} }) }}
+                                {{ form_errors(form.phone2) }}
                             </div>
                         </div>
 

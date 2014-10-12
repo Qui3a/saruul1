@@ -184,7 +184,7 @@ class PageControllerProvider implements ControllerProviderInterface
                     ->setSubject('['.$app['company']['name'].'] '.$form->get('name')->getData())
                     ->setFrom(array($form->get('email')->getData()))
                     ->setTo($app['company']['email'])
-                    ->setBody('<b>Country:</b> '.$app['visitor_country'].'<b>Phone:</b> '.$form->get('phone')->getData().'<br/><b>Message</b><br/>'.$form->get('content')->getData(), 'text/html');
+                    ->setBody('<b>Country:</b> '.$app['visitor_country'].'<br/><b>Day time phone:</b> '.$form->get('phone')->getData().'<br/><b>Evening phone:</b> '.$form->get('phone2')->getData().'<br/><b>Message</b><br/>'.$form->get('content')->getData(), 'text/html');
 
                 $app['mailer']->send($mail);
 

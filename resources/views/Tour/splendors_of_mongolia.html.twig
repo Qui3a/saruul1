@@ -231,6 +231,9 @@
                                 {{ form_widget(form.phone, { 'attr': {'class': 'input'} }) }}</p>
                             <p><label>Your message</label><br>
                                 {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
+                            <div style="display: none">
+                                {{ form_widget(form.phone2, { 'attr': {'class': 'input'} }) }}
+                            </div>
 
                             {{ form_rest(form) }}
                             <p class="submit">

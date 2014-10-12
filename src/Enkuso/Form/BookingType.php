@@ -29,7 +29,8 @@ class BookingType extends AbstractType
         $builder->add('first_name', 'text', array('label'=>'First name'));
         $builder->add('last_name', 'text', array('label'=>'Last name'));
         $builder->add('country', 'text', array('label'=>'Country'));
-        $builder->add('phone', 'text', array('label'=>'Your phone'));
+        $builder->add('phone', 'text', array('label'=>'Day time phone'));
+        $builder->add('phone2', 'text', array('label'=>'Evening phone'));
         $builder->add('email', 'email', array('label'=>'Your e-mail address'));
         $builder->add('tour', 'choice', array('choices' => $options['tours']));
         $builder->add('guide', 'choice', array('choices' => $options['guides']));
@@ -67,6 +68,9 @@ class BookingType extends AbstractType
                     new Assert\NotBlank(),
                 ),
                 'phone'     => array(
+                    new Assert\NotBlank(),
+                ),
+                'phone2'     => array(
                     new Assert\NotBlank(),
                 ),
                 'email'     => array(
