@@ -91,6 +91,11 @@ class Seo
             'description' =>  "A horseback adventure covering many sites of central Mongolia; Karakorum, Erdene Zuu monastery, Tsenkher hot springs, Terkhiin Tsagaan Lake, Ugii Lake, Hustai national park and much more. Having maintained much of its centuries-old nomadic traditions, Mongolia is one of the only places on earth you can interact with true nomadic peoples, whilst riding traditional Mongolian horses.",
             'keyword' =>      "Mongolia horse tour, riding tours, riding treks in Mongolia, Mongolia adventure horse trip, Mongolia adventure horse tours"
         ),
+        'a-classic-journey-of-mongolia-with-naadam-festival' => array(
+            'title' =>        "Naadam Festival 2015, Naadam Festival Tour, Naadam Festival Travel",
+            'description' =>  "Naadam festival is celebrated every year at 11-13th July in Central stadium. Mongolia celebrates its independence and its rich cultural heritage with a festival of sports and revelry in Ulaanbaatar.",
+            'keyword' =>      "Naadam Festival 2015, Naadam Festival Tour, Naadam Festival Travel, Mongolian Naadam Festival, Naadam Festival"
+        ),
         # Pages
         'tourist-attractions' => array(
             'title' =>        "Adventure and Cultural Tours, Mongolia travel guide, Nomadic Adventures Mongolia, Mongolia tour travel, Mongolia tour packages",
