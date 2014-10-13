@@ -34,7 +34,7 @@ class Tours
             'map' => 'https://farm4.staticflickr.com/3872/15368668506_1bf7ecaabb_m.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3872/15368668506_8ca8785279_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => null,
+            'pdf' => 'a-classic-journey-with-naadam-festival',
             'itinerary' => '',
             'overview' => "",
             'testimonial' => "<p>It is truly an experience, to be with the family. Very impressed with what the desert had to offer. The kids were always up for the adventures planned for us. We were always surrounded by nice people, good food and AMAZING scenery. Quite a family destination. From this experience makes us want to come back Mongolia, again and again and again.</p>
