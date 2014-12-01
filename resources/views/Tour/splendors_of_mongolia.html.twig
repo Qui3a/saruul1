@@ -217,7 +217,7 @@
                     <div class="widget-container widget_login">
                         <h2>Quick inquiry</h2>
 
-                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform">
+                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform" novalidate>
 
                             {% for message in app.session.getFlashBag.get('inquiry') %}
                                 <mark style="padding: 10px;display: block;"> {{ message }}</mark>

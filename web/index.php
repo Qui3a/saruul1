@@ -12,7 +12,7 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
 } else {
     require __DIR__.'/../resources/config/dev.php';
 }
-
+//$app['debug']=true;
 require __DIR__.'/../src/app.php';
 
 require __DIR__.'/../src/controllers.php';

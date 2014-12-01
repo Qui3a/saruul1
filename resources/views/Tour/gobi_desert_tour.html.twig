@@ -145,7 +145,7 @@
                             <!-- login widget -->
                             <div class="widget-container widget_login" style="width: 100%; margin-top: 10px;">
 
-                                <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform">
+                                <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform" novalidate>
                                     <h2>Quick inquiry</h2>
 
                                     {% for message in app.session.getFlashBag.get('inquiry') %}

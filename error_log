@@ -1,0 +1,1 @@
+[31-Aug-2014 01:37:02 America/Chicago] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 71 bytes) in phar:///home2/hope2me/www.travelallmongolia.com/composer.phar/src/Composer/DependencyResolver/RuleWatchGraph.php on line 47

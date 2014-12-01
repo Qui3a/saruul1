@@ -28,11 +28,18 @@ $app->register(new UrlGeneratorServiceProvider());
 // SWIFTMAILER
 $app->register(new SwiftmailerServiceProvider());
 $app['swiftmailer.options'] = array(
-    'host' => 'travelallmongolia.com',
+    'host' => 'smtp.gmail.com',
+    'port' => '465',
+    'username' => 'info@travelallmongolia.com',
+    'password' => 'Soyoloo601',
+    'encryption' => 'ssl',
+    'auth_mode' => 'login',
+/*    'host' => 'travelallmongolia.com',
     'port' => '25',
     'username' => 'noreply@travelallmongolia.com',
     'password' => 'TWv03ReTmlu0',
-    'auth_mode' => 'login'
+    'auth_mode' => 'login',
+  */  
 );
 
 
@@ -75,7 +82,7 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), array(
 
 // COUNTRY CHECK
 $app->before(function(Request $request) use ($app){
-    if(!$app['debug']) {
+    //if(!$app['debug']) {
         $ip = $_SERVER['REMOTE_ADDR'];
         $ip_arr = explode('.',$ip);
         $ip_num = ( 16777216 * $ip_arr[0] ) + ( 65536 * $ip_arr[1] ) + ( 256 * $ip_arr[2] ) + $ip_arr[3];
@@ -91,7 +98,7 @@ $app->before(function(Request $request) use ($app){
         if($country === false)
             $country['country_name'] = 'Unknown';
         $app['visitor_country'] = $country['country_name'];
-    }
+    //}
 });
 
 

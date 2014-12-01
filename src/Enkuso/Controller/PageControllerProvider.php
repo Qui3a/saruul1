@@ -18,8 +18,9 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Validator\Constraints\Email;
 
 // Swift mailer force run hack :P
-require_once __DIR__.'/../../../vendor/swiftmailer/swiftmailer/lib/classes/Swift.php';
-\Swift::registerAutoload(__DIR__.'/../../../vendor/swiftmailer/swiftmailer/lib/swift_init.php');
+// require_once __DIR__.'/../../../vendor/swiftmailer/swiftmailer/lib/classes/Swift.php';
+// \Swift::registerAutoload(__DIR__.'/../../../vendor/swiftmailer/swiftmailer/lib/swift_init.php');
+require_once __DIR__.'/../../../vendor/swiftmailer/swiftmailer/lib/swift_required.php';
 
 class PageControllerProvider implements ControllerProviderInterface
 {
@@ -185,10 +186,22 @@ class PageControllerProvider implements ControllerProviderInterface
                     ->setSubject('['.$app['company']['name'].'] '.$form->get('name')->getData())
                     ->setFrom(array($form->get('email')->getData()))
                     ->setTo($app['company']['email'])
-                    ->setBody('<b>Country:</b> '.$app['visitor_country'].'<br/><b>Day time phone:</b> '.$form->get('phone')->getData().'<br/><b>Evening phone:</b> '.$form->get('phone2')->getData().'<br/><b>Message</b><br/>'.$form->get('content')->getData(), 'text/html');
+                    ->setBody('<b>Email:</b> '.$form->get('email')->getData().'<br/><b>Country:</b> '.$app['visitor_country'].'<br/><b>Day time phone:</b> '.$form->get('phone')->getData().'<br/><b>Evening phone:</b> '.$form->get('phone2')->getData().'<br/><b>Message</b><br/>'.$form->get('content')->getData(), 'text/html');
 
                 $app['mailer']->send($mail);
+/* $transport = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
+  ->setUsername('info@travelallmongolia.com')
+  ->setPassword('Soyoloo601');
 
+$mailer = \Swift_Mailer::newInstance($transport);
+
+                $mail = \Swift_Message::newInstance()
+                    ->setSubject('['.$app['company']['name'].'] '.$form->get('name')->getData())
+                    ->setFrom(array($form->get('email')->getData()))
+                    ->setTo("info@travelallmongolia.com")
+                    ->setBody('<b>Country:</b> '.$app['visitor_country'].'<br/><b>Day time phone:</b> '.$form->get('phone')->getData().'<br/><b>Evening phone:</b> '.$form->get('phone2')->getData().'<br/><b>Message</b><br/>'.$form->get('content')->getData(), 'text/html');
+
+$mailer->send($mail); */
                 return $app->redirect($app['url_generator']->generate('contact_success'));
             }
 
