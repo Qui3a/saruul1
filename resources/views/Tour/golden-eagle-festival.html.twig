@@ -1,0 +1,315 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider3_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>{{ tour.name }}</span> ({{ tour.duration2 }})</strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a>  <span class="separator">&rsaquo;</span>
+                <span class="current">Tours</span>  <span class="separator">&rsaquo;</span>
+                <span class="current">{{ tour.name }}</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <!-- middle -->
+    <div id="middle" class="cols2 sidebar_left">
+        <div class="container clearfix">
+            <!-- content -->
+            <div class="content">
+                <h2>{{ tour.name }} ({{ tour.duration2 }})</h2>
+                <!-- content slider: slider_medium -->
+                <div class="slider slider_medium">
+                    <div class="slider_container clearfix" id="slider4">
+                        {% for slide in tour.pictures %}
+                            <div class="slider-item"><img src="{{ slide }}" alt="{{ tour.name }}"></div>
+                        {% endfor %}
+                    </div>
+                    <div class="slider_pagination" id="slider4_pag"></div>
+                </div>
+                <script>
+                    jQuery(document).ready(function($) {
+                        $('#slider4').carouFredSel({
+                            pagination : "#slider4_pag",
+                            infinite: true,
+                            auto: true,
+                            height: "auto",
+                            items: 1,
+                            scroll: {
+                                fx: "fade",
+                                duration: 2000
+                            }
+                        });
+                    });
+                </script>
+                <!-- content slider: medium_small -->
+                <div class="">
+                    <div class="post-item">
+                        <div class="post-aside clearfix">
+                            <div class="entry">
+                                {{ tour.overview |raw }}
+                            </div>
+
+                            {# buttons #}
+                            <a class="btn btn_default" href="{{ path('booking') }}"><span>BOOK TRIP</span></a>
+                            <a class="btn btn_blue addthis_button_email" title="Send to a friend"><i class="icon icon-envelope-alt"></i> <span>SEND TO A FRIEND</span></a>
+                            {#<a class="btn btn-info" href="{{ path('request_quote',{'slug':slug}) }}">REQUEST A QUOTE</a>#}
+                            {% if tour.pdf is defined and tour.pdf is not null %}
+                                <a class="btn btn_cyan" href="{{ path('download_pdf',{'slug':tour.pdf}) }}"><span>DOWNLOAD PDF</span></a>
+                            {% else %}
+                                <a class="btn btn_cyan" href="{{ path('request_quote',{'slug':slug}) }}"><span>REQUEST A QUOTE</span></a>
+                            {% endif %}
+
+                            <h2 style="color: #B28E1B; margin-top: 20px; ">DETAILED TOUR ITINERARY</h2>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Sep 30 - Day 1 Arrival in Ulaanbaatar</div>
+                                <div class="box_content">
+                                    <p>Upon arrival at Chinggis Khan International Airport, you are met by tour guide and transferred to the hotel in the city center.</p>
+                                        <p>Rest of the day is for rest and to recover jet lag and travel fatigue.</p>
+                                    <p><strong><em>Overnight in 4* hotel<br />Meals: Dinner </em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Oct 1 - Day 2 Ulaanbaatar (City tour)</div>
+                                <div class="box_content">
+                                    <p>We will star city tour the first stop is Sukhbaatar Square, the central square named after the revolutionary hero of 1921 Damdiny Sukhbaatar who declared independence from China. We visit Gandan Monastery the largest and most famous functioning monastery in Mongolia; here we may experience monks in worship and see the impressive Golden Buddha Statue of Migjid Janraisig. Time permitting Natural History Museum which is famous for its authentic dinosaur skeletons and and visit Zaisan memorial hill to view of whole city from there. </p>
+                                    <p><strong><em>Overnight in 4* hotel<br />Meals: Dinner, Lunch & Dinner </em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Oct 2 – Day 3 Ulaanbaatar to Ulgii</div>
+                                <div class="box_content">
+                                    <p>Transfer to the airport for a morning flight to Ulgii (3.5 hours), capital of Bayan-Ulgii, Mongolia’s westernmost province. Ninety percent of the population here is Kazakh, Mongolia’s largest ethnic minority. The isolation of the Altai Mountains has preserved the language and traditions of the Kazakhs, who live amongst some of the most spectacular scenery in Mongolia. We will visit Kazakh families in their settlement. Their Gers are slightly larger than Mongolian Gers, and are decorated with brightly colored rugs. We will enjoy their hospitality and friendliness and learn more in deep about their culture. You will see their traditional technology to make colorful rug. Evening we are up to a highlight of the day to have "bisparmak" which are real Kazakh dishes prepared for respectful guests! Transfer to a temporary ger camp or local hotel upon arrival.</p>
+                                    <p><strong><em>Overnight in local hotel<br /> Meals: Dinner, Lunch & Dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Oct 3 – Day 4 Golden Eagle Festival - Opening Ceremony / Competition</div>
+                                <div class="box_content">
+                                    <p>The official opening ceremony commences with the participants parading in on horseback with their eagles. The competition begins with each Kazakh displaying his hunting outfit and accessories, the most elaborate and beautiful of which receive the highest points. In the afternoon, the judges will evaluate the Golden Eagles’ speed and agility. The eagles will be released from a cliff with their owners standing below, signaling for the eagles to land upon their arms as they do while hunting. Those with the fastest times and best technique will be awarded the highest scores. In the evening, attend a Kazakh play in honor of the hunters and their eagles.</p>
+                                    <p><strong><em>Overnight in local hotel<br />Meals: Dinner, Lunch & Dinner </em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Oct 4 – Day 5 Golden Eagle Festivals & Awards Ceremony</div>
+                                <div class="box_content">
+                                    <p>The Golden Eagles will be released from a cliff to attack fox skins that will be dragged by their owner on horseback. The eagles will be judged on their success of grabbing the "fox", their speed, and "gripping" technique. As the points for the competitions are being tallied, the Kazakhs will compete in their traditional game called "kukbar"- passing goat skin which tests one's horse riding skills, strength and agility. In the late afternoon, the winners of the festival will be announced at the awards ceremony. In the evening, enjoy a celebration dinner. </p>
+                                    <p><strong><em>Overnight in local hotel<br /> Meals: Dinner, Lunch & Dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Oct 5 - Day 6 Fly back to Ulaanbaatar </div>
+                                <div class="box_content">
+                                    <p>After breakfast, we will transfer to airport for return flight to Ulaanbaatar. In the afternoon there is more to see here upon arrival if you are interested, such as a visit to the Bogd Khan Winter Palace Museum, a residence of Bodg Jabzan Damba Hutagt VIII whom was Mongolia's last theocrat. Or take a leisurely stroll through the town center. In the evening perhaps you can enjoy a farewell dinner and attend the local folklore dance shows.</p>
+                                    <p><strong><em>Overnight in 4* hotel<br /> Meals: Dinner, Lunch & Dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">Oct 6 – Day 7 Departure</div>
+                                <div class="box_content">
+                                    <p>Check out from hotel and transfer to Chinggis Khaan International airport or Ulaanbatar train station for departure.</p>
+                                    <p><strong><em><br /> </em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            {# buttons #}
+                            <a class="btn btn_default" href="{{ path('booking') }}"><span>BOOK TRIP</span></a>
+                            <a class="btn btn_blue addthis_button_email" title="Send to a friend"><i class="icon icon-envelope-alt"></i> <span>SEND TO A FRIEND</span></a>
+                            {#<a class="btn btn-info" href="{{ path('request_quote',{'slug':slug}) }}">REQUEST A QUOTE</a>#}
+                            {% if tour.pdf is defined and tour.pdf is not null %}
+                                <a class="btn btn_cyan" href="{{ path('download_pdf',{'slug':tour.pdf}) }}"><span>DOWNLOAD PDF</span></a>
+                            {% else %}
+                                <a class="btn btn_cyan" href="{{ path('request_quote',{'slug':slug}) }}"><span>REQUEST A QUOTE</span></a>
+                            {% endif %}
+                            <script type="text/javascript">var addthis_config = {'services' : 'facebook,twitter,email,more', "data_track_addressbar":true};</script>
+                            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52b596d25b76435f"></script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sidebar -->
+            <div class="sidebar">
+                <div class="box">
+
+                    <!-- widget_categories -->
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title">Trip snapshot</h3>
+                        <b style="color: #B28E1B">Tour length:</b> <span>7 days, 6 nights</span>
+                        <br/>
+                        <b style="color: #B28E1B">Available time:</b> <span>{{ tour.availableTime }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Region:</b> <span>{{ tour.region }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Price:</b> <span>$2395</span>
+                        <br/>
+                        <b style="color: #B28E1B">Single supplement:</b> <span>$550</span>
+                        <br/>
+                    </div>
+                    <!--/ widget_categories -->
+
+                    {#
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title">Travel map</h3>
+                        <a href="{{ tour.mapLarge }}" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="{{ tour.map }}" width="380" class="frame_box"/></a>
+                    </div>
+                    #}
+
+                    <!-- widget_recent_comments -->
+                    <div class="widget-container widget_popular">
+                        <h3 class="widget-title">Highlights</h3>
+                        <ul>
+                            {% for highlight in tour.highlights %}
+                            <li><a href="javascript:;">{{ highlight }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <!--/ widget_recent_comments -->
+
+                    <div class="widget-container widget_popular">
+                        <h3 class="widget-title">Discount</h3>
+                        <strong>Discount for children:</strong>
+                        <br/>&nbsp;&nbsp;70% for children 0-5 years old
+                        <br/>&nbsp;&nbsp;25% for children 5-12 years old
+
+                        <br/><strong>Discount for tour leader:</strong>
+                        <br/>&nbsp;&nbsp;100% 	by 15 and more!
+                    </div>
+
+                    <!-- login widget -->
+                    <div class="widget-container widget_login">
+                        <h2>Quick inquiry</h2>
+
+                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform" novalidate>
+
+                            {% for message in app.session.getFlashBag.get('inquiry') %}
+                                <mark style="padding: 10px;display: block;"> {{ message }}</mark>
+                            {% endfor %}
+
+                            <p><label>Your name</label><br>
+                                {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your email address</label><br>
+                                {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your phone number</label><br>
+                                {{ form_widget(form.phone, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your message</label><br>
+                                {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
+                            <div style="display: none">
+                                {{ form_widget(form.phone2, { 'attr': {'class': 'input'} }) }}
+                            </div>
+
+                            {{ form_rest(form) }}
+                            <p class="submit">
+                                <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
+                            </p>
+                        </form>
+                    </div>
+                    <!--/ login widget -->
+
+                    <!-- subscribe buttons -->
+                    <div class="widget-container subscribe_btn">
+                        {#<mark style="padding: 10px;display: block;">OFFER 10% May sale discount</mark>#}
+                        <br/>
+                        <div>
+                            <a href="{{ path('page_show', {'slug':'trip-calendar-2015'}) }}"><img src="/images/group_travel_2014.jpg" alt="Join our group travel 2014"/></a>
+                        </div>
+                    </div>
+                    <!--/ subscribe buttons -->
+
+                </div>
+
+                <div class="sb sb_dark">
+                    <div class="box_title">Included</div>
+                    <div class="box_content">
+                        <div class="entry">
+                            <div class="list_check">
+                                <ul>
+                                    <li>Shared accommodation in ger camp </li>
+                                    <li>All meals as listed in itinerary</li>
+                                    <li>All entrance fees</li>
+                                    <li>Sightseeing as per itinerary</li>
+                                    <li>Accommodation in 4 stars hotel in Ulaanbaatar (twin standard room double occupancy)</li>
+                                    <li>Transportations by 4WD vehicles</li>
+                                    <li>English speaking guide (other language guide on request)</li>
+                                    <li>Daily supply of bottled water, Domestic flight</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="sb sb_dark">
+                    <div class="box_title">Not included</div>
+                    <div class="box_content">
+                        <div class="entry">
+                            <div class="list_delete">
+                                <ul>
+                                    <li>International airfare</li>
+                                    <li>Travel insurance</li>
+                                    <li>Beverages</li>
+                                    <li>Optional activity cost</li>
+                                    <li>Excess baggage charge</li>
+                                    <li>Single room supplement</li>
+                                    <li>Any additional things which are not mentioned above </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="sb sb_blue">
+                    <div class="box_title">Testimonial</div>
+                    <div class="box_content">
+                        <div class="slider_quotes" style="margin-top: 45px;">
+                            <div class="slider-item">
+                                {% if tour.testimonial is defined %}
+                                    <div class="quote-text">
+                                        {{ tour.testimonial|raw }}
+                                    </div>
+                                {% else %}
+                                    <div class="quote-text">
+                                        <strong>Hello Soyoloo</strong><br/><p>Just want to thank you for your wonderful hospitality and expert tour guiding during our trip to Mongolia.  We loved visiting the Husai National Park and exploring the city of Ulaanbaatar.  Our favorite part of the trip was seeing the beautiful countryside and encountering wild horses, camels and eagles.
+                                            Thank you so much for showing us around and making sure our trip was a success.  We also enjoyed our driver, Zoloo.  Look forward to planning our next adventure with you.
+                                        </p></div>
+                                    <div class="quote-author">
+                                        <strong>Lisa Berkman, Tour group from USA</strong>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!--/ sidebar -->
+        </div>
+    </div>
+{% endblock %}

@@ -15,6 +15,62 @@ class Tours
 {
     /** @var array */
     private $tours = array(
+        'eagle-festival-and-gobi-desert' => array(
+            'name' => 'Eagle Festival & Gobi Desert',
+            'layout' => 'eagle-festival-and-gobi-desert.html.twig',
+            'duration' => '12 days',
+            'duration2' => '12 days / 11 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'https://farm9.staticflickr.com/8654/15738310260_29d271f9aa_z.jpg',
+                'https://farm8.staticflickr.com/7576/15739465059_86c4c955ee_z.jpg',
+                'https://farm9.staticflickr.com/8638/15923641861_49fb59381b_z.jpg',
+                'https://farm8.staticflickr.com/7483/15739576239_7b444be51e_z.jpg',
+            ),
+            'region' => 'Western & Southern part of Mongolia.',
+            'availableTime' => '25th of Septemer – 6th of October',
+            'map' => 'https://farm4.staticflickr.com/3872/15368668506_1bf7ecaabb_m.jpg',
+            'mapLarge' => 'https://farm4.staticflickr.com/3872/15368668506_8ca8785279_k.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "<p>This trip gives you a chance to enjoy amazing Gobi Desert. The Gobi is not just sand and gravel and dead animals. It diversifies into mountains and evergreen forest and geological freak shows - including a dune system as long and high as a mountain range - and sustains an array of endangered species that includes wild ass, wild camels and snow leopards.</p>
+            <p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes. </p>
+            <p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
+            'testimonial' => "",
+
+        ),
+
+        'golden-eagle-festival' => array(
+            'name' => 'Golden Eagle Festival 2015',
+            'layout' => 'golden-eagle-festival.html.twig',
+            'duration' => '7 days',
+            'duration2' => '7 days / 6 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'https://farm9.staticflickr.com/8601/15738197880_483a791cb4_z.jpg',
+                'https://farm8.staticflickr.com/7576/15739465059_86c4c955ee_z.jpg',
+                'https://farm8.staticflickr.com/7528/15899682736_9acc5cf51a_z.jpg',
+            ),
+            'region' => 'Western part of Mongolia.',
+            'availableTime' => '30th of Septemer – 6th of October',
+            'map' => 'https://farm4.staticflickr.com/3872/15368668506_1bf7ecaabb_m.jpg',
+            'mapLarge' => 'https://farm4.staticflickr.com/3872/15368668506_8ca8785279_k.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "<p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes.</p>
+            <p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
+            'testimonial' => "",
+
+        ),
+
         'a-classic-journey-of-mongolia-with-naadam-festival' => array(
             'name' => 'A Classic Journey of Mongolia with Naadam Festival',
             'layout' => 'a-classic-journey-of-mongolia-with-naadam-festival.html.twig',
@@ -907,6 +963,8 @@ centuries.</p>",
             'Horse riding in central part of Mongolia' => 'Horse riding in central part of Mongolia',
             'Khuvsgul lake tour' => 'Khuvsgul lake tour',
             'Gobi Desert tour' => 'Gobi Desert tour',
+            'Golden Eagle Festival' => 'Golden Eagle Festival',
+            'Eagle Festival and Gobi Desert' => 'Eagle Festival & Gobi Desert',
             'Buddhism tour' => 'Buddhism tour',
             'Winter festival tour' => 'Winter festival tour',
             'Mountain bike tour' => 'Mountain bike tour',
