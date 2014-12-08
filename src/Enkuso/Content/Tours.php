@@ -20,7 +20,6 @@ class Tours
             'layout' => 'eagle-festival-and-gobi-desert.html.twig',
             'duration' => '12 days',
             'duration2' => '12 days / 11 nights',
-            'type' => 'cultural',
             'highlights' => array(
             ),
             'pictures' => array(
@@ -49,7 +48,6 @@ class Tours
             'layout' => 'golden-eagle-festival.html.twig',
             'duration' => '7 days',
             'duration2' => '7 days / 6 nights',
-            'type' => 'cultural',
             'highlights' => array(
             ),
             'pictures' => array(

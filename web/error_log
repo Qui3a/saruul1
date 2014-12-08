@@ -36,3 +36,23 @@ Stack trace:
  in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
 [28-Nov-2014 18:02:42 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/bayangol-hotel.html.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
  in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
+[02-Dec-2014 16:50:54 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/ramada-hotel.html.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
+[03-Dec-2014 13:41:19 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/function.file-get-contents.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
+[06-Dec-2014 12:11:20 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/index.html.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
+[07-Dec-2014 17:53:25 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/index.html.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
+[07-Dec-2014 18:16:25 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/ramada-hotel.html.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
+[07-Dec-2014 18:58:57 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/terelj-hotel.html.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
+[07-Dec-2014 19:03:44 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/kempinski-hotel.html.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
+[07-Dec-2014 19:09:48 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/bayangol-hotel.html.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
+[07-Dec-2014 19:10:04 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/springs-hotel.html.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
+[08-Dec-2014 04:00:02 Asia/Ulaanbaatar] PHP Warning:  file_get_contents(http://tourapi.88125925.com/hotel/ramada-hotel.html.json) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/hope2me/www.travelallmongolia.com/src/Enkuso/Controller/PageControllerProvider.php on line 152
