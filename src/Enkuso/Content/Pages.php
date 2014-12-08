@@ -519,7 +519,7 @@ Cancellation Fees: <br/>
 
         ),
         'trip-calendar-2015' => array(
-            'title' => 'JOIN OUR GROUP TRAVEL 2015',
+            'title' => 'JOIN OUR SMALL GROUP TRAVEL 2015',
             'body' => '',
             'content' => 'trip_calendar.html',),
         'privacy-policy' => array(
