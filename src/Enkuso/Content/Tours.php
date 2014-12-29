@@ -15,6 +15,33 @@ class Tours
 {
     /** @var array */
     private $tours = array(
+        'unparalleled-luxury-tour' => array(
+            'name' => 'Unparalleled Luxury Tour',
+            'layout' => 'unparalleled-luxury-tour.html.twig',
+            'duration' => '10 days',
+            'duration2' => '10 days / 9 nights',
+            'highlights' => array(
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'https://farm4.staticflickr.com/3910/15205356478_874cbe9e55_z.jpg',
+                'https://farm3.staticflickr.com/2941/15391619012_07e24500b8_z.jpg',
+            ),
+            'region' => 'Central & Southern part of Mongolia.',
+            'availableTime' => 'May 15-24, June 15-24, July 20-29 and August 10-19',
+            'map' => 'https://farm3.staticflickr.com/2944/15331001095_36360eea6d.jpg',
+            'mapLarge' => 'https://farm3.staticflickr.com/2944/15331001095_36360eea6d_b.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => 'unparalleled-luxury-tour',
+            'itinerary' => '',
+            'overview' => "<p>When you travel with Travel All Mongolia you will experience the very best of our country and become totally immersed in what makes our little corner of the world so great such as the beauty of our landscapes, the charm of our people, the embrace of our culture and the warmth of our welcome.</p>
+<p>We specialize in luxury travel so our trips include five star hotels and luxury lodge and resorts as well.</p>
+<p>By choosing our company, you will receive the highest level of professional service - a quality that sets us apart from other tour companies. We'll arrange for you to stay in the finest 5 star luxury hotels, lodges, and resorts with private en-suite bathrooms.</p>",
+            'testimonial' => "<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide, we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight.  The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated.  Everything else was great.  This was one of the best trips I have ever taken.  Thank you for offering it to us so we could see your wonderful country first hand.</p>
+            <strong>Sandra Bremer, USA</strong>",
+
+        ),
+
         'eagle-festival-and-gobi-desert' => array(
             'name' => 'Eagle Festival & Gobi Desert',
             'layout' => 'eagle-festival-and-gobi-desert.html.twig',
