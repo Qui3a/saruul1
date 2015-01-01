@@ -116,7 +116,7 @@ class Tours
             'map' => 'https://farm6.staticflickr.com/5569/15082222927_7673a79b42.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5569/15082222927_7673a79b42_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => null,
+            'pdf' => 'a-classic-journey-of-mongolia',
             'itinerary' => '',
             'overview' => "",
             'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
@@ -145,7 +145,7 @@ class Tours
             'map' => 'https://farm3.staticflickr.com/2944/15331001095_36360eea6d.jpg',
             'mapLarge' => 'https://farm3.staticflickr.com/2944/15331001095_36360eea6d_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => null,
+            'pdf' => 'luxury-tour-with-naadam-festival',
             'itinerary' => '',
             'overview' => "When you travel with Travel All Mongolia you will experience the very best of our country and become totally immersed in what makes our little corner of the world so great such as the beauty of our landscapes, the charm of our people, the embrace of our culture and the warmth of our welcome.
 <br/> We specialize in luxury travel so our trips include five star hotels and luxury lodge and resorts as well.
@@ -292,7 +292,7 @@ Thanks again Soyoloo It was really a great experience and filled with a lifetime
             'map' => 'https://farm4.staticflickr.com/3893/15331947735_2397de96b0_m.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3893/15331947735_43f59777b6_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => null,
+            'pdf' => 'jewels-of-mongolia',
             'itinerary' => '',
             'overview' => "<p>The focus of this trip is spending less time crossing the vast landscape of Mongolia by jeep, and more time trekking off the beaten track immersed in the landscape and this trip gives you a chance to enjoy amazing Gobi Desert, and traveling with pristine Khuvsgul Lake. We enable you to make a strong and personal connection with the locals and learn about life through the eyes of the nomad.  Travelling with us will be a small caravan of local horsemen and their horses and camels that will be taking our luggage and equipment.</p>",
             'testimonial' => "<p>Hello,
@@ -394,7 +394,7 @@ Tour group from USA September</strong>",
             'map' => 'https://farm4.staticflickr.com/3840/15216022058_4398cf1ed4_m.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3840/15216022058_f64af57ea9_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => null,
+            'pdf' => 'horse-trip-around-khuvsgul-lake',
             'itinerary' => '',
             'overview' => "<p>Ride in one of the most incredible places on earth, in the Khuvsgul National Park. Experience the real nomad lifestyle, endless steppe and great Gobi desert on horseback. The best horseback riding in Mongolia on magnificent untouched land! Riding the trails of the warriors of Chinggis Khan, admire the vast Mongolian steppes of his descendants, visit their homes, and share their traditions</p>",
             'testimonial' => "<p>When you think about Mongolia, the first thing that comes to your mind is Genghis Khan, the tales of his achievements and the strength of his warriors. And then the desert, the Gobi, the dunes. A strange landscape that makes us running with imagination in geography books. Mongolia is much more: it is a country of dust, sounds, never-ending silence, and endless landscapes, horizons that seem to grow without end and without obstacles. Mongolia is reflected in people's eyes: peaceful, calm, always helpful and kind, fair … almost noble in their attitudes. People who live in gers (a name which will not say anything to most of Italian people) but that indicates typical tents where the nomadic Mongols lived and still live. Without continuous light, no running water, no comfort, no division of rooms and even less without bathroom. A tent where every day at any time you find a thermos full of hot water or airag (fermented milk, with a slightly salty taste and alcohol), ready for guests. A small cluster, a small world open to anyone who passes. No matter whom he is, where he comes from, what language he speaks. Just stop on the road (dusty way, sometimes there is not even a path and the driver moves like following an invisible line in the middle of the landscape). Someone will arrive in the saddle of his horse or riding a motorcycle. Probably it will be a child (they are entrusted to their family’s herds) and he will immediately try to figure out how to help. Because you do not stop in the desert, if you do not really need to. You constantly travel, ride, go. And when you leave Ulaanbaatar (or UB, as they call it) you’ll see just that: a long and vast prairie, always changing. Rockets, desert, dunes, mountains and plains. One day you are in t-shirt with 35 ° C. The day after you are obliged to wear gloves and scarf! Heaven and earth meet and touch (average altitude above sea level is from 1000 meters at least, UB is 1330 meters) ... in some places you believe you can touch the clouds. So it is not surprising to find out that one of the main deities is Tenger, the god of the sky. During night the sky is so beautiful and wonderful: immense, starry, where you even look at the shades of blue in the Milky Way (yes, they are not colors you see only in books!)... A sky without interruption of artificial lights for miles, surrounded by a silence that you never imagined could exist. A place to visit because it is one of the few places remaining natural on earth, innocent ... where children still accept a gift collecting it with open hands. Where children do not know what is a deflated balloon. Just to see their eyes lighting in discovering it, it's worth flying up to Mongolia!</p>
@@ -529,7 +529,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
             'map' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371_b.jpg',
             'bs_img' => '/img/tour/em_main.jpg',
-            'pdf' => null,
+            'pdf' => 'taste-of-mongolia',
             'itinerary' => "",
             'overview' => "<p>The Gobi Desert is a dream destination for many travelers! You will get to explore Ulaanbaatar before flying into the South Gobi Desert to explore the world's largest sand dunes, the majestic 'flaming cliffs' where many dinosaur eggs were found, go for a camel ride, and then fly back to Ulaanbaatar to visit Mongolia's largest festival, the Naadam festival!</p>",
             'testimonial' => '<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide; we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight. The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated. Everything else was great.  This was one of the best trips I have ever taken. Thank you for offering it to us so we could see your wonderful country first hand.</p>
@@ -564,7 +564,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
             'map' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371_b.jpg',
             'bs_img' => '/img/tour/em_main.jpg',
-            'pdf' => null,
+            'pdf' => 'taste-of-mongolia-with-naadam-festival',
             'itinerary' => "",
             'overview' => "<p>The Gobi Desert is a dream destination for many travelers! You will get to explore Ulaanbaatar before flying into the South Gobi Desert to explore the world's largest sand dunes, the majestic 'flaming cliffs' where many dinosaur eggs were found, go for a camel ride, and then fly back to Ulaanbaatar to visit Mongolia's largest festival, the Naadam festival!</p>
 <p>Naadam is the one and only Big Event in Mongolia –a lively national festival, held every year from the 11th – 13th July. Naadam means “three manly games”. Known as the world’s second-oldest Olympics, it celebrates what defined civilization in the Steppes eight centuries ago; archery, wrestling and horse riding. The competitors in the riding events are all children aged between five and twelve, many of whom have been in the saddle since the age of one. As they race along the plains for 20 kilometers, thousands of spectators line the remote track to watch up to 650 children sitting confidently astride their small but sturdy Mongolian steed. It is claimed that such equestrian skills won Genghis Khan an empire that stretched from the Sea of Japan all the way to Europe. In recent times, women have been allowed to enter and they now compete in two of the three events, horse racing and archery. Once a religious ceremony, the festival now formally commemorates the 1921 revolution when Mongolia declared itself a free country.</p>",
