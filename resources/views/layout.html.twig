@@ -66,21 +66,34 @@
         <link rel="stylesheet" href="/css/prettyPhoto.css">
         <script src="/js/jquery.prettyPhoto.js"></script>
     {% endblock %}
-    <!--Start of Zopim Live Chat Script-->
-    <script type="text/javascript">
-        window.$zopim||(function(d,s){var z=$zopim=function(c){
-            z._.push(c)},$=z.s=
-                d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-                _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
-            $.src='//v2.zopim.com/?26yMcWeE6yTtZKTg8xzP15mRfyAPcchz';z.t=+new Date;$.
-                    type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
-    </script>
-    <!--End of Zopim Live Chat Script-->
+    {% if app.debug == false %}
+        <script language="javascript">
+            function clearData(){
+                window.clipboardData.setData('text','')
+            }
+            function cldata(){
+                if(clipboardData){
+                    clipboardData.clearData();
+                }
+            }
+            setInterval("cldata();", 1000);
+        </script>
+        <!--Start of Zopim Live Chat Script-->
+        <script type="text/javascript">
+            window.$zopim||(function(d,s){var z=$zopim=function(c){
+                z._.push(c)},$=z.s=
+                    d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+                    _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
+                $.src='//v2.zopim.com/?26yMcWeE6yTtZKTg8xzP15mRfyAPcchz';z.t=+new Date;$.
+                        type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
+        </script>
+        <!--End of Zopim Live Chat Script-->
+    {% endif %}
 </head>
 
 <body>
 
-<div class="{% block body_wrap_class %}body_wrap{% endblock %}">
+<div class="{% block body_wrap_class %}body_wrap{% endblock %}" {% if app.debug == false %}ondragstart="return false;" onselectstart="return false;"  oncontextmenu="return false;" onload="clearData();" onblur="clearData();"{% endif %}>
 {% include '_header.html.twig' %}
 {% block content %}{% endblock %}
 
