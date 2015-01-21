@@ -96,6 +96,11 @@ class Seo
             'description' =>  "Naadam festival is celebrated every year at 11-13th July in Central stadium. Mongolia celebrates its independence and its rich cultural heritage with a festival of sports and revelry in Ulaanbaatar.",
             'keyword' =>      "Naadam Festival 2015, Naadam Festival Tour, Naadam Festival Travel, Mongolian Naadam Festival, Naadam Festival"
         ),
+        'taste-of-mongolia-with-naadam-festival' => array(
+            'title' =>        "Naadam Festival 2015, Naadam festival 2015 dates, Mongolian Naadam Festival ",
+            'description' =>  "Naadam festival is celebrated every year at 11-13th July in Central stadium. Mongolia celebrates its independence and its rich cultural heritage with a festival of sports and revelry in Ulaanbaatar. ",
+            'keyword' =>      "Naadam Festival 2015, Mongolian Naadam Festival, Naadam Festival, Naadam Festival Tours "
+        ),
         # Pages
         'tourist-attractions' => array(
             'title' =>        "Adventure and Cultural Tours, Mongolia travel guide, Nomadic Adventures Mongolia, Mongolia tour travel, Mongolia tour packages",
