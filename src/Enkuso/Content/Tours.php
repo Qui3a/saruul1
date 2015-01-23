@@ -77,6 +77,17 @@ class Tours
             'duration2' => '15 days / 14 nights',
             'type' => 'cultural',
             'highlights' => array(
+                'Naadam Festival, horse racing, Archery and wrestling',
+                'Colorful opening ceremony',
+                'Gandantegchinlen Monastery, the largest and most significant monastery in Mongolia, and one of Ulaan Baatar’s most interesting sights',
+                'The Flaming Cliffs is the legendary site where the first nest of dinosaur eggs was discovered by famous American explorer and paleontologist Roy Chapman Andrews in the 1920’s',
+                'View the largest sand dunes in Mongolia at Khongoryn Els',
+                'Experience a camel ride with local nomads',
+                'Experience a Traditional Ger',
+                'Explore Gobi Gurvan Saikhan National Park',
+                'Visit the Hustai is the site of a unique re-introduction of Przewalski\'s Horse (Equus Przewalskii), called "takhi".',
+                'Visit the Bogdo Khaan Winter Palace Museum.  The Bogdo Khaan Winter Palace is the home of the last Mongolian King, Javzun Damba Khutagt VII.',
+                'Visit Karakorum was the 13th-century capital of the Mongol Empire',
             ),
             'pictures' => array(
                 // zuragnuud
@@ -104,6 +115,15 @@ class Tours
             'duration2' => '14 days / 13 nights',
             'type' => 'cultural',
             'highlights' => array(
+                'Gandantegchinlen Monastery, the largest and most significant monastery in Mongolia, and one of Ulaan Baatar’s most interesting sights',
+                'The Flaming Cliffs is the legendary site where the first nest of dinosaur eggs was discovered by famous American explorer and paleontologist Roy Chapman Andrews in the 1920’s',
+                'View the largest sand dunes in Mongolia at Khongoryn Els',
+                'Experience a camel ride with local nomads',
+                'Experience a Traditional Ger',
+                'Explore Gobi Gurvan Saikhan National Park',
+                'Visit the Hustai is the site of a unique re-introduction of Przewalski\'s Horse (Equus Przewalskii), called "takhi".',
+                'Visit the Bogdo Khaan Winter Palace Museum.  The Bogdo Khaan Winter Palace is the home of the last Mongolian King, Javzun Damba Khutagt VII. ',
+                'Visit Karakorum was the 13th-century capital of the Mongol Empire',
             ),
             'pictures' => array(
                 // zuragnuud
@@ -112,7 +132,7 @@ class Tours
                 'https://farm4.staticflickr.com/3852/15205063450_059a00292b_z.jpg',
             ),
             'region' => 'Central, Southern and Northern part of Mongolia.',
-            'availableTime' => '15-28th of June, 25th of July – 7th of August, 10-23rd of August, 1-14th of September',
+            'availableTime' => '15-28th of June, <br/>25th of July – 7th of August, <br/>2-15th of August, <br/>10-23th of August, <br/>15-28th of August, <br/>1-14th of September',
             'map' => 'https://farm6.staticflickr.com/5569/15082222927_7673a79b42.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5569/15082222927_7673a79b42_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',

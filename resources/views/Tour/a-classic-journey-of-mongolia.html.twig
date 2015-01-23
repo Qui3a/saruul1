@@ -232,7 +232,7 @@
                         <h3 class="widget-title">Trip snapshot</h3>
                         <b style="color: #B28E1B">Tour length:</b> <span>{{ tour.duration2 }}</span>
                         <br/>
-                        <b style="color: #B28E1B">Available time:</b> <span>{{ tour.availableTime }}</span>
+                        <b style="color: #B28E1B">Available time:</b> <span>{{ tour.availableTime|raw }}</span>
                         <br/>
                         <b style="color: #B28E1B">Region:</b> <span>{{ tour.region }}</span>
                         <br/>
@@ -267,8 +267,8 @@
                     <div class="widget-container widget_popular">
                         <h3 class="widget-title">Discount</h3>
                         <strong>Discount for children:</strong>
-                        <br/>&nbsp;&nbsp;70% for children 0-5 years old
-                        <br/>&nbsp;&nbsp;25% for children 5-12 years old
+                        <br/>&nbsp;&nbsp;100% for children 0-2 years old
+                        <br/>&nbsp;&nbsp;50% for children 3-12 years old
 
                         <br/><strong>Discount for tour leader:</strong>
                         <br/>&nbsp;&nbsp;100% 	by 15 and more!
