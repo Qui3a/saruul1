@@ -233,6 +233,7 @@
                     </div>
                     <!--/ widget_recent_comments -->
 
+                    {{ include('Tour/_discount.html.twig') }}
                     <!-- login widget -->
                     <div class="widget-container widget_login">
                         <h2>Quick inquiry</h2>
@@ -260,8 +261,6 @@
 
                     <!-- subscribe buttons -->
                     <div class="widget-container subscribe_btn">
-                        <mark style="padding: 10px;display: block;">OFFER 10% May sale discount</mark>
-                        <br/>
                         <div>
                             <a href="{{ path('page_show', {'slug':'trip-calendar-2014'}) }}"><img src="/images/group_travel_2014.jpg" alt="Join our group travel 2014"/></a>
                         </div>
