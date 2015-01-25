@@ -470,7 +470,7 @@ $mailer->send($mail); */
                     $app['mailer']->send($mail);
                 }
 
-                return $app->redirect($app['url_generator']->generate('booking_success'));
+                return $app->redirect($app['url_generator']->generate('request_airfare_quote_success'));
             }
 
             return $app['twig']->render('Page/request_airfare_quote.html.twig', array(
