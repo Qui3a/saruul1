@@ -460,7 +460,7 @@ $mailer->send($mail); */
 
                 if (stripos($message['comment'],"http://")===false) {
                     $mail = \Swift_Message::newInstance()
-                        ->setSubject('['.$app['company']['name'].'] Booking from '.$form->get('first_name')->getData())
+                        ->setSubject('['.$app['company']['name'].'] Request Airfare Quote from '.$form->get('first_name')->getData())
                         ->setFrom(array($form->get('email')->getData()))
                         ->setTo($app['company']['email'])
                         ->setBody($app['twig']->render('Page/_request_airfare_quote.html.twig', array(
