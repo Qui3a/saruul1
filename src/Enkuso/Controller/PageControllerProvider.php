@@ -247,15 +247,17 @@ $mailer->send($mail); */
 
                 $message = $form->getData();
 
-                $mail = \Swift_Message::newInstance()
-                    ->setSubject('['.$app['company']['name'].'] Booking from '.$form->get('first_name')->getData())
-                    ->setFrom(array($form->get('email')->getData()))
-                    ->setTo($app['company']['email'])
-                    ->setBody($app['twig']->render('Page/_booking.html.twig', array(
-                        'form'      => $message,
-                    )));
+                if (stripos($message['comment'],"http://")===false) {
+                    $mail = \Swift_Message::newInstance()
+                        ->setSubject('['.$app['company']['name'].'] Booking from '.$form->get('first_name')->getData())
+                        ->setFrom(array($form->get('email')->getData()))
+                        ->setTo($app['company']['email'])
+                        ->setBody($app['twig']->render('Page/_booking.html.twig', array(
+                            'form'      => $message,
+                        )));
 
-                $app['mailer']->send($mail);
+                    $app['mailer']->send($mail);
+                }
 
                 return $app->redirect($app['url_generator']->generate('booking_success'));
             }
@@ -424,6 +426,63 @@ $mailer->send($mail); */
             return $app['twig']->render('Page/catalog_success.html.twig', array(
             ));
         })->bind('catalog_success');
+
+        /** Request Airfare Quote page */
+        $controllers->get('request-airfare-quote/form', function() use ($app) {
+            $tours  = $app['content_tours']->getBookableTours();
+            $guides = array('English' => 'English');
+
+
+            $form = $app['form.factory']->create(new \Enkuso\Form\AirfareType(), array(), array(
+                'tours' => $tours,
+                'guides' => $guides,
+            ));
+
+            return $app['twig']->render('Page/request_airfare_quote.html.twig', array(
+                'form'      => $form->createView(),
+            ));
+        })->bind('request_airfare_quote');
+
+        $controllers->post('request-airfare-quote/send', function() use ($app) {
+            $tours  = $app['content_tours']->getBookableTours();
+            $guides = array('English' => 'English');
+
+            $form = $app['form.factory']->create(new \Enkuso\Form\AirfareType(), array(), array(
+                'tours' => $tours,
+                'guides' => $guides,
+            ));
+
+            $form->handleRequest($app['request']);
+
+            if ($form->isValid()) {
+
+                $message = $form->getData();
+
+                if (stripos($message['comment'],"http://")===false) {
+                    $mail = \Swift_Message::newInstance()
+                        ->setSubject('['.$app['company']['name'].'] Booking from '.$form->get('first_name')->getData())
+                        ->setFrom(array($form->get('email')->getData()))
+                        ->setTo($app['company']['email'])
+                        ->setBody($app['twig']->render('Page/_request_airfare_quote.html.twig', array(
+                            'form'      => $message,
+                        )));
+
+                    $app['mailer']->send($mail);
+                }
+
+                return $app->redirect($app['url_generator']->generate('booking_success'));
+            }
+
+            return $app['twig']->render('Page/request_airfare_quote.html.twig', array(
+                'form'      => $form->createView(),
+            ));
+        })->bind('request_airfare_quote_send');
+
+        $controllers->get('request-airfare-quote/sent', function() use ($app) {
+
+            return $app['twig']->render('Page/request_airfare_quote_success.html.twig', array(
+            ));
+        })->bind('request_airfare_quote_success');
 
         return $controllers;
     }

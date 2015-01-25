@@ -1,0 +1,115 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider8_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>Request Airfare Quote</span></strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a>  <span class="separator">&rsaquo;</span>
+                <span class="current">Request Airfare Quote</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <!-- middle -->
+<div id="middle" class="cols2">
+  <div class="container clearfix">
+    <!-- content -->
+    <div class="content">
+
+        <div class="entry">
+            <div class="contact_box">
+                <h2>REQUEST AIRFARE QUOTE</h2>
+
+                <div class="box_content clearfix">
+                    <form method="post" action="{{ path('booking_send') }}">
+
+                        {{ form_errors(form) }}
+
+                        <div class="form_col_2" style="margin-right: 30px;">
+                            <div class="row alignleft field_text">
+                                {{ form_label(form.tour) }} <br/>
+                                {{ form_widget(form.tour, { 'attr': {'class': 'select_styled'} }) }}
+                                {{ form_errors(form.tour) }}
+                            </div>
+                        </div>
+                        <div class="form_col_1" style="margin-right: 30px;">
+                            <div class="row alignleft field_text">
+                                {{ form_label(form.first_name) }}
+                                {{ form_widget(form.first_name, { 'attr': {'class': 'inputField required'} }) }}
+                                {{ form_errors(form.first_name) }}
+                            </div>
+                            <div class="row alignleft field_text">
+                                {{ form_label(form.city) }}
+                                {{ form_widget(form.city, { 'attr': {'class': 'inputField required'} }) }}
+                                {{ form_errors(form.city) }}
+                            </div>
+                            <div class="row alignleft field_text">
+                                {{ form_label(form.email) }}
+                                {{ form_widget(form.email, { 'attr': {'class': 'inputField required'} }) }}
+                                {{ form_errors(form.email) }}
+                            </div>
+                        </div>
+
+                        <div class="form_col_1" style="margin-right: 30px;">
+                            <div class="row alignleft field_text">
+                                {{ form_label(form.last_name) }}
+                                {{ form_widget(form.last_name, { 'attr': {'class': 'inputField required'} }) }}
+                                {{ form_errors(form.last_name) }}
+                            </div>
+                            <div class="row alignleft field_text">
+                                {{ form_label(form.phone) }}
+                                {{ form_widget(form.phone, { 'attr': {'class': 'inputField required'} }) }}
+                                {{ form_errors(form.phone) }}
+                            </div>
+                        </div>
+
+                        <div class="form_col_2">
+                            <div class="row alignleft field_text">
+                                {{ form_label(form.comment) }}
+                                {{ form_widget(form.comment, { 'attr': {'class': 'textareaField required'} }) }}
+                                {{ form_errors(form.comment) }}
+                            </div>
+                        </div>
+
+                        {{ form_rest(form) }}
+
+                        <div class="form_col_3">
+                            <div class="row rowSubmit clearfix">
+                                <button type="submit" value="Book now" id="send" class="btn btn-submit">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!-- sidebar -->
+      <div class="sidebar" style="margin-top: 35px;">
+          <div class="box">
+              <div style="margin: 10px;">
+                  {% include 'Page/_contact_information.html.twig' %}
+              </div>
+              <!-- subscribe buttons -->
+              <div class="widget-container subscribe_btn">
+                  <div>
+                      <a href="{{ path('page_show', {'slug':'trip-calendar-2015'}) }}"><img src="/images/group_travel_2014.jpg" alt="Join our group travel 2015"/></a>
+                  </div>
+              </div>
+              <!--/ subscribe buttons -->
+
+          </div>
+      </div>
+      <!--/ sidebar -->
+  </div>
+</div>
+{% endblock %}
