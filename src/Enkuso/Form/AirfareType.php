@@ -33,6 +33,8 @@ class AirfareType extends AbstractType
         $builder->add('city', 'text', array('label'=>'City you would like to depart from?'));
         $builder->add('tour', 'choice', array('choices' => $options['tours'], 'label' => 'Name of tour'));
         $builder->add('comment', 'textarea', array('label'=>'Comment'));
+        $builder->add('arrival_date', 'text', array('label'=>'Arrival date'));
+        $builder->add('departure_date', 'text', array('label'=>'Departure date'));
     }
 
     public function getDefaultOptions(array $options)
@@ -75,6 +77,8 @@ class AirfareType extends AbstractType
                         'choices' => array_keys($options['tours'])
                     )),
                 'comment'   => new Assert\NotBlank(),
+                'arrival_date'   => new Assert\NotBlank(),
+                'departure_date'   => new Assert\NotBlank(),
             ),
             'allowExtraFields'  => true,
         ));
