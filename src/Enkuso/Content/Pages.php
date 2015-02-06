@@ -479,9 +479,13 @@ Cancellation Fees: <br/>
         'about-us' => array(
             'title' => 'About Us',
             'body' => '<div style="font-size: 18px !important;">
-<p>Have you ever fantasized about riding a horse in the Mongolia like Genghis Khan did?  For over 10 years, we at Travel All Mongolia have turned those dreams into reality. With skills and expertise, unique travel experiences can be crafted to fit individual needs,  interests and physical abilities. Clients from around the world have given us raves.</p>
-<p>Travel All Mongolia fashions individual luxury packages for couples, families and  corporate incentive programs groups.  Some of our wide range of high quality services comprise of horse and camel-back riding, Gobi Desert exploration, research and study tours, trekking adventures and overland jeep tours across Mongolia. Trans-Siberian Railway tours and train ticket reservations and kayaking are also available. All meals, professional drivers, knowledgeable tour guides and local domestic flights are part of our package. Luxury accommodations include five-star luxury hotels, lodges,  and yurts with en-suite bathroom. Book your international flights to and from Ulaanbaatar, Mongolia,  let us know your arrival and departure dates and we will do the rest.</p>
-<p>Travel All Mongolia Team</p>
+
+                <p>Travel All Mongolia invites you to join us this coming summer for an experience of lifetime in the awesome landscapes of Mongolian, from mountains, to lakes, to hot dry desert, to rolling hills of open grassland. A land of undiscovered nature and a unique culture of unforgettable experiences of nomadic herdsman heritage that spans thousands of years since antiquity.</p>
+                <p>We offer you a variety of trips throughout Mongolia including but not limited to, horse rides across the landscape, camel rides, visits to the Gobi desert for tours, research, and study, trekking adventures across Mongolia,Trans-Siberian tours, train ticket booking, horse and camel tours, kayak tours, andjeep tours by road. All you need to do is book your flight to Ulaanbaatar, the capital of Mongolia and inform us of your arrival and departure dates, along with what you are interested in doing in Mongolia on your tour here. We will custom plan your stay for you.</p>
+                <p>From the moment of your arrival, until your departure, leave the planning to us and just enjoy your adventure. All of our trips include your meals, professional drivers and tour guides who are experts in showing you around our beautiful countryside.</p>
+                <p>You can travel to Mongolia by rail on the Trans-Siberian Express, from Beijing, People\'s Republic of China (PRC), or fly in to Ulaanbaatar on China Airlines from Beijing PRC, MIAT Mongolian Airlines, Aeroflot from Moscow, Korean Air from Seoul, South Korea, or directly on Mongolian Airlines from Beijing, China, PRC or Berlin, Germany.</p>
+                <p>Yours sincerely <br/>
+                    Travel All Mongolia Team</p>
 </div>',
         ),
         'why-travel-with-us' => array(
