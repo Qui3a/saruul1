@@ -125,12 +125,14 @@ $app['company'] = array(
 );
 $app['upload_dir'] = __DIR__.'/../web/uploads';
 $app['slides'] = array(
-    array('src' => '/images/slider11_mini.jpg', 'alt' => 'Taste of Mongolia', 'caption' => '', 'link' => '/tour/taste-of-mongolia.html'),
-    array('src' => '/images/slider7_mini.jpg', 'alt' => 'Naadam Festival Journey', 'caption' => '<p style="font-size: 22px;">July 23 - Aug 2</p><p>The Gobi Desert and the mountainous Mongolian steppe are the stuff of legend, but guided horseback expeditions, <br/>led by local herdsmen and supplied by yaks shouldering equipment and supplies, are coloring this myth with reality.</p>', 'link' => '/tour/taste-of-mongolia-with-naadam-festival.html'),
-    array('src' => '/images/slider6_mini.jpg', 'alt' => 'Treasures of Mongolia', 'caption' => '<p><i>We have had an unspeakably delightful journey, one of those journeys which seem to divide one\'s life in two, <br/>by the new ideas they suggest and the new views of interest they open. George Eliot (Mary Ann Evans) (1819 - 1880)</i></p>', 'link' => '/tour/treasures-of-mongolia.html'),
-    array('src' => '/images/slider1_mini.jpg', 'alt' => 'Khuvsgul Lake Tour', 'caption' => '<p style="font-size: 15px; color: #ffffff; background-color: rgba(0,0,0,0.7); padding: 5px; opacity: 0.7;">With Five-Star accommodations and lodges are chosen throughout for the best in Affordable Luxury. <br/>Mongolian Luxury Tours invites you on a journey of discovery with exciting, time-tested itineraries <br/>and attentive personal service in addition to exceptional value and Affordable Luxury.</p>', 'link' => '/tour/khuvsgul-lake-tour.html'),
-    array('src' => '/images/slider5_mini.jpg', 'alt' => 'Gobi Desert tour', 'caption' => '<br/><p>This tour highlights the amazing Gobi Desert - a diversity of mountains, evergreen forests, sand dunes, and geological wonders.</p>', 'link' => '/tour/gobi-desert-tour.html'),
-    array('src' => '/images/slider9_mini.jpg', 'alt' => 'Bird watching trip', 'link' => '/tour/bird-watching-trip.html'),
+    array('src' => '/images/slider/1.jpg', 'link' => '/tour/a-classic-journey-of-mongolia-with-naadam-festival.html'),
+    array('src' => '/images/slider/2.jpg', 'link' => '/tour/jewels-of-mongolia.html'),
+    array('src' => '/images/slider/3.jpg', 'link' => '/tour/a-classic-journey-of-mongolia.html'),
+    array('src' => '/images/slider/4.jpg', 'link' => '/tour/unparalleled-luxury-tour.html'),
+    array('src' => '/images/slider/5.jpg', 'link' => '/tour/luxury-tour-with-naadam-festival.html'),
+    array('src' => '/images/slider/6.jpg', 'link' => '/tour/taste-of-mongolia.html'),
+    array('src' => '/images/slider/7.jpg', 'link' => '/tour/treasures-of-mongolia.html'),
+    array('src' => '/images/slider/8.jpg', 'link' => '/tour/eagle-festival-and-gobi-desert.html'),
 );
 // registering the KnpMenu extension
 $app->register(new \Knp\Menu\Silex\KnpMenuServiceProvider());

@@ -405,16 +405,18 @@ Frederic Joliot-Curie Street 52&nbsp;<br />1113 Sofia, Bulgaria&nbsp;<br />Tel: 
 <p>Payments are accepted by bank transfer, or international money transfer services. Travel All Mongolia Co., Ltd. Will not be held responsible for payments sent by postal service.</p>
 
 <p>The trip balance, which is 70% of the total land cost, is due 60 days prior to your departure date. If payment is not received by the due date, your reservation may be subject to cancellation and cancellation fees may apply. Bookings made within 60 days of the departure date will require full payment.</p>
-<br/><h4>Cancellation & Refund</h4>
+
+
+<br/><h4>Cancellation and refund </h4>
 <p>Notice of cancellation and refund request must be received in written form.
 Cancellation Fees: <br/>
 - 25% cancellation charge for all tours cancelled within 30-60 days of arrival. <br/>
 - 50% cancellation charge for all tours cancelled within 15-30 days of arrival. <br/>
 - 100% cancellation charge for all tours cancelled within 15 days of arrival. </p>
 
-<p>We reserve the right to cancel any trip prior to departure for any reason whatsoever, including insufficient signup or logistical problems that may impede trip operations. If a trip is canceled due to force majeure (acts of God, war, labor strikes, earthquake, flooding, government rules etc.), we will promptly refund the portion of the trip cost not already advanced to suppliers and use its best efforts to recover and refund the balance as promptly as possible. However, we do not guarantee recovery of any or all of the advance payments made, and our use of best efforts to recover these payments will not include the institution of any legal proceedings in foreign jurisdictions. We are not responsible for expenses incurred by trip members in preparing for a canceled trip (e.g., non refundable advance purchase air tickets, visa fees, inoculations, equipment, etc.) or for any additional arrangements should the trip member have embarked prior to the scheduled group departure date.</p>
+<p>We reserve the right to change any itinerary prior to departure for less than three passengers.  With a minimum of two passengers, all tours will depart.  If a trip is canceled due to force majeure (acts of God, war, labor strikes, earthquake, flooding, government rules etc.), we will promptly refund the portion of the trip cost not already advanced to suppliers and use OUR best efforts to recover and refund the balance as promptly as possible. However, we do not guarantee recovery of any or all of the advance payments made, and our use of best efforts to recover these payments will not include the institution of any legal proceedings in foreign jurisdictions. We are not responsible for expenses incurred by trip members in preparing for a canceled trip (e.g., non refundable advance purchase air tickets, visa fees, inoculations, equipment, etc.) or for any additional arrangements should the trip member have embarked prior to the scheduled group departure date. Travel insurance fee, visa fee, and visa handling fee are non-refundable. Since most airline tickets are discounted in our tour packages, refund may be subject to penalty from supplier/airline, may not be in full face value, and may require prepayment of processing fee to Travel All Mongolia. Travel insurance is optional and strongly suggested for all international travel.</p>
 
-<p>Travel insurance fee, visa fee, and visa handling fee are non-refundable. Since most airline tickets are discounted in our tour packages, refund may be subject to penalty from supplier/airline, may not be in full face value, and may require prepayment of processing fee to Travel All Mongolia. </p>",
+",
         ),
         'frequently-asked-questions' => array(
             'title' => 'Frequenty Asked Questions',
