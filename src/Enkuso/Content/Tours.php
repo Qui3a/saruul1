@@ -45,7 +45,7 @@ class Tours
         ),
 
         'golden-eagle-festival' => array(
-            'name' => 'Golden Eagle Festival 2015',
+            'name' => 'Golden Eagle Festival 2016',
             'layout' => 'golden-eagle-festival.html.twig',
             'duration' => '7 days',
             'duration2' => '7 days / 6 nights',

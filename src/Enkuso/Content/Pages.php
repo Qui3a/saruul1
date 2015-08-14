@@ -524,8 +524,8 @@ Cancellation Fees: <br/>
             'content' => 'travel-accomodations.html'
 
         ),
-        'trip-calendar-2015' => array(
-            'title' => 'JOIN OUR SMALL GROUP TRAVEL 2015',
+        'trip-calendar-2016' => array(
+            'title' => 'JOIN OUR SMALL GROUP TRAVEL 2016',
             'body' => '',
             'content' => 'trip_calendar.html',),
         'privacy-policy' => array(

@@ -92,14 +92,14 @@ class Seo
             'keyword' =>      "Mongolia horse tour, riding tours, riding treks in Mongolia, Mongolia adventure horse trip, Mongolia adventure horse tours"
         ),
         'a-classic-journey-of-mongolia-with-naadam-festival' => array(
-            'title' =>        "Naadam Festival 2015, Naadam Festival Tour, Naadam Festival Travel",
+            'title' =>        "Naadam Festival 2016, Naadam Festival Tour, Naadam Festival Travel",
             'description' =>  "Naadam festival is celebrated every year at 11-13th July in Central stadium. Mongolia celebrates its independence and its rich cultural heritage with a festival of sports and revelry in Ulaanbaatar.",
-            'keyword' =>      "Naadam Festival 2015, Naadam Festival Tour, Naadam Festival Travel, Mongolian Naadam Festival, Naadam Festival"
+            'keyword' =>      "Naadam Festival 2016, Naadam Festival Tour, Naadam Festival Travel, Mongolian Naadam Festival, Naadam Festival"
         ),
         'taste-of-mongolia-with-naadam-festival' => array(
-            'title' =>        "Naadam Festival 2015, Naadam festival 2015 dates, Mongolian Naadam Festival ",
+            'title' =>        "Naadam Festival 2016, Naadam festival 2016 dates, Mongolian Naadam Festival ",
             'description' =>  "Naadam festival is celebrated every year at 11-13th July in Central stadium. Mongolia celebrates its independence and its rich cultural heritage with a festival of sports and revelry in Ulaanbaatar. ",
-            'keyword' =>      "Naadam Festival 2015, Mongolian Naadam Festival, Naadam Festival, Naadam Festival Tours "
+            'keyword' =>      "Naadam Festival 2016, Mongolian Naadam Festival, Naadam Festival, Naadam Festival Tours "
         ),
         # Pages
         'tourist-attractions' => array(
