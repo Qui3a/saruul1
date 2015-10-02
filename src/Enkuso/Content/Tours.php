@@ -66,7 +66,17 @@ class Tours
             'itinerary' => '',
             'overview' => "<p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes.</p>
             <p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
-            'testimonial' => "",
+            'testimonial' => '<p>Travel All Mongolia put on an excellent tour, well organized with
+            comfortable vehicles, functional & comfortable Ger camps, and a very
+            knowledgeable and personable guide whose love for her country shows.  We
+            were well taken care of from the time we landed in UB until we departed
+            UB. The itinerary brought us to numerous major landmarks in less than
+            two weeks, although the fast pace did require significant travel time
+            each day.  We truly enjoyed the Gobi, your beautiful & majestic national
+            parks, eating local food, learning about your country’s religion,
+            history and culture, meeting local nomadic families and learning about
+            their way of life.  I highly recommend experiencing Mongolia through
+            "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
 
         ),
 
