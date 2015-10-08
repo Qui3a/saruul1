@@ -302,12 +302,14 @@ Thanks again Soyoloo It was really a great experience and filled with a lifetime
             'duration2' => '10 days / 9 nights',
             'type' => 'cultural',
             'highlights' => array(
-                'Bayanzag Flaming Cliff',
-                'Khongor Sand Dune',
-                'Yol Valley',
-                'Awesome Khuvsgul Lake',
-                'Reindeer',
-                'Visit nomad families',
+                'Stay in the cozy ger camps whilst travelling around the Mongolian wilderness',
+                'Wild, unspoilt terrain populated by nomads',
+                "Enjoy the hospitality of the local people by visiting a local family ‘ger’",
+                'See the massive sand dunes of the Gobi Desert',
+                'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                'Visit Mongolia’s renowned national parks.',
+                'Kharakhorum, site of ancient monasteries and location of the ancient Mongol Empire\'s capital',
+                'Flaming Cliffs in the Gobi, where Roy Chapman Andrews discovered the first dinosaur eggs',
             ),
             'pictures' => array(
                 // zuragnuud
