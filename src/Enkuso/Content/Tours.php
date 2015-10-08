@@ -320,7 +320,7 @@ Thanks again Soyoloo It was really a great experience and filled with a lifetime
                 'https://farm3.staticflickr.com/2946/15205224280_fe2ab5482d_o.jpg',
             ),
             'region' => 'Southern and Northern part of Mongolia.',
-            'availableTime' => '10-19th of June, 17-26th of July',
+            'availableTime' => 'June 16-25, July 16-25, August 4-13, August 10-19, Sep 6-15',
             'map' => 'https://farm4.staticflickr.com/3893/15331947735_2397de96b0_m.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3893/15331947735_43f59777b6_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
