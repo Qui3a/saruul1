@@ -207,6 +207,11 @@ class Seo
             'description'   => 'Terelj National Park is situated to the north east of Ulan Bator and is quite a contrast to the desert just a few hundred kilometers to the south! Lush and verdant, the rolling green hills are surrounded by stunning rocky bluffs creating an extremely dramatic landscape.',
             'keyword'       => 'Tour Mongolia, Mongolia Travel Guide, Travel Mongolia, Mongolia Tours, Trips Mongolia, Journey Mongolia'
         ),
+        'mongolian-arts-and-culture' => array(
+            'title'         => 'Mongolian Arts and Culture',
+            'description'   => 'Mongolian Arts and Culture, The Tale of Khoomii, Long song of Mongolia, The Legend of a Long Song, Horse head fiddle: Morin khuur, Tsam dance',
+            'keyword'       => 'Mongolian Arts and Culture, The Tale of Khoomii, Long song of Mongolia, The Legend of a Long Song, Horse head fiddle: Morin khuur, Tsam dance'
+        ),
         'all' => array(
             'title' =>        "Mongolia Travel Guide, Tours Mongolia, Adventure Travel Mongolia, Active Adventure tours Mongolia, travel Mongolia",
             'description' =>  "Travel to Mongolia and discover adventure travel in a land of stark, barren and spectacular beauty, a world without boundaries, where vast plains are matched only by the enormous blue sky. This is nature on an almost unimaginable scale, dwarfing all who pass through it. The endless wilderness populated only by the nomadic peoples and their livestock who live day to day in the awe-inspiring landscape.",
