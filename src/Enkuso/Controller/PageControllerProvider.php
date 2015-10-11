@@ -40,6 +40,7 @@ class PageControllerProvider implements ControllerProviderInterface
         $controllers->get('/', function (Application $app) {
             $slides = array(
     array('src' => '/images/slider/1.jpg', 'link' => '/tour/a-classic-journey-of-mongolia-with-naadam-festival.html'),
+    array('src' => '/images/slider/9.jpg', 'link' => '/tour/overland-discovery.html'),
     array('src' => '/images/slider/2.jpg', 'link' => '/tour/jewels-of-mongolia.html'),
     array('src' => '/images/slider/3.jpg', 'link' => '/tour/a-classic-journey-of-mongolia.html'),
     array('src' => '/images/slider/4.jpg', 'link' => '/tour/unparalleled-luxury-tour.html'),
