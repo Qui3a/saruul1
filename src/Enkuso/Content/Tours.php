@@ -744,6 +744,43 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
         ),
 
+        'overland-discovery-with-rural-naadam-festival' => array(
+            'name' => 'Overland Discovery with Rural Naadam Festival in Karakorum',
+            'layout' => 'overland-discovery-with-rural-naadam-festival.html.twig',
+            'duration' => '16 days',
+            'duration2' => '16 days / 15 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+                'Magnificent Naadam Festival, Horse racing, Archery and Wrestling',
+                'Karakhorum, site of ancient monasteries and location of the ancient Mongol Empire&#039;s capital',
+                'Flaming Cliffs in the Gobi, where Roy Chapman Andrews discovered the first dinosaur eggs the world had ever seen',
+                'Ride camels and walk along Mongolia’s largest sand dunes at Khongor sand Dune',
+                'Stay in local Ger camps  ',
+                'Visiting Amarbayasgalant Monastery',
+                'Hiking through shore of Ugii Lake',
+                'Enjoy the hospitality of the local people by visiting a family ‘ger’',
+                'Explore Gobi Gurvan Saikhan National Park',
+                'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                'Soak in sensual natural hot springs',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'https://farm4.staticflickr.com/3856/15388563071_728d4021f8_z.jpg',
+            ),
+            'region' => 'Southern and Central part of Mongolia.',
+            'availableTime' => 'July 2-17',
+            'map' => 'https://farm6.staticflickr.com/5626/22094273121_e6241f4136_m.jpg',
+            'mapLarge' => 'https://farm6.staticflickr.com/5626/22094273121_57761d4370_k.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => 'overland-discovery-with-rural-naadam-festival',
+            'itinerary' => '',
+            'overview' => "",
+            'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
+<p>Thank you for looking after us so well.</p>
+<strong>Jane Ferguson Group from Australia</strong>",
+
+        ),
+
 
         /*
                 'splendors-of-mongolia' => array(
