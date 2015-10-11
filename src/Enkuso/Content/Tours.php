@@ -205,7 +205,7 @@ class Tours
                 'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
             ),
             'region' => 'Central, Southern and Northern part of Mongolia.',
-            'availableTime' => '',
+            'availableTime' => 'Feb 29, 2016',
             'map' => 'http://farm9.staticflickr.com/8209/8172475881_8f7461e575_o.jpg',
             'mapLarge' => 'http://farm9.staticflickr.com/8209/8172475881_8f7461e575_o.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',

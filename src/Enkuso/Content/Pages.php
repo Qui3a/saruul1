@@ -540,6 +540,10 @@ Cancellation Fees: <br/>
             'title' => 'Testimonials',
             'body' => '',
             'content' => 'testimonials.html',),
+        'mongolian-arts-and-culture' => array(
+            'title' => 'Mongolian Arts and Culture',
+            'body' => '',
+            'content' => 'mongolian-arts-and-culture.html',),
     );
 
     /**
