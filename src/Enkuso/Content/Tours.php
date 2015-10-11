@@ -703,278 +703,320 @@ I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. Soyol
                 "/img/birding/6_t.jpg",
             ),
         ),
-/*
-        'splendors-of-mongolia' => array(
-            'name' => 'Splendors of Mongolia',
-            'layout' => 'splendors_of_mongolia.html.twig',
-            'duration' => '10 days',
-            'duration2' => '10 days / 9 nights',
+
+        'overland-discovery' => array(
+            'name' => 'Overland Discovery',
+            'layout' => 'overland-discovery.html.twig',
+            'duration' => '15 days',
+            'duration2' => '15 days / 14 nights',
+            'type' => 'cultural',
             'highlights' => array(
-                'Explore the capital Ulaanbaatar and the Gandan Monastery',
-                'Marvel at the spectacular Gobi Desert',
-                'View the largest sand dunes in Mongolia at Khongoryn Els',
-                'Experience a camel ride with local nomads',
-                'Travel Overland through the legendary Gobi Desert.',
-                'Bayanzag (Flaming Cliffs) and Visit nomad families ',
-                'Observe wild horses called Przewalski horses',
-                'Terelj National Park & Turtle Rock',
+                'Karakhorum, site of ancient monasteries and location of the ancient Mongol Empire&#039;s capital',
+                'Flaming Cliffs in the Gobi, where Roy Chapman Andrews discovered the first dinosaur eggs the world had ever seen',
+                'Ride camels and walk along Mongolia’s largest sand dunes at Khongor sand Dune',
+                'Stay in local Ger camps ',
+                'Visiting Amarbayasgalant Monastery ',
+                'Hiking through shore of Ugii Lake',
+                'Enjoy the hospitality of the local people by visiting a family ‘ger’',
+                'Explore Gobi Gurvan Saikhan National Park',
+                'Explore the capital Ulaanbaatar and the Gandan Monaster',
+                'Soak in sensual natural hot springs',
             ),
             'pictures' => array(
-                'http://farm8.staticflickr.com/7312/10865390706_3e10d6a8a3_b.jpg',
-                'http:\/\/farm8.staticflickr.com\/7369\/10865387656_7816f0b3fe_b.jpg',
-                'http://farm4.staticflickr.com/3743/10865690713_e66630fdf0_b.jpg',
-                'http:\/\/farm6.staticflickr.com\/5522\/10865350955_20ce983b05_b.jpg',
-                'http://farm4.staticflickr.com/3677/10865388236_1bab50755d_b.jpg',
+                // zuragnuud
+                'https://farm4.staticflickr.com/3856/15388563071_728d4021f8_z.jpg',
             ),
-            'region' => 'Southern & Central part of Mongolia',
-            'availableTime' => 'May 01-October 1',
-            'map' => 'http://farm4.staticflickr.com/3810/13469183905_0c7268c026.jpg',
-            'mapLarge' => 'http://farm4.staticflickr.com/3810/13469183905_0c7268c026_b.jpg',
-            'bs_img' => '/img/tour/treasure_main.jpg',
-            'pdf' => 'splendors-of-mongolia',
-            'itinerary' => '<p>Day 1 Arrive in Ulaanbaatar</p>
-<p>Day 2 Cultural tour of Ulaanbaatar</p>
-<p>Day 3 Flight to Gobi Desert for 1.2 hours</p>
-<p>Day 4 Day trip to Flaming Cliffs and Sand Dune</p>
-<p>Day 5 Flight back to Ulaanbaatar &ndash; Terelj National Park</p>
-<p>Day 6 Drive to Hustai National Park</p>
-<p>Day 7 Take a flight to Khuvsgul Lake for 1.2 hours</p>
-<p>Day 8 Explore Khuvsgul Lake</p>
-<p>Day 9 Flight back to Ulaanbaatar</p>
-<p>Day 10 Departure</p>',
-            'overview' => '<p>From the time of Chinggis Khan, Mongolia has intrigued travelers with its open steppes, nomadic tribes and vast deserts. Our Classic Mongolia departure allows us to discover Mongolia today; a place where age old traditions and modern progress are converging; which is most evident in Ulaanbaatar. From the capitol we begin our cultural journey traveling to the steppe. Here we have a chance to meet the welcoming Mongolians and get a taste for their lives herding animals and wandering the plains. Always welcoming we will visit gers, traditional felt tents, and have a chance to share a tea and have unique cultural exchanges; the most memorable part of many travelers\' journeys.</p>',
-            'testimonial' => '<p>My wife and I, with our two adult sons, had a great family vacation with Mongolian Luxury Tours. Every day we saw beautiful places and very interesting aspects of Mongolian life and culture. The lakes, the high country and the Gobi were all very beautiful, as were the cultural artifacts. The people we met in herding families, in villages and in the capital were friendly, proud and smiling. The fauna, both domestic and wild was exotic and beautiful.
-We were very happy to have a Mongolian Luxury Tours provide for our trip to Mongolia, and we are delighted with the result.
-</p>
-<strong>Steve LaRocca<br/>USA</strong>',
-
-        ),
-
-        'gobi-and-beyond' => array(
-            'name' => 'Gobi & Beyond',
-            'layout' => 'gobi_and_beyond.html.twig',
-            'duration' => '7 days',
-            'duration2' => '7 days / 6 nights',
-            'highlights' => array(
-                'Marvel at the spectacular Gobi Desert',
-                'View the largest sand dunes in Mongolia at Khongoryn Els',
-                'Experience a camel ride with local nomads',
-                'Travel Overland through the legendary Gobi Desert.',
-                'Bayanzag (Flaming Cliffs) and Visit nomad families',
-                'Explore the capital Ulaanbaatar and the Gandan Monastery',
-            ),
-            'pictures' => array(
-                'http://farm6.staticflickr.com/5490/10865615303_f0122dc679_b.jpg',
-                'http://farm4.staticflickr.com/3682/10865276005_5ed316d8c4_b.jpg',
-                'http://farm6.staticflickr.com/5508/10865424184_e668aef56f_o.jpg',
-                'http://farm4.staticflickr.com/3823/10865276255_c55130d028_b.jpg',
-                'http://farm8.staticflickr.com/7350/10865312666_f098a2dd60_b.jpg',
-            ),
-            'region' => 'Southern part of Mongolia',
-            'availableTime' => 'May 01-October 1',
-            'map' => 'http://farm4.staticflickr.com/3763/13469185685_d48e429a1e.jpg',
-            'mapLarge' => 'http://farm4.staticflickr.com/3763/13469185685_d48e429a1e_b.jpg',
-            'bs_img' => '/img/tour/best_main.jpg',
-            'itinerary' => '<p>Day 1 Arrive in Ulaanbaatar</p>
-<p>Day 2 City Tour</p>
-<p>Day 3 Flight to Gobi Desert for 1.2 hours</p>
-<p>Day 4 Day trip to Flaming Cliffs and Sand Dune</p>
-<p>Day 5 Flight back to Ulaanbaatar &ndash; Terelj National Park</p>
-<p>Day 6 Drive back to Ulaanbaatar</p>
-<p>Day 7 departure&nbsp;</p>',
-            'overview' => '<p>Mongolia is the land of the legendary Genghis Khan. It is known for the vast steppe and the Gobi Desert is a dream destination for many travelers! You will  explore the capital Ulaanbaatar, fly into South Gobi to explore the largest Sand Dunes, the Flaming Cliffs, view the excavated dinosaur eggs and other fossils, experience the nomadic lifestyle in the Ger camps, and even a enjoy a camel ride!</p>',
-            'testimonial' => '<p>Our driver and vehicle were both outstanding. Our driver was so skilful that even difficult terrain was easy and a comfortable ride. Like our guide, the driver had a great personality and added a lot to our trip. The vehicle itself was very well maintained, always clean and very comfortable. My family and I thoroughly enjoyed our trip. I deeply appreciate the Mongolian Luxury Tours Tour Company for accommodating our early arrived and delayed departure with transportation.
-</p>
-<strong>Martin Ebert<br/>from USA</strong>',
-
-        ),
-
-        'a-classic-journey-of-mongolia' => array(
-            'name' => 'A Classic Journey of Mongolia',
-            'layout' => 'a_classic_journey_of_mongolia.html.twig',
-            'duration' => '12 days',
-            'duration2' => '12 days / 11 nights',
-            'pictures' => array(
-                'http://farm6.staticflickr.com/5478/10865156236_beb01b54c0_o.jpg',
-                'http://farm6.staticflickr.com/5517/10865457583_e90e36fe93_b.jpg',
-                'http://farm4.staticflickr.com/3831/10865274494_2af2b01f8f_b.jpg',
-                'http://farm3.staticflickr.com/2829/10865156156_f48cab270b_o.jpg',
-                'http://farm3.staticflickr.com/2875/10865457203_44a1755200_b.jpg',
-            ),
-            'region' => 'Northern, Central & Southern part of Mongolia',
-            'availableTime' => 'May 01-October 1',
-            'highlights' => array(
-                'Magnificent Lake Khuvsgul',
-                'Marvel at the spectacular Gobi Desert',
-                'View the largest sand dunes in Mongolia',
-                'Experience a camel ride with local nomads',
-                'Travel Overland through the legendary Gobi Desert.',
-                'Bayanzag (Flaming Cliffs) and Visit nomad families',
-                'Magnificent Erdene Zuu Monastery',
-                'Explore the capital Ulaanbaatar and the Gandan Monastery',
-                'Karakorum, Ancient capital of Mongolia Great Empire',
-                'Observing wild horse called Prezwalski horse',
-                ),
-            'map' => 'http://farm3.staticflickr.com/2873/13469289433_08bd240351.jpg',
-            'mapLarge' => 'http://farm3.staticflickr.com/2873/13469289433_08bd240351_b.jpg',
-            'bs_img' => '/img/tour/adventure_main.jpg',
-            'pdf' => 'a-classic-journey-of-mongolia',
-            'itinerary' => '<p>Day 1 Arrive in Ulaanbaatar</p>
-<p>Day 2 City Tour</p>
-<p>Day 3 Flight to Khuvsgul Lake</p>
-<p>Day 4 Explore the Khuvsgul Lake</p>
-<p>Day 5 Flight back to Ulaanbaatar &ndash; Hustai National Park</p>
-<p>Day 6 Drive to Karakorum</p>
-<p>Day 7 Drive back to Ulaanbaatar</p>
-<p>Day 8 Flight to Gobi Desert for 1.2 hours</p>
-<p>Day 9 Day trip to Flaming Cliffs and Sand Dune</p>
-<p>Day 10 Flight back to Ulaanbaatar &ndash; Terelj National Park</p>
-<p>Day 11 Drive to Ulaanbaatar</p>
-<p>Day 12 Departure</p>',
-            'overview' => '<p>Mongolia is the land of nomadic horsemen with the traditions dating back to the time of Genghis Khan. The country is a vast prairieland with more than half of country\'s population still dwelling in the Ger Camps with people using their horses or camels for their daily activities. This trip features the two major attractions of Mongolia; the Gobi desert in the south and Khuvsgul Lake in the north. You will get to take a camel ride in the sand dunes, take a hike on the shores of the lake, meet the nomadic families, and try the local cuisines.</p>',
-            'testimonial' => "<p>I was looking for a destination which  most tourists haven't yet visited .  Mongolia was far beyond what I expected for it's non touristy but so friendly attitude, the exciting gobi  desert and  the magical gers.  Ulaanbaatar, was a major surprise seeing the old sad soviet  cemete blocks called buildings next to sleek skyscrapers. For anyone who wants adventure, beauty and a bit of hardship (the infrastructure is still not up to par),  this is the most amazing country to visit before it becomes the \"in place\". And working with, Mongolia luxury tours a most knowledgeable, agreeable tour company. Thanks to Soyoloo.</p>
-<strong>Barbara Kingstone<br/>Canada</strong>",
-
-        ),
-
-        'karakorum-and-khuvsgul-lake-adventure' => array(
-            'name' => 'Karakorum & Khuvsgul Lake Adventure',
-            'layout' => 'karakorum_khuvsgul.html.twig',
-            'duration' => '8 days',
-            'duration2' => '8 days / 7 nights',
-            'highlights' => array(
-                'Explore the capital Ulaanbaatar and the Gandan Monastery',
-                'Observing wild horse called Prezwalski horse ',
-                'Beautiful Khuvsgul lake ',
-                'Visiting the Erdene Monastery, one of the oldest Tibetan Buddhism Monasteries in the world',
-                'Visit reindeer Family ',
-            ),
-            'pictures' => array(
-                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
-                'http://farm4.staticflickr.com/3670/10865649313_2384ea0d84_b.jpg',
-                'http:\/\/farm6.staticflickr.com\/5503\/10865348196_4dc8f0fdb2_b.jpg',
-                'http://farm3.staticflickr.com/2874/10865347356_b7f5df5d38_b.jpg',
-                'http://farm8.staticflickr.com/7432/10865454634_6dd9ed4774_b.jpg',
-            ),
-            'region' => 'Northern & Central part of Mongolia',
-            'availableTime' => 'May 01-October 1',
-            'map' => 'http://farm8.staticflickr.com/7065/13469539514_98f18ac399.jpg',
-            'mapLarge' => 'http://farm8.staticflickr.com/7065/13469539514_98f18ac399_b.jpg',
+            'region' => 'Southern and Central part of Mongolia.',
+            'availableTime' => 'May 15-29, <br>June 12-26, <br>July 15-29, <br>August 7-21, <br>Sep 4-18',
+            'map' => 'https://farm6.staticflickr.com/5785/21461160744_c7f03f442d_m.jpg',
+            'mapLarge' => 'https://farm6.staticflickr.com/5785/21461160744_84d9bec8be_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
-            'itinerary' => '<p>Day 1 Arrive in Ulaanbaatar</p>
-<p>Day 2 City Tour</p>
-<p>Day 3 Flight to Khuvsgul Lake</p>
-<p>Day 4 Explore the Khuvsgul Lake</p>
-<p>Day 5 Flight back to Ulaanbaatar &ndash; Hustai National Park</p>
-<p>Day 6 Drive to Ulaanbaatar</p>
-<p>Day 7 Departure</p>',
-            'overview' => "<p>This week long adventure takes you off the beaten path to beautiful Khuvsgul Lake, located in Mongolia’s northern region near the Russian border on the foothills of the Sayan Mountains. It is the largest freshwater lake by volume in Mongolia, making up about 70% of all of Mongolia’s fresh water.
-</p><p>
-After exploring the capital city of Ulaanbaatar, you’ll fly into Muron and transfer to your deluxe ger, a traditional nomadic tent, perched on the banks of the pristine Khuvsgul Lake. You’ll have the opportunity to ride horses, interact with the nearby nomadic communities or fish in the clear waters.
-</p><p>
-Your adventure ends with a visit to Hustai National Park where you have the opportunity to see Przewalski (Tahki) Horses. These endangered wild horses are native to the steppes of Mongolia. After becoming extinct in the wild in the 1960’s they were reintroduced to Hustai from a group of horses from several zoos in 1992. Today they roam freely through Hustai National Park, one of the best protected areas in Mongolia.</p>",
+            'pdf' => 'overland-discovery',
+            'itinerary' => '',
+            'overview' => "<p>In every way, our company seeks to make our guests feel as comfortable as possible.
+Venture overland in a late model Toyota Land Cruiser or Lexus away from the hustle and bustle of Ulaanbaatar and its heavy traffic.
+<br>Stops will be made for interior visits to two of the largest monasteries in Mongolia --- Amarbayasgalant and Erdene Zuu. Our late model vehicles (Toyota Land Cruiser or similar) ease the ride over the dirt roads.
+You will enjoy a stay at a hot spring resort for two days where you can soak in natural hot springs, ride horses, and hike to beautiful mountains with forests. You will visit the famous Flaming Cliffs, where you can go in search of dinosaur bones, and then set out to Khongoryn Sand Dunes.
+<br>From atop the sand dunes you can hear them singing and also enjoy the peace and complete silence of the Gobi evening. Don’t forget to gaze at the millions of stars in the vast Gobi sky!  When in Ulaanbaatar, you will enjoy the comforts of a four star hotel. For the nights in the country, you will overnight in real Mongolian gers (yurts).</p>",
+            'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
+<p>Thank you for looking after us so well.</p>
+<strong>Jane Ferguson Group from Australia</strong>",
 
         ),
 
-        'naadam-festival-journey' => array(
-            'name' => 'Naadam Festival Journey',
-            'layout' => 'naadam_festival_journey.html.twig',
-            'duration' => '11 days',
-            'duration2' => '11 days / 10 nights',
-            'highlights' => array(
-                'Spectacular Naadam Festival: Horse Racing, Archery & Wrestling',
-                'Magnificent Lake Khuvsgul ',
-                'Marvel at the spectacular Gobi Desert',
-                'View the largest sand dunes in Mongolia at Khongoryn Els',
-                'Experience a camel ride with local nomads',
-                'Travel Overland through the legendary Gobi Desert.',
-                'Bayanzag (Flaming Cliffs) and Visit nomad families ',
-                'Explore the capital Ulaanbaatar and the Gandan Monastery',
-            ),
-            'pictures' => array(
-                'http:\/\/farm6.staticflickr.com\/5522\/10865360126_b0fc786cc2_b.jpg',
-                'http:\/\/farm8.staticflickr.com\/7398\/10865660243_6b4ec95bde_b.jpg',
-                //'http:\/\/farm6.staticflickr.com\/5495\/10865659933_4ccde37297_b.jpg',
-                //'http:\/\/farm4.staticflickr.com\/3712\/10865322125_c0a8fe1256_b.jpg',
-                'http:\/\/farm6.staticflickr.com\/5513\/10865659913_55ec543d20_b.jpg',
-            ),
-            'region' => 'Northern, Central & southern part of Mongolia',
-            'availableTime' => 'July 23 - Aug 2',
-            'map' => 'http://farm6.staticflickr.com/5549/12437569134_ac96e99683.jpg',
-            'mapLarge' => 'http://farm6.staticflickr.com/5549/12437569134_ac96e99683_b.jpg',
-            'bs_img' => '/img/tour/em_main.jpg',
-            'pdf' => 'naadam-festival-journey',
-            'itinerary' => "<p>July 5 -Day 1 Arrive in Ulaanbaatar</p><p>July 6 - Day 2 Cultural tour of Ulaanbaatar</p><p>July 7 - Day 3 Flight to Gobi Desert for 1.2 hours</p><p>July 8 - Day 4 Day trip to Flaming Cliffs and Sand Dune</p><p>July 9 - Day 5 Flight back to Ulaanbaatar – Terelj National Park</p><p>July 10 - Day 6 Drive to Hustai National Park</p><p>July 11 - Day 7 Naadam Festival, Opening Ceremony</p><p>July 12 - Day 8 Naadam Festival</p><p>July 13 - Day 9 Take a flight to Khuvsgul Lake for 1.2 hours</p><p>July 14 - Day 10 Explore Khuvsgul Lake</p><p>July 15 - Day 11 Flight back to Ulaanbaatar</p><p>July 16 - Day 12 Departure</p>",
-            'overview' => "<p>The Gobi Desert is a dream destination for many travelers! You will get to explore Ulaanbaatar before flying into the South Gobi Desert to explore the world's largest sand dunes, the majestic 'flaming cliffs' where many dinosaur eggs were found, go for a camel ride, and then fly back to Ulaanbaatar to visit Mongolia's largest festival, the Naadam festival!</p>
-<p>The Naadam festival means \"games\", also given the name \"eriin gurvan
-naadam\" meaning \"the three games of men\". These games are Mongolian
-wrestling, horse racing, and archery. The festival is held from July 11
-to the 13 at the National Sports Stadium. There is an elaborate ceremony
-before the games begin. During the festival, the wrestling really draws
-in the crowds. There is not any age or weight restriction, besides it
-being gender specific (no women are allowed compete). The objective is
-to pin your opponent to the ground with your elbow or knee, no part of
-the body is allowed to touch the ground besides your feet and hands. The
-winner is awarded the title of Avarga (Giant, or Titan). The horse
-racing event is very different from western horse racing as the races
-taking place are cross-country, and covering any distance between 10 to
-20 miles depending on the age of the horses. Up to 1000 horses can be
-chosen to participate. The jockeys are children between the ages of 5
-and 13, and training for the event begins many months in advance. The
-winning jockey is praised with the title of \"tumny ekh\" or \"leader of
-ten thousand\". The archery events are held between groups of ten men and
-women, and each participant is supplied with four arrows. There are
-hundreds of targets or \"surs\", and each team must hit at least 33 of
-them. The winners are declared the National Marksmen or National
-Markswomen. Some kind of version of these games have been going on for
-centuries.</p>",
-            'testimonial' => '<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide; we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight. The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated. Everything else was great.  This was one of the best trips I have ever taken. Thank you for offering it to us so we could see your wonderful country first hand.</p>
-<strong>Sandra Bremer<br/>USA</strong>',
 
-        ),
+        /*
+                'splendors-of-mongolia' => array(
+                    'name' => 'Splendors of Mongolia',
+                    'layout' => 'splendors_of_mongolia.html.twig',
+                    'duration' => '10 days',
+                    'duration2' => '10 days / 9 nights',
+                    'highlights' => array(
+                        'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                        'Marvel at the spectacular Gobi Desert',
+                        'View the largest sand dunes in Mongolia at Khongoryn Els',
+                        'Experience a camel ride with local nomads',
+                        'Travel Overland through the legendary Gobi Desert.',
+                        'Bayanzag (Flaming Cliffs) and Visit nomad families ',
+                        'Observe wild horses called Przewalski horses',
+                        'Terelj National Park & Turtle Rock',
+                    ),
+                    'pictures' => array(
+                        'http://farm8.staticflickr.com/7312/10865390706_3e10d6a8a3_b.jpg',
+                        'http:\/\/farm8.staticflickr.com\/7369\/10865387656_7816f0b3fe_b.jpg',
+                        'http://farm4.staticflickr.com/3743/10865690713_e66630fdf0_b.jpg',
+                        'http:\/\/farm6.staticflickr.com\/5522\/10865350955_20ce983b05_b.jpg',
+                        'http://farm4.staticflickr.com/3677/10865388236_1bab50755d_b.jpg',
+                    ),
+                    'region' => 'Southern & Central part of Mongolia',
+                    'availableTime' => 'May 01-October 1',
+                    'map' => 'http://farm4.staticflickr.com/3810/13469183905_0c7268c026.jpg',
+                    'mapLarge' => 'http://farm4.staticflickr.com/3810/13469183905_0c7268c026_b.jpg',
+                    'bs_img' => '/img/tour/treasure_main.jpg',
+                    'pdf' => 'splendors-of-mongolia',
+                    'itinerary' => '<p>Day 1 Arrive in Ulaanbaatar</p>
+        <p>Day 2 Cultural tour of Ulaanbaatar</p>
+        <p>Day 3 Flight to Gobi Desert for 1.2 hours</p>
+        <p>Day 4 Day trip to Flaming Cliffs and Sand Dune</p>
+        <p>Day 5 Flight back to Ulaanbaatar &ndash; Terelj National Park</p>
+        <p>Day 6 Drive to Hustai National Park</p>
+        <p>Day 7 Take a flight to Khuvsgul Lake for 1.2 hours</p>
+        <p>Day 8 Explore Khuvsgul Lake</p>
+        <p>Day 9 Flight back to Ulaanbaatar</p>
+        <p>Day 10 Departure</p>',
+                    'overview' => '<p>From the time of Chinggis Khan, Mongolia has intrigued travelers with its open steppes, nomadic tribes and vast deserts. Our Classic Mongolia departure allows us to discover Mongolia today; a place where age old traditions and modern progress are converging; which is most evident in Ulaanbaatar. From the capitol we begin our cultural journey traveling to the steppe. Here we have a chance to meet the welcoming Mongolians and get a taste for their lives herding animals and wandering the plains. Always welcoming we will visit gers, traditional felt tents, and have a chance to share a tea and have unique cultural exchanges; the most memorable part of many travelers\' journeys.</p>',
+                    'testimonial' => '<p>My wife and I, with our two adult sons, had a great family vacation with Mongolian Luxury Tours. Every day we saw beautiful places and very interesting aspects of Mongolian life and culture. The lakes, the high country and the Gobi were all very beautiful, as were the cultural artifacts. The people we met in herding families, in villages and in the capital were friendly, proud and smiling. The fauna, both domestic and wild was exotic and beautiful.
+        We were very happy to have a Mongolian Luxury Tours provide for our trip to Mongolia, and we are delighted with the result.
+        </p>
+        <strong>Steve LaRocca<br/>USA</strong>',
 
-        'highlights-of-mongolia' => array(
-            'name' => 'Highligts of Mongolia',
-            'layout' => 'highlights_of_mongolia.html.twig',
-            'duration' => '12 days',
-            'duration2' => '12 days / 11 nights',
-            'highlights' => array(
-                'Spectacular Naadam Festival: Horse Racing, Archery & Wrestling',
-                'Magnificent Lake Khuvsgul ',
-                'Marvel at the spectacular Gobi Desert',
-                'View the largest sand dunes in Mongolia at Khongoryn Els',
-                'Experience a camel ride with local nomads',
-                'Travel Overland through the legendary Gobi Desert.',
-                'Bayanzag (Flaming Cliffs) and Visit nomad families ',
-                'Explore the capital Ulaanbaatar and the Gandan Monastery',
-            ),
-            'pictures' => array(
-                'http://farm6.staticflickr.com/5478/10865156236_beb01b54c0_o.jpg',
-                'http://farm6.staticflickr.com/5517/10865457583_e90e36fe93_b.jpg',
-                'http:\/\/farm6.staticflickr.com\/5522\/10865350955_20ce983b05_b.jpg',
-                'http://farm4.staticflickr.com/3677/10865388236_1bab50755d_b.jpg',
-            ),
-            'region' => 'Northern, Central & southern part of Mongolia',
-            'availableTime' => 'May 01-October 1',
-            'map' => 'http://farm3.staticflickr.com/2905/13469289143_a84a625337.jpg',
-            'mapLarge' => 'http://farm3.staticflickr.com/2905/13469289143_a84a625337_b.jpg',
-            'bs_img' => '/img/tour/em_main.jpg',
-            'pdf' => 'highlights-of-mongolia-july',
-            'itinerary' => "<p>Day 1 Arrive in Ulaanbaatar
-</p><p>Day 2 City Tour
-</p><p>Day 3 Flight to Gobi Desert for 1.2 hours
-</p><p>Day 4 Yol Valley to Flaming Cliffs
-</p><p>Day 5 Yol Valley to Moltsog Sand Dune
-</p><p>Day 6 Gobi - Ulaanbaatar - Terelj NP
-</p><p>Day 7 Terelj NP - 13th century - Terelj NP
-</p><p>Day 8 Terelj NP - Hustai NP - HS Luxury resort
-</p><p>Day 9 HS Luxury Resort to Ulaanbaatar
-</p><p>Day 10 Departure</p>",
-            'overview' => "<p>When you travel with Mongolian Luxury Tours you will experience the very best of our country and become totally immersed in what makes our little corner of the world so great such as the beauty of our landscapes, the charm of our people, the embrace of our culture and the warmth of our welcome. We specialize in luxury travel so our trips include five star hotels and luxury tourist camps and resorts as well. We do recognize that a luxury experience requires a certain level of consultation and because all are different, we prefer to design a bespoke itinerary for you based on understanding your needs. Nothing will be left to chance and you can rest assured our team is experienced in dealing with the most discerning of valued clients.</p>",
+                ),
 
-        ),
+                'gobi-and-beyond' => array(
+                    'name' => 'Gobi & Beyond',
+                    'layout' => 'gobi_and_beyond.html.twig',
+                    'duration' => '7 days',
+                    'duration2' => '7 days / 6 nights',
+                    'highlights' => array(
+                        'Marvel at the spectacular Gobi Desert',
+                        'View the largest sand dunes in Mongolia at Khongoryn Els',
+                        'Experience a camel ride with local nomads',
+                        'Travel Overland through the legendary Gobi Desert.',
+                        'Bayanzag (Flaming Cliffs) and Visit nomad families',
+                        'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                    ),
+                    'pictures' => array(
+                        'http://farm6.staticflickr.com/5490/10865615303_f0122dc679_b.jpg',
+                        'http://farm4.staticflickr.com/3682/10865276005_5ed316d8c4_b.jpg',
+                        'http://farm6.staticflickr.com/5508/10865424184_e668aef56f_o.jpg',
+                        'http://farm4.staticflickr.com/3823/10865276255_c55130d028_b.jpg',
+                        'http://farm8.staticflickr.com/7350/10865312666_f098a2dd60_b.jpg',
+                    ),
+                    'region' => 'Southern part of Mongolia',
+                    'availableTime' => 'May 01-October 1',
+                    'map' => 'http://farm4.staticflickr.com/3763/13469185685_d48e429a1e.jpg',
+                    'mapLarge' => 'http://farm4.staticflickr.com/3763/13469185685_d48e429a1e_b.jpg',
+                    'bs_img' => '/img/tour/best_main.jpg',
+                    'itinerary' => '<p>Day 1 Arrive in Ulaanbaatar</p>
+        <p>Day 2 City Tour</p>
+        <p>Day 3 Flight to Gobi Desert for 1.2 hours</p>
+        <p>Day 4 Day trip to Flaming Cliffs and Sand Dune</p>
+        <p>Day 5 Flight back to Ulaanbaatar &ndash; Terelj National Park</p>
+        <p>Day 6 Drive back to Ulaanbaatar</p>
+        <p>Day 7 departure&nbsp;</p>',
+                    'overview' => '<p>Mongolia is the land of the legendary Genghis Khan. It is known for the vast steppe and the Gobi Desert is a dream destination for many travelers! You will  explore the capital Ulaanbaatar, fly into South Gobi to explore the largest Sand Dunes, the Flaming Cliffs, view the excavated dinosaur eggs and other fossils, experience the nomadic lifestyle in the Ger camps, and even a enjoy a camel ride!</p>',
+                    'testimonial' => '<p>Our driver and vehicle were both outstanding. Our driver was so skilful that even difficult terrain was easy and a comfortable ride. Like our guide, the driver had a great personality and added a lot to our trip. The vehicle itself was very well maintained, always clean and very comfortable. My family and I thoroughly enjoyed our trip. I deeply appreciate the Mongolian Luxury Tours Tour Company for accommodating our early arrived and delayed departure with transportation.
+        </p>
+        <strong>Martin Ebert<br/>from USA</strong>',
 
-*/
+                ),
+
+                'a-classic-journey-of-mongolia' => array(
+                    'name' => 'A Classic Journey of Mongolia',
+                    'layout' => 'a_classic_journey_of_mongolia.html.twig',
+                    'duration' => '12 days',
+                    'duration2' => '12 days / 11 nights',
+                    'pictures' => array(
+                        'http://farm6.staticflickr.com/5478/10865156236_beb01b54c0_o.jpg',
+                        'http://farm6.staticflickr.com/5517/10865457583_e90e36fe93_b.jpg',
+                        'http://farm4.staticflickr.com/3831/10865274494_2af2b01f8f_b.jpg',
+                        'http://farm3.staticflickr.com/2829/10865156156_f48cab270b_o.jpg',
+                        'http://farm3.staticflickr.com/2875/10865457203_44a1755200_b.jpg',
+                    ),
+                    'region' => 'Northern, Central & Southern part of Mongolia',
+                    'availableTime' => 'May 01-October 1',
+                    'highlights' => array(
+                        'Magnificent Lake Khuvsgul',
+                        'Marvel at the spectacular Gobi Desert',
+                        'View the largest sand dunes in Mongolia',
+                        'Experience a camel ride with local nomads',
+                        'Travel Overland through the legendary Gobi Desert.',
+                        'Bayanzag (Flaming Cliffs) and Visit nomad families',
+                        'Magnificent Erdene Zuu Monastery',
+                        'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                        'Karakorum, Ancient capital of Mongolia Great Empire',
+                        'Observing wild horse called Prezwalski horse',
+                        ),
+                    'map' => 'http://farm3.staticflickr.com/2873/13469289433_08bd240351.jpg',
+                    'mapLarge' => 'http://farm3.staticflickr.com/2873/13469289433_08bd240351_b.jpg',
+                    'bs_img' => '/img/tour/adventure_main.jpg',
+                    'pdf' => 'a-classic-journey-of-mongolia',
+                    'itinerary' => '<p>Day 1 Arrive in Ulaanbaatar</p>
+        <p>Day 2 City Tour</p>
+        <p>Day 3 Flight to Khuvsgul Lake</p>
+        <p>Day 4 Explore the Khuvsgul Lake</p>
+        <p>Day 5 Flight back to Ulaanbaatar &ndash; Hustai National Park</p>
+        <p>Day 6 Drive to Karakorum</p>
+        <p>Day 7 Drive back to Ulaanbaatar</p>
+        <p>Day 8 Flight to Gobi Desert for 1.2 hours</p>
+        <p>Day 9 Day trip to Flaming Cliffs and Sand Dune</p>
+        <p>Day 10 Flight back to Ulaanbaatar &ndash; Terelj National Park</p>
+        <p>Day 11 Drive to Ulaanbaatar</p>
+        <p>Day 12 Departure</p>',
+                    'overview' => '<p>Mongolia is the land of nomadic horsemen with the traditions dating back to the time of Genghis Khan. The country is a vast prairieland with more than half of country\'s population still dwelling in the Ger Camps with people using their horses or camels for their daily activities. This trip features the two major attractions of Mongolia; the Gobi desert in the south and Khuvsgul Lake in the north. You will get to take a camel ride in the sand dunes, take a hike on the shores of the lake, meet the nomadic families, and try the local cuisines.</p>',
+                    'testimonial' => "<p>I was looking for a destination which  most tourists haven't yet visited .  Mongolia was far beyond what I expected for it's non touristy but so friendly attitude, the exciting gobi  desert and  the magical gers.  Ulaanbaatar, was a major surprise seeing the old sad soviet  cemete blocks called buildings next to sleek skyscrapers. For anyone who wants adventure, beauty and a bit of hardship (the infrastructure is still not up to par),  this is the most amazing country to visit before it becomes the \"in place\". And working with, Mongolia luxury tours a most knowledgeable, agreeable tour company. Thanks to Soyoloo.</p>
+        <strong>Barbara Kingstone<br/>Canada</strong>",
+
+                ),
+
+                'karakorum-and-khuvsgul-lake-adventure' => array(
+                    'name' => 'Karakorum & Khuvsgul Lake Adventure',
+                    'layout' => 'karakorum_khuvsgul.html.twig',
+                    'duration' => '8 days',
+                    'duration2' => '8 days / 7 nights',
+                    'highlights' => array(
+                        'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                        'Observing wild horse called Prezwalski horse ',
+                        'Beautiful Khuvsgul lake ',
+                        'Visiting the Erdene Monastery, one of the oldest Tibetan Buddhism Monasteries in the world',
+                        'Visit reindeer Family ',
+                    ),
+                    'pictures' => array(
+                        'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+                        'http://farm4.staticflickr.com/3670/10865649313_2384ea0d84_b.jpg',
+                        'http:\/\/farm6.staticflickr.com\/5503\/10865348196_4dc8f0fdb2_b.jpg',
+                        'http://farm3.staticflickr.com/2874/10865347356_b7f5df5d38_b.jpg',
+                        'http://farm8.staticflickr.com/7432/10865454634_6dd9ed4774_b.jpg',
+                    ),
+                    'region' => 'Northern & Central part of Mongolia',
+                    'availableTime' => 'May 01-October 1',
+                    'map' => 'http://farm8.staticflickr.com/7065/13469539514_98f18ac399.jpg',
+                    'mapLarge' => 'http://farm8.staticflickr.com/7065/13469539514_98f18ac399_b.jpg',
+                    'bs_img' => '/img/tour/jeep_main.jpg',
+                    'itinerary' => '<p>Day 1 Arrive in Ulaanbaatar</p>
+        <p>Day 2 City Tour</p>
+        <p>Day 3 Flight to Khuvsgul Lake</p>
+        <p>Day 4 Explore the Khuvsgul Lake</p>
+        <p>Day 5 Flight back to Ulaanbaatar &ndash; Hustai National Park</p>
+        <p>Day 6 Drive to Ulaanbaatar</p>
+        <p>Day 7 Departure</p>',
+                    'overview' => "<p>This week long adventure takes you off the beaten path to beautiful Khuvsgul Lake, located in Mongolia’s northern region near the Russian border on the foothills of the Sayan Mountains. It is the largest freshwater lake by volume in Mongolia, making up about 70% of all of Mongolia’s fresh water.
+        </p><p>
+        After exploring the capital city of Ulaanbaatar, you’ll fly into Muron and transfer to your deluxe ger, a traditional nomadic tent, perched on the banks of the pristine Khuvsgul Lake. You’ll have the opportunity to ride horses, interact with the nearby nomadic communities or fish in the clear waters.
+        </p><p>
+        Your adventure ends with a visit to Hustai National Park where you have the opportunity to see Przewalski (Tahki) Horses. These endangered wild horses are native to the steppes of Mongolia. After becoming extinct in the wild in the 1960’s they were reintroduced to Hustai from a group of horses from several zoos in 1992. Today they roam freely through Hustai National Park, one of the best protected areas in Mongolia.</p>",
+
+                ),
+
+                'naadam-festival-journey' => array(
+                    'name' => 'Naadam Festival Journey',
+                    'layout' => 'naadam_festival_journey.html.twig',
+                    'duration' => '11 days',
+                    'duration2' => '11 days / 10 nights',
+                    'highlights' => array(
+                        'Spectacular Naadam Festival: Horse Racing, Archery & Wrestling',
+                        'Magnificent Lake Khuvsgul ',
+                        'Marvel at the spectacular Gobi Desert',
+                        'View the largest sand dunes in Mongolia at Khongoryn Els',
+                        'Experience a camel ride with local nomads',
+                        'Travel Overland through the legendary Gobi Desert.',
+                        'Bayanzag (Flaming Cliffs) and Visit nomad families ',
+                        'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                    ),
+                    'pictures' => array(
+                        'http:\/\/farm6.staticflickr.com\/5522\/10865360126_b0fc786cc2_b.jpg',
+                        'http:\/\/farm8.staticflickr.com\/7398\/10865660243_6b4ec95bde_b.jpg',
+                        //'http:\/\/farm6.staticflickr.com\/5495\/10865659933_4ccde37297_b.jpg',
+                        //'http:\/\/farm4.staticflickr.com\/3712\/10865322125_c0a8fe1256_b.jpg',
+                        'http:\/\/farm6.staticflickr.com\/5513\/10865659913_55ec543d20_b.jpg',
+                    ),
+                    'region' => 'Northern, Central & southern part of Mongolia',
+                    'availableTime' => 'July 23 - Aug 2',
+                    'map' => 'http://farm6.staticflickr.com/5549/12437569134_ac96e99683.jpg',
+                    'mapLarge' => 'http://farm6.staticflickr.com/5549/12437569134_ac96e99683_b.jpg',
+                    'bs_img' => '/img/tour/em_main.jpg',
+                    'pdf' => 'naadam-festival-journey',
+                    'itinerary' => "<p>July 5 -Day 1 Arrive in Ulaanbaatar</p><p>July 6 - Day 2 Cultural tour of Ulaanbaatar</p><p>July 7 - Day 3 Flight to Gobi Desert for 1.2 hours</p><p>July 8 - Day 4 Day trip to Flaming Cliffs and Sand Dune</p><p>July 9 - Day 5 Flight back to Ulaanbaatar – Terelj National Park</p><p>July 10 - Day 6 Drive to Hustai National Park</p><p>July 11 - Day 7 Naadam Festival, Opening Ceremony</p><p>July 12 - Day 8 Naadam Festival</p><p>July 13 - Day 9 Take a flight to Khuvsgul Lake for 1.2 hours</p><p>July 14 - Day 10 Explore Khuvsgul Lake</p><p>July 15 - Day 11 Flight back to Ulaanbaatar</p><p>July 16 - Day 12 Departure</p>",
+                    'overview' => "<p>The Gobi Desert is a dream destination for many travelers! You will get to explore Ulaanbaatar before flying into the South Gobi Desert to explore the world's largest sand dunes, the majestic 'flaming cliffs' where many dinosaur eggs were found, go for a camel ride, and then fly back to Ulaanbaatar to visit Mongolia's largest festival, the Naadam festival!</p>
+        <p>The Naadam festival means \"games\", also given the name \"eriin gurvan
+        naadam\" meaning \"the three games of men\". These games are Mongolian
+        wrestling, horse racing, and archery. The festival is held from July 11
+        to the 13 at the National Sports Stadium. There is an elaborate ceremony
+        before the games begin. During the festival, the wrestling really draws
+        in the crowds. There is not any age or weight restriction, besides it
+        being gender specific (no women are allowed compete). The objective is
+        to pin your opponent to the ground with your elbow or knee, no part of
+        the body is allowed to touch the ground besides your feet and hands. The
+        winner is awarded the title of Avarga (Giant, or Titan). The horse
+        racing event is very different from western horse racing as the races
+        taking place are cross-country, and covering any distance between 10 to
+        20 miles depending on the age of the horses. Up to 1000 horses can be
+        chosen to participate. The jockeys are children between the ages of 5
+        and 13, and training for the event begins many months in advance. The
+        winning jockey is praised with the title of \"tumny ekh\" or \"leader of
+        ten thousand\". The archery events are held between groups of ten men and
+        women, and each participant is supplied with four arrows. There are
+        hundreds of targets or \"surs\", and each team must hit at least 33 of
+        them. The winners are declared the National Marksmen or National
+        Markswomen. Some kind of version of these games have been going on for
+        centuries.</p>",
+                    'testimonial' => '<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide; we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight. The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated. Everything else was great.  This was one of the best trips I have ever taken. Thank you for offering it to us so we could see your wonderful country first hand.</p>
+        <strong>Sandra Bremer<br/>USA</strong>',
+
+                ),
+
+                'highlights-of-mongolia' => array(
+                    'name' => 'Highligts of Mongolia',
+                    'layout' => 'highlights_of_mongolia.html.twig',
+                    'duration' => '12 days',
+                    'duration2' => '12 days / 11 nights',
+                    'highlights' => array(
+                        'Spectacular Naadam Festival: Horse Racing, Archery & Wrestling',
+                        'Magnificent Lake Khuvsgul ',
+                        'Marvel at the spectacular Gobi Desert',
+                        'View the largest sand dunes in Mongolia at Khongoryn Els',
+                        'Experience a camel ride with local nomads',
+                        'Travel Overland through the legendary Gobi Desert.',
+                        'Bayanzag (Flaming Cliffs) and Visit nomad families ',
+                        'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                    ),
+                    'pictures' => array(
+                        'http://farm6.staticflickr.com/5478/10865156236_beb01b54c0_o.jpg',
+                        'http://farm6.staticflickr.com/5517/10865457583_e90e36fe93_b.jpg',
+                        'http:\/\/farm6.staticflickr.com\/5522\/10865350955_20ce983b05_b.jpg',
+                        'http://farm4.staticflickr.com/3677/10865388236_1bab50755d_b.jpg',
+                    ),
+                    'region' => 'Northern, Central & southern part of Mongolia',
+                    'availableTime' => 'May 01-October 1',
+                    'map' => 'http://farm3.staticflickr.com/2905/13469289143_a84a625337.jpg',
+                    'mapLarge' => 'http://farm3.staticflickr.com/2905/13469289143_a84a625337_b.jpg',
+                    'bs_img' => '/img/tour/em_main.jpg',
+                    'pdf' => 'highlights-of-mongolia-july',
+                    'itinerary' => "<p>Day 1 Arrive in Ulaanbaatar
+        </p><p>Day 2 City Tour
+        </p><p>Day 3 Flight to Gobi Desert for 1.2 hours
+        </p><p>Day 4 Yol Valley to Flaming Cliffs
+        </p><p>Day 5 Yol Valley to Moltsog Sand Dune
+        </p><p>Day 6 Gobi - Ulaanbaatar - Terelj NP
+        </p><p>Day 7 Terelj NP - 13th century - Terelj NP
+        </p><p>Day 8 Terelj NP - Hustai NP - HS Luxury resort
+        </p><p>Day 9 HS Luxury Resort to Ulaanbaatar
+        </p><p>Day 10 Departure</p>",
+                    'overview' => "<p>When you travel with Mongolian Luxury Tours you will experience the very best of our country and become totally immersed in what makes our little corner of the world so great such as the beauty of our landscapes, the charm of our people, the embrace of our culture and the warmth of our welcome. We specialize in luxury travel so our trips include five star hotels and luxury tourist camps and resorts as well. We do recognize that a luxury experience requires a certain level of consultation and because all are different, we prefer to design a bespoke itinerary for you based on understanding your needs. Nothing will be left to chance and you can rest assured our team is experienced in dealing with the most discerning of valued clients.</p>",
+
+                ),
+
+        */
 
     );
 
