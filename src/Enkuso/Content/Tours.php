@@ -821,6 +821,50 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
         ),
 
 
+        'western-southern-and-northern-mongolia-expedition' => array(
+            'name' => 'Western, Southern and Northern Mongolia Expedition',
+            'layout' => 'western-southern-and-northern-mongolia-expedition.html.twig',
+            'duration' => '16 days',
+            'duration2' => '16 days / 15 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+                'Experience unique lifestyle of Kazakh family',
+                'Visiting Eagle hunting Family',
+                'Explore colorful embroidery and textiles, and their gers',
+                'Flaming Cliffs in the Gobi, where Roy Chapman Andrews discovered the first dinosaur eggs the world had ever seen',
+                'Discover the site of the Khavtsgait Petroglyphs',
+                'Ride camels and walk along Mongolia’s largest sand dunes at Khongor sand Dune',
+                'Stay in local Ger camps',
+                'Pristine Khuvsgul lake and visiting reindeer family',
+                'Enjoy the hospitality of the local people by visiting a family ‘ger’',
+                'Explore Gobi Gurvan Saikhan National Park',
+                'Explore the capital Ulaanbaatar and the Gandan Monaster',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'https://farm6.staticflickr.com/5716/22086774546_9b668291bb_b.jpg',
+                'https://farm6.staticflickr.com/5644/22086774896_51dc606d99_b.jpg',
+                'https://farm1.staticflickr.com/781/21924774450_8790a87073_b.jpg',
+                'https://farm1.staticflickr.com/627/21925071928_daa17cf55f_b.jpg',
+                'https://farm1.staticflickr.com/707/22086777616_dd70340b24_b.jpg',
+                'https://farm1.staticflickr.com/614/22100418822_8bd1c13b66_b.jpg',
+                'https://farm1.staticflickr.com/742/22112971025_2955b49e84_b.jpg',
+            ),
+            'region' => 'Southern, central and western part of Mongolia',
+            'availableTime' => 'June 10-25, <br>June 17 – July 2, <br>July 15 – 30, <br>July 22-31, <br>Aug 5-20, <br>Aug 20 - Sep 4',
+            'map' => 'https://farm6.staticflickr.com/5815/22112224215_672324c6bc_m.jpg',
+            'mapLarge' => 'https://farm6.staticflickr.com/5815/22112224215_672324c6bc_b.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => 'western-southern-and-northern-mongolia-expedition',
+            'itinerary' => '',
+            'overview' => "",
+            'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
+<p>Thank you for looking after us so well.</p>
+<strong>Jane Ferguson Group from Australia</strong>",
+
+        ),
+
+
         /*
                 'splendors-of-mongolia' => array(
                     'name' => 'Splendors of Mongolia',
@@ -1141,6 +1185,8 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'Horse trip around khuvsgul lake' => 'Horse trip around khuvsgul lake',
             'Horse riding in central part of Mongolia' => 'Horse riding in central part of Mongolia',
             'Khuvsgul lake tour' => 'Khuvsgul lake tour',
+            'Ultimate Mongolia' => 'Ultimate Mongolia',
+            'Western, Southern and Northern Mongolia Expedition' => 'Western, Southern and Northern Mongolia Expedition',
             'Gobi Desert tour' => 'Gobi Desert tour',
             'Golden Eagle Festival' => 'Golden Eagle Festival',
             'Eagle Festival and Gobi Desert' => 'Eagle Festival & Gobi Desert',
