@@ -781,6 +781,45 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
         ),
 
+        'ultimate-mongolia' => array(
+            'name' => 'Ultimate Mongolia',
+            'layout' => 'ultimate-mongolia.html.twig',
+            'duration' => '18 days',
+            'duration2' => '18 days / 17 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+                'Experience unique lifestyle of Kazakh family',
+                'Visiting Eagle hunting Family',
+                'Explore colorful embroidery and textiles, and their gers',
+                'Flaming Cliffs in the Gobi, where Roy Chapman Andrews discovered the first dinosaur eggs the world had ever seen',
+                'Discover the site of the Khavtsgait Petroglyphs',
+                'Kharakhorum, site of ancient monasteries and location of the ancient Mongol Empire&#039;s capital',
+                'Ride camels  and walk  along Mongolia’s  largest  sand dunes  at  Khongor  sandDune',
+                'Stay in local Ger camps',
+                'Soak in sensual natural hot springs',
+                'Horse and camel riding',
+                'Enjoy the hospitality of the local people by visiting a family ‘ger’',
+                'Explore Gobi Gurvan Saikhan National Park',
+                'Explore the capital Ulaanbaatar and the Gandan Monastery',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'https://farm4.staticflickr.com/3856/15388563071_728d4021f8_z.jpg',
+            ),
+            'region' => 'Southern, central and western part of Mongolia',
+            'availableTime' => 'June 11-28, <br>June 18 – July 5, <br>July 17 - Aug 3, <br>Aug 8-25, <br>Aug 15 – Sep 1',
+            'map' => 'https://farm6.staticflickr.com/5661/21924323288_f0f4207aa9_m.jpg',
+            'mapLarge' => 'https://farm6.staticflickr.com/5661/21924323288_f0f4207aa9_b.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => 'ultimate-mongolia',
+            'itinerary' => '',
+            'overview' => "",
+            'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
+<p>Thank you for looking after us so well.</p>
+<strong>Jane Ferguson Group from Australia</strong>",
+
+        ),
+
 
         /*
                 'splendors-of-mongolia' => array(
@@ -1095,6 +1134,8 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'Taste of Mongolia' => 'Taste of Mongolia',
             'Jewels of Mongolia' => 'Jewels of Mongolia',
             'Treasures of Mongolia' => 'Treasures of Mongolia',
+            'Overland Discovery' => 'Overland Discovery',
+            'Overland Discovery with Rural Naadam Festival' => 'Overland Discovery with Rural Naadam Festival',
             'Luxury tour with Naadam festival' => 'Luxury tour with Naadam festival',
             'Discover Central Mongolia' => 'Discover Central Mongolia',
             'Horse trip around khuvsgul lake' => 'Horse trip around khuvsgul lake',
