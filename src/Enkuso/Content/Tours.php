@@ -724,6 +724,11 @@ I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. Soyol
             ),
             'pictures' => array(
                 // zuragnuud
+                'https://farm6.staticflickr.com/5624/21925963750_8b3ae83805_b.jpg',
+                'https://farm1.staticflickr.com/755/21493032533_b4a5de1584_b.jpg',
+                'https://farm1.staticflickr.com/582/22124223771_b6e93b1fbc_b.jpg',
+                'https://farm1.staticflickr.com/654/22124224411_d68579a8bd_b.jpg',
+                'https://farm1.staticflickr.com/709/21491314454_81e62632eb_bjpg',
                 'https://farm4.staticflickr.com/3856/15388563071_728d4021f8_z.jpg',
             ),
             'region' => 'Southern and Central part of Mongolia.',
