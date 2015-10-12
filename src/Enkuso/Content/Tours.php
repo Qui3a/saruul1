@@ -728,7 +728,7 @@ I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. Soyol
                 'https://farm1.staticflickr.com/755/21493032533_b4a5de1584_b.jpg',
                 'https://farm1.staticflickr.com/582/22124223771_b6e93b1fbc_b.jpg',
                 'https://farm1.staticflickr.com/654/22124224411_d68579a8bd_b.jpg',
-                'https://farm1.staticflickr.com/709/21491314454_81e62632eb_bjpg',
+                'https://farm1.staticflickr.com/709/21491314454_81e62632eb_b.jpg',
                 'https://farm4.staticflickr.com/3856/15388563071_728d4021f8_z.jpg',
             ),
             'region' => 'Southern and Central part of Mongolia.',
@@ -770,7 +770,13 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             ),
             'pictures' => array(
                 // zuragnuud
-                'https://farm4.staticflickr.com/3856/15388563071_728d4021f8_z.jpg',
+                'https://farm6.staticflickr.com/5764/22101746292_3c7208842c_b.jpg',
+                'https://farm6.staticflickr.com/5779/21493182213_0346431042_b.jpg',
+                'https://farm1.staticflickr.com/688/21493182053_9015f2324e_b.jpg',
+                'https://farm1.staticflickr.com/668/21926112360_7fca2a9518_b.jpg',
+                'https://farm1.staticflickr.com/596/22124370081_198936ba9b_b.jpg',
+                'https://farm1.staticflickr.com/775/21493182993_83e270bb02_b.jpg',
+                'https://farm1.staticflickr.com/645/21926406028_0c6999daa6_b.jpg',
             ),
             'region' => 'Southern and Central part of Mongolia.',
             'availableTime' => 'July 2-17',
