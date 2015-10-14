@@ -1190,9 +1190,9 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
         if ($tour) {
             if ($withDay && $withNight) {
-                return $tour['name'] . $tour['duration2'];
+                return $tour['name'] . '( ' .$tour['duration2'] . ' )';
             } elseif ($withDay) {
-                return $tour['name'] . $tour['duration'];
+                return $tour['name'] . ' ' . $tour['duration'];
             } else {
                 return $tour['name'];
             }
