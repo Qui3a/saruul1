@@ -1175,6 +1175,32 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
         return null;
     }
 
+    public function getTourName($key, $withDay = true, $withNight = true)
+    {
+        $tour = false;
+        if (array_key_exists($key, $this->tours)) {
+            $tour = $this->tours[$key];
+        } else {
+            foreach ($this->tours as $t) {
+                if ($t['name'] == $key) {
+                    $tour = $t;
+                }
+            }
+        }
+
+        if ($tour) {
+            if ($withDay && $withNight) {
+                return $tour['name'] . $tour['duration2'];
+            } elseif ($withDay) {
+                return $tour['name'] . $tour['duration'];
+            } else {
+                return $tour['name'];
+            }
+        }
+
+        return $key;
+    }
+
     /**
      * Get all bookable tours
      *
