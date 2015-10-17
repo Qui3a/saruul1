@@ -43,6 +43,7 @@ class Tours
             'testimonial' => "",
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 3395,
 
         ),
 
@@ -81,6 +82,7 @@ class Tours
             "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 2395,
 
         ),
 
@@ -121,6 +123,7 @@ class Tours
 <strong>Adam Singer family, USA</strong>",
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 3585,
 
         ),
 
@@ -160,6 +163,7 @@ class Tours
 <strong>Jane Ferguson Group from Australia</strong>",
             'list_order' => 0,
             'list_img' => '/images/special_offer_bayanzag.jpg',
+            'price_int' => 3345,
 
         ),
 
@@ -194,6 +198,7 @@ class Tours
 <strong>Jane Ferguson Group from Australia</strong>",
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 6985,
 
         ),
 
@@ -227,6 +232,7 @@ class Tours
 <strong>Jane Ferguson Group from Australia</strong>",
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 2385,
 
         ),
 
@@ -268,6 +274,7 @@ Just want to thank you for your wonderful hospitality and expert tour guiding du
 <br/>Tour group from USA September</strong>",
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => null,
 
         ),
 
@@ -309,6 +316,7 @@ Thanks again Soyoloo It was really a great experience and filled with a lifetime
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => null,
         ),
 
         'jewels-of-mongolia' => array(
@@ -350,6 +358,7 @@ I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was th
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 2895,
         ),
 
         'discover-central-mongolia' => array(
@@ -392,6 +401,7 @@ Tour group from USA September</strong>",
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 2850,
         ),
         
         'unparalleled-luxury-tour' => array(
@@ -422,6 +432,7 @@ Tour group from USA September</strong>",
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 5995,
         ),
 
         'horse-trip-around-khuvsgul-lake' => array(
@@ -456,6 +467,7 @@ Tour group from USA September</strong>",
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => null,
         ),
 
         'horse-riding-in-central-part-of-mongolia' => array(
@@ -491,6 +503,7 @@ Tour group from USA September</strong>",
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => null,
         ),
 
         'khuvsgul-lake-tour' => array(
@@ -526,6 +539,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 1485,
         ),
 
         'gobi-desert-tour' => array(
@@ -565,6 +579,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 
             'list_order' => 0,
             'list_img' => '/images/special_offer_gobi.jpg',
+            'price_int' => 1590,
         ),
 
         'taste-of-mongolia' => array(
@@ -599,6 +614,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 2895,
         ),
 
         'taste-of-mongolia-with-naadam-festival' => array(
@@ -637,6 +653,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 
             'list_order' => 0,
             'list_img' => '/images/special_offer_naadam.jpg',
+            'price_int' => 3295,
         ),
 
         'treasures-of-mongolia' => array(
@@ -677,6 +694,7 @@ The wild horses were amazing and we took so many photos, it was so hard to choos
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 2995,
         ),
 
         'buddhism-tour' => array(
@@ -719,6 +737,7 @@ I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. Soyol
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 3350,
         ),
 
         'bird-watching-trip' => array(
@@ -787,6 +806,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 3145,
         ),
 
         'overland-discovery-with-rural-naadam-festival' => array(
@@ -832,6 +852,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 3465,
         ),
 
         'ultimate-mongolia' => array(
@@ -873,6 +894,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 3885,
         ),
 
 
@@ -919,6 +941,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
             'list_order' => 0,
             'list_img' => null,
+            'price_int' => 3695,
         ),
 
 
