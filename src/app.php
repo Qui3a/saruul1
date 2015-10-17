@@ -110,6 +110,7 @@ $app->before(function(Request $request) use ($app){
             $country['country_name'] = 'Unknown';
         $app['visitor_country'] = $country['country_name'];
     //}
+    $app['swiftmailer.transport']->setSourceIp('0.0.0.0');
 });
 
 
