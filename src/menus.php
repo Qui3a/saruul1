@@ -30,7 +30,7 @@ $app['main_menu'] = function($app) {
     $aboutMongolia->addChild('Journey Accommodations', array('route' => 'page_show', 'routeParameters' => array('slug' => 'journey-accommodations')))->setLabel('<i class="icon-caret-right"></i> Journey Accommodations')->setExtra('safe_label', true)->setCurrentUri($uri);
     $aboutMongolia->addChild('Geography', array('route' => 'page_show', 'routeParameters' => array('slug' => 'geography')))->setLabel('<i class="icon-caret-right"></i> Geography')->setExtra('safe_label', true)->setCurrentUri($uri);
 
-    $tours = $menu->addChild('Tours', array('route' => 'homepage'))->setLabel('Tours &nbsp;<i class="icon-caret-down"></i>')->setExtra('safe_label', true);
+    $tours = $menu->addChild('Tours', array('route' => 'tour_all'))->setLabel('Tours &nbsp;<i class="icon-caret-down"></i>')->setExtra('safe_label', true)->setCurrentUri($uri);
     foreach($app['content_tours']->getTours() as $key => $tour) {
         $c = $uri == $app['url_generator']->generate('tour_show', array('slug' => $key));
         if($c)
