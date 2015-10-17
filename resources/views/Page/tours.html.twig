@@ -24,7 +24,7 @@
         <div class="container clearfix">
             <!-- special offer -->
             <div class="special_offers">
-                {% for slug, tour in tours %}
+                {% for slug, tour in tours if tour.duration2 is defined %}
                     <div class="special_item">
                         <div class="special_image">
                             <a href="{{ path('tour_show', {'slug' : slug}) }}"><img src="/images/special_offer_naadam.jpg" alt="{{ tour.name }}"></a>
