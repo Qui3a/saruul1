@@ -31,7 +31,7 @@ class TourControllerProvider implements ControllerProviderInterface
 
         /** Tour all */
         $controllers->get('/all.html', function (Application $app) {
-            $tours = $app['content_tours'];
+            $tours = $app['content_tours']->getTours();
             $app['seo_key'] = 'tours';
 
             return $app['twig']->render('Page/tours.html.twig', array(
