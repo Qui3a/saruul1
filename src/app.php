@@ -27,8 +27,9 @@ $app->register(new UrlGeneratorServiceProvider());
 
 // SWIFTMAILER
 $app->register(new SwiftmailerServiceProvider());
+$smtp = gethostbyname('smtp.gmail.com');
 $app['swiftmailer.options'] = array(
-    'host' => 'smtp.gmail.com',//'64.233.184.108',//'smtp.gmail.com',
+    'host' => $smtp,//'64.233.184.108',//'smtp.gmail.com',
     'port' => '465',
     'username' => 'info@travelallmongolia.com',
     'password' => 'Soyoloo601',
@@ -110,7 +111,7 @@ $app->before(function(Request $request) use ($app){
             $country['country_name'] = 'Unknown';
         $app['visitor_country'] = $country['country_name'];
     //}
-    $app['swiftmailer.transport']->setSourceIp('0.0.0.0');
+    //$app['swiftmailer.transport']->setSourceIp('0.0.0.0');
 });
 
 
