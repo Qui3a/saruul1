@@ -24,7 +24,8 @@
         <div class="container clearfix">
             <!-- special offer -->
             <div class="">
-                {% for slug, tour in tours if tour.duration2 is defined and loop.index < tours|length / 2 %}
+                {% for slug, tour in tours if tour.duration2 is defined %}
+                    {% if loop.index < tours|length / 2 %}
                     <div class="special_item">
                         <div class="special_image">
                             <a href="{{ path('tour_show', {'slug' : slug}) }}"><img src="/images/special_offer_naadam.jpg" alt="{{ tour.name }}"></a>
@@ -38,12 +39,14 @@
                             <div class="special_price"><a href="{{ path('tour_show', {'slug' : slug}) }}">VIEW DETAILS</a></div>
                         </div>
                     </div>
+                    {% endif %}
                 {% endfor %}
             </div>
             <!--/ special offer -->
             <!-- special offer -->
             <div class="">
-                {% for slug, tour in tours if tour.duration2 is defined and loop.index >= tours|length / 2 %}
+                {% for slug, tour in tours if tour.duration2 is defined %}
+                    {% if loop.index >= tours|length / 2 %}
                     <div class="special_item">
                         <div class="special_image">
                             <a href="{{ path('tour_show', {'slug' : slug}) }}"><img src="/images/special_offer_naadam.jpg" alt="{{ tour.name }}"></a>
@@ -57,6 +60,7 @@
                             <div class="special_price"><a href="{{ path('tour_show', {'slug' : slug}) }}">VIEW DETAILS</a></div>
                         </div>
                     </div>
+                    {% endif %}
                 {% endfor %}
             </div>
             <!--/ special offer -->
