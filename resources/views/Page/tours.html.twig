@@ -35,7 +35,7 @@
                             {% if tour.price_int is defined and tour.price_int is not null %}
                             <div class="info_row"><span>PRICE FROM:</span> ${{ tour.price_int }}</div>
                             {% endif %}
-                            <div class="special_price"><a href="{{ path('tour_show', {'slug' : slug) }}">VIEW DETAILS</a></div>
+                            <div class="special_price"><a href="{{ path('tour_show', {'slug' : slug}) }}">VIEW DETAILS</a></div>
                         </div>
                     </div>
                 {% endfor %}
