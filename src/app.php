@@ -41,7 +41,18 @@ $app['swiftmailer.options'] = array(
     'auth_mode' => 'login',
   */  
 );
-$app['swiftmailer.transport']->setSourceIp('0.0.0.0');
+$app['swiftmailer.transport'] = \Swift_SmtpTransport::newInstance
+(
+    'smtp.gmail.com',
+    465,
+    'ssl'
+)
+    ->setUsername('info@travelallmongolia.com')
+    ->setSourceIp('0.0.0.0')
+    ->setPassword('Soyoloo601');
+$app['mailer'] = $app->share(function ($app) {
+    return new \Swift_Mailer($app['swiftmailer.transport']);
+});
 
 $app->register(new TwigServiceProvider(), array(
     'twig.options'        => array(
