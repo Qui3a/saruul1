@@ -28,7 +28,7 @@ $app->register(new UrlGeneratorServiceProvider());
 // SWIFTMAILER
 $app->register(new SwiftmailerServiceProvider());
 $app['swiftmailer.options'] = array(
-    'host' => 'smtp.gmail.com',
+    'host' => 'smtp.gmail.com',//'64.233.184.108',//'smtp.gmail.com',
     'port' => '465',
     'username' => 'info@travelallmongolia.com',
     'password' => 'Soyoloo601',
@@ -41,7 +41,7 @@ $app['swiftmailer.options'] = array(
     'auth_mode' => 'login',
   */  
 );
-
+$app['swiftmailer.transport']->setSourceIp('0.0.0.0');
 
 $app->register(new TwigServiceProvider(), array(
     'twig.options'        => array(
@@ -119,7 +119,7 @@ $app['seo_key'] = 'all';
 $app['tourapi.host'] = 'http://tourapi.88125925.com';
 $app['company'] = array(
     'name' => 'Travel All Mongolia',
-    'email' => 'info@travelallmongolia.com',
+    'email' => 'g.enkhbayasgalan@gmail.com',//'info@travelallmongolia.com',
     'website' => 'http://www.travelallmongolia.com',
     'video' => 'NShsdGOFb0k',
 );
