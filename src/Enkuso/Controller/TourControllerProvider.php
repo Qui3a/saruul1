@@ -29,6 +29,16 @@ class TourControllerProvider implements ControllerProviderInterface
         /** @var ControllerCollection $controllers */
         $controllers = $app['controllers_factory'];
 
+        /** Tour all */
+        $controllers->get('/all.html', function (Application $app, $slug) {
+            $tours = $app['content_tours'];
+            $app['seo_key'] = 'tours';
+
+            return $app['twig']->render('Page/tours.html.twig', array(
+                    'tours' => $tours,
+                ));
+        })->bind('tour_all');
+
         /** Tour show */
         $controllers->get('/{slug}.html', function (Application $app, $slug) {
             $tour = $app['content_tours']->getTourInfo($slug);

@@ -1,0 +1,47 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider1_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>Tours</span></strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a>  <span class="separator">&rsaquo;</span>
+                <span class="current">Tours</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <div class="middle_row row_light_gray">
+        <div class="container clearfix">
+            <!-- special offer -->
+            <div class="special_offers">
+                {% for slug, tour in tours %}
+                    <div class="special_item">
+                        <div class="special_image">
+                            <a href="{{ path('tour_show', {'slug' : slug}) }}"><img src="/images/special_offer_naadam.jpg" alt="{{ tour.name }}"></a>
+                        </div>
+                        <div class="special_text">
+                            <h3><a href="{{ path('tour_show', {'slug' : slug}) }}">{{ tour.name }}</a></h3>
+                            <div class="info_row"><span>DURATION:</span> {{ tour.duration2 }}</div>
+                            {% if tour.price_int is defined and tour.price_int is not null %}
+                            <div class="info_row"><span>PRICE FROM:</span> ${{ tour.price_int }}</div>
+                            {% endif %}
+                            <div class="special_price"><a href="{{ path('tour_show', {'slug' : {{ slug }}) }}">VIEW DETAILS</a></div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <!--/ special offer -->
+        </div>
+    </div>
+
+{% endblock %}
