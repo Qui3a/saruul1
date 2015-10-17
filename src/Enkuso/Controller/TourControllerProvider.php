@@ -33,7 +33,7 @@ class TourControllerProvider implements ControllerProviderInterface
         $controllers->get('/all.html', function (Application $app) {
             $tours = $app['content_tours']->getTours();
             foreach($tours as $slug => $tour){
-                $tour['slug'] = $slug;
+                $tours[$slug]['slug'] = $slug;
             }
             usort($tours, function($a, $b){
                 return $a['list_order'] - $b['list_order'];
