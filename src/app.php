@@ -142,7 +142,7 @@ $app['seo_key'] = 'all';
 $app['tourapi.host'] = 'http://tourapi.88125925.com';
 $app['company'] = array(
     'name' => 'Travel All Mongolia',
-    'email' => 'g.enkhbayasgalan@gmail.com',//'info@travelallmongolia.com',
+    'email' => 'info@travelallmongolia.com',
     'website' => 'http://www.travelallmongolia.com',
     'video' => 'NShsdGOFb0k',
 );
