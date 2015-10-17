@@ -41,7 +41,7 @@ $app['swiftmailer.options'] = array(
     'auth_mode' => 'login',
   */  
 );
-$app['swiftmailer.transport'] = \Swift_SmtpTransport::newInstance
+/*$app['swiftmailer.transport'] = \Swift_SmtpTransport::newInstance
 (
     'smtp.gmail.com',
     465,
@@ -52,7 +52,7 @@ $app['swiftmailer.transport'] = \Swift_SmtpTransport::newInstance
     ->setPassword('Soyoloo601');
 $app['mailer'] = $app->share(function ($app) {
     return new \Swift_Mailer($app['swiftmailer.transport']);
-});
+});*/
 
 $app->register(new TwigServiceProvider(), array(
     'twig.options'        => array(
