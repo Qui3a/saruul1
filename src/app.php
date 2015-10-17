@@ -29,7 +29,7 @@ $app->register(new UrlGeneratorServiceProvider());
 $app->register(new SwiftmailerServiceProvider(), array(
     'swiftmailer.options'     => array(
         'host' => 'smtp.gmail.com',
-        'port' => '465',
+        'port' => '587',
         'username' => 'info@travelallmongolia.com',
         'password' => 'Soyoloo601',
         'encryption' => 'ssl',
