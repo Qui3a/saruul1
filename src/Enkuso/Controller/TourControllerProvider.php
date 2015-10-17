@@ -30,7 +30,7 @@ class TourControllerProvider implements ControllerProviderInterface
         $controllers = $app['controllers_factory'];
 
         /** Tour all */
-        $controllers->get('/all.html', function (Application $app, $slug) {
+        $controllers->get('/all.html', function (Application $app) {
             $tours = $app['content_tours'];
             $app['seo_key'] = 'tours';
 
