@@ -49,7 +49,7 @@
                     {% if loop.index > tours|length / 2 %}
                     <div class="special_item">
                         <div class="special_image">
-                            <a href="{{ path('tour_show', {'slug' : slug}) }}"><img src="/images/special_offer_naadam.jpg" alt="{{ tour.name }}"></a>
+                            <a href="{{ path('tour_show', {'slug' : slug}) }}"><img src="{{ tour.list_img is defined and tour.list_img is not null ? tour.list_img : 'http://placehold.it/310x134' }}" alt="{{ tour.name }}"></a>
                         </div>
                         <div class="special_text">
                             <h3><a href="{{ path('tour_show', {'slug' : slug}) }}">{{ tour.name }}</a></h3>
