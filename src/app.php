@@ -26,7 +26,8 @@ $app->register(new FormServiceProvider());
 $app->register(new UrlGeneratorServiceProvider());
 
 // SWIFTMAILER
-$app->register(new SwiftmailerServiceProvider(), array(
+$app->register(new SwiftmailerServiceProvider(), array());
+/*$app->register(new SwiftmailerServiceProvider(), array(
     'swiftmailer.options'     => array(
         'host' => 'smtp.gmail.com',
         'port' => '587',
@@ -36,22 +37,22 @@ $app->register(new SwiftmailerServiceProvider(), array(
         'auth_mode' => 'login',
     ),
     'swiftmailer.class_path'  => __DIR__.'/../vendor/silex/vendor/swiftmailer/lib/classes',
-));
+));*/
 //$smtp = gethostbyname('smtp.gmail.com');
-//$app['swiftmailer.options'] = array(
-//    'host' => $smtp,//'64.233.184.108',//'smtp.gmail.com',
-//    'port' => '465',
-//    'username' => 'info@travelallmongolia.com',
-//    'password' => 'Soyoloo601',
-//    'encryption' => 'ssl',
-//    'auth_mode' => 'login',
-///*    'host' => 'travelallmongolia.com',
-//    'port' => '25',
-//    'username' => 'noreply@travelallmongolia.com',
-//    'password' => 'TWv03ReTmlu0',
-//    'auth_mode' => 'login',
-//  */
-//);
+$app['swiftmailer.options'] = array(
+    'host' => 'smtp.gmail.com',
+    'port' => '465',
+    'username' => 'info@travelallmongolia.com',
+    'password' => 'Soyoloo601',
+    'encryption' => 'ssl',
+    'auth_mode' => 'login',
+/*    'host' => 'travelallmongolia.com',
+    'port' => '25',
+    'username' => 'noreply@travelallmongolia.com',
+    'password' => 'TWv03ReTmlu0',
+    'auth_mode' => 'login',
+  */
+);
 /*$app['swiftmailer.transport'] = \Swift_SmtpTransport::newInstance
 (
     'smtp.gmail.com',
