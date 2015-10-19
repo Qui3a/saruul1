@@ -197,7 +197,7 @@ class Tours
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>",
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_22.jpg',
             'price_int' => 6985,
 
         ),
@@ -217,7 +217,7 @@ class Tours
             ),
             'pictures' => array(
                 // zuragnuud
-                'http:\/\/farm4.staticflickr.com\/3783\/10865349026_4c0c5c2366_b.jpg',
+                'https://farm9.staticflickr.com/8202/8184829086_6b64aa67d7_b.jpg',
             ),
             'region' => 'Central, Southern and Northern part of Mongolia.',
             'availableTime' => 'Feb 29, 2016',
@@ -231,7 +231,7 @@ class Tours
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>",
             'list_order' => 30,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_23.jpg',
             'price_int' => 2385,
 
         ),
@@ -431,7 +431,7 @@ Tour group from USA September</strong>",
             <strong>Sandra Bremer, USA</strong>",
 
             'list_order' => 0,
-            'list_img' => '/images/special_offer_09.jpg',
+            'list_img' => '/images/special_offer_21.jpg',
             'price_int' => 5995,
         ),
 
@@ -538,7 +538,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 <strong>Steve LaRocca<br/>USA</strong>',
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_20.jpg',
             'price_int' => 1485,
         ),
 
@@ -613,7 +613,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 <strong>Sandra Bremer<br/>USA</strong>',
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_19.jpg',
             'price_int' => 2895,
         ),
 
