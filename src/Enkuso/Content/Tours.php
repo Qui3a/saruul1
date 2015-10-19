@@ -230,7 +230,7 @@ class Tours
             'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>",
-            'list_order' => 0,
+            'list_order' => 30,
             'list_img' => null,
             'price_int' => 2385,
 
@@ -735,7 +735,7 @@ I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. Soyol
 <p>Mongolia is a beautiful country located in the Central Asian grasslands called the Steppes. It is a land-locked country, sandwiched between Russia and China. The wide open spaces and the friendliness of the people will leave you nostalgic for a land of extensive peacefulness and vastness, long after your visit. Mongolia is worth the visit, and Mongolian Journeys is your best bet at getting your money worth seeing this gorgeous land.</p>
 <strong>Jack Perera Elkridge, Maryland, USA</strong>",
 
-            'list_order' => 0,
+            'list_order' => 29,
             'list_img' => null,
             'price_int' => 3350,
         ),
