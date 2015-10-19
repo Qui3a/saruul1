@@ -112,7 +112,7 @@ class Tours
                 'https://farm4.staticflickr.com/3852/15205063450_059a00292b_z.jpg',
             ),
             'region' => 'Central, Southern and Northern part of Mongolia.',
-            'availableTime' => '<br/>&nbsp;&nbsp;6 - 20th of July, <br/>&nbsp;&nbsp;9th - 23th of July, <br/>&nbsp;&nbsp;29th of June – 13th of July',
+            'availableTime' => '<br/>&nbsp;&nbsp;<a href="http://www.travelallmongolia.com/download-pdf/A-Classic-Journey-Of-Mongolia-With-Rural-Naadam-Festival-In-Karakorum-15-Days">6 - 20th of July</a>, <br/>&nbsp;&nbsp;9th - 23th of July, <br/>&nbsp;&nbsp;29th of June – 13th of July',
             'map' => 'https://farm4.staticflickr.com/3872/15368668506_1bf7ecaabb_m.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3872/15368668506_8ca8785279_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
