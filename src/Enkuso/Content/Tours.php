@@ -42,7 +42,7 @@ class Tours
             <p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
             'testimonial' => "",
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_01.jpg',
             'price_int' => 3395,
 
         ),
@@ -81,7 +81,7 @@ class Tours
             their way of life.  I highly recommend experiencing Mongolia through
             "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_02.jpg',
             'price_int' => 2395,
 
         ),
@@ -122,7 +122,7 @@ class Tours
             'testimonial' => "<p>It is truly an experience, to be with the family. Very impressed with what the desert had to offer. The kids were always up for the adventures planned for us. We were always surrounded by nice people, good food and AMAZING scenery. Quite a family destination. From this experience makes us want to come back Mongolia, again and again and again.</p>
 <strong>Adam Singer family, USA</strong>",
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_04.jpg',
             'price_int' => 3585,
 
         ),
@@ -162,7 +162,7 @@ class Tours
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>",
             'list_order' => 0,
-            'list_img' => '/images/special_offer_bayanzag.jpg',
+            'list_img' => '/images/special_offer_03.jpg',
             'price_int' => 3345,
 
         ),
@@ -273,7 +273,7 @@ Just want to thank you for your wonderful hospitality and expert tour guiding du
 <br/>Lisa Berkman
 <br/>Tour group from USA September</strong>",
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_05.jpg',
             'price_int' => null,
 
         ),
@@ -315,7 +315,7 @@ Thanks again Soyoloo It was really a great experience and filled with a lifetime
 <strong>Michealla from Australia</strong>",
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_06.jpg',
             'price_int' => null,
         ),
 
@@ -357,7 +357,7 @@ I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was th
 <strong>Kayleigh Jones from England</strong>",
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_07.jpg',
             'price_int' => 2895,
         ),
 
@@ -400,7 +400,7 @@ Lisa Berkman <br/>
 Tour group from USA September</strong>",
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_08.jpg',
             'price_int' => 2850,
         ),
         
@@ -431,7 +431,7 @@ Tour group from USA September</strong>",
             <strong>Sandra Bremer, USA</strong>",
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_09.jpg',
             'price_int' => 5995,
         ),
 
@@ -466,7 +466,7 @@ Tour group from USA September</strong>",
 <strong>Manuela Bolchini</strong>",
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_10.jpg',
             'price_int' => null,
         ),
 
@@ -502,7 +502,7 @@ Tour group from USA September</strong>",
 <strong>Jane Ferguson Group from Australia</strong>',
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_11.jpg',
             'price_int' => null,
         ),
 
@@ -652,7 +652,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 <strong>Sandra Bremer<br/>USA</strong>',
 
             'list_order' => 0,
-            'list_img' => '/images/special_offer_naadam.jpg',
+            'list_img' => '/images/special_offer_12.jpg',
             'price_int' => 3295,
         ),
 
@@ -693,7 +693,7 @@ The wild horses were amazing and we took so many photos, it was so hard to choos
 <strong>Michealla from Australia</strong>",
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_13.jpg',
             'price_int' => 2995,
         ),
 
@@ -736,7 +736,7 @@ I traveled with Travel All Mongolia in Mongolia in the summer of 2010. Mr. Soyol
 <strong>Jack Perera Elkridge, Maryland, USA</strong>",
 
             'list_order' => 29,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_14.jpg',
             'price_int' => 3350,
         ),
 
@@ -805,7 +805,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 <strong>Jane Ferguson Group from Australia</strong>",
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_15.jpg',
             'price_int' => 3145,
         ),
 
@@ -851,7 +851,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 <strong>Jane Ferguson Group from Australia</strong>",
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_16.jpg',
             'price_int' => 3465,
         ),
 
@@ -893,7 +893,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 <strong>Jane Ferguson Group from Australia</strong>",
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_17.jpg',
             'price_int' => 3885,
         ),
 
@@ -940,7 +940,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 <strong>Jane Ferguson Group from Australia</strong>",
 
             'list_order' => 0,
-            'list_img' => null,
+            'list_img' => '/images/special_offer_18.jpg',
             'price_int' => 3695,
         ),
 
