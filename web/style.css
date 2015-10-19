@@ -3538,7 +3538,7 @@ h3.toggle.box {
 
 .sidebar .widget-container {
 	padding:30px 25px;
-	font-size:13px;
+	/*font-size:13px;*/
 	background:url(images/sidebar_line.png) top repeat-x}
 
 .sidebar .widget-container.first {
