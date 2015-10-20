@@ -51,7 +51,7 @@ class Tours
             history and culture, meeting local nomadic families and learning about
             their way of life.  I highly recommend experiencing Mongolia through
             "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
-            'list_order' => 0,
+            'list_order' => 16,
             'list_img' => '/images/special_offer_01.jpg',
             'price_int' => 3395,
 
@@ -90,7 +90,7 @@ class Tours
             history and culture, meeting local nomadic families and learning about
             their way of life.  I highly recommend experiencing Mongolia through
             "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
-            'list_order' => 0,
+            'list_order' => 15,
             'list_img' => '/images/special_offer_02.jpg',
             'price_int' => 2395,
 
@@ -131,7 +131,7 @@ class Tours
             'overview' => "",
             'testimonial' => "<p>It is truly an experience, to be with the family. Very impressed with what the desert had to offer. The kids were always up for the adventures planned for us. We were always surrounded by nice people, good food and AMAZING scenery. Quite a family destination. From this experience makes us want to come back Mongolia, again and again and again.</p>
 <strong>Adam Singer family, USA</strong>",
-            'list_order' => 0,
+            'list_order' => 14,
             'list_img' => '/images/special_offer_04.jpg',
             'price_int' => 3585,
 
@@ -171,7 +171,7 @@ class Tours
             'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>",
-            'list_order' => 0,
+            'list_order' => 13,
             'list_img' => '/images/special_offer_03.jpg',
             'price_int' => 3345,
 
@@ -206,7 +206,7 @@ class Tours
             'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>",
-            'list_order' => 0,
+            'list_order' => 12,
             'list_img' => '/images/special_offer_22.jpg',
             'price_int' => 6985,
 
@@ -282,7 +282,7 @@ Just want to thank you for your wonderful hospitality and expert tour guiding du
 <strong>Best,
 <br/>Lisa Berkman
 <br/>Tour group from USA September</strong>",
-            'list_order' => 0,
+            'list_order' => 9,
             'list_img' => '/images/special_offer_05.jpg',
             'price_int' => null,
 
@@ -324,7 +324,7 @@ I definitely recommend anyone who is up for an adventure, filled with culture an
 Thanks again Soyoloo It was really a great experience and filled with a lifetime of memories.</p>
 <strong>Michealla from Australia</strong>",
 
-            'list_order' => 0,
+            'list_order' => 21,
             'list_img' => '/images/special_offer_06.jpg',
             'price_int' => null,
         ),
@@ -366,7 +366,7 @@ Thanks again Soyoloo It was really a great experience and filled with a lifetime
 I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was the holiday of a lifetime. Mongolia is a fantastic destination because the scenery is just beautiful and the people are so friendly. Soyoloo was our tour guide and he spoke very good English, he was always punctual, very helpful and generally took care of us. He had very good knowledge of Mongolia, so we were well informed well of the history of Mongolia, the summer festival Nadaam, the traditional gers in the countryside, and the city of Ulaanbaatar. Visiting the traditional gers with Soyoloo was especially fun because We got to do so many different activities like try archery, try some of the Mongolian food, ride a camel, have our names written in Mongolian and we even had Mongolian music played to us. I had learnt that Mongolia is such a fascinating and unique country, which is extremely picturesque, and we would absolutely love to visit the country again in the future. I would recommend anyone thinking of going to Mongolia through Travel All Mongolia, to absolutely go, and get in contact with Soyoloo, because you will be well looked after and you will never forget the holiday.</p>
 <strong>Kayleigh Jones from England</strong>",
 
-            'list_order' => 0,
+            'list_order' => 20,
             'list_img' => '/images/special_offer_07.jpg',
             'price_int' => 2895,
         ),
@@ -409,7 +409,7 @@ Thank you so much for showing us around and making sure our trip was a success. 
 Lisa Berkman <br/>
 Tour group from USA September</strong>",
 
-            'list_order' => 0,
+            'list_order' => 18,
             'list_img' => '/images/special_offer_08.jpg',
             'price_int' => 2850,
         ),
@@ -440,7 +440,7 @@ Tour group from USA September</strong>",
             'testimonial' => "<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide, we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight.  The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated.  Everything else was great.  This was one of the best trips I have ever taken.  Thank you for offering it to us so we could see your wonderful country first hand.</p>
             <strong>Sandra Bremer, USA</strong>",
 
-            'list_order' => 0,
+            'list_order' => 19,
             'list_img' => '/images/special_offer_21.jpg',
             'price_int' => 5995,
         ),
@@ -475,7 +475,7 @@ Tour group from USA September</strong>",
             'testimonial' => "<p>When you think about Mongolia, the first thing that comes to your mind is Genghis Khan, the tales of his achievements and the strength of his warriors. And then the desert, the Gobi, the dunes. A strange landscape that makes us running with imagination in geography books. Mongolia is much more: it is a country of dust, sounds, never-ending silence, and endless landscapes, horizons that seem to grow without end and without obstacles. Mongolia is reflected in people's eyes: peaceful, calm, always helpful and kind, fair … almost noble in their attitudes. People who live in gers (a name which will not say anything to most of Italian people) but that indicates typical tents where the nomadic Mongols lived and still live. Without continuous light, no running water, no comfort, no division of rooms and even less without bathroom. A tent where every day at any time you find a thermos full of hot water or airag (fermented milk, with a slightly salty taste and alcohol), ready for guests. A small cluster, a small world open to anyone who passes. No matter whom he is, where he comes from, what language he speaks. Just stop on the road (dusty way, sometimes there is not even a path and the driver moves like following an invisible line in the middle of the landscape). Someone will arrive in the saddle of his horse or riding a motorcycle. Probably it will be a child (they are entrusted to their family’s herds) and he will immediately try to figure out how to help. Because you do not stop in the desert, if you do not really need to. You constantly travel, ride, go. And when you leave Ulaanbaatar (or UB, as they call it) you’ll see just that: a long and vast prairie, always changing. Rockets, desert, dunes, mountains and plains. One day you are in t-shirt with 35 ° C. The day after you are obliged to wear gloves and scarf! Heaven and earth meet and touch (average altitude above sea level is from 1000 meters at least, UB is 1330 meters) ... in some places you believe you can touch the clouds. So it is not surprising to find out that one of the main deities is Tenger, the god of the sky. During night the sky is so beautiful and wonderful: immense, starry, where you even look at the shades of blue in the Milky Way (yes, they are not colors you see only in books!)... A sky without interruption of artificial lights for miles, surrounded by a silence that you never imagined could exist. A place to visit because it is one of the few places remaining natural on earth, innocent ... where children still accept a gift collecting it with open hands. Where children do not know what is a deflated balloon. Just to see their eyes lighting in discovering it, it's worth flying up to Mongolia!</p>
 <strong>Manuela Bolchini</strong>",
 
-            'list_order' => 0,
+            'list_order' => 11,
             'list_img' => '/images/special_offer_10.jpg',
             'price_int' => null,
         ),
@@ -511,7 +511,7 @@ Tour group from USA September</strong>",
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>',
 
-            'list_order' => 0,
+            'list_order' => 10,
             'list_img' => '/images/special_offer_11.jpg',
             'price_int' => null,
         ),
@@ -547,7 +547,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 </p>
 <strong>Steve LaRocca<br/>USA</strong>',
 
-            'list_order' => 0,
+            'list_order' => 4,
             'list_img' => '/images/special_offer_20.jpg',
             'price_int' => 1485,
         ),
@@ -587,7 +587,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 </p>
 <strong>Kayleigh Jones from England</strong>',
 
-            'list_order' => 0,
+            'list_order' => 3,
             'list_img' => '/images/special_offer_gobi.jpg',
             'price_int' => 1590,
         ),
@@ -622,7 +622,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
             'testimonial' => '<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide; we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight. The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated. Everything else was great.  This was one of the best trips I have ever taken. Thank you for offering it to us so we could see your wonderful country first hand.</p>
 <strong>Sandra Bremer<br/>USA</strong>',
 
-            'list_order' => 0,
+            'list_order' => 2,
             'list_img' => '/images/special_offer_19.jpg',
             'price_int' => 2895,
         ),
@@ -661,7 +661,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
             'testimonial' => '<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide; we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight. The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated. Everything else was great.  This was one of the best trips I have ever taken. Thank you for offering it to us so we could see your wonderful country first hand.</p>
 <strong>Sandra Bremer<br/>USA</strong>',
 
-            'list_order' => 0,
+            'list_order' => 1,
             'list_img' => '/images/special_offer_12.jpg',
             'price_int' => 3295,
         ),
@@ -702,7 +702,7 @@ The wild horses were amazing and we took so many photos, it was so hard to choos
 <p>Thanks again Soyoloo It was really a great experience and filled with a lifetime of memories.</p>
 <strong>Michealla from Australia</strong>",
 
-            'list_order' => 0,
+            'list_order' => 5,
             'list_img' => '/images/special_offer_13.jpg',
             'price_int' => 2995,
         ),
@@ -814,7 +814,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>",
 
-            'list_order' => 0,
+            'list_order' => 17,
             'list_img' => '/images/special_offer_15.jpg',
             'price_int' => 3145,
         ),
@@ -860,7 +860,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>",
 
-            'list_order' => 0,
+            'list_order' => 8,
             'list_img' => '/images/special_offer_16.jpg',
             'price_int' => 3465,
         ),
@@ -902,7 +902,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>",
 
-            'list_order' => 0,
+            'list_order' => 7,
             'list_img' => '/images/special_offer_17.jpg',
             'price_int' => 3885,
         ),
@@ -949,7 +949,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 <p>Thank you for looking after us so well.</p>
 <strong>Jane Ferguson Group from Australia</strong>",
 
-            'list_order' => 0,
+            'list_order' => 6,
             'list_img' => '/images/special_offer_18.jpg',
             'price_int' => 3695,
         ),
