@@ -373,7 +373,7 @@ I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was th
 
         'jewels-of-mongolia-with-rural-naadam-festival-in-khuvsgul-lake' => array(
             'name' => 'Jewels of Mongolia with Rural Naadam Festival in Khuvsgul lake',
-            'layout' => 'jewels-of-mongolia-with-rural-naadam-festival-in-khuvsgul-lake.html.twig',
+            'layout' => 'jewels-of-mongolia-with-rural-naadam-festival.html.twig',
             'duration' => '12 days',
             'duration2' => '12 days / 11 nights',
             'type' => 'cultural',
