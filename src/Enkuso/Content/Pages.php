@@ -385,63 +385,8 @@ Cancellation Fees: <br/>
         ),
         'frequently-asked-questions' => array(
             'title' => 'Frequenty Asked Questions',
-            'body' => '<p><strong>Climate</strong></p>
-<p>The ideal Mongolia travel season starts in May and hits its highest peak in July, during the Naadam holiday, and in August when the weather is most favorable for traveling. This is the best time if you like the culture and can bear the crowds of other tourists. It is not a good time if you want to get away from your busy lifestyle because you will experience traffic, busy schedules, waiting in lines, etc. Temperature throughout the year in Mongolia can be quite extreme. Mongolia\'s tourism season is from May to October because of the difficult climate at other times of the year. In the summer, the weather can range from freezing rain and snow to temperatures above 100 F/39 C, with a possibility of fog, drizzle and torrential storms. Take note that the mean monthly temperature in Ulaanbaatar is -17 F/-27 C in January and 64 F/18 C in July. Clothing that you can layer is highly recommended.</p>
-<p>September is also a very good time to visit, and October is not too late to travel to Mongolia. It is still warm during the days but a bit chilly during the nights. In the autumn, Mongolia is not very crowded, and this is time for late-comers and last-minute, unplanned trips. You will get to sightsee, enjoy the culture, and taste mare\'s milk, a bitter and at first somewhat unpleasant drink, throughout the country.</p>
-<p><strong>How to get Mongolia</strong></p>
-<p>You can travel to Mongolia by rail on the Trans-Siberian Express, from Beijing, People\'s Republic of China (PRC), or fly in to Ulaanbaatar on China Airlines from Beijing PRC, MIAT Mongolian Airlines, Korean Air from Seoul, South Korea, or directly on Mongolian Airlines from Beijing, China, PRC or Berlin, Germany.</p>
-<p><strong>Transportation</strong></p>
-<p>All transportation is included in our tours and provided via private car and guides. Travel by motor coach will be by modern air-conditioned deluxe coaches for large groups. We provide Japanese minivan, Toyota Land Cruiser and Russian minivan for our clients’ travel in Mongolia.</p>
-<p>Very limited public transportation services throughout the entire territory of Mongolia. Trains go from north to south connecting Altanbulag-Ulaanbaatar-Zamyn-Uud. Other than that public transportation is basically non-existent in most parts of Mongolia, except the capital city, and privately run tracks, buses, cars connect major tourist destinations on a random basis.</p>
-<p><strong>Tipping</strong></p>
-<p>Tipping is not customary except at restaurants in Ulan Bator, where waiters expect a tip, especially from tourists. On tours with private sightseeing, gratuities of $15-$20 for travel guides, $10-$15 for drivers per person per day is customary.</p>
-<p><strong>Bargaining -</strong>&nbsp;Most of the shops and markets in town have fixed prices which are often displayed on the goods. Do not try to bargain here. At the black market, tourists are unlikely to be charged very much more than the locals, unless they are buying antiques, jewelry and other cultural items. By all means try and get a price down but be reasonable. For example, as a guide, don\'t try for less than 60-70% of the asking price. And only start bargaining if you\'re seriously interested in buying.</p>
-<p><strong>Time Difference</strong></p>
-<p>Mongolia Standard Time is 7 hours ahead of Greenwich Mean Time and 12 hours ahead of Eastern Standard Time.</p>
-<p><strong>Currency</strong></p>
-<p>Tukrig is the national currency of Mongolia. The exchange rate is approximately 1400 Tukrig for USD $1.</p>
-<p>Most banks and the larger hotels in Ulaanbaatar will be able to change the major currencies, although US Dollars are the most widely accepted. It is also possible to change travelers cheques and get cash advances on your credit card. American Express, VISA and Mastercard are the most widely accepted in major tourists centers. In the Aimag centers, you\'ll certainly find at least one bank, but they will not be able to accept credit cards or traveler\'s cheques. They may be able to change US Dollars but the exchange rate will be a lot lower than that available in the capital.</p>
-<p>In Ulaanbaatar, one of the most centrally located banks for both traveler\'s cheque cashing and credit card advances is the Trade and Development Bank.</p>
-<p>Many shops and restaurants only accept local currency, be sure to exchange your money upon arrival.</p>
-<p><strong>What kind of food will I have?</strong></p>
-<p>As a rising capital city of the Mongolia, there are many modern Italian, Chinese, Korean, Russian, Japanese, Latin American and Mongolian restaurants in Ulaanbaatar, where is available to be served western and eastern standard meals or Mongolian traditional cuisines. Most of the old style restaurants serve Russian food, and this type of food is common in the tourist camps in countryside. Small local restaurants and cafes serve Mongolian food such as buuz and khuushuur (steamed and fried beef, mutton dumpling) and others.</p>
-<p>The main components of Mongolian meals are beef, mutton and milk products. The most popular drink is milk-tea, which is bit a salty and served every time. Also you will be offered with many kinds of milk products such as airag mare\'s fermented milk, yogurt, and milk cream butter etc in Mongolian family in countryside.</p>
-<p><strong>Communications</strong></p>
-<p>The Mongolian telephone system is in the process of being modernized but still lacks many of the services we rely on elsewhere. Dialing Mongolia is relatively simple although may take several attempts. Mongolia\'s national code is \'976\'. Making international telephone calls from Ulaanbaatar is relatively easy. Most hotels have International Direct Dial Facilities. Alternatively, calls can be made from various telephone exchanges around the city. The \'Central Post\' Building located on the southwest corner of Sukhbaatar Square is the largest telephone exchange.</p>
-<p>Cheaper calls are available if calling from other telephones in the city, i.e. offices &amp; hotels, especially between 22.00 and 07.00 weekdays, 17.00 and 07.00 Saturdays and all day Sunday. The large telephone exchange on Sukhbaatar Square has the facilities for you to send faxes and emails. The cost for faxing depends on where the fax is being sent to. As a guide, a fax taking one minute to the United Kingdom would cost approximately MNT 3000.</p>
-<p><strong>Baggage</strong></p>
-<p>On Domestic flights, passengers are allowed 20kg of luggage per person. On International flights, passengers are allowed two pieces of checked luggage. Excess luggage fees will be charged if you check more than the stated allowances, and these charges are your responsibility.&nbsp; At most major airports, baggage carts are available for your luggage, usually for a small additional fee.</p>
-<p><strong>Tourist ger camp</strong></p>
-<p>Tourist GER camps are the best accommodation closely located to attraction sites through the country, where visitors can experience and feel nomadic way of life. It is a portable round felt house perfectly suited to the Mongolian nomadic lifestyle. The GER consists of a wooden frame carrying a felt cover. Traditionally furnished with beautifully painted wood-framed beds and furniture, the lodge is built in a traditional architectural style.</p>
-<p><img src="http://sphotos-c.ak.fbcdn.net/hphotos-ak-ash4/229989_425022897556663_180227311_n.jpg" alt="" width="200" />&nbsp;<img src="http://sphotos-d.ak.fbcdn.net/hphotos-ak-snc6/229989_425022904223329_1081983011_n.jpg" alt="" width="200" />&nbsp;<img src="http://sphotos-f.ak.fbcdn.net/hphotos-ak-snc6/229989_425022907556662_1291164234_n.jpg" alt="" width="200" /></p>
-<p><img src="http://sphotos-a.ak.fbcdn.net/hphotos-ak-ash4/229989_425022910889995_1559719975_n.jpg" alt="" width="200" />&nbsp;<img src="http://sphotos-g.ak.fbcdn.net/hphotos-ak-snc6/229989_425022914223328_1960380003_n.jpg" alt="" width="200" />&nbsp;<img src="http://sphotos-e.ak.fbcdn.net/hphotos-ak-snc7/488012_425023004223319_1801809366_n.jpg" alt="" width="200" /></p>
-<p><strong>Clothes and equipments</strong></p>
-<ul>
-<li>Shoes suitable walking and riding with thick socks</li>
-<li>Lightweight shoes</li>
-<li>Warm jacket and pillowed</li>
-<li>Trousers suitable for riding</li>
-<li>Long sleeved shirt</li>
-<li>T-shirt</li>
-<li>Shorts</li>
-<li>Gloves</li>
-<li>Waterproof clothing: trousers, top</li>
-<li>Woolen hat</li>
-<li>Sun hat</li>
-<li>Sun glasses</li>
-<li>Camera and share film batteries</li>
-<li>Torch and batteries for camping head</li>
-<li>Water bottles</li>
-<li>Matches</li>
-<li>Plastic bags in order to protect your items from moisture</li>
-<li>Photocopy of your passport and other important documents</li>
-<li>Four season sleeping bag, liner</li>
-<li>Mosquito cream</li>
-<li>Common antibiotics</li>
-<li>Lip balm</li>
-<li>Tissues</li>
-<li>Pills for anti-diarrhea, constipation, stomach upset, headache and other like sunburn, skin irritation.</li>
-</ul>',
+            'body' => '',
+            'content' => 'faq.html',
         ),
         'about-us' => array(
             'title' => 'About Us',
