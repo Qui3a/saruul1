@@ -371,6 +371,41 @@ I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was th
             'price_int' => 2895,
         ),
 
+        'jewels-of-mongolia-with-rural-naadam-festival-in-khuvsgul-lake' => array(
+            'name' => 'Jewels of Mongolia with Rural Naadam Festival in Khuvsgul lake',
+            'layout' => 'jewels-of-mongolia-with-rural-naadam-festival-in-khuvsgul-lake.html.twig',
+            'duration' => '12 days',
+            'duration2' => '12 days / 11 nights',
+            'type' => 'cultural',
+            'highlights' => array(),
+            'pictures' => array(
+                // zuragnuud
+                'https://farm6.staticflickr.com/5818/22598525036_fae588aa53_b.jpg',
+                'https://farm1.staticflickr.com/647/22001782334_467bc12c98_k.jpg',
+                'https://farm8.staticflickr.com/7531/16161112648_ef826c8a33_b.jpg',
+                'https://farm9.staticflickr.com/8638/15923641861_882b54a1ae_k.jpg',
+                'https://farm8.staticflickr.com/7483/15739576239_7b444be51e_b.jpg',
+                'https://farm6.staticflickr.com/5699/22436618160_6d976a76da_k.jpg',
+                'https://farm1.staticflickr.com/606/22001782614_c84035df4c_b.jpg',
+            ),
+            'region' => 'Southern and Northern part of Mongolia.',
+            'availableTime' => 'July 8-19',
+            'map' => 'https://farm4.staticflickr.com/3893/15331947735_2397de96b0_m.jpg',
+            'mapLarge' => 'https://farm4.staticflickr.com/3893/15331947735_43f59777b6_k.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => 'jewels-of-mongolia-with-rural-naadam-festival',
+            'itinerary' => '',
+            'overview' => "",
+            'testimonial' => "<p>Hello,
+<br/>
+I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was the holiday of a lifetime. Mongolia is a fantastic destination because the scenery is just beautiful and the people are so friendly. Soyoloo was our tour guide and he spoke very good English, he was always punctual, very helpful and generally took care of us. He had very good knowledge of Mongolia, so we were well informed well of the history of Mongolia, the summer festival Nadaam, the traditional gers in the countryside, and the city of Ulaanbaatar. Visiting the traditional gers with Soyoloo was especially fun because We got to do so many different activities like try archery, try some of the Mongolian food, ride a camel, have our names written in Mongolian and we even had Mongolian music played to us. I had learnt that Mongolia is such a fascinating and unique country, which is extremely picturesque, and we would absolutely love to visit the country again in the future. I would recommend anyone thinking of going to Mongolia through Travel All Mongolia, to absolutely go, and get in contact with Soyoloo, because you will be well looked after and you will never forget the holiday.</p>
+<strong>Kayleigh Jones from England</strong>",
+
+            'list_order' => 20,
+            'list_img' => '/images/special_offer_24.jpg',
+            'price_int' => 3189,
+        ),
+
         'discover-central-mongolia' => array(
             'name' => 'Discover Central Mongolia',
             'layout' => 'discover-central-mongolia.html.twig',
