@@ -1328,6 +1328,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'Taste of Mongolia with Naadam Festival' => 'Taste of Mongolia with Naadam Festival',
             'Taste of Mongolia' => 'Taste of Mongolia',
             'Jewels of Mongolia' => 'Jewels of Mongolia',
+            'Jewels of Mongolia with Rural Naadam Festival in Khuvsgul lake' => 'Jewels of Mongolia with Rural Naadam Festival in Khuvsgul lake',
             'Treasures of Mongolia' => 'Treasures of Mongolia',
             'Overland Discovery' => 'Overland Discovery',
             'Overland Discovery with Rural Naadam Festival' => 'Overland Discovery with Rural Naadam Festival',
