@@ -78,7 +78,7 @@ class TourControllerProvider implements ControllerProviderInterface
                     ->setFrom(array($form->get('email')->getData()))
                     ->setTo($app['company']['email'])
                     ->setBody(
-                        ($app['request']->request->has('tourName') ? 'Tour: '.$app['request']->request->get('tourName').'<br/>' : '') .
+                        ($app['request']->request->has('tourName') ? '<b>Tour:</b> '.$app['request']->request->get('tourName').'<br/>' : '') .
                         '<b>Email:</b>'.$form->get('email')->getData().'<br/><b>Country:</b> '
                         .$app['visitor_country'].'<br/><b>Message</b><br/>'
                         .$form->get('content')->getData(), 'text/html');
