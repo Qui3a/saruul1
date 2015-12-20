@@ -401,7 +401,7 @@ I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was th
 I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was the holiday of a lifetime. Mongolia is a fantastic destination because the scenery is just beautiful and the people are so friendly. Soyoloo was our tour guide and he spoke very good English, he was always punctual, very helpful and generally took care of us. He had very good knowledge of Mongolia, so we were well informed well of the history of Mongolia, the summer festival Nadaam, the traditional gers in the countryside, and the city of Ulaanbaatar. Visiting the traditional gers with Soyoloo was especially fun because We got to do so many different activities like try archery, try some of the Mongolian food, ride a camel, have our names written in Mongolian and we even had Mongolian music played to us. I had learnt that Mongolia is such a fascinating and unique country, which is extremely picturesque, and we would absolutely love to visit the country again in the future. I would recommend anyone thinking of going to Mongolia through Travel All Mongolia, to absolutely go, and get in contact with Soyoloo, because you will be well looked after and you will never forget the holiday.</p>
 <strong>Kayleigh Jones from England</strong>",
 
-            'list_order' => 20,
+            'list_order' => 1,
             'list_img' => '/images/special_offer_24.jpg',
             'price_int' => 3189,
         ),
@@ -696,7 +696,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
             'testimonial' => '<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide; we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight. The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated. Everything else was great.  This was one of the best trips I have ever taken. Thank you for offering it to us so we could see your wonderful country first hand.</p>
 <strong>Sandra Bremer<br/>USA</strong>',
 
-            'list_order' => 1,
+            'list_order' => 20,
             'list_img' => '/images/special_offer_12.jpg',
             'price_int' => 3295,
         ),
