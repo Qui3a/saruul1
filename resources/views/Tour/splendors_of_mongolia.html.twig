@@ -222,6 +222,7 @@
 
                         <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform" novalidate>
 
+                            <input type="hidden" name="tourName" value="{{ tour.name }}">
                             {% for message in app.session.getFlashBag.get('inquiry') %}
                                 <mark style="padding: 10px;display: block;"> {{ message }}</mark>
                             {% endfor %}

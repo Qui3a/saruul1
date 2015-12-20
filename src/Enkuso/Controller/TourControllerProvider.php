@@ -77,7 +77,11 @@ class TourControllerProvider implements ControllerProviderInterface
                     ->setSubject('['.$app['company']['name'].'] '.$form->get('name')->getData())
                     ->setFrom(array($form->get('email')->getData()))
                     ->setTo($app['company']['email'])
-                    ->setBody('<b>Email:</b>'.$form->get('email')->getData().'<br/><b>Country:</b> '.$app['visitor_country'].'<br/><b>Message</b><br/>'.$form->get('content')->getData(), 'text/html');
+                    ->setBody(
+                        $form->get('tourName') ? 'Tour: '.$form->get('tourName').'<br/>' : '' .
+                        '<b>Email:</b>'.$form->get('email')->getData().'<br/><b>Country:</b> '
+                        .$app['visitor_country'].'<br/><b>Message</b><br/>'
+                        .$form->get('content')->getData(), 'text/html');
 
                 $app['mailer']->send($mail);
 		}

@@ -401,6 +401,8 @@
                                 <mark style="padding: 10px;display: block;"> {{ message }}</mark>
                             {% endfor %}
 
+                            <input type="hidden" name="tourName" value="{{ tour.name }}">
+
                             <p><label>Your name</label><br>
                                 {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
                             <p><label>Your email address</label><br>
