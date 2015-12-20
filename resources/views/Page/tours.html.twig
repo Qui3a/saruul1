@@ -33,7 +33,7 @@
                         <div class="special_text">
                             <h3><a href="{{ path('tour_show', {'slug' : tour.slug}) }}">{{ tour.name }}</a></h3>
                             <div class="info_row"><span>DURATION:</span> {{ tour.duration2 }}</div>
-                            {% if tour.price_int is defined and tour.price_int is not null and tour.name|length < 35 %}
+                            {% if tour.price_int is defined and tour.price_int is not null and tour.name|length < 40 %}
                             <div class="info_row"><span>PRICE FROM:</span> ${{ tour.price_int }}</div>
                             {% endif %}
                             <div class="special_price"><a href="{{ path('tour_show', {'slug' : tour.slug}) }}">VIEW DETAILS</a></div>
@@ -54,7 +54,7 @@
                         <div class="special_text">
                             <h3><a href="{{ path('tour_show', {'slug' : tour.slug}) }}">{{ tour.name }}</a></h3>
                             <div class="info_row"><span>DURATION:</span> {{ tour.duration2 }}</div>
-                            {% if tour.price_int is defined and tour.price_int is not null %}
+                            {% if tour.price_int is defined and tour.price_int is not null and tour.name|length < 40 %}
                             <div class="info_row"><span>PRICE FROM:</span> ${{ tour.price_int }}</div>
                             {% endif %}
                             <div class="special_price"><a href="{{ path('tour_show', {'slug' : tour.slug}) }}">VIEW DETAILS</a></div>
