@@ -69,9 +69,11 @@ class Tours
             ),
             'pictures' => array(
                 // zuragnuud
-                'https://farm9.staticflickr.com/8601/15738197880_483a791cb4_z.jpg',
-                'https://farm8.staticflickr.com/7576/15739465059_86c4c955ee_z.jpg',
-                'https://farm8.staticflickr.com/7528/15899682736_9acc5cf51a_z.jpg',
+                '/tourimg/golden-eagle/eagle (1).jpg',
+                '/tourimg/golden-eagle/eagle (2).jpg',
+                '/tourimg/golden-eagle/eagle (3).jpg',
+                '/tourimg/golden-eagle/eagle (4).jpg',
+                '/tourimg/golden-eagle/eagle (5).jpg',
             ),
             'region' => 'Western part of Mongolia.',
             'availableTime' => 'Sep 27 - Oct 4',
