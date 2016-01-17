@@ -16,93 +16,6 @@ class Tours
     /** @var array */
     private $tours = array(
 
-        'eagle-festival-and-gobi-desert' => array(
-            'name' => 'Golden Eagle Festival & Gobi Desert 2016',
-            'layout' => 'eagle-festival-and-gobi-desert.html.twig',
-            'duration' => '14 days',
-            'duration2' => '14 days / 13 nights',
-            'type' => 'cultural',
-            'highlights' => array(
-            ),
-            'pictures' => array(
-                // zuragnuud
-//                '/tourimg/golden-eagle-and-gobi/eagle-festival (1).jpg',
-                '/tourimg/golden-eagle-and-gobi/eagle-festival (2).jpg',
-                '/tourimg/golden-eagle-and-gobi/eagle-festival (3).jpg',
-                '/tourimg/golden-eagle-and-gobi/eagle-festival (4).jpg',
-                '/tourimg/golden-eagle-and-gobi/eagle-festival (5).jpg',
-                '/tourimg/golden-eagle-and-gobi/eagle-festival (6).jpg',
-                '/tourimg/golden-eagle-and-gobi/eagle-festival (7).jpg',
-            ),
-            'region' => 'Western & Southern part of Mongolia.',
-            'availableTime' => 'Sep 21 - Oct 4',
-            'map' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_m.jpg',
-            'mapLarge' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_b.jpg',
-            'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => 'golden-eagle-festival-and-gobi-desert-2016',
-            'itinerary' => '',
-            'overview' => "<p>This trip gives you a chance to enjoy amazing Gobi Desert. The Gobi is not just sand and gravel and dead animals. It diversifies into mountains and evergreen forest and geological freak shows - including a dune system as long and high as a mountain range - and sustains an array of endangered species that includes wild ass, wild camels and snow leopards.</p>
-            <p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes. </p>
-            <p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
-            'testimonial' => '<p>Travel All Mongolia put on an excellent tour, well organized with
-            comfortable vehicles, functional & comfortable Ger camps, and a very
-            knowledgeable and personable guide whose love for her country shows.  We
-            were well taken care of from the time we landed in UB until we departed
-            UB. The itinerary brought us to numerous major landmarks in less than
-            two weeks, although the fast pace did require significant travel time
-            each day.  We truly enjoyed the Gobi, your beautiful & majestic national
-            parks, eating local food, learning about your country’s religion,
-            history and culture, meeting local nomadic families and learning about
-            their way of life.  I highly recommend experiencing Mongolia through
-            "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
-            'list_order' => 16,
-            'list_img' => '/images/special_offer_01.jpg',
-            'price_int' => 3295,
-
-        ),
-
-        'golden-eagle-festival' => array(
-            'name' => 'Golden Eagle Festival 2016',
-            'layout' => 'golden-eagle-festival.html.twig',
-            'duration' => '8 days',
-            'duration2' => '8 days / 7 nights',
-            'type' => 'cultural',
-            'highlights' => array(
-            ),
-            'pictures' => array(
-                // zuragnuud
-                '/tourimg/golden-eagle/eagle (1).jpg',
-                '/tourimg/golden-eagle/eagle (2).jpg',
-                '/tourimg/golden-eagle/eagle (3).jpg',
-                '/tourimg/golden-eagle/eagle (4).jpg',
-                '/tourimg/golden-eagle/eagle (5).jpg',
-            ),
-            'region' => 'Western part of Mongolia.',
-            'availableTime' => 'Sep 27 - Oct 4',
-            'map' => 'https://farm6.staticflickr.com/5642/22199130788_18efaf4b22_m.jpg',
-            'mapLarge' => 'https://farm6.staticflickr.com/5642/22199130788_18efaf4b22_b.jpg',
-            'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => 'golden-eagle-festival-2016',
-            'itinerary' => '',
-            'overview' => "<p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes.</p>
-            <p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
-            'testimonial' => '<p>Travel All Mongolia put on an excellent tour, well organized with
-            comfortable vehicles, functional & comfortable Ger camps, and a very
-            knowledgeable and personable guide whose love for her country shows.  We
-            were well taken care of from the time we landed in UB until we departed
-            UB. The itinerary brought us to numerous major landmarks in less than
-            two weeks, although the fast pace did require significant travel time
-            each day.  We truly enjoyed the Gobi, your beautiful & majestic national
-            parks, eating local food, learning about your country’s religion,
-            history and culture, meeting local nomadic families and learning about
-            their way of life.  I highly recommend experiencing Mongolia through
-            "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
-            'list_order' => 15,
-            'list_img' => '/images/special_offer_02.jpg',
-            'price_int' => 2395,
-
-        ),
-
         'a-classic-journey-of-mongolia-with-naadam-festival' => array(
             'name' => 'A Classic Journey of Mongolia with Naadam Festival',
             'layout' => 'a-classic-journey-of-mongolia-with-naadam-festival.html.twig',
@@ -1008,6 +921,93 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'list_order' => 6,
             'list_img' => '/images/special_offer_18.jpg',
             'price_int' => 3695,
+        ),
+
+        'eagle-festival-and-gobi-desert' => array(
+            'name' => 'Golden Eagle Festival & Gobi Desert 2016',
+            'layout' => 'eagle-festival-and-gobi-desert.html.twig',
+            'duration' => '14 days',
+            'duration2' => '14 days / 13 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+            ),
+            'pictures' => array(
+                // zuragnuud
+//                '/tourimg/golden-eagle-and-gobi/eagle-festival (1).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (2).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (3).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (4).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (5).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (6).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (7).jpg',
+            ),
+            'region' => 'Western & Southern part of Mongolia.',
+            'availableTime' => 'Sep 21 - Oct 4',
+            'map' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_m.jpg',
+            'mapLarge' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_b.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => 'golden-eagle-festival-and-gobi-desert-2016',
+            'itinerary' => '',
+            'overview' => "<p>This trip gives you a chance to enjoy amazing Gobi Desert. The Gobi is not just sand and gravel and dead animals. It diversifies into mountains and evergreen forest and geological freak shows - including a dune system as long and high as a mountain range - and sustains an array of endangered species that includes wild ass, wild camels and snow leopards.</p>
+            <p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes. </p>
+            <p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
+            'testimonial' => '<p>Travel All Mongolia put on an excellent tour, well organized with
+            comfortable vehicles, functional & comfortable Ger camps, and a very
+            knowledgeable and personable guide whose love for her country shows.  We
+            were well taken care of from the time we landed in UB until we departed
+            UB. The itinerary brought us to numerous major landmarks in less than
+            two weeks, although the fast pace did require significant travel time
+            each day.  We truly enjoyed the Gobi, your beautiful & majestic national
+            parks, eating local food, learning about your country’s religion,
+            history and culture, meeting local nomadic families and learning about
+            their way of life.  I highly recommend experiencing Mongolia through
+            "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
+            'list_order' => 16,
+            'list_img' => '/images/special_offer_01.jpg',
+            'price_int' => 3295,
+
+        ),
+
+        'golden-eagle-festival' => array(
+            'name' => 'Golden Eagle Festival 2016',
+            'layout' => 'golden-eagle-festival.html.twig',
+            'duration' => '8 days',
+            'duration2' => '8 days / 7 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+            ),
+            'pictures' => array(
+                // zuragnuud
+                '/tourimg/golden-eagle/eagle (1).jpg',
+                '/tourimg/golden-eagle/eagle (2).jpg',
+                '/tourimg/golden-eagle/eagle (3).jpg',
+                '/tourimg/golden-eagle/eagle (4).jpg',
+                '/tourimg/golden-eagle/eagle (5).jpg',
+            ),
+            'region' => 'Western part of Mongolia.',
+            'availableTime' => 'Sep 27 - Oct 4',
+            'map' => 'https://farm6.staticflickr.com/5642/22199130788_18efaf4b22_m.jpg',
+            'mapLarge' => 'https://farm6.staticflickr.com/5642/22199130788_18efaf4b22_b.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => 'golden-eagle-festival-2016',
+            'itinerary' => '',
+            'overview' => "<p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes.</p>
+            <p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
+            'testimonial' => '<p>Travel All Mongolia put on an excellent tour, well organized with
+            comfortable vehicles, functional & comfortable Ger camps, and a very
+            knowledgeable and personable guide whose love for her country shows.  We
+            were well taken care of from the time we landed in UB until we departed
+            UB. The itinerary brought us to numerous major landmarks in less than
+            two weeks, although the fast pace did require significant travel time
+            each day.  We truly enjoyed the Gobi, your beautiful & majestic national
+            parks, eating local food, learning about your country’s religion,
+            history and culture, meeting local nomadic families and learning about
+            their way of life.  I highly recommend experiencing Mongolia through
+            "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
+            'list_order' => 15,
+            'list_img' => '/images/special_offer_02.jpg',
+            'price_int' => 2395,
+
         ),
 
 
