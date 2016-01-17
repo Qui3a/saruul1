@@ -58,6 +58,7 @@ class TourControllerProvider implements ControllerProviderInterface
                     'tour' => $tour,
                     'slug' => $slug,
                     'form' => $form->createView(),
+                    'referrer' => $app['request']->headers->get('referer'),
                 ));
         })->bind('tour_show');
 
