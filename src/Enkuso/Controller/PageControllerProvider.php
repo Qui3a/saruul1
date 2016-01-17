@@ -400,8 +400,8 @@ $mailer->send($mail); */
                     ->setTo($app['company']['email'])
                     ->setBody('<b>First Name: </b> '.$form->get('first_name')->getData().'<br/>'
                         .'<b>Last Name: </b>'.$form->get('last_name')->getData().'<br/>'
-                        .'<b>Title: </b>'.$form->get('title')->getData().'<br/>'
-                        .'<b>Organization: </b>'.$form->get('organization')->getData().'<br/>'
+//                        .'<b>Title: </b>'.$form->get('title')->getData().'<br/>'
+//                        .'<b>Organization: </b>'.$form->get('organization')->getData().'<br/>'
                         .'<b>Address: </b>'.$form->get('address_line_1')->getData().'<br/>'
                         .'<b>Address line 2: </b>'.$form->get('address_line_2')->getData().'<br/>'
                         .'<b>City: </b>'.$form->get('city')->getData().'<br/>'

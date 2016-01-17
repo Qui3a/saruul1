@@ -28,8 +28,8 @@ class CatalogType extends AbstractType
     {
         $builder->add('first_name', 'text', array('label'=>'First name'));
         $builder->add('last_name', 'text', array('label'=>'Last name'));
-        $builder->add('title', 'text', array('label'=>'Title'));
-        $builder->add('organization', 'text', array('label'=>'Organization'));
+//        $builder->add('title', 'text', array('label'=>'Title'));
+//        $builder->add('organization', 'text', array('label'=>'Organization'));
         $builder->add('country', 'text', array('label'=>'Country'));
         $builder->add('city', 'text', array('label'=>'City'));
         $builder->add('address_line_1', 'text', array('label'=>'Address'));
@@ -58,12 +58,12 @@ class CatalogType extends AbstractType
                         'match'   => false,
                     )),
                 ),
-                'title'     => array(
-                    new Assert\NotBlank(),
-                ),
-                'organization'     => array(
-                    new Assert\NotBlank(),
-                ),
+//                'title'     => array(
+//                    new Assert\NotBlank(),
+//                ),
+//                'organization'     => array(
+//                    new Assert\NotBlank(),
+//                ),
                 'country'     => array(
                     new Assert\NotBlank(),
                     new Assert\Country(),
