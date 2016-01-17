@@ -410,6 +410,7 @@ $mailer->send($mail); */
                         .'<b>Home phone: </b>'.$form->get('home_phone')->getData().'<br/>'
                         .'<b>Mobile phone: </b>'.$form->get('mobile_phone')->getData().'<br/>'
                         .'<b>Email: </b>'.$form->get('email')->getData().'<br/>'
+                        .'<b>Country from IP address: </b>'.$app['visitor_country'].'<br/>'
                         , 'text/html');
 
                 $app['mailer']->send($mail);
