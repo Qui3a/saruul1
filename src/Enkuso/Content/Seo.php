@@ -106,6 +106,16 @@ class Seo
             'description' =>  "Go deep into the Mongolian outback and experience life as a nomad. You’ll have the opportunity to stay in traditional ger camps and spend time with local families while you travel to many of the highlights of this beautiful country.",
             'keyword' =>      "Travel Mongolia, Mongolia Travel, Travel to Mongolia, Traveling Mongolia, Mongolian Travel"
         ),
+        'western-southern-and-northern-mongolia-expedition' => array(
+            'title' =>        "Western, Southern and Northern Mongolia Expedition 16 days",
+            'description' =>  "This tour is designed to make you feel comfortable with more flights and less travels on dirt roads. If you choose, you can fly to Bayan-Ulgii province, the most western corner of Mongolia famous for its splendorous mountains and Kazakh eagle hunters. You visit and get introduced with Kazakh people lifestyle. This is a great opportunity for you to find out their eagle hunting while trying their delicious cuisine. ",
+            'keyword' =>      "Western Mongolia, Mongolia Tours, Tours to Mongolia"
+        ),
+        'ultimate-mongolia' => array(
+            'title' =>        "Ultimate Mongolia 18 days, Adventure Tours to Mongolia",
+            'description' =>  "The tour begins with a flight to Bayan-Ulgii province, the home of the Kazakh people, located in the westernmost part of Mongolia. While Kazakhs can be found in other countries, only Mongolian Kazakhs have preserved their unique culture and traditions such as eagle hunting.  The landscape is very different in this part of Mongolia. We'll visit the Gobi Desert where you'll be surprised to find that it is not at all as you may have imagined.  We'll see abundant wildlife in the Yolin Am Valley, search for dinosaur bones at the famous Flaming Cliffs, spend time with a camel herder family at the Khongor Sand Dunes, ride Bactrian camels, and enjoy climbing to the top of the Singing Dunes.",
+            'keyword' =>      "Adventure Travel Mongolia, Traveling to Mongolia, Mongolia Travel "
+        ),
         # Pages
         'tourist-attractions' => array(
             'title' =>        "Adventure and Cultural Tours, Mongolia travel guide, Nomadic Adventures Mongolia, Mongolia tour travel, Mongolia tour packages",
