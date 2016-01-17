@@ -25,10 +25,13 @@ class Tours
             ),
             'pictures' => array(
                 // zuragnuud
-                'https://farm9.staticflickr.com/8654/15738310260_29d271f9aa_z.jpg',
-                'https://farm8.staticflickr.com/7576/15739465059_86c4c955ee_z.jpg',
-                'https://farm9.staticflickr.com/8638/15923641861_49fb59381b_z.jpg',
-                'https://farm8.staticflickr.com/7483/15739576239_7b444be51e_z.jpg',
+//                '/tourimg/golden-eagle-and-gobi/eagle-festival (1).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (2).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (3).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (4).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (5).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (6).jpg',
+                '/tourimg/golden-eagle-and-gobi/eagle-festival (7).jpg',
             ),
             'region' => 'Western & Southern part of Mongolia.',
             'availableTime' => 'Sep 21 - Oct 4',
