@@ -35,6 +35,7 @@ class AirfareType extends AbstractType
         $builder->add('comment', 'textarea', array('label'=>'Comment'));
         $builder->add('arrival_date', 'text', array('label'=>'Arrival date'));
         $builder->add('departure_date', 'text', array('label'=>'Departure date'));
+        $builder->add('num_people', 'text', array('label'=>'Number of people'));
     }
 
     public function getDefaultOptions(array $options)
@@ -79,6 +80,7 @@ class AirfareType extends AbstractType
                 'comment'   => new Assert\NotBlank(),
                 'arrival_date'   => new Assert\NotBlank(),
                 'departure_date'   => new Assert\NotBlank(),
+                'num_people'   => new Assert\NotBlank(),
             ),
             'allowExtraFields'  => true,
         ));

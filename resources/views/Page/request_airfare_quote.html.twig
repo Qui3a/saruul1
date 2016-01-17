@@ -81,6 +81,11 @@
                                 {{ form_widget(form.departure_date, { 'attr': {'class': 'inputField required'} }) }}
                                 {{ form_errors(form.departure_date) }}
                             </div>
+                            <div class="row alignleft field_text">
+                                {{ form_label(form.num_people) }}
+                                {{ form_widget(form.num_people, { 'attr': {'class': 'inputField required'} }) }}
+                                {{ form_errors(form.num_people) }}
+                            </div>
                         </div>
 
                         <div class="form_col_2">
