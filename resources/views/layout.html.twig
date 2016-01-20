@@ -79,7 +79,7 @@
             }
             setInterval("cldata();", 1000);
         </script>
-        {#<!--Start of Zopim Live Chat Script-->
+        <!--Start of Zopim Live Chat Script-->
         <script type="text/javascript">
             window.$zopim||(function(d,s){var z=$zopim=function(c){
                 z._.push(c)},$=z.s=
@@ -88,9 +88,9 @@
                 $.src='//v2.zopim.com/?26yMcWeE6yTtZKTg8xzP15mRfyAPcchz';z.t=+new Date;$.
                         type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
         </script>
-        <!--End of Zopim Live Chat Script-->#}
+        <!--End of Zopim Live Chat Script-->
         {# purechat #}
-        <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'b1cc57d4-0310-4ce0-bab3-611ebd74a792', f: true }); done = true; } }; })();</script>
+        {#<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: 'b1cc57d4-0310-4ce0-bab3-611ebd74a792', f: true }); done = true; } }; })();</script>#}
     {% endif %}
 </head>
 
