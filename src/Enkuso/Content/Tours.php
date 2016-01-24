@@ -17,23 +17,21 @@ class Tours
     private $tours = array(
 
         'a-classic-journey-of-mongolia-with-naadam-festival' => array(
-            'name' => 'A Classic Journey of Mongolia with Naadam Festival',
+            'name' => 'A Classic Journey of Mongolia with Rural Naadam Festival in Karakorum',
             'layout' => 'a-classic-journey-of-mongolia-with-naadam-festival.html.twig',
             'duration' => '15 days',
             'duration2' => '15 days / 14 nights',
             'type' => 'cultural',
             'highlights' => array(
-                'Naadam Festival, horse racing, Archery and wrestling',
-                'Colorful opening ceremony',
-                'Gandantegchinlen Monastery, the largest and most significant monastery in Mongolia, and one of Ulaan Baatar’s most interesting sights',
-                'The Flaming Cliffs is the legendary site where the first nest of dinosaur eggs was discovered by famous American explorer and paleontologist Roy Chapman Andrews in the 1920’s',
-                'View the largest sand dunes in Mongolia at Khongoryn Els',
-                'Experience a camel ride with local nomads',
-                'Experience a Traditional Ger',
+                'Experience Rural Naadam festival in Karakorum',
+                'Flaming Cliffs in the Gobi, where Roy Chapman Andrews discovered the first dinosaur eggs the world had ever seen',
+                'Ride camels and walk along Mongolia’s largest sand dunes at Khongor sand Dune',
+                'Stay in local Ger camps  ',
+                'Pristine Khuvsgul lake and visiting reindeer family',
+                'Enjoy the hospitality of the local people by visiting a family ‘ger’',
                 'Explore Gobi Gurvan Saikhan National Park',
-                'Visit the Hustai is the site of a unique re-introduction of Przewalski\'s Horse (Equus Przewalskii), called "takhi".',
-                'Visit the Bogdo Khaan Winter Palace Museum.  The Bogdo Khaan Winter Palace is the home of the last Mongolian King, Javzun Damba Khutagt VII.',
-                'Visit Karakorum was the 13th-century capital of the Mongol Empire',
+                'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                'Karakorum, site of ancient monasteries and location of the ancient Mongol Empire\'s capital',
             ),
             'pictures' => array(
                 // zuragnuud
@@ -42,7 +40,7 @@ class Tours
                 'https://farm4.staticflickr.com/3852/15205063450_059a00292b_z.jpg',
             ),
             'region' => 'Central, Southern and Northern part of Mongolia.',
-            'availableTime' => '<br/>&nbsp;&nbsp;<a href="/uploads/tour-pdf/A Classic Journey Of Mongolia With Rural Naadam Festival In Karakorum 15 Days.pdf">A Classic Journey of Mongolia with Rural Naadam Festival July 5-19</a>, <br/>&nbsp;&nbsp;9th - 23th of July, <br/>&nbsp;&nbsp;29th of June – 13th of July',
+            'availableTime' => 'July 19 - Aug 2',
             'map' => 'https://farm4.staticflickr.com/3872/15368668506_1bf7ecaabb_m.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3872/15368668506_8ca8785279_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
@@ -53,7 +51,7 @@ class Tours
 <strong>Adam Singer family, USA</strong>",
             'list_order' => 14,
             'list_img' => '/images/special_offer_04.jpg',
-            'price_int' => 3585,
+            'price_int' => 3395,
 
         ),
 
