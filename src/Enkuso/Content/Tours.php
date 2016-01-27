@@ -236,7 +236,7 @@ Just want to thank you for your wonderful hospitality and expert tour guiding du
             'bs_img' => '/img/tour/jeep_main.jpg',
             'pdf' => null,
             'itinerary' => '',
-            'overview' => "<p>Ride Yamaha, BMW and KTM motorbikes across in Gobi Desert. See some of the most amazing sights and geographical formations that this country has to offer, including big granite mountains with bizarre rock formations, pink and white colored limestone cliffs weathered by wind and rain, golden sand dunes 180 km long and a cold mountain canyon up in the Gobi mountains. Meet families leading the ancient nomadic lifestyle and have a chance to experience their fascinating culture.</p>",
+            'overview' => "<p>Ride Yamaha, BMW and KTM motorcycles across in Gobi Desert. See some of the most amazing sights and geographical formations that this country has to offer, including big granite mountains with bizarre rock formations, pink and white colored limestone cliffs weathered by wind and rain, golden sand dunes 180 km long and a cold mountain canyon up in the Gobi mountains. Meet families leading the ancient nomadic lifestyle and have a chance to experience their fascinating culture.</p>",
             'testimonial' => "<p>Dear Soyoloo,
 <br/>
 I had an awesome time in Mongolia. I really came on the trip not knowing what to expect and honestly wasn't sure if it would be 'my thing' but you really did make it worth it and it was money well spent.
@@ -1364,7 +1364,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'Buddhism tour' => 'Buddhism tour',
             'Winter festival tour' => 'Winter festival tour',
             'Mountain bike tour' => 'Mountain bike tour',
-            'Motor bike tour' => 'Motor bike tour',
+            'Motor cycle tour' => 'Motor cycle tour',
         );
     }
 } 

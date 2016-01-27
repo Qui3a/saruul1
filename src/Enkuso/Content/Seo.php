@@ -76,10 +76,10 @@ class Seo
             'description' =>  "Visit Buddhist monasteries and the medieval capital of Genghis Khan, from where he launched his victorious cavalry. Hiking, horseback riding, are the main activities. Overnights are mainly in traditional felt covered tents locally known as gers.",
             'keyword' =>      "Mongolia travel guide, Mongolia tour travel, Mongolia tour packages, adventure travel in Mongolia",
         ),
-        'motor-bike-tour' => array(
-            'title' =>        "Motorbike tour in Mongolia, Moto tour in Mongolia, Mongolian adventure tours",
-            'description' =>  "Ride Yamaha, BMW and KTM motorbikes across in Gobi Desert. See some of the most amazing sights and geographical formations that this country has to offer, including big granite mountains with bizarre rock formations, pink and white colored limestone cliffs weathered by wind and rain, golden sand dunes 180 km long and a cold mountain canyon up in the Gobi mountains.",
-            'keyword' =>      "Motorbike tour in Mongolia, Moto tour in Mongolia, Mongolian adventure tours",
+        'motor-cycle-tour' => array(
+            'title' =>        "Motorcycle tour in Mongolia, Moto tour in Mongolia, Mongolian adventure tours",
+            'description' =>  "Ride Yamaha, BMW and KTM motorcycles across in Gobi Desert. See some of the most amazing sights and geographical formations that this country has to offer, including big granite mountains with bizarre rock formations, pink and white colored limestone cliffs weathered by wind and rain, golden sand dunes 180 km long and a cold mountain canyon up in the Gobi mountains.",
+            'keyword' =>      "Motorcycle tour in Mongolia, Moto tour in Mongolia, Mongolian adventure tours",
         ),
         'mountain-bike-tour' => array(
             'title' =>        "Mongolian Mountain bike tour, mountain bike tour, cycling tours in Mongolia, biking tour in Mongolia",
