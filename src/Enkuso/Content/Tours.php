@@ -213,9 +213,9 @@ Just want to thank you for your wonderful hospitality and expert tour guiding du
 
         ),
 
-        'motor-bike-tour' => array(
-            'name' => 'Motor bike tour',
-            'layout' => 'motor-bike-tour.html.twig',
+        'motor-cycle-tour' => array(
+            'name' => 'Motor cycle tour',
+            'layout' => 'motor-cycle-tour.html.twig',
             'duration' => '10 days',
             'duration2' => '10 days / 9 nights',
             'highlights' => array(
