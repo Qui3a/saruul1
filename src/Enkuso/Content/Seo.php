@@ -203,9 +203,9 @@ class Seo
             'keyword'       => 'Frequenty Asked Questions, Mongolian Luxury Tours'
         ),
         'tours' => array(
-            'title'         => 'Mongolia Luxury Travel, Luxury Holidays Mongolia, Exclusive Tour Mongolia',
-            'description'   => 'Many tourists may not consider the vast desert country of Mongolia as a particularly luxurious destination ',
-            'keyword'       => 'Mongolia Luxury Tour, Luxury Vacation Mongolia, Tour Mongolia, Mongolia Luxury Holiday, Deluxe Tours Mongolia',
+            'title'         => 'Small Group and Custom Tours to Mongolia, with Travel All Mongolia',
+            'description'   => 'Mongolia is a country of nomads who have preserved their  traditional way of life for centuries and modern people who are keeping  pace with the global development. It is praiseworthy to say that  Mongolia has a rich heritage of history, tradition, culture that  reflects the nomadic way of life',
+            'keyword'       => 'Travel Mongolia, Mongolia Travel, Travel to Mongolia, Mongolian travel',
         ),
         'why-travel-with-us' => array(
             'title'         => 'Mongolian Luxury Tours is specialized in tailor-made tours & Honeymoon travel',
