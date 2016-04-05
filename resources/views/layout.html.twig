@@ -42,12 +42,12 @@
         <script src="/js/libs/respond.min.js"></script>
         {#<script src="/js/libs/jquery.min.js"></script>#}
         <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-        <script src="/js/protects.js"></script>
+        {#<script src="/js/protects.js"></script>
         <script type="text/javascript">
             $(function() {
-//                $('body').contentprotector({protect: false}); // turn off content protection by set false
+                $('body').contentprotector({protect: false}); // turn off content protection by set false
             });
-        </script>
+        </script>#}
 
         <!-- scripts  -->
         <script src="/js/jquery.easing.min.js"></script>
@@ -68,7 +68,7 @@
         <script src="/js/jquery.prettyPhoto.js"></script>
     {% endblock %}
     {% if app.debug == false %}
-        <script language="javascript">
+        {#<script language="javascript">
             function clearData(){
                 window.clipboardData.setData('text','')
             }
@@ -78,7 +78,7 @@
                 }
             }
             setInterval("cldata();", 1000);
-        </script>
+        </script>#}
         <!--Start of Zopim Live Chat Script-->
         <script type="text/javascript">
             window.$zopim||(function(d,s){var z=$zopim=function(c){
