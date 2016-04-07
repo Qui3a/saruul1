@@ -17,8 +17,49 @@ class Tours
     private $tours = array(
 
         'a-classic-journey-of-mongolia-with-naadam-festival' => array(
-            'name' => 'A Classic Journey of Mongolia with Rural Naadam Festival in Karakorum',
+            'name' => 'A Classic Journey of Mongolia with Naadam Festival',
             'layout' => 'a-classic-journey-of-mongolia-with-naadam-festival.html.twig',
+            'duration' => '15 days',
+            'duration2' => '15 days / 14 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+                'Naadam Festival, horse racing, Archery and wrestling',
+                'Colorful opening ceremony',
+                'Gandantegchinlen Monastery, the largest and most significant monastery in Mongolia, and one of Ulaan Baatar’s most interesting sights',
+                'The Flaming Cliffs is the legendary site where the first nest of dinosaur eggs was discovered by famous American explorer and paleontologist Roy Chapman Andrews in the 1920’s',
+                'View the largest sand dunes in Mongolia at Khongoryn Els',
+                'Experience a camel ride with local nomads',
+                'Experience a Traditional Ger',
+                'Explore Gobi Gurvan Saikhan National Park',
+                'Visit the Hustai is the site of a unique re-introduction of Przewalski\'s Horse (Equus Przewalskii), called "takhi".',
+                'Visit the Bogdo Khaan Winter Palace Museum.  The Bogdo Khaan Winter Palace is the home of the last Mongolian King, Javzun Damba Khutagt VII.',
+                'Visit Karakorum was the 13th-century capital of the Mongol Empire',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'https://farm4.staticflickr.com/3856/15388563071_728d4021f8_z.jpg',
+                'https://farm3.staticflickr.com/2944/15205157188_54d6a8d4e0_z.jpg',
+                'https://farm4.staticflickr.com/3852/15205063450_059a00292b_z.jpg',
+            ),
+            'region' => 'Central, Southern and Northern part of Mongolia.',
+            'availableTime' => '<br/>&nbsp;&nbsp;<a href="/uploads/tour-pdf/A Classic Journey Of Mongolia With Rural Naadam Festival In Karakorum 15 Days.pdf">A Classic Journey of Mongolia with Rural Naadam Festival July 5-19</a>, <br/>&nbsp;&nbsp;9th - 23th of July, <br/>&nbsp;&nbsp;29th of June – 13th of July',
+            'map' => 'https://farm4.staticflickr.com/3872/15368668506_1bf7ecaabb_m.jpg',
+            'mapLarge' => 'https://farm4.staticflickr.com/3872/15368668506_8ca8785279_k.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => 'a-classic-journey-of-mongolia-with-naadam-festival',
+            'itinerary' => '',
+            'overview' => "",
+            'testimonial' => "<p>It is truly an experience, to be with the family. Very impressed with what the desert had to offer. The kids were always up for the adventures planned for us. We were always surrounded by nice people, good food and AMAZING scenery. Quite a family destination. From this experience makes us want to come back Mongolia, again and again and again.</p>
+<strong>Adam Singer family, USA</strong>",
+            'list_order' => 14,
+            'list_img' => '/images/special_offer_04.jpg',
+            'price_int' => 3585,
+
+        ),
+
+        'a-classic-journey-of-mongolia-with-rural-naadam-festival' => array(
+            'name' => 'A Classic Journey of Mongolia with Rural Naadam Festival in Karakorum',
+            'layout' => 'a-classic-journey-of-mongolia-with-rural-naadam-festival.html.twig',
             'duration' => '15 days',
             'duration2' => '15 days / 14 nights',
             'type' => 'cultural',
@@ -44,7 +85,7 @@ class Tours
             'map' => 'https://farm4.staticflickr.com/3872/15368668506_1bf7ecaabb_m.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3872/15368668506_8ca8785279_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => 'a-classic-journey-of-mongolia-with-naadam-festival',
+            'pdf' => 'a-classic-journey-of-mongolia-with-rural-naadam-festival-in-karakorum-15-days',
             'itinerary' => '',
             'overview' => "",
             'testimonial' => "<p>It is truly an experience, to be with the family. Very impressed with what the desert had to offer. The kids were always up for the adventures planned for us. We were always surrounded by nice people, good food and AMAZING scenery. Quite a family destination. From this experience makes us want to come back Mongolia, again and again and again.</p>
