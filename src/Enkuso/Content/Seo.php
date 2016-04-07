@@ -116,6 +116,16 @@ class Seo
             'description' =>  "The tour begins with a flight to Bayan-Ulgii province, the home of the Kazakh people, located in the westernmost part of Mongolia. While Kazakhs can be found in other countries, only Mongolian Kazakhs have preserved their unique culture and traditions such as eagle hunting.  The landscape is very different in this part of Mongolia. We'll visit the Gobi Desert where you'll be surprised to find that it is not at all as you may have imagined.  We'll see abundant wildlife in the Yolin Am Valley, search for dinosaur bones at the famous Flaming Cliffs, spend time with a camel herder family at the Khongor Sand Dunes, ride Bactrian camels, and enjoy climbing to the top of the Singing Dunes.",
             'keyword' =>      "Adventure Travel Mongolia, Traveling to Mongolia, Mongolia Travel "
         ),
+        'golden-eagle-festival' => array(
+            'title' =>        "Eagle Festival Mongolia | Mongolian Eagle Hunting Festival - Eagle Festival",
+            'description' =>  "Enjoy the Eagle Festival Mongolia! Mongolian eagle hunting festival is celebrated in Bayan Ulgii. The Eagle festival is a tournament of falconers from the region, who hunt with trained eagles.",
+            'keyword' =>      "Eagle Festival Mongolia, Mongolian Eagle Hunting Festival"
+        ),
+        'jewels-of-mongolia-with-rural-naadam-festival-in-khuvsgul-lake' => array(
+            'title' =>        "Naadam Festival 2017 | Jewels of Mongolia with Rural Naadam Festival",
+            'description' =>  "Experience Jewels of Mongolia with Rural Naadam Festival 2017. This trip gives you a great opportunity to see all highlights of Naadam Festival in Mongolia.",
+            'keyword' =>      "naadam festival 2017"
+        ),
         # Pages
         'tourist-attractions' => array(
             'title' =>        "Adventure and Cultural Tours, Mongolia travel guide, Nomadic Adventures Mongolia, Mongolia tour travel, Mongolia tour packages",
@@ -158,14 +168,14 @@ class Seo
             'keyword'       => 'Explore Way of Nomadic Lifestyle, being Mongolian, Mongolian Luxury Tours'
         ),
         'tourist-events' => array(
-            'title' =>        "Eagle Festival, Naadam festival, Mongolia travel guide, travel guide Mongolia, tours to Mongolia, trips to Mongolia, hiking Mongolia, trekking Mongolia",
-            'description' =>  "Mongolia is home to the \"three manly sports\": wrestling, horse racing, and archery, and these are same three sporting events that take place every year at the Naadam festival. Naadam is the National Holiday of Mongolia celebrated on July 11-13. During these days all of Mongolia watch or listen to the whole event which takes place in the capital city of Ulaanbaatar through Mongolia's National Television and Radio. Many other smaller Naadam festivals take place in different aimags (provinces) around the country throughout the month of July, and it is at these Naadam festivals that you are able to get a much closer look at the action.",
-            'keyword' =>      "Eagle Festival, Naadam festival, Mongolia travel guide, travel guide Mongolia, tours to Mongolia, trips to Mongolia, hiking Mongolia, trekking Mongolia"
+            'title' =>        "Trekking Tours Mongolia, Hiking and Trekking Mongolia - Tourist Events",
+            'description' =>  "Travel All Mongolia invites you to join Trekking Tours in Mongolia, for an experience of lifetime in the awesome landscape of Mongolian, from mountains, to lakes, to hot dry desert, rolling hills of open grassland.",
+            'keyword' =>      "trekking tours mongolia"
         ),
         'about-mongolia' => array(
-            'title'         => "Adventure and Cultural Tours, Travel Mongolia, Tours to Mongolia, Mongolia tour, Mongolian tours, Mongolia travel, Mongolian travel",
-            'description'   => "Welcome to the Ancient land of the Great Mongolian Empire. Mongolia Adventure Tours invites you to join us this coming summer for an experience of a lifetime in the awesome landscapes of Mongolia, from mountains, to lakes, to hot dry desert, to rolling hills of open grassland.",
-            'keyword'       => "Adventure and Cultural Tours, Travel Mongolia, Tours to Mongolia, Mongolia tour, Mongolian tours, Mongolia travel, Mongolian travel",
+            'title'         => "Cultural Tours Mongolia, Vacation Mongolia and Tours to Mongolia - About Mongolia",
+            'description'   => "Welcome to the Ancient land of the Great Mongolian Empire. Cultural Tours Mongolia invites you to join us this coming summer for an experience of a lifetime in the awesome landscapes of Mongolia, from mountains, to lakes, to hot dry desert, to rolling hills of open grassland.",
+            'keyword'       => "Cultural Tours Mongolia, Vacation Mongolia, Tours to Mongolia",
         ),
         'terms-and-conditions' => array(
             'title'         => 'Mongolian Travel, private Tour to Mongolia, Mongolia Travel',
@@ -178,7 +188,7 @@ class Seo
             'keyword'       => 'Tour Mongolia, Travel Mongolia, Mongolia Trips, Exceptional Holiday to Mongolia'
         ),
         'homepage' => array(
-            'title' =>        "Mongolia Travel Guide, Tours Mongolia, Adventure Travel Mongolia, Active Adventure tours Mongolia, travel Mongolia",
+            'title' =>        "Tours & Travel Mongolia, Mongolia Travel Guide, Trips to Mongoli, Adventure Holidays in Mongolia, Holiday Vacations to Mongolia, Mongolia Adventure Trips",
             'description' =>  "Travel to Mongolia and discover adventure travel in a land of stark, barren and spectacular beauty, a world without boundaries, where vast plains are matched only by the enormous blue sky. This is nature on an almost unimaginable scale, dwarfing all who pass through it. The endless wilderness populated only by the nomadic peoples and their livestock who live day to day in the awe-inspiring landscape.",
             'keyword' =>      "Mongolia Travel Guide, Tours Mongolia, Travel Mongolia, Mongolia Journeys, Tour Mongolia, Horse trek Mongolia, Jeep overland Mongolia, Adventure Travel Mongolia, Active Adventure tours Mongolia, travel Mongolia, Fish Mongolia, Fly Fishing Mongolia, Tour Mongolia, Travel to Mongolia, hotel Mongolia, Fly to Mongolia, Adventure trips Mongolia, Tours to Mongolia, Mongolia vacation, Holiday Mongolia, Mongolia tour operator",
         ),
@@ -188,9 +198,9 @@ class Seo
             'keyword'       => 'Vacation Mongolia, Horse Riding Mongolia, Camel Riding, Visit Nomad Family, Gobi Desert'
         ),
         'about-us' => array(
-            'title'         => 'We are expert in arranging luxury travel to Mongolia',
-            'description'   => 'We are recognized as an industry leader in luxury travel packages for couples, families, corporate incentive programs and groups',
-            'keyword'       => 'Mongolian Luxury Tours, Luxury Leading Tour Operator, Experts on Luxury Travel, Private Luxury Travel, travel Mongolia'
+            'title'         => 'Mongolian Tour Operator | Mongolia Budget Tour - About Us',
+            'description'   => 'We are recognized as an industry leader in Mongolian Tour Operator, luxury travel packages for couples, families, corporate incentive programs and Mongolia Budget Tour.',
+            'keyword'       => 'Mongolian Tour Operator, Mongolia Budget Tour, luxury travel to Mongolia'
         ),
         'gallery' => array(
             'title'         => 'Tour Mongolia, Mongolia Tours, Mongolia Travel',

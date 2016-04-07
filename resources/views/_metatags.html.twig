@@ -5,3 +5,4 @@
 <meta property="og:description" content="{{ app['content_seo'].getDescription(app['seo_key']) }}"/>
 <meta property="og:url" content="{{ app['company']['website'] ~ app['request'].getRequestUri }}"/>
 <meta property="og:type" content="website"/>
+<link rel="canonical" href="{{ app['company']['website'] ~ app['request'].getRequestUri }}" />
