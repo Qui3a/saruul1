@@ -650,7 +650,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
                 'http:\/\/farm8.staticflickr.com\/7398\/10865660243_6b4ec95bde_b.jpg',
                 'http:\/\/farm6.staticflickr.com\/5513\/10865659913_55ec543d20_b.jpg',
             ),
-            'region' => 'Northern, Central & southern part of Mongolia',
+            'region' => 'Central & southern part of Mongolia',
             'availableTime' => '2-13th of July, 5-16th of August',
             'map' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371_b.jpg',
