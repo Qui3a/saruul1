@@ -188,7 +188,7 @@ class Seo
             'keyword'       => 'Tour Mongolia, Travel Mongolia, Mongolia Trips, Exceptional Holiday to Mongolia'
         ),
         'homepage' => array(
-            'title' =>        "Tours & Travel Mongolia, Mongolia Travel Guide, Trips to Mongoli, Adventure Holidays in Mongolia, Holiday Vacations to Mongolia, Mongolia Adventure Trips",
+            'title' =>        "Tours & Travel Mongolia, Mongolia Travel Guide, Trips to Mongolia, Adventure Holidays in Mongolia, Holiday Vacations to Mongolia, Mongolia Adventure Trips",
             'description' =>  "Travel to Mongolia and discover adventure travel in a land of stark, barren and spectacular beauty, a world without boundaries, where vast plains are matched only by the enormous blue sky. This is nature on an almost unimaginable scale, dwarfing all who pass through it. The endless wilderness populated only by the nomadic peoples and their livestock who live day to day in the awe-inspiring landscape.",
             'keyword' =>      "Mongolia Travel Guide, Tours Mongolia, Travel Mongolia, Mongolia Journeys, Tour Mongolia, Horse trek Mongolia, Jeep overland Mongolia, Adventure Travel Mongolia, Active Adventure tours Mongolia, travel Mongolia, Fish Mongolia, Fly Fishing Mongolia, Tour Mongolia, Travel to Mongolia, hotel Mongolia, Fly to Mongolia, Adventure trips Mongolia, Tours to Mongolia, Mongolia vacation, Holiday Mongolia, Mongolia tour operator, Tours Mongolia, Mongolia Travel, trips to Mongolia, Travel Mongolia, Adventure Holidays in Mongolia, Mongolia Adventure trips, Mongolia Tours, Holiday Vacations to Mongolia",
         ),
