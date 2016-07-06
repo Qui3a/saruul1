@@ -119,12 +119,12 @@ class Seo
         'golden-eagle-festival' => array(
             'title' =>        "Eagle Festival Mongolia | Mongolian Eagle Hunting Festival - Eagle Festival",
             'description' =>  "Enjoy the Eagle Festival Mongolia! Mongolian eagle hunting festival is celebrated in Bayan Ulgii. The Eagle festival is a tournament of falconers from the region, who hunt with trained eagles.",
-            'keyword' =>      "Eagle Festival Mongolia, Mongolian Eagle Hunting Festival"
+            'keyword' =>      "Eagle Festival Mongolia, mongolian eagle hunting festival"
         ),
         'jewels-of-mongolia-with-rural-naadam-festival-in-khuvsgul-lake' => array(
             'title' =>        "Naadam Festival 2017 | Jewels of Mongolia with Rural Naadam Festival",
             'description' =>  "Experience Jewels of Mongolia with Rural Naadam Festival 2017. This trip gives you a great opportunity to see all highlights of Naadam Festival in Mongolia.",
-            'keyword' =>      "naadam festival 2017"
+            'keyword' =>      "Naadam festival 2017"
         ),
         # Pages
         'tourist-attractions' => array(
@@ -170,12 +170,12 @@ class Seo
         'tourist-events' => array(
             'title' =>        "Trekking Tours Mongolia, Hiking and Trekking Mongolia - Tourist Events",
             'description' =>  "Travel All Mongolia invites you to join Trekking Tours in Mongolia, for an experience of lifetime in the awesome landscape of Mongolian, from mountains, to lakes, to hot dry desert, rolling hills of open grassland.",
-            'keyword' =>      "trekking tours mongolia, Trekking Tours Mongolia"
+            'keyword' =>      "Trekking Tours Mongolia"
         ),
         'about-mongolia' => array(
             'title'         => "Cultural Tours Mongolia, Vacation Mongolia and Tours to Mongolia - About Mongolia",
             'description'   => "Welcome to the Ancient land of the Great Mongolian Empire. Cultural Tours Mongolia invites you to join us this coming summer for an experience of a lifetime in the awesome landscapes of Mongolia, from mountains, to lakes, to hot dry desert, to rolling hills of open grassland.",
-            'keyword'       => "Cultural Tours Mongolia, Vacation Mongolia, Tours to Mongolia, Cultural Tours Mongolia, Vacation Mongolia, Mongolia Vacation",
+            'keyword'       => "Cultural Tours Mongolia, Vacation Mongolia, Mongolia Vacation",
         ),
         'terms-and-conditions' => array(
             'title'         => 'Mongolian Travel, private Tour to Mongolia, Mongolia Travel',
@@ -190,7 +190,7 @@ class Seo
         'homepage' => array(
             'title' =>        "Tours & Travel Mongolia, Mongolia Travel Guide, Trips to Mongolia, Adventure Holidays in Mongolia, Holiday Vacations to Mongolia, Mongolia Adventure Trips",
             'description' =>  "Travel to Mongolia and discover adventure travel in a land of stark, barren and spectacular beauty, a world without boundaries, where vast plains are matched only by the enormous blue sky. This is nature on an almost unimaginable scale, dwarfing all who pass through it. The endless wilderness populated only by the nomadic peoples and their livestock who live day to day in the awe-inspiring landscape.",
-            'keyword' =>      "Mongolia Travel Guide, Tours Mongolia, Travel Mongolia, Mongolia Journeys, Tour Mongolia, Horse trek Mongolia, Jeep overland Mongolia, Adventure Travel Mongolia, Active Adventure tours Mongolia, travel Mongolia, Fish Mongolia, Fly Fishing Mongolia, Tour Mongolia, Travel to Mongolia, hotel Mongolia, Fly to Mongolia, Adventure trips Mongolia, Tours to Mongolia, Mongolia vacation, Holiday Mongolia, Mongolia tour operator, Tours Mongolia, Mongolia Travel, trips to Mongolia, Travel Mongolia, Adventure Holidays in Mongolia, Mongolia Adventure trips, Mongolia Tours, Holiday Vacations to Mongolia",
+            'keyword' =>      "Tours Mongolia, Mongolia Travel, trips to Mongolia, Travel Mongolia, Adventure Holidays in Mongolia, Mongolia Adventure Trips, Mongolia Tours, Holiday Vacations to Mongolia",
         ),
         'contact-us' => array(
             'title'         => 'A Taste of Mongolia Tour, Luxury Travel Mongolia, Mongolia Vacations ',
@@ -200,7 +200,7 @@ class Seo
         'about-us' => array(
             'title'         => 'Mongolian Tour Operator | Mongolia Budget Tour - About Us',
             'description'   => 'We are recognized as an industry leader in Mongolian Tour Operator, luxury travel packages for couples, families, corporate incentive programs and Mongolia Budget Tour.',
-            'keyword'       => 'Mongolian Tour Operator, Mongolia Budget Tour, luxury travel to Mongolia, Mongolian Tour Operator, Mongolia Budget Tour'
+            'keyword'       => 'Mongolian Tour Operator, Mongolia Budget Tour'
         ),
         'gallery' => array(
             'title'         => 'Tour Mongolia, Mongolia Tours, Mongolia Travel',
