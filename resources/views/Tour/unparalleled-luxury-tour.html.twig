@@ -216,6 +216,12 @@
                         <b style="color: #B28E1B">Single supplement:</b> <span>1250 $</span>
                         <br/>
                         If you are traveling alone and wish to share a room with another participant, we will try to find a roommate for you
+
+                        {# early booking banner #}
+                        {% if app.show_early_booking_banner %}
+                            <a href="#!" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;">
+                                <img src="/images/early-booking-banner.png" width="380" class="frame_box"/></a>
+                        {% endif %}
                     </div>
                     <!--/ widget_categories -->
 

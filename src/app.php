@@ -166,4 +166,6 @@ require 'menus.php';
 
 $app['inquiry_form'] = $app['form.factory']->create(new \Enkuso\Form\ContactType(), array(), array())->createView();
 
+$app['show_early_booking_banner'] = strtotime('2016-09-20') >= time();
+
 return $app;

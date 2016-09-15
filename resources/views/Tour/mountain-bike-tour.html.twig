@@ -236,6 +236,12 @@
                                     href="http://www.travelallmongolia.com/contact/form">
                                 Contact us for Early Booking Discount</a></span>
                         <br/>#}
+
+                        {# early booking banner #}
+                        {% if app.show_early_booking_banner %}
+                            <a href="#!" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;">
+                                <img src="/images/early-booking-banner.png" width="380" class="frame_box"/></a>
+                        {% endif %}
                     </div>
                     <!--/ widget_categories -->
 
