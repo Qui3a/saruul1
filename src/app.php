@@ -167,7 +167,7 @@ require 'menus.php';
 $app['inquiry_form'] = $app['form.factory']->create(new \Enkuso\Form\ContactType(), array(), array())->createView();
 
 $app['show_early_booking_banner'] = strtotime('2016-09-30') >= time()
-    && $app['session']->has('neg_udaa_haragdah_modal_early_discount')
-    && $app['session']->get('neg_udaa_haragdah_modal_early_discount');
+    && !($app['session']->has('neg_udaa_haragdah_modal_early_discount')
+        && $app['session']->get('neg_udaa_haragdah_modal_early_discount'));
 
 return $app;
