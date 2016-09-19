@@ -590,9 +590,7 @@ src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/973048679/?value
         $(document).ready(function () {
             $('#banner-modal').modal('toggle');
             $('#banner-modal').find('button').on('click', function(e){
-                $.get('{{ path('neg_udaa_haragdah_modal_early_discount') }}', function(d){
-                    console.log(d);
-                });
+                $.get('{{ path('neg_udaa_haragdah_modal_early_discount') }}', function(d){});
             });
         });
     </script>
