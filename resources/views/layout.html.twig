@@ -589,6 +589,11 @@ src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/973048679/?value
     <script type="text/javascript">
         $(document).ready(function () {
             $('#banner-modal').modal('toggle');
+            $('#banner-modal').find('button').on('click', function(e){
+                $.get('{{ path('neg_udaa_haragdah_modal_early_discount') }}', function(d){
+                    console.log(d);
+                });
+            });
         });
     </script>
     <div class="modal fade bs-example-modal-lg" role="dialog" id="banner-modal">
