@@ -15,6 +15,7 @@ use Silex\Application;
 use Silex\ControllerCollection;
 use Silex\ControllerProviderInterface;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Validator\Constraints\Email;
 
 // Swift mailer force run hack :P
@@ -485,6 +486,11 @@ $mailer->send($mail); */
             return $app['twig']->render('Page/request_airfare_quote_success.html.twig', array(
             ));
         })->bind('request_airfare_quote_success');
+
+        $controllers->get('neg-udaa-haradah-modal/early-discount', function() use ($app) {
+            $app['session']->set('neg_udaa_haragdah_modal_early_discount', true);
+            return new Response('ok');
+        })->bind('neg_udaa_haragdah_modal_early_discount');
 
         return $controllers;
     }
