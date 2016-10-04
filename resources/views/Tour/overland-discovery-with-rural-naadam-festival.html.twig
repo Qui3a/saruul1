@@ -406,3 +406,14 @@
         </div>
     </div>
 {% endblock %}
+
+
+    {% block stylesheets %}
+        {{ parent() }}
+        <style type="text/css">
+            .container, .header_top .container { width: 1170px;}
+            #middle.sidebar_left .content {width: 850px;}
+            .slider_medium {width: 100%}
+            .slider_medium .slider-item { width: 100%; height: auto}
+        </style>
+    {% endblock %}
