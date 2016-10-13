@@ -259,6 +259,10 @@ Cancellation Fees: <br/>
             'title' => 'Mongolian Arts and Culture',
             'body' => '',
             'content' => 'mongolian-arts-and-culture.html',),
+        'our-lodge' => array(
+            'title' => 'Our Lodge',
+            'body' => '',
+            'content' => 'our-lodge.html',),
     );
 
     /**
