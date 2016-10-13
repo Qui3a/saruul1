@@ -136,7 +136,12 @@ class Seo
             'title' =>        "Adventure and Cultural Tours, Mongolia travel guide, Nomadic Adventures Mongolia, Mongolia tour travel, Mongolia tour packages",
             'description' =>  "Visit Buddhist monasteries and the medieval capital of Genghis Khan, from where he launched his victorious cavalry. Hiking, horseback riding, are the main activities. Overnights are mainly in traditional felt covered tents locally known as gers.",
             'keyword' =>      "Mongolia travel guide, Nomadic Adventures Mongolia, Mongolia tour travel, Mongolia tour packages, adventure travel in Mongolia",
-    ),
+        ),
+        'testimonials' => array(
+            'title' =>        "Travel All Mongolia Review",
+            'description' =>  "Travel All Mongolia Review",
+            'keyword' =>      "Travel All Mongolia Review",
+        ),
         'trip-calendar' => array(
             'title'         => 'Tailor-Made Tour, Small Group Travel, Join in adventure tour',
             'description'   => 'Mongolia is located in the heart of central Asia and her image is often associated with endless steppes, Gobi desert, nomadic lifestyle, horse-based culture and herders wandering around beautiful contractive natural zones of Gobi desert flat steppes and sub-arctic and mountainous areas.',
