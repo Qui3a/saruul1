@@ -492,6 +492,52 @@ $mailer->send($mail); */
             return new Response('ok');
         })->bind('neg_udaa_haragdah_modal_early_discount');
 
+        /** Request a Callback */
+        $controllers->get('request-a-callback/form', function() use ($app) {
+            
+            $form = $app['form.factory']->create(new \Enkuso\Form\CallbackType(), array(), array());
+
+            return $app['twig']->render('Page/request_a_callback.html.twig', array(
+                'form'      => $form->createView(),
+            ));
+        })->bind('request_a_callback');
+
+        $controllers->post('request-a-callback/send', function() use ($app) {
+
+            $form = $app['form.factory']->create(new \Enkuso\Form\CallbackType(), array(), array());
+
+            $form->handleRequest($app['request']);
+
+            if ($form->isValid()) {
+
+                $message = $form->getData();
+
+                if (stripos($message['comment'],"http://")===false) {
+                    $mail = \Swift_Message::newInstance()
+                        ->setSubject('['.$app['company']['name'].'] Request A Callback from '.$form->get('name')->getData())
+                        ->setFrom(array($form->get('email')->getData()))
+                        ->setTo($app['company']['email'])
+                        ->setBody($app['twig']->render('Page/_request_a_callback.html.twig', array(
+                            'form'      => $message,
+                        )));
+
+                    $app['mailer']->send($mail);
+                }
+
+                return $app->redirect($app['url_generator']->generate('request_a_callback_success'));
+            }
+
+            return $app['twig']->render('Page/request_a_callback.html.twig', array(
+                'form'      => $form->createView(),
+            ));
+        })->bind('request_a_callback_send');
+
+        $controllers->get('request-a-callback/sent', function() use ($app) {
+
+            return $app['twig']->render('Page/request_a_callback_success.html.twig', array(
+            ));
+        })->bind('request_a_callback_success');
+
         return $controllers;
     }
 }
