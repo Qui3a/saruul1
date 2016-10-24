@@ -190,7 +190,7 @@ html body * dd.clear {
 /* Typography
 ===================================*/
 h1, h2, h3, h4, h5, h6 {
-	color: #3f4b56;
+	color: #121212;
 	font-family: 'Cabin', sans-serif;
 	font-weight:400;
 	line-height:1.2em;
@@ -370,7 +370,7 @@ button[disabled], input[disabled] {cursor: default}
 .custom-checkbox,.custom-radio { position:relative; font-size:13px; text-shadow:0 1px 1px #fff;}
 /* input, label positioning */
 .custom-checkbox input,.custom-radio input { position:absolute; left:2px; top:5px; margin:0; border:none; width:1px; height:1px}
-.custom-checkbox label, .custom-radio label { display:block; position:relative; line-height:1; padding:.4em 0 .3em 30px; margin:0 0 .3em; cursor:pointer; color:#3f4b56}
+.custom-checkbox label, .custom-radio label { display:block; position:relative; line-height:1; padding:.4em 0 .3em 30px; margin:0 0 .3em; cursor:pointer; color:#121212}
 .custom-checkbox label span, 
 .custom-radio label span {
 	position:absolute;
@@ -382,7 +382,7 @@ button[disabled], input[disabled] {cursor: default}
 .custom-checkbox label { background:url(images/styled_checkbox.png) no-repeat; }
 .custom-radio label { background:url(images/styled_radiobutton.png) no-repeat; }
 .custom-checkbox label,.custom-radio label { background-position:-10px -10px; }
-.custom-checkbox label.checked,.custom-radio label.checked { background-position:-10px -206px; color:#3f4b56 }
+.custom-checkbox label.checked,.custom-radio label.checked { background-position:-10px -206px; color:#121212 }
 .custom-checkbox label.hover,.custom-checkbox label.focus,.custom-radio label.hover,.custom-radio label.focus {}
 .custom-checkbox label.checked.hover,.custom-checkbox label.checkedFocus {}
 .custom-checkbox label.focus,.custom-radio label.focus { outline:0; }
@@ -731,7 +731,7 @@ p.wp-caption-text, .frame_caption {
 	-webkit-box-shadow:inset 0 1px 1px 0 rgba(255,255,255,0.5);
 	box-shadow:inset 0 1px 1px 0 rgba(255,255,255,0.5)}
 .btn_white span {
-	color:#3f4b56;}
+	color:#121212;}
 .btn_white span strong {
 	font-weight:600;
 	color:#f25821}
@@ -1330,7 +1330,7 @@ p.wp-caption-text, .frame_caption {
 	text-align:center;
 	font-size:24px;
 	text-transform:uppercase;
-	color:#3f4b56;
+	color:#121212;
 	margin:0;
 	line-height:1em;
 	text-shadow:0 1px 1px #fff;
@@ -2683,7 +2683,7 @@ h3.toggle.box {
 	height:38px;
 	line-height:38px;
 	padding:20px 0 20px 0;
-	color:#3f4b56;
+	color:#121212;
 	font-size:38px;
 	font-weight:bold;
 	letter-spacing:-1px}
@@ -2762,7 +2762,7 @@ h3.toggle.box {
 	padding-top:18px}
 
 .search_row .row .label_title {
-	color:#3f4b56;
+	color:#121212;
 	font-size:13px;
 	display:block;
 	padding-bottom:5px}
@@ -3083,7 +3083,7 @@ h3.toggle.box {
 	text-align:center;}
 
 .car_types_list h2 {
-	color:#3f4b56;
+	color:#121212;
 	text-transform:uppercase;
 	font-size:19px;
 	font-weight:500;}
@@ -3265,7 +3265,7 @@ h3.toggle.box {
 	text-transform:uppercase;}
 
 .service_item h2 a {
-	color:#3f4b56}
+	color:#121212}
 
 .service_item h2 a:hover {
 	color:#f25821}
@@ -3313,7 +3313,7 @@ h3.toggle.box {
 	border-top:2px solid #e6ecef;}
 	
 .brand_list h2 {
-	color:#3f4b56;
+	color:#121212;
 	text-transform:uppercase;
 	font-size:14px;
 	font-weight:600;}
@@ -3528,7 +3528,7 @@ h3.toggle.box {
 .content .widget-container {
 	position:relative !important;
 	line-height:1.4em;
-	color:#3f4b56;
+	color:#121212;
 	padding:0;
 	*zoom: 1}
 	
@@ -3556,7 +3556,7 @@ h3.toggle.box {
 	font-family: 'Cabin', sans-serif;
 	font-size:14px;
 	line-height:1.1em;
-	color:#3f4b56;
+	color:#121212;
 	font-weight:500;
 	padding:0;
 	margin:0 0 20px 0;
@@ -3575,7 +3575,7 @@ h3.toggle.box {
 
 .sidebar .widget-container li a,
 .content .widget-container li a {
-	color:#3f4b56}
+	color:#121212}
 
 .content .widget_featured_posts .post-descr a {
 	color:#f25821}
@@ -3671,7 +3671,7 @@ h3.toggle.box {
 .widget_meta li a,
 .widget_pages li a {
 	display:block;
-	color:#3f4b56;}
+	color:#121212;}
 
 .widget_categories li a em {
 	font-style:normal;
@@ -3707,7 +3707,7 @@ h3.toggle.box {
 .widget-container.widget_nav_menu .current-menu-item li a,
 .widget-container.widget_categories li ul li a,
 .widget-container.widget_categories .current-menu-item li a {
-	color:#3f4b56;}
+	color:#121212;}
 
 
 /* widget featured posts / from category */	
@@ -3806,7 +3806,7 @@ h3.toggle.box {
 
 /* Widget Calendar  */
 .widget_calendar table {border-collapse: collapse; border-spacing:0; width:99%; padding:2px 0; margin:5px 2px; border:1px solid #d9e0e5; background:#fff}
-.widget_calendar table th{border:1px solid #d9e0e5; font-size:13px; color:#3f4b56; background:#f2f2f2; padding:2px; font-weight:bold;}
+.widget_calendar table th{border:1px solid #d9e0e5; font-size:13px; color:#121212; background:#f2f2f2; padding:2px; font-weight:bold;}
 .widget_calendar table td{color:#4f5e62;border:1px solid #d9e0e5;text-align:center; padding:2px}
 .widget_calendar table a { color:#39b4ed; padding:0 1px}
 .widget_calendar table a:hover {color:#f25821}
@@ -4328,7 +4328,7 @@ h3.toggle.box {
 	font-size:22px;}
 	
 .postlist .post-title h2 a {
-	color:#3f4b56}
+	color:#121212}
 
 .postlist .post-title h2 a:hover {
 	color:#f1541e}
@@ -4484,7 +4484,7 @@ h3.toggle.box {
 	
 .tf_pagination .page-numbers {	
 	margin:0 5px;
-	color:#3f4b56;
+	color:#121212;
 	display:inline-block;
 	font-weight:500;}
 
@@ -4782,7 +4782,7 @@ a.link-author:hover,
 	display:block;
 	font-size:12px;
 	margin-bottom:3px;
-	color:#3f4b56;}
+	color:#121212;}
 
 .comment-form .row .label_title strong {
 	font-weight:normal;}
@@ -4898,7 +4898,7 @@ input.btn-submit,
 	border-bottom:3px solid #ced6db}
 
 .manage_title {
-	color:#3f4b56;
+	color:#121212;
 	padding-right:8px;
 	line-height:32px;
 	font-size:13px;
@@ -5254,7 +5254,7 @@ input.btn-submit,
 	color:#f1541e}
 
 .offer_details .offer_price em {
-	color:#3f4b56;}
+	color:#121212;}
 
 .offer_details .offer_data {
 	border-top:1px solid #dbdee0;
@@ -5262,7 +5262,7 @@ input.btn-submit,
 	line-height:1em;
 	padding:20px 0;
 	font-size:15px;
-	color:#3f4b56;
+	color:#121212;
 	font-weight:bold;}
 
 .offer_details .offer_data li {
@@ -5291,7 +5291,7 @@ input.btn-submit,
 	position:relative;
 	line-height:1.2em;
 	background:#fff;
-	color:#3f4b56;
+	color:#121212;
 	font-size:13px;
 	font-weight:bold;}
 
@@ -5333,7 +5333,7 @@ input.btn-submit,
 	padding-right:2px}
 
 .details_tabs .tabs li a {
-	color:#3f4b56;
+	color:#121212;
 	line-height:61px;
 	min-width:180px;
 	padding:0;
@@ -5347,7 +5347,7 @@ input.btn-submit,
 .details_tabs .tabs li a.current,
 .details_tabs .tabs li a.current:hover {
 	background:#fff;
-	color:#3f4b56;}
+	color:#121212;}
 
 .details_tabs .tabcontent {
 	border:1px solid #e0e4e7;
@@ -5466,7 +5466,7 @@ input.btn-submit,
 	padding:0}
 
 .sidebar .widget-container.widget_adv_filter h3 {
-	color:#3f4b56;
+	color:#121212;
 	text-shadow:0 1px 1px #fff;
 	font-size:14px;
 	padding:30px 25px;
