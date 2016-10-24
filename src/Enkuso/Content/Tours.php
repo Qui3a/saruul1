@@ -1049,6 +1049,55 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
         ),
 
+        'western-mongolia-eagle-hunting-family-and-gobi-desert' => array(
+            'name' => 'Western Mongolia, Eagle Hunting Family and Gobi Desert',
+            'layout' => 'western-mongolia-eagle-hunting-family-and-gobi-desert.html.twig',
+            'duration' => '12 days',
+            'duration2' => '12 days / 11 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+                'Experience unique lifestyle of Kazakh family',
+                'Visiting Eagle hunting Family',
+                'Explore colorful embroidery and textiles, and their gers',
+                'Flaming Cliffs in the Gobi, where Roy Chapman Andrews discovered the first dinosaur eggs the world had ever seen',
+                'Discover the site of the Khavtsgait Petroglyphs',
+                'Ride camels   and walk  along  Mongolia’s  largest   sand dunes  at   Khongor  sandDune',
+                'Stay in local Ger camps',
+                'Enjoy the hospitality of the local people by visiting a family ‘ger’',
+                'Explore Gobi Gurvan Saikhan National Park',
+                'Explore the capital Ulaanbaatar and the Gandan Monastery',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/western-mongolia-eagle-hunting-family-and-gobi-desert (1).jpg',
+                '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/western-mongolia-eagle-hunting-family-and-gobi-desert (2).jpg',
+                '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/western-mongolia-eagle-hunting-family-and-gobi-desert (3).jpg',
+                '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/western-mongolia-eagle-hunting-family-and-gobi-desert (4).jpg',
+                '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/western-mongolia-eagle-hunting-family-and-gobi-desert (5).jpg',
+                '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/western-mongolia-eagle-hunting-family-and-gobi-desert (6).jpg',
+                '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/western-mongolia-eagle-hunting-family-and-gobi-desert (7).jpg',
+            ),
+            'region' => 'Western & Southern part of Mongolia.',
+            'availableTime' => 'June 12-23, June 25 – July 6, July 15 – 26, Aug 5-16, Aug 25 - Sep 5',
+            'map' => '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/map_s.jpg',
+            'mapLarge' => '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/map_l.jpg',
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => null,
+            'itinerary' => '',
+            'overview' => "<p>The first destination of this trip is the Gobi Desert which is popular with tourists for its beautiful landscapes including sand dunes and splendid gorges with unique formations as well as birds of prey, small rodents, the remains of dinosaur fossils, two-humped camels, and camel herders.</p>
+<p>While traveling around the Gobi, you will be thrilled by the contrasts between the Three Beauty Mountain Ranges, ice in the Eagle Valley which remains frozen until July, and sand dunes known as the &quot;singing dunes.&quot;</p>
+<p>As you walk through Eagle Valley, enjoy observing and taking photos of pikas, the small, cute rodents that can be seen dragging grass into their burrows for winter consumption.</p>
+<p>The Khongor Sand Dunes are a wonderful place to visit in the desert. If you ascend to the high sections of the dunes in the northwestern corner, you will have a chance to hear the sounds of the &quot;singing dunes.&quot; Slide off the dunes by kicking your legs and pushing your arms forward to hear their song!</p>
+<p>We offer the opportunity to explore the Flaming Cliffs which were discovered by American explorer and naturalist Roy Chapman Andrews in the 1920s. The red sandstone cliffs are known by the name Bayanzag amongst the Mongols. Pieces of dinosaur bone are still being found at the Flaming Cliffs and other famous locations in the Gobi Desert.</p>
+<p>The Mongolian Gobi is the only place where you can see two-humped Bactrian camels. A highlight of your tour will be experiencing the hospitality of a nomad family, making friends with camel herders, and learning more about their unique lifestyle.</p>
+<p>Another fascinating part of this trip is Bayan-Ulgii Province, the home of the Kazakh people, located in the western part of Mongolia. Kazakhs have preserved their unique culture and traditions, such as eagle hunting, since ancient times. Knowledge of animal husbandry has been passed down from generation to generation and visitors will be impressed by the peoples&#39; hunting skills and horsemanship. The skillful Kazakh women will display their handmade embroideries which are unique works of art with beautiful patterns and colors. Don&rsquo;t miss viewing the untouched landscape which differs significantly with its splendid snow-capped mountains, wide valleys, pristine rivers, lakes, springs, and waterfalls as well as medicinal herbs, rare wild animals, and birds.</p>
+",
+            'list_order' => 15,
+            'list_img' => '/images/special_offer_02.jpg',
+            'price_int' => 2995,
+
+        ),
+
 
         /*
                 'splendors-of-mongolia' => array(
