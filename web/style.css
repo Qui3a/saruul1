@@ -1621,8 +1621,12 @@ p.wp-caption-text, .frame_caption {
 /* Footer */
 /*-----------------------------------*/
 .footer {
-	background:#2c2d2d;
-	border-top:3px solid #000}
+	background:#1d1d1d;
+	border-top:3px solid #000;
+	color: #f2f2f2;
+	background-image: url(images/bg-ap.png);
+	background-position: top center;
+	border-top-color: rgba(0,0,0,0.2);}
 
 .footer .container {
 	padding:35px 0 30px 0;
@@ -1655,11 +1659,11 @@ p.wp-caption-text, .frame_caption {
 .f_col li {
 	margin-bottom:7px}
 	
-.f_col li a {
-	color:#797e80;}
+.f_col li a, .f_col .footer_address {
+	color: #eeeeee;}
 
 .f_col li a:hover {
-	color:#f25620}
+	color:#AAAAAA}
 
 .footer_address {
 	float:left;
@@ -1667,7 +1671,7 @@ p.wp-caption-text, .frame_caption {
 	line-height:2.1em;}
 	
 .footer_address .notice {
-	color:#39b4ed;
+	color:#FF7700;
 	font-size:13px;}
 
 .footer_map {
