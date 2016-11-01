@@ -1049,8 +1049,8 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
         ),
 
-        'western-mongolia-eagle-hunting-family-and-gobi-desert' => array(
-            'name' => 'Western Mongolia, Eagle Hunting Family and Gobi Desert',
+        'western-mongolia-gobi-desert-and-eagle-hunting-family' => array(
+            'name' => 'Western Mongolia, Gobi Desert & Eagle Hunting Family',
             'layout' => 'western-mongolia-eagle-hunting-family-and-gobi-desert.html.twig',
             'duration' => '12 days',
             'duration2' => '12 days / 11 nights',
@@ -1451,6 +1451,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'Gobi Desert tour' => 'Gobi Desert tour',
             'Golden Eagle Festival' => 'Golden Eagle Festival',
             'Eagle Festival and Gobi Desert' => 'Eagle Festival & Gobi Desert',
+            'Western Mongolia, Gobi Desert and Eagle Hunting Family' => 'Western Mongolia, Gobi Desert & Eagle Hunting Family',
             'Buddhism tour' => 'Buddhism tour',
             'Winter festival tour' => 'Winter festival tour',
             'Mountain bike tour' => 'Mountain bike tour',
