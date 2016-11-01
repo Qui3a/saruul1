@@ -112,7 +112,7 @@ img { max-width:100% !important; height:auto !important}
 /*-----------------------------------*/
 body {
 	font-family: 'Cabin', sans-serif;
-	color:#4f5e62;
+	color:#131819;
 	font-size:14px;
 	line-height:1.6em;
 	position:relative}
@@ -264,7 +264,7 @@ pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 
 /* Blockquotes 
 ===================================*/
-blockquote cite { display: block; font-size: 14px; color: #4f5e62; }
+blockquote cite { display: block; font-size: 14px; color: #131819; }
 blockquote cite:before { content: "\2014 \0020"; }
 blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { text-decoration:underline; }
 
@@ -2139,7 +2139,7 @@ h3.toggle.box {
 	font-size:14px;
 	padding:0 15px;
 	height:44px;
-	color:#4f5e62;
+	color:#131819;
 	text-shadow:0 1px 1px #fff;
 	text-decoration:none;
 	text-transform:uppercase;	
@@ -3807,7 +3807,7 @@ h3.toggle.box {
 /* Widget Calendar  */
 .widget_calendar table {border-collapse: collapse; border-spacing:0; width:99%; padding:2px 0; margin:5px 2px; border:1px solid #d9e0e5; background:#fff}
 .widget_calendar table th{border:1px solid #d9e0e5; font-size:13px; color:#121212; background:#f2f2f2; padding:2px; font-weight:bold;}
-.widget_calendar table td{color:#4f5e62;border:1px solid #d9e0e5;text-align:center; padding:2px}
+.widget_calendar table td{color:#131819;border:1px solid #d9e0e5;text-align:center; padding:2px}
 .widget_calendar table a { color:#39b4ed; padding:0 1px}
 .widget_calendar table a:hover {color:#f25821}
 .widget_calendar table tfoot td { border:none}
@@ -3949,7 +3949,7 @@ h3.toggle.box {
 	padding-left:30px;
 	list-style:none !important;
 	margin-bottom:14px !important;
-	color:#4f5e62;
+	color:#131819;
 	min-height:24px;
 	font-size:16px;
 	font-style:italic}
@@ -4666,7 +4666,7 @@ h3.toggle.box {
 	display:block;
 	min-height:25px;
 	padding:0;
-	color:#4f5e62}
+	color:#131819}
 	
 .comment-body {
 	background:#fff;
