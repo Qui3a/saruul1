@@ -68,7 +68,7 @@ $app['mailer'] = $app->share(function ($app) {
 
 $app->register(new TwigServiceProvider(), array(
     'twig.options'        => array(
-        'cache'            => isset($app['twig.options.cache']) ? $app['twig.options.cache'] : false,
+        'cache'            => false, # isset($app['twig.options.cache']) ? $app['twig.options.cache'] : false,
         'strict_variables' => true
     ),
     'twig.form.templates' => array('form_div_layout.html.twig'),
