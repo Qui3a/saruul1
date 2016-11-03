@@ -120,7 +120,7 @@ class Tours
                 'https://farm4.staticflickr.com/3852/15205063450_059a00292b_z.jpg',
             ),
             'region' => 'Central, Southern and Northern part of Mongolia.',
-            'availableTime' => '15-28th of June, <br/>24th of July – 6th of August, <br/>3-16th of August, <br/>10-23th of August, <br/>14-27th of August, <br/>17-30th of August, <br/>1-14th of September, <br/>6-19th of September',
+            'availableTime' => '15-28th of June, <br/>3-16th of June, <br/>24th of July – 6th of August, <br/>3-16th of August, <br/>10-23th of August, <br/>17-30th of August, <br/>1-14th of September',
             'map' => 'https://farm6.staticflickr.com/5569/15082222927_7673a79b42.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5569/15082222927_7673a79b42_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
@@ -134,9 +134,10 @@ class Tours
 <br>  The tour continues to the Orkhon Valley which is significant because all of the ancient empires and powerful nomadic tribes from the Xiongnu to the Great Mongol Empire established their capital cities in this valley.  We will explore Kharkhorin, the ancient capital city of the XIII century Mongol Empire.  It was established in 1220 by the great Chinggis Khan. Kharkhorin prospered during Ugudei's reign, but weakened during the reign of Khubilai.  Although Kharkhorin has remained a small town, it is still major tourist destination and attracts local and foreign tourists with its long history, beautiful landscapes, and historical monuments.  In Kharkhorin, you can visit the Erdene Zuu Monastery.  Constructed in 1580, it is the oldest and largest monastery found in the ruins of the capital city.
 <br>  The last, but definitely not the least destination is Hustai National Park where Przewalski horses were re-introduced to their motherland.  It is definitely an unforgettable experience to see these beautiful wild horses grazing peacefully along with roe deer and marmots.
 <br> We promise the best service you can get in Mongolia.  If you truly love traveling and exploring in untouched lands, Mongolia must, without a doubt, be at the top of your list!</p>",
-            'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
-<p>Thank you for looking after us so well.</p>
-<strong>Jane Ferguson Group from Australia</strong>",
+            'testimonial' => "<p>It is truly an experience, to be with the family. Very impressed with what the desert 
+had to offer. The kids were always up for the adventures planned for us. We were always surrounded by nice people, good 
+food  and AMAZING scenery. Quite a family destination. From this experience makes us want to come back Mongolia, again and again and again.</p>
+<strong>Adam Singer family, USA</strong>",
             'list_order' => 13,
             'list_img' => '/images/special_offer_03.jpg',
             'price_int' => 3345,
