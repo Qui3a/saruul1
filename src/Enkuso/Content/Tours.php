@@ -614,13 +614,18 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
                 'https://farm3.staticflickr.com/2948/15374692065_38ec0396dd_z.jpg',
             ),
             'region' => 'Central & southern part of Mongolia',
-            'availableTime' => ' June 12-21, July 20-29, August 5-14, August 15-24, Sep 1-10',
+            'availableTime' => ' July 20-29, Sep 1-10',
             'map' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3913/15081802738_1c9f6e0371_b.jpg',
             'bs_img' => '/img/tour/em_main.jpg',
             'pdf' => 'taste-of-mongolia',
             'itinerary' => "",
-            'overview' => "<p>Go deep into the Mongolian outback and experience life as a nomad. You’ll have the opportunity to stay in traditional ger camps and spend time with local families while you travel to many of the highlights of this beautiful country. This tour will give you the opportunity to soak up the culture firsthand with visits to the Gobi Desert, Karakorum, Ulaanbaatar, and Hustai National Park among other fairy tale destinations. Learn more about archaeological expeditions in the south, how an empire was built and how Mongolia’s people have lived off the vastness of this fascinating landscape for centuries.</p>",
+            'overview' => "<p>This tour concentrates on the historical riches of Mongolia, which are delightfully set 
+against a backdrop of awesome natural splendor. Tour in Ulaanbaatar, including the Gandan monastery and the Natural 
+History Museum. Visit the Hustain Nuruu Reserve, where the last remaining species of wild horse is being reintroduced 
+into the wild by a Dutch organization. Stay in gers that perch on the banks of the pristine Lake Hovsgol. 
+Ride horses, visit nearby nomadic communities, or fish in the clear water. Embark on a private tour to the Karakorum 
+region in Mongolia; explore the beautiful lakes and mountains via a private jeep and driver.</p>",
             'testimonial' => '<p>I’ve been meaning to write to you and thank you for the wonderful trip to your magnificent country.  Every time we turned a corner there was something new and different to experience.  Serjee was a wonderful guide; we enjoyed very much being with her.  She obviously loves Mongolia and was willing to share so much of herself (and her family) with us.  Visiting with her parents in their home was certainly a highlight. The drivers were the best.  We all felt very safe with them thru the mountains, rivers, whatever.  They participated in activities with us.  And even though they didn’t speak English we all communicated. Everything else was great.  This was one of the best trips I have ever taken. Thank you for offering it to us so we could see your wonderful country first hand.</p>
 <strong>Sandra Bremer<br/>USA</strong>',
 
