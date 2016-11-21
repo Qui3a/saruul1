@@ -988,11 +988,11 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 '/tourimg/golden-eagle-and-gobi/eagle-festival (7).jpg',
             ),
             'region' => 'Western & Southern part of Mongolia.',
-            'availableTime' => 'Sep 21 - Oct 4',
+            'availableTime' => 'Sep 28 - Oct 11, 2017',
             'map' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_m.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => 'golden-eagle-festival-and-gobi-desert-2017',
+            'pdf' => null,
             'itinerary' => '',
             'overview' => "<p>This trip gives you a chance to enjoy amazing Gobi Desert. The Gobi is not just sand and gravel and dead animals. It diversifies into mountains and evergreen forest and geological freak shows - including a dune system as long and high as a mountain range - and sustains an array of endangered species that includes wild ass, wild camels and snow leopards.</p>
             <p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes. </p>
