@@ -1031,7 +1031,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 '/tourimg/golden-eagle/eagle (5).jpg',
             ),
             'region' => 'Western part of Mongolia.',
-            'availableTime' => 'Sep 27 - Oct 4',
+            'availableTime' => 'Sep 14-21 & Oct 5-12, 2017',
             'map' => 'https://farm6.staticflickr.com/5642/22199130788_18efaf4b22_m.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5642/22199130788_18efaf4b22_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
