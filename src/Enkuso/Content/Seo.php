@@ -121,6 +121,11 @@ class Seo
             'description' =>  "Enjoy the Eagle Festival Mongolia! Mongolian eagle hunting festival is celebrated in Bayan Ulgii. The Eagle festival is a tournament of falconers from the region, who hunt with trained eagles.",
             'keyword' =>      "Eagle Festival Mongolia, mongolian eagle hunting festival"
         ),
+        'eagle-festival-and-gobi-desert' => array(
+            'title' =>        "Eagle Hunting Festival 2017, Golden Eagle Festival 2017, Golden Eagle Festival Mongolia",
+            'description' =>  "Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet.",
+            'keyword' =>      "Golden Eagle Festival Mongolia, Eagle Hunting Festival 2017, Golden Eagle Festival 2017, Mongolia Golden Eagle Festival"
+        ),
         'jewels-of-mongolia-with-rural-naadam-festival-in-khuvsgul-lake' => array(
             'title' =>        "Naadam Festival 2017 | Jewels of Mongolia with Rural Naadam Festival",
             'description' =>  "Experience Jewels of Mongolia with Rural Naadam Festival 2017. This trip gives you a great opportunity to see all highlights of Naadam Festival in Mongolia.",
