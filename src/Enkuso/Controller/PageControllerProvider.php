@@ -184,8 +184,8 @@ class PageControllerProvider implements ControllerProviderInterface
                 $message = $form->getData();
 		if (stripos($message['content'],"http://")===false) {
             $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
-                ->setUsername('info@travelallmongolia.com')
-                ->setPassword('Soyoloo601');
+                ->setUsername($app['smtp.mail'])
+                ->setPassword($app['smtp.pass']);
 
                 $mail = \Swift_Message::newInstance($transporter)
                     ->setSubject('['.$app['company']['name'].'] '.$form->get('name')->getData())
@@ -196,19 +196,6 @@ class PageControllerProvider implements ControllerProviderInterface
 
                 $app['mailer']->send($mail);
                 }
-/* $transport = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")
-  ->setUsername('info@travelallmongolia.com')
-  ->setPassword('Soyoloo601');
-
-$mailer = \Swift_Mailer::newInstance($transport);
-
-                $mail = \Swift_Message::newInstance()
-                    ->setSubject('['.$app['company']['name'].'] '.$form->get('name')->getData())
-                    ->setFrom(array($form->get('email')->getData()))
-                    ->setTo("info@travelallmongolia.com")
-                    ->setBody('<b>Country:</b> '.$app['visitor_country'].'<br/><b>Day time phone:</b> '.$form->get('phone')->getData().'<br/><b>Evening phone:</b> '.$form->get('phone2')->getData().'<br/><b>Message</b><br/>'.$form->get('content')->getData(), 'text/html');
-
-$mailer->send($mail); */
                 return $app->redirect($app['url_generator']->generate('contact_success'));
             }
 
@@ -255,9 +242,14 @@ $mailer->send($mail); */
                 $message = $form->getData();
 
                 if (stripos($message['comment'],"http://")===false) {
-                    $mail = \Swift_Message::newInstance()
+                    $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
+                        ->setUsername($app['smtp.mail'])
+                        ->setPassword($app['smtp.pass']);
+
+                    $mail = \Swift_Message::newInstance($transporter)
                         ->setSubject('['.$app['company']['name'].'] Booking from '.$form->get('first_name')->getData())
                         ->setFrom(array($form->get('email')->getData()))
+                        ->setReplyTo(array($form->get('email')->getData()))
                         ->setTo($app['company']['email'])
                         ->setBody($app['twig']->render('Page/_booking.html.twig', array(
                             'form'      => $message,
@@ -335,9 +327,14 @@ $mailer->send($mail); */
                 $filename = ucwords(str_replace('-',' ',$form->get('tour')->getData()));
 
                 if(file_exists($app['upload_dir'].'/tour-pdf/'.$filename.'.pdf') ) {
-                    $mail = \Swift_Message::newInstance()
+                    $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
+                        ->setUsername($app['smtp.mail'])
+                        ->setPassword($app['smtp.pass']);
+
+                    $mail = \Swift_Message::newInstance($transporter)
                         ->setSubject('['.$app['company']['name'].'] '.$form->get('name')->getData().' downloaded PDF - '.$filename)
                         ->setFrom(array($form->get('email')->getData()))
+                        ->setReplyTo(array($form->get('email')->getData()))
                         ->setTo($app['company']['email'])
                         ->setBody(
                             $form->get('name')->getData().' downloaded PDF - '.$filename.'<br/>'.
@@ -365,9 +362,14 @@ $mailer->send($mail); */
             $errors = $app['validator']->validateValue($email, new Email());
 
             if (count($errors) <= 0) {
-                $mail = \Swift_Message::newInstance()
+                $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
+                    ->setUsername($app['smtp.mail'])
+                    ->setPassword($app['smtp.pass']);
+
+                $mail = \Swift_Message::newInstance($transporter)
                     ->setSubject('['.$app['company']['name'].'] '.' Newsletter subscribe request')
                     ->setFrom($email)
+                    ->setReplyTo($email)
                     ->setTo($app['company']['email'])
                     ->setBody(
                         $email
@@ -400,9 +402,14 @@ $mailer->send($mail); */
 
                 $message = $form->getData();
 
-                $mail = \Swift_Message::newInstance()
+                $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
+                    ->setUsername($app['smtp.mail'])
+                    ->setPassword($app['smtp.pass']);
+
+                $mail = \Swift_Message::newInstance($transporter)
                     ->setSubject('Requesting catalog: '.$form->get('first_name')->getData())
                     ->setFrom(array($form->get('email')->getData()))
+                    ->setReplyTo(array($form->get('email')->getData()))
                     ->setTo($app['company']['email'])
                     ->setBody('<b>First Name: </b> '.$form->get('first_name')->getData().'<br/>'
                         .'<b>Last Name: </b>'.$form->get('last_name')->getData().'<br/>'
@@ -467,9 +474,14 @@ $mailer->send($mail); */
                 $message = $form->getData();
 
                 if (stripos($message['comment'],"http://")===false) {
-                    $mail = \Swift_Message::newInstance()
+                    $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
+                        ->setUsername($app['smtp.mail'])
+                        ->setPassword($app['smtp.pass']);
+
+                    $mail = \Swift_Message::newInstance($transporter)
                         ->setSubject('['.$app['company']['name'].'] Request Airfare Quote from '.$form->get('first_name')->getData())
                         ->setFrom(array($form->get('email')->getData()))
+                        ->setReplyTo(array($form->get('email')->getData()))
                         ->setTo($app['company']['email'])
                         ->setBody($app['twig']->render('Page/_request_airfare_quote.html.twig', array(
                             'form'      => $message,
@@ -518,9 +530,14 @@ $mailer->send($mail); */
                 $message = $form->getData();
 
                 if (stripos($message['comment'],"http://")===false) {
-                    $mail = \Swift_Message::newInstance()
+                    $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
+                        ->setUsername($app['smtp.mail'])
+                        ->setPassword($app['smtp.pass']);
+
+                    $mail = \Swift_Message::newInstance($transporter)
                         ->setSubject('['.$app['company']['name'].'] Request A Callback from '.$form->get('name')->getData())
                         ->setFrom(array($form->get('email')->getData()))
+                        ->setReplyTo(array($form->get('email')->getData()))
                         ->setTo($app['company']['email'])
                         ->setBody($app['twig']->render('Page/_request_a_callback.html.twig', array(
                             'form'      => $message,

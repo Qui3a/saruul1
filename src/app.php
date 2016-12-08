@@ -141,6 +141,8 @@ $app['seo_key'] = 'all';
 
 // config
 $app['tourapi.host'] = 'http://tourapi.88125925.com';
+$app['smtp.mail'] = 'info@travelallmongolia.com';
+$app['smtp.pass'] = 'Soyoloo601';
 $app['company'] = array(
     'name' => 'Travel All Mongolia',
     'email' => 'info@travelallmongolia.com',
