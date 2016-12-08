@@ -183,10 +183,13 @@ class PageControllerProvider implements ControllerProviderInterface
 
                 $message = $form->getData();
 		if (stripos($message['content'],"http://")===false) {
-                $mail = \Swift_Message::newInstance()
+            $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
+                ->setUsername('info@travelallmongolia.com')
+                ->setPassword('Soyoloo601');
+
+                $mail = \Swift_Message::newInstance($transporter)
                     ->setSubject('['.$app['company']['name'].'] '.$form->get('name')->getData())
-                    ->setFrom('admin@nomadicvoyages.com')
-                    ->setReplyTo(array($form->get('email')->getData()))
+                    ->setFrom(array($form->get('email')->getData()))
                     ->setTo($app['company']['email'])
                     ->setBody('<b>Email:</b> '.$form->get('email')->getData().'<br/><b>Country:</b> '.$app['visitor_country'].'<br/><b>Day time phone:</b> '.$form->get('phone')->getData().'<br/><b>Evening phone:</b> '.$form->get('phone2')->getData().'<br/><b>Message</b><br/>'.$form->get('content')->getData(), 'text/html');
 
