@@ -1015,7 +1015,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
         ),
 
         'golden-eagle-festival' => array(
-            'name' => 'Golden Eagle Festival 2017',
+            'name' => 'Golden Eagle Festival & Hustai National Park 2017',
             'layout' => 'golden-eagle-festival.html.twig',
             'duration' => '8 days',
             'duration2' => '8 days / 7 nights',
@@ -1031,7 +1031,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 '/tourimg/golden-eagle/eagle (5).jpg',
             ),
             'region' => 'Western part of Mongolia.',
-            'availableTime' => 'Sep 14-21 & Oct 5-12, 2017',
+            'availableTime' => 'Sep 14-21 & Sep 28 - Oct 12, 2017',
             'map' => 'https://farm6.staticflickr.com/5642/22199130788_18efaf4b22_m.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5642/22199130788_18efaf4b22_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
@@ -1456,7 +1456,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'Ultimate Mongolia' => 'Ultimate Mongolia',
             'Western, Southern and Northern Mongolia Expedition' => 'Western, Southern and Northern Mongolia Expedition',
             'Gobi Desert tour' => 'Gobi Desert tour',
-            'Golden Eagle Festival' => 'Golden Eagle Festival',
+            'Golden Eagle Festival & Hustai National Park 2017' => 'Golden Eagle Festival & Hustai National Park 2017',
             'Eagle Festival and Gobi Desert' => 'Eagle Festival & Gobi Desert',
             'Western Mongolia, Gobi Desert and Eagle Hunting Family' => 'Western Mongolia, Gobi Desert & Eagle Hunting Family',
             'Buddhism tour' => 'Buddhism tour',
