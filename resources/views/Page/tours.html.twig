@@ -68,3 +68,10 @@
     </div>
 
 {% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    <style type="text/css">
+        .special_text .special_price a, .special_text h3 a, .special_text .info_row {color: black;}
+    </style>
+{% endblock %}
