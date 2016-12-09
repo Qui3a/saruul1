@@ -316,3 +316,8 @@
         </div>
     </div>
 {% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ include('Tour/_tour_style.html.twig') }}
+{% endblock %}
