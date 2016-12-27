@@ -37,8 +37,8 @@
 
                         <div class="form_col_1" style="margin-right: 30px;">
                             <div class="row alignleft field_text">
-                                {{ form_label(form.guide, null, {'label_attr':{'style':'height: 38px;width: 230px;'} }) }} <br/>
-                                {{ form_widget(form.guide, { 'attr': {'class': 'select_styled'} }) }}
+                                {{ form_label(form.guide) }} <br/>
+                                {{ form_widget(form.guide, { 'attr': {'class': 'select_styled', 'style':'height: 38px;width: 230px;'} }) }}
                                 {{ form_errors(form.guide) }}
                             </div>
                             <div class="row alignleft field_text">
@@ -65,8 +65,8 @@
 
                         <div class="form_col_1" style="margin-right: 30px;">
                             <div class="row alignleft field_text">
-                                {{ form_label(form.tour, null, {'label_attr':{'style':'height: 38px;width: 230px;'} }) }}
-                                {{ form_widget(form.tour, { 'attr': {'class': 'select_styled'} }) }}
+                                {{ form_label(form.tour) }}
+                                {{ form_widget(form.tour, { 'attr': {'class': 'select_styled', 'style':'height: 38px;width: 230px;'} }) }}
                                 {{ form_errors(form.tour) }}
                             </div>
                             <div class="row alignleft field_text">
