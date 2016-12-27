@@ -33,7 +33,9 @@
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
                         {% for slide in tour.pictures %}
-                            <div class="swiper-slide" style="background-image: url({{ slide }})"></div>
+                            <div class="swiper-slide">
+                                <img src="{{ slide }}" alt="{{ slide }}">
+                            </div>
                         {% endfor %}
                     </div>
                     <!-- Add Pagination -->
