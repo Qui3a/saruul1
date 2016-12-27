@@ -56,9 +56,9 @@
         <script src="/js/jquery.easing.min.js"></script>
         <script src="/js/general.js"></script>
         <script src="/js/hoverIntent.js"></script>
-        <!-- carousel -->
-        <script src="/js/jquery.carouFredSel.min.js"></script>
-        <script src="/js/jquery.touchSwipe.min.js"></script>
+        <!-- Swiper -->
+        <link rel="stylesheet" href="/css/swiper.min.css">
+        <script src="/js/swiper.min.js"></script>
         <!-- styled select -->
         <link rel="stylesheet" href="/css/cusel.css">
         <script src="/js/cusel-min.js"></script>
@@ -221,6 +221,22 @@
     <img src="/images/request_a_callback.png" alt="Request a callback"
          style="position: fixed; right: 0; top: 20%; cursor: pointer; z-index: 999; width: 30px; margin-top: 187px;">
 </a>
+
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        loop: true
+    });
+</script>
+
+
 <!-- Google Code for Remarketing Tag -->
 <!--------------------------------------------------
 Remarketing tags may not be associated with personally identifiable 

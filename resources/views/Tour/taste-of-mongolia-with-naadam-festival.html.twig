@@ -28,31 +28,21 @@
             <!-- content -->
             <div class="content">
                 <h2>{{ tour.name }} ({{ tour.duration2 }})</h2>
-                <!-- content slider: slider_medium -->
-                <div class="slider slider_medium">
-                    <div class="slider_container clearfix" id="slider4">
+
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
                         {% for slide in tour.pictures %}
-                            <div class="slider-item"><img src="{{ slide }}" alt="{{ tour.name }}"></div>
+                            <div class="swiper-slide" style="background-image: url({{ slide }})"></div>
                         {% endfor %}
                     </div>
-                    <div class="slider_pagination" id="slider4_pag"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-                <script>
-                    jQuery(document).ready(function($) {
-                        $('#slider4').carouFredSel({
-                            pagination : "#slider4_pag",
-                            infinite: true,
-                            auto: true,
-                            height: "auto",
-                            items: 1,
-                            scroll: {
-                                fx: "fade",
-                                duration: 2000
-                            }
-                        });
-                    });
-                </script>
-                <!-- content slider: medium_small -->
+
                 <div class="">
                     <div class="post-item">
                         <div class="post-aside clearfix">
