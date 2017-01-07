@@ -26,7 +26,6 @@ class DownloadPdfType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder->add('name', 'text', array('label'=>'Your name'));
-        $builder->add('country', 'text', array('label'=>'Country'));
         $builder->add('email', 'text', array('label'=>'Your e-mail address'));
         $builder->add('phone', 'text', array('label'=>'Your phone number'));
         $builder->add('tour', 'hidden');
@@ -42,9 +41,6 @@ class DownloadPdfType extends AbstractType
                         'pattern' => "/\d/",
                         'match'   => false,
                     )),
-                ),
-                'country'     => array(
-                    new Assert\NotBlank(),
                 ),
                 'email'     => array(
                     new Assert\NotBlank(),

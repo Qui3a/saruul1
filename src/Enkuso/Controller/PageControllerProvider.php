@@ -338,7 +338,7 @@ class PageControllerProvider implements ControllerProviderInterface
                         ->setTo($app['company']['email'])
                         ->setBody(
                             $form->get('name')->getData().' downloaded PDF - '.$filename.'<br/>'.
-                            'Country: '.$form->get('country')->getData().'<br/>'.
+                            'Country from IP address: '.$app['visitor_country'].'<br/>'.
                             'Email: '. $form->get('email')->getData()
                         );
 
