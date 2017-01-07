@@ -340,7 +340,7 @@ class PageControllerProvider implements ControllerProviderInterface
                             $form->get('name')->getData().' downloaded PDF - '.$filename.'<br/>'.
                             'Country from IP address: '.$app['visitor_country'].'<br/>'.
                             'Email: '. $form->get('email')->getData()
-                        );
+                        , 'text/html');
 
                     $app['mailer']->send($mail);
 
