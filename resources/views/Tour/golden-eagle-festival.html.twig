@@ -25,6 +25,171 @@
     <!-- middle -->
     <div id="middle" class="cols2 sidebar_left">
         <div class="container clearfix">
+            <!-- sidebar -->
+            <div class="sidebar">
+                <div class="box">
+
+                    <!-- widget_categories -->
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title">Trip snapshot</h3>
+                        <b style="color: #B28E1B">Tour length:</b> <span>8 days, 7 nights</span>
+                        <br/>
+                        <b style="color: #B28E1B">Available time:</b> <span>{{ tour.availableTime }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Region:</b> <span>{{ tour.region }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Price:</b> <span>$2395</span>
+                        <br/>{#
+                        <span style="font-weight: bold; color: brown"><a
+                                    href="http://www.travelallmongolia.com/contact/form">
+                                Contact us for Early Booking Discount</a></span>
+                        <br/>#}
+                        {#<span style="font-weight: bold; color: brown">Save $200 BOOK by Dec 31, 2017</span>
+                        <br/>#}
+                        <b style="color: #B28E1B">Single supplement:</b> <span>$350</span>
+                        <br/>
+                        If you are traveling alone and wish to share a room with another participant, we will try to find a roommate for you
+
+                        {# early booking banner #}
+                        {% if app.show_early_booking_banner %}
+                            <a href="#!" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;">
+                                <img src="/images/early-booking-banner.png" width="380" class="frame_box"/></a>
+                        {% endif %}
+                    </div>
+                    <!--/ widget_categories -->
+
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title" style="margin-bottom:0;">Travel map</h3>
+                    </div>
+                    <a href="{{ tour.mapLarge }}" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="{{ tour.map }}" width="380" class="frame_box"/></a>
+
+                    <!-- widget_recent_comments -->
+                    <div class="widget-container widget_popular">
+                        <h3 class="widget-title">Highlights</h3>
+                        <ul>
+                            {% for highlight in tour.highlights %}
+                                <li><a href="javascript:;">{{ highlight }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <!--/ widget_recent_comments -->
+
+                    {{ include('Tour/_discount.html.twig') }}
+
+                    <!-- login widget -->
+                    <div class="widget-container widget_login">
+                        <h2>Quick inquiry</h2>
+
+                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform" novalidate>
+
+                            <input type="hidden" name="tourName" value="{{ tour.name }}">
+                            {% for message in app.session.getFlashBag.get('inquiry') %}
+                                <mark style="padding: 10px;display: block;"> {{ message }}</mark>
+                            {% endfor %}
+
+                            <p><label>Your name</label><br>
+                                {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your email address</label><br>
+                                {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your phone number</label><br>
+                                {{ form_widget(form.phone, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your message</label><br>
+                                {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
+                            <div style="display: none">
+                                {{ form_widget(form.phone2, { 'attr': {'class': 'input'} }) }}
+                            </div>
+
+                            {{ form_rest(form) }}
+                            <p class="submit">
+                                <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
+                            </p>
+                        </form>
+                    </div>
+                    <!--/ login widget -->
+
+                    <!-- subscribe buttons -->
+                    <div class="widget-container subscribe_btn">
+                        {#<mark style="padding: 10px;display: block;">OFFER 10% May sale discount</mark>#}
+                        <br/>
+                        <div>
+                            <a href="{{ path('page_show', {'slug':'trip-calendar-2017'}) }}"><img src="/images/group_travel_2017.jpg" alt="Join our group travel 2017"/></a>
+                        </div>
+                    </div>
+                    <!--/ subscribe buttons -->
+
+                </div>
+
+                <div class="sb sb_dark">
+                    <div class="box_title">Included</div>
+                    <div class="box_content">
+                        <div class="entry">
+                            <div class="list_check">
+                                <ul>
+                                    <li>Private ger for every 2 people in Tourist camp </li>
+                                    <li>All meals as listed in itinerary</li>
+                                    <li>All entrance fees</li>
+                                    <li>Sightseeing as per itinerary</li>
+                                    <li>Accommodation in 4 stars hotel in Ulaanbaatar (twin standard room double occupancy)</li>
+                                    <li>Transportations by 4WD vehicles</li>
+                                    <li>English speaking guide (other language guide on request)</li>
+                                    <li>Daily supply of bottled water, Domestic flight</li>
+                                    <li>Cultural Show</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="sb sb_dark">
+                    <div class="box_title">Not included</div>
+                    <div class="box_content">
+                        <div class="entry">
+                            <div class="list_delete">
+                                <ul>
+                                    <li>International airfare</li>
+                                    <li>Travel insurance</li>
+                                    <li>Beverages</li>
+                                    <li>Optional activity cost</li>
+                                    <li>Excess baggage charge</li>
+                                    <li>Single room supplement</li>
+                                    <li>Any additional things which are not mentioned above </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="sb sb_blue">
+                    <div class="box_title">Testimonial</div>
+                    <div class="box_content">
+                        <div class="slider_quotes" style="margin-top: 45px;">
+                            <div class="slider-item">
+                                {% if tour.testimonial is defined %}
+                                    <div class="quote-text">
+                                        {{ tour.testimonial|raw }}
+                                    </div>
+                                {% else %}
+                                    <div class="quote-text">
+                                        <strong>Hello Soyoloo</strong><br/><p>Just want to thank you for your wonderful hospitality and expert tour guiding during our trip to Mongolia.  We loved visiting the Husai National Park and exploring the city of Ulaanbaatar.  Our favorite part of the trip was seeing the beautiful countryside and encountering wild horses, camels and eagles.
+                                            Thank you so much for showing us around and making sure our trip was a success.  We also enjoyed our driver, Zoloo.  Look forward to planning our next adventure with you.
+                                        </p></div>
+                                    <div class="quote-author">
+                                        <strong>Lisa Berkman, Tour group from USA</strong>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                {{ include('Tour/_catalog.html.twig') }}
+
+            </div>
+            <!--/ sidebar -->
+
             <!-- content -->
             <div class="content">
                 <h2>{{ tour.name }} ({{ tour.duration2 }})</h2>
@@ -227,170 +392,6 @@
                 </div>
             </div>
 
-            <!-- sidebar -->
-            <div class="sidebar">
-                <div class="box">
-
-                    <!-- widget_categories -->
-                    <div class="widget-container widget_categories">
-                        <h3 class="widget-title">Trip snapshot</h3>
-                        <b style="color: #B28E1B">Tour length:</b> <span>8 days, 7 nights</span>
-                        <br/>
-                        <b style="color: #B28E1B">Available time:</b> <span>{{ tour.availableTime }}</span>
-                        <br/>
-                        <b style="color: #B28E1B">Region:</b> <span>{{ tour.region }}</span>
-                        <br/>
-                        <b style="color: #B28E1B">Price:</b> <span>$2395</span>
-                        <br/>{#
-                        <span style="font-weight: bold; color: brown"><a
-                                    href="http://www.travelallmongolia.com/contact/form">
-                                Contact us for Early Booking Discount</a></span>
-                        <br/>#}
-                        {#<span style="font-weight: bold; color: brown">Save $200 BOOK by Dec 31, 2017</span>
-                        <br/>#}
-                        <b style="color: #B28E1B">Single supplement:</b> <span>$350</span>
-                        <br/>
-                        If you are traveling alone and wish to share a room with another participant, we will try to find a roommate for you
-
-                        {# early booking banner #}
-                        {% if app.show_early_booking_banner %}
-                            <a href="#!" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;">
-                                <img src="/images/early-booking-banner.png" width="380" class="frame_box"/></a>
-                        {% endif %}
-                    </div>
-                    <!--/ widget_categories -->
-
-                    <div class="widget-container widget_categories">
-                        <h3 class="widget-title" style="margin-bottom:0;">Travel map</h3>
-                    </div>
-                    <a href="{{ tour.mapLarge }}" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="{{ tour.map }}" width="380" class="frame_box"/></a>
-
-                    <!-- widget_recent_comments -->
-                    <div class="widget-container widget_popular">
-                        <h3 class="widget-title">Highlights</h3>
-                        <ul>
-                            {% for highlight in tour.highlights %}
-                            <li><a href="javascript:;">{{ highlight }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <!--/ widget_recent_comments -->
-
-                    {{ include('Tour/_discount.html.twig') }}
-
-                    <!-- login widget -->
-                    <div class="widget-container widget_login">
-                        <h2>Quick inquiry</h2>
-
-                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform" novalidate>
-
-                            <input type="hidden" name="tourName" value="{{ tour.name }}">
-                            {% for message in app.session.getFlashBag.get('inquiry') %}
-                                <mark style="padding: 10px;display: block;"> {{ message }}</mark>
-                            {% endfor %}
-
-                            <p><label>Your name</label><br>
-                                {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
-                            <p><label>Your email address</label><br>
-                                {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</p>
-                            <p><label>Your phone number</label><br>
-                                {{ form_widget(form.phone, { 'attr': {'class': 'input'} }) }}</p>
-                            <p><label>Your message</label><br>
-                                {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
-                            <div style="display: none">
-                                {{ form_widget(form.phone2, { 'attr': {'class': 'input'} }) }}
-                            </div>
-
-                            {{ form_rest(form) }}
-                            <p class="submit">
-                                <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
-                            </p>
-                        </form>
-                    </div>
-                    <!--/ login widget -->
-
-                    <!-- subscribe buttons -->
-                    <div class="widget-container subscribe_btn">
-                        {#<mark style="padding: 10px;display: block;">OFFER 10% May sale discount</mark>#}
-                        <br/>
-                        <div>
-                            <a href="{{ path('page_show', {'slug':'trip-calendar-2017'}) }}"><img src="/images/group_travel_2017.jpg" alt="Join our group travel 2017"/></a>
-                        </div>
-                    </div>
-                    <!--/ subscribe buttons -->
-
-                </div>
-
-                <div class="sb sb_dark">
-                    <div class="box_title">Included</div>
-                    <div class="box_content">
-                        <div class="entry">
-                            <div class="list_check">
-                                <ul>
-                                    <li>Private ger for every 2 people in Tourist camp </li>
-                                    <li>All meals as listed in itinerary</li>
-                                    <li>All entrance fees</li>
-                                    <li>Sightseeing as per itinerary</li>
-                                    <li>Accommodation in 4 stars hotel in Ulaanbaatar (twin standard room double occupancy)</li>
-                                    <li>Transportations by 4WD vehicles</li>
-                                    <li>English speaking guide (other language guide on request)</li>
-                                    <li>Daily supply of bottled water, Domestic flight</li>
-                                    <li>Cultural Show</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-                <div class="sb sb_dark">
-                    <div class="box_title">Not included</div>
-                    <div class="box_content">
-                        <div class="entry">
-                            <div class="list_delete">
-                                <ul>
-                                    <li>International airfare</li>
-                                    <li>Travel insurance</li>
-                                    <li>Beverages</li>
-                                    <li>Optional activity cost</li>
-                                    <li>Excess baggage charge</li>
-                                    <li>Single room supplement</li>
-                                    <li>Any additional things which are not mentioned above </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-                <div class="sb sb_blue">
-                    <div class="box_title">Testimonial</div>
-                    <div class="box_content">
-                        <div class="slider_quotes" style="margin-top: 45px;">
-                            <div class="slider-item">
-                                {% if tour.testimonial is defined %}
-                                    <div class="quote-text">
-                                        {{ tour.testimonial|raw }}
-                                    </div>
-                                {% else %}
-                                    <div class="quote-text">
-                                        <strong>Hello Soyoloo</strong><br/><p>Just want to thank you for your wonderful hospitality and expert tour guiding during our trip to Mongolia.  We loved visiting the Husai National Park and exploring the city of Ulaanbaatar.  Our favorite part of the trip was seeing the beautiful countryside and encountering wild horses, camels and eagles.
-                                            Thank you so much for showing us around and making sure our trip was a success.  We also enjoyed our driver, Zoloo.  Look forward to planning our next adventure with you.
-                                        </p></div>
-                                    <div class="quote-author">
-                                        <strong>Lisa Berkman, Tour group from USA</strong>
-                                    </div>
-                                {% endif %}
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-                {{ include('Tour/_catalog.html.twig') }}
-
-            </div>
-            <!--/ sidebar -->
         </div>
     </div>
 {% endblock %}

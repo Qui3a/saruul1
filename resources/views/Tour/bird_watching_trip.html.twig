@@ -24,6 +24,50 @@
     <!-- middle -->
     <div id="middle" class="cols2">
         <div class="container clearfix">
+
+            <div class="sidebar">
+                <div class="box">
+
+                    <div class="widget-container widget_login">
+                        <h2>Quick inquiry</h2>
+
+                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform" novalidate>
+
+                            <input type="hidden" name="tourName" value="{{ tour.name }}">
+                            {% for message in app.session.getFlashBag.get('inquiry') %}
+                                <mark style="padding: 10px;display: block;"> {{ message }}</mark>
+                            {% endfor %}
+
+                            <p><label>Your name</label><br>
+                                {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your email address</label><br>
+                                {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your phone number</label><br>
+                                {{ form_widget(form.phone, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your message</label><br>
+                                {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
+                            <div style="display: none">
+                                {{ form_widget(form.phone2, { 'attr': {'class': 'input'} }) }}
+                            </div>
+
+                            {{ form_rest(form) }}
+                            <p class="submit">
+                                <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
+                            </p>
+                        </form>
+                    </div>
+
+                    <div class="widget-container subscribe_btn">
+                        <div>
+                            <a href="{{ path('page_show', {'slug':'trip-calendar-2017'}) }}"><img src="/images/group_travel_2017.jpg" alt="Join our group travel 2017"/></a>
+                        </div>
+                    </div>
+
+                    {{ include('Tour/_catalog.html.twig') }}
+
+                </div>
+            </div>
+
             <!-- content -->
             <div class="content">
                 <h2>Bird Watching Trip</h2>
@@ -86,49 +130,6 @@
             </article>
             </div>
 
-
-            <div class="sidebar">
-                <div class="box">
-
-                    <div class="widget-container widget_login">
-                        <h2>Quick inquiry</h2>
-
-                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform" novalidate>
-
-                            <input type="hidden" name="tourName" value="{{ tour.name }}">
-                            {% for message in app.session.getFlashBag.get('inquiry') %}
-                                <mark style="padding: 10px;display: block;"> {{ message }}</mark>
-                            {% endfor %}
-
-                            <p><label>Your name</label><br>
-                                {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
-                            <p><label>Your email address</label><br>
-                                {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</p>
-                            <p><label>Your phone number</label><br>
-                                {{ form_widget(form.phone, { 'attr': {'class': 'input'} }) }}</p>
-                            <p><label>Your message</label><br>
-                                {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
-                            <div style="display: none">
-                                {{ form_widget(form.phone2, { 'attr': {'class': 'input'} }) }}
-                            </div>
-
-                            {{ form_rest(form) }}
-                            <p class="submit">
-                                <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
-                            </p>
-                        </form>
-                    </div>
-
-                    <div class="widget-container subscribe_btn">
-                        <div>
-                            <a href="{{ path('page_show', {'slug':'trip-calendar-2017'}) }}"><img src="/images/group_travel_2017.jpg" alt="Join our group travel 2017"/></a>
-                        </div>
-                    </div>
-
-                    {{ include('Tour/_catalog.html.twig') }}
-
-                </div>
-            </div>
         </div>
     </div>
 {% endblock %}

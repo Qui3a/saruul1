@@ -25,6 +25,126 @@
     <!-- middle -->
     <div id="middle" class="cols2 sidebar_left">
         <div class="container clearfix">
+            <!-- sidebar -->
+            <div class="sidebar">
+                <div class="box">
+
+                    <!-- widget_categories -->
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title">Trip snapshot</h3>
+                        <b style="color: #B28E1B">Tour length:</b> <span>{{ tour.duration2 }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Available time:</b> <span>{{ tour.availableTime }}</span>
+                        <br/>
+                        <b style="color: #B28E1B">Region:</b> <span>{{ tour.region }}</span>
+                        <br/>
+                    </div>
+                    <!--/ widget_categories -->
+
+                    <!-- widget_categories -->
+                    <div class="widget-container widget_categories">
+                        <h3 class="widget-title" style="margin-bottom:0;">Travel map</h3>
+                    </div>
+                    <a href="{{ tour.mapLarge }}" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="{{ tour.map }}" width="380" class="frame_box"/></a>
+                    <!--/ widget_categories -->
+
+                    <!-- widget_recent_comments -->
+                    <div class="widget-container widget_popular">
+                        <h3 class="widget-title">Highlights</h3>
+                        <ul>
+                            {% for highlight in tour.highlights %}
+                                <li><a href="javascript:;">{{ highlight }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <!--/ widget_recent_comments -->
+                    {{ include('Tour/_discount.html.twig') }}
+
+                    <!-- login widget -->
+                    <div class="widget-container widget_login">
+                        <h2>Quick inquiry</h2>
+
+                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform" novalidate>
+
+                            <input type="hidden" name="tourName" value="{{ tour.name }}">
+                            {% for message in app.session.getFlashBag.get('inquiry') %}
+                                <mark style="padding: 10px;display: block;"> {{ message }}</mark>
+                            {% endfor %}
+
+                            <p><label>Your name</label><br>
+                                {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your email address</label><br>
+                                {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your phone number</label><br>
+                                {{ form_widget(form.phone, { 'attr': {'class': 'input'} }) }}</p>
+                            <p><label>Your message</label><br>
+                                {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
+                            <div style="display: none">
+                                {{ form_widget(form.phone2, { 'attr': {'class': 'input'} }) }}
+                            </div>
+
+                            {{ form_rest(form) }}
+                            <p class="submit">
+                                <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
+                            </p>
+                        </form>
+                    </div>
+                    <!--/ login widget -->
+
+                    <!-- subscribe buttons -->
+                    <div class="widget-container subscribe_btn">
+                        <div>
+                            <a href="{{ path('page_show', {'slug':'trip-calendar-2017'}) }}"><img src="/images/group_travel_2017.jpg" alt="Join our group travel 2017"/></a>
+                        </div>
+                    </div>
+                    <!--/ subscribe buttons -->
+
+                </div>
+
+                <div class="sb sb_dark">
+                    <div class="box_title">Included</div>
+                    <div class="box_content">
+                        <div class="entry">
+                            <div class="list_check">
+                                <ul>
+                                    <li>Private ger for every 2 people in Tourist camp</li>
+                                    <li>All meals as listed in itinerary</li>
+                                    <li>All entrance fees</li>
+                                    <li>Sightseeing as per itinerary</li>
+                                    <li>Accommodation in 4 stars hotel in Ulaanbaatar (twin standard room double occupancy)</li>
+                                    <li>Transportations by 4WD vehicles</li>
+                                    <li>English speaking guide (other language guide on request)</li>
+                                    <li>Daily supply of bottled water</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+                <div class="sb sb_dark">
+                    <div class="box_title">Not included</div>
+                    <div class="box_content">
+                        <div class="entry">
+                            <div class="list_delete">
+                                <ul>
+                                    <li>International airfare</li>
+                                    <li>Travel insurance</li>
+                                    <li>Beverages</li>
+                                    <li>Optional activity cost</li>
+                                    <li>Excess baggage charge</li>
+                                    <li>Single room supplement</li>
+                                    <li>Any additional things which are not mentioned above</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+
+            </div>
+            <!--/ sidebar -->
+
             <!-- content -->
             <div class="content">
                 <h2>{{ tour.name }} ({{ tour.duration2 }})</h2>
@@ -149,126 +269,6 @@
                     </div>
                 </div>
             </div>
-
-            <!-- sidebar -->
-            <div class="sidebar">
-                <div class="box">
-
-                    <!-- widget_categories -->
-                    <div class="widget-container widget_categories">
-                        <h3 class="widget-title">Trip snapshot</h3>
-                        <b style="color: #B28E1B">Tour length:</b> <span>{{ tour.duration2 }}</span>
-                        <br/>
-                        <b style="color: #B28E1B">Available time:</b> <span>{{ tour.availableTime }}</span>
-                        <br/>
-                        <b style="color: #B28E1B">Region:</b> <span>{{ tour.region }}</span>
-                        <br/>
-                    </div>
-                    <!--/ widget_categories -->
-
-                    <!-- widget_categories -->
-                    <div class="widget-container widget_categories">
-                        <h3 class="widget-title" style="margin-bottom:0;">Travel map</h3>
-                    </div>
-                    <a href="{{ tour.mapLarge }}" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="{{ tour.map }}" width="380" class="frame_box"/></a>
-                    <!--/ widget_categories -->
-
-                    <!-- widget_recent_comments -->
-                    <div class="widget-container widget_popular">
-                        <h3 class="widget-title">Highlights</h3>
-                        <ul>
-                            {% for highlight in tour.highlights %}
-                            <li><a href="javascript:;">{{ highlight }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <!--/ widget_recent_comments -->
-                    {{ include('Tour/_discount.html.twig') }}
-
-                    <!-- login widget -->
-                    <div class="widget-container widget_login">
-                        <h2>Quick inquiry</h2>
-
-                        <form method="post" action="{{ path('inquiry_send', {'slug':slug}) }}" class="loginform" novalidate>
-
-                            <input type="hidden" name="tourName" value="{{ tour.name }}">
-                            {% for message in app.session.getFlashBag.get('inquiry') %}
-                                <mark style="padding: 10px;display: block;"> {{ message }}</mark>
-                            {% endfor %}
-
-                            <p><label>Your name</label><br>
-                                {{ form_widget(form.name, { 'attr': {'class': 'input'} }) }}</p>
-                            <p><label>Your email address</label><br>
-                                {{ form_widget(form.email, { 'attr': {'class': 'input'} }) }}</p>
-                            <p><label>Your phone number</label><br>
-                                {{ form_widget(form.phone, { 'attr': {'class': 'input'} }) }}</p>
-                            <p><label>Your message</label><br>
-                                {{ form_widget(form.content, { 'attr': {'class': 'input', 'rows': '4'} }) }}</p>
-                            <div style="display: none">
-                                {{ form_widget(form.phone2, { 'attr': {'class': 'input'} }) }}
-                            </div>
-
-                            {{ form_rest(form) }}
-                            <p class="submit">
-                                <input type="submit" name="wp-submit" id="wp-submit" class="btn-submit" value="Send" tabindex="100">
-                            </p>
-                        </form>
-                    </div>
-                    <!--/ login widget -->
-
-                    <!-- subscribe buttons -->
-                    <div class="widget-container subscribe_btn">
-                        <div>
-                            <a href="{{ path('page_show', {'slug':'trip-calendar-2017'}) }}"><img src="/images/group_travel_2017.jpg" alt="Join our group travel 2017"/></a>
-                        </div>
-                    </div>
-                    <!--/ subscribe buttons -->
-
-                </div>
-
-                <div class="sb sb_dark">
-                    <div class="box_title">Included</div>
-                    <div class="box_content">
-                        <div class="entry">
-                            <div class="list_check">
-                                <ul>
-                                    <li>Private ger for every 2 people in Tourist camp</li>
-                                    <li>All meals as listed in itinerary</li>
-                                    <li>All entrance fees</li>
-                                    <li>Sightseeing as per itinerary</li>
-                                    <li>Accommodation in 4 stars hotel in Ulaanbaatar (twin standard room double occupancy)</li>
-                                    <li>Transportations by 4WD vehicles</li>
-                                    <li>English speaking guide (other language guide on request)</li>
-                                    <li>Daily supply of bottled water</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-                <div class="sb sb_dark">
-                    <div class="box_title">Not included</div>
-                    <div class="box_content">
-                        <div class="entry">
-                            <div class="list_delete">
-                                <ul>
-                                    <li>International airfare</li>
-                                    <li>Travel insurance</li>
-                                    <li>Beverages</li>
-                                    <li>Optional activity cost</li>
-                                    <li>Excess baggage charge</li>
-                                    <li>Single room supplement</li>
-                                    <li>Any additional things which are not mentioned above</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="clear"></div>
-                    </div>
-                </div>
-
-            </div>
-            <!--/ sidebar -->
 
         </div>
 
