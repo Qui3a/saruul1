@@ -136,6 +136,11 @@ class Seo
             'description' =>  "Luxury Tour Mongolia, Mongolian Luxury Travel, Luxury Tours to Mongolia",
             'keyword' =>      "Luxury Tour Mongolia, Mongolian Luxury Travel, Luxury Tours to Mongolia"
         ),
+        'overland-discovery-with-rural-naadam-festival' => array(
+            'title' =>        "Naadam Festival 2017, Rural Naadam Festival Mongolia, Mongolian Naadam Festival, Local Naadam Festival Mongolia",
+            'description' =>  "Begin in the capital, where the skills of that nomadic army are preserved at the extraordinary Naadam Festival. Marvel at incredible displays of horsemanship, archery and wrestling from your seat at Mongolia’s National Naadam Festival. Attend the opening ceremony, cheer wrestlers and archers, listen to famous throat singing, camp with a nomadic family & sleep in a traditional felt gers in the Gobi Desert.",
+            'keyword' =>      "Mongolia Naadam Fesitval 2017, Naadam Festival 2017, Naadam Festival 2017 dates, Mongolian Naadam"
+        ),
         # Pages
         'tourist-attractions' => array(
             'title' =>        "Adventure and Cultural Tours, Mongolia travel guide, Nomadic Adventures Mongolia, Mongolia tour travel, Mongolia tour packages",
