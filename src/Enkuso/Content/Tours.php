@@ -1060,7 +1060,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
         ),
 
         'western-mongolia-gobi-desert-and-eagle-hunting-family' => array(
-            'name' => 'Western Mongolia, Gobi Desert & Eagle Hunting Family',
+            'name' => 'Western Mongolia, Eagle Hunting Family and Gobi Desert',
             'layout' => 'western-mongolia-eagle-hunting-family-and-gobi-desert.html.twig',
             'duration' => '12 days',
             'duration2' => '12 days / 11 nights',
