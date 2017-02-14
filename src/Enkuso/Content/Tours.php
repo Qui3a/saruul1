@@ -1092,7 +1092,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'map' => '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/map_s.jpg',
             'mapLarge' => '/tourimg/western-mongolia-eagle-hunting-family-and-gobi-desert/map_l.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => null,
+            'pdf' => 'western-mongolia-gobi-desert-and-eagle-hunting-family',
             'itinerary' => '',
             'overview' => "<p>The first destination of this trip is the Gobi Desert which is popular with tourists for its beautiful landscapes including sand dunes and splendid gorges with unique formations as well as birds of prey, small rodents, the remains of dinosaur fossils, two-humped camels, and camel herders.</p>
 <p>While traveling around the Gobi, you will be thrilled by the contrasts between the Three Beauty Mountain Ranges, ice in the Eagle Valley which remains frozen until July, and sand dunes known as the &quot;singing dunes.&quot;</p>
