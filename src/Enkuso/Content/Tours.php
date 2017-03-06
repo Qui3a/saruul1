@@ -42,7 +42,7 @@ class Tours
                 'https://farm4.staticflickr.com/3852/15205063450_059a00292b_z.jpg',
             ),
             'region' => 'Central, Southern and Northern part of Mongolia.',
-            'availableTime' => '<br/>&nbsp;&nbsp;June 29 to July 13, 2017<br/>&nbsp;&nbsp; July 9-23, 2017',
+            'availableTime' => '<br/>&nbsp;&nbsp;June 29 to July 13, 2017-2018<br/>&nbsp;&nbsp; July 9-23, 2017-2018',
             'map' => 'https://farm4.staticflickr.com/3872/15368668506_1bf7ecaabb_m.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3872/15368668506_8ca8785279_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
