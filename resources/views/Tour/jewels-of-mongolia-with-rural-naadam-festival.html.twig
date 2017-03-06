@@ -63,16 +63,7 @@
                     <a href="{{ tour.mapLarge }}" data-rel="prettyPhoto" title="Travel map" hidefocus="true" rel="prettyPhoto" style="outline: none;"><img src="{{ tour.map }}" width="380" class="frame_box"/></a>
                     <!--/ widget_categories -->
 
-                    <!-- widget_recent_comments -->
-                    <div class="widget-container widget_popular">
-                        <h3 class="widget-title">Highlights</h3>
-                        <ul>
-                            {% for highlight in tour.highlights %}
-                                <li><a href="javascript:;">{{ highlight }}</a></li>
-                            {% endfor %}
-                        </ul>
-                    </div>
-                    <!--/ widget_recent_comments -->
+                    {{ include('Tour/_highlights.html.twig') }}
 
                     {{ include('Tour/_discount.html.twig') }}
                     <!-- login widget -->
@@ -232,93 +223,52 @@
                             <h2 style="color: #B28E1B; margin-top: 20px; ">DETAILED TOUR ITINERARY</h2>
 
                             <div class="sb sb_brown">
-                                <div class="box_title">July 8 Day 1 ~ Arrival in Ulaanbaatar, Mongolia</div>
+                                <div class="box_title">July 3 Day 1 ~Arrival in Ulaanbaatar & City Tour</div>
                                 <div class="box_content">
                                     <p>Upon arrival at Genghis Khan International Airport, you are met by our guide and
-
-                                        transferred to the hotel in the city center.
-
-                                        <br> Rest of the day is for rest and to recover jet lag and travel fatigue.</p>
-                                    <p><strong><em>Overnight in 4* hotel<br/> Meals: Dinner</em></strong></p>
+                                        transferred to the hotel in the city center. We set out to explore
+                                        Ulaanbaatar-the capital city of Mongolia-the home to over a one third of the
+                                        country's population where the traditional gers and Buddhist temples coexist
+                                        with sky-kissing towers! Begin from the Gandan Monastery-Mongolia's most revered
+                                        religious site-home to more than 100 Buddhist monks with beautiful chapels,
+                                        courtyards and a giant 75-foot gold gilded Buddha statue.
+                                        <br>Next, we stop in the Natural History Museum that showcases the spectacular
+                                        fossils found in the Gobi desert. After lunch, we visit the National Museum of
+                                        Mongolian History and culture that has rich collection of stone and Bronze Age
+                                        artifacts, costumes, sacred relics and items related to the nomadic life such as
+                                        hunting and fishing tools.
+                                        <br>The balance of the day is open for you to stroll the streets of the city on
+                                        your own.
+                                    </p>
+                                    <p><strong><em>Overnight in 4* hotel<br/> Meals: Breakfast, Lunch & Dinner</em></strong></p>
                                     <div class="clear"></div>
                                 </div>
                             </div>
 
                             <div class="sb sb_brown">
-                                <div class="box_title">July 9 Day 2 ~ Cultural Tour of Ulaanbaatar</div>
+                                <div class="box_title">July 4 Day 2 Fly to the Gobi Desert (1.2 hours) and then drive to Yol Valley and Gurvansaikhan National Park</div>
                                 <div class="box_content">
-                                    <p>Following breakfast, we set out to explore Ulaanbaatar-the capital city of Mongolia-the
-
-                                        home to over a one third of the country's population where the traditional gers and
-
-                                        Buddhist temples coexist with sky-kissing towers! Begin from the Gandan Monastery-
-
-                                        Mongolia's most revered religious site-home to more than 100 Buddhist monks with
-
-                                        beautiful chapels, courtyards and a giant 75-foot gold gilded Buddha statue.
-
-                                        <br>Next, we stop in the Natural History Museum that showcases the spectacular fossils
-
-                                        found in the Gobi desert. After lunch, we visit the National Museum of Mongolian
-
-                                        History and culture that has rich collection of stone and Bronze Age artifacts, costumes,
-
-                                        sacred relics and items related to the nomadic life such as hunting and fishing tools.
-
-                                        <br>The balance of the day is open for you to stroll the streets of the city on your own.</p>
-                                    <p><strong><em>Overnight in 4* hotel<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <p>This morning we fly over vast steppe to the Gobi, Mongolia’s southernmost
+                                        province of semi-arid desert. Meet your local guide and driver and then transfer
+                                        by 4WD vehicle to the Yol Valley in Gurvansaikhan National Park, situated in the
+                                        lap of Altai Mountains. On the way to our lodge, we stop to visit the local
+                                        Natural History Museum for an insight to the flora and fauna of the area.
+                                    </p>
+                                    <p><strong><em>Overnight in ger camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
                                     <div class="clear"></div>
                                 </div>
                             </div>
 
                             <div class="sb sb_brown">
-                                <div class="box_title">July 10 - Day 3 To Lake Khovsgul in the North.</div>
+                                <div class="box_title">July 5 - Day 3 Yol Valley to Hongoryn Els</div>
                                 <div class="box_content">
-                                    <p><em><strong>1.2 hours flight to Muron and 4 hrs drive to the Lake Khovsgul</strong></em>
-                                        Following breakfast, we are transferred to the airport for flight to Muron in the north.
-
-                                        Muron is the headquarter of the Khovsgul Province. We meet our local guide at the
-
-                                        airport and then we drive by 4WD vehicle through the vast Mongolian steppe into the
-
-                                        forested mountains and finally we arrive at the Lake Khovsgul-Mongolia's largest lake.
-
-                                        The lake, also known as the "Dark Blue Pearl" of Mongolia is situated amidst the
-
-                                        pristine nature with beautiful forests, mountains and meadows and abundant with bird
-
-                                        species and orchids.</p>
-                                    <p><strong><em>Overnight in Ger Camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-
-                            <div class="sb sb_brown">
-                                <div class="box_title">July 11 - Day 4 Rural Naadam Festival in Khuvsgul lake</div>
-                                <div class="box_content">
-                                    <p>During whole lovely day you enjoy watch Naadam festival or three manly sports
-                                        such aswrestling, archery and horse racing. Visit opening ceremony of Naadam
-                                        festival at the national stadium. And you will see archery, wrestling and horse
-                                        racing during Naadam festival. Naadam festival is of the victory of the People’s
-                                        Revolution. Mongolia celebrates its independence and its rich cultural heritage
-                                        with a festival of sports and revelry in Ulaanbaatar. The distinctly Mongolian
-                                        feel and flair of the Naadam Festival make it a wonderful spectacle, a joyous
-                                        time, and an intriguing cultural event. Colorful ceremonies and parading
-                                        soldiers kick off the celebrations.</p>
-                                    <p><strong><em>Overnight in Ger Camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-
-                            <div class="sb sb_brown">
-                                <div class="box_title">July 12 - Day 5 Discover Khuvsgul National park</div>
-                                <div class="box_content">
-                                    <p>During whole lovely day, you will have an opportunity to ride reindeer and
-                                        observethem. We spend the next two days in walking, hiking, horseback riding in
-                                        the environs ofthe lake and the nearby mountains and visiting the local nomadic
-                                        families. Optionalboating trip is available on request.</p>
-                                    <p><strong>Walking and hiking in the lake shores, Horse riding trek near the lake,
-                                            visiting yakbreeding family and experience their unique lifestyle</strong>
+                                    <p>After breakfast, take in the stunning scenery of the Gobi-Altai Mountain range as
+                                        you transfer to the towering sand dunes of Khongoryn Els, home to the ‘Singing
+                                        Sands’. These spectacular dunes got their name from the noise made by the
+                                        shifting sand in the wind. Feel the breeze in your hair as you ride a camel
+                                        across the dunes before returning to the ger camp. Isolated from the rest of the
+                                        country, the Singing Sands are the best kept secret for thousand years in the
+                                        history of Mongolia.
                                     </p>
                                     <p><strong><em>Overnight in Ger Camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
                                     <div class="clear"></div>
@@ -326,101 +276,143 @@
                             </div>
 
                             <div class="sb sb_brown">
-                                <div class="box_title">July 13 - Day 6 Return to Ulaanbaatar</div>
+                                <div class="box_title">July 6 - Day 4 Khongor sand dunes</div>
                                 <div class="box_content">
-                                    <p>After breakfast, we return to Muron for our afternoon flight to Ulaanbaatar. Upon
-                                        arrival, transfer to the hotel in the city and rest of the day is open for you
-                                        to pursue your own interest.</p>
-                                    <p><strong><em>Overnight in 4* hotel<br/> Meals: Breakfast</em></strong></p>
+                                    <p>Today we will have a full day exploring the sand dunes and rest after the long
+                                        drive. The dunes seem to stretch on forever like a soft ribbon of sand draped
+                                        over the desert. The shifting sand blown by the wind or someone makes sound so
+                                        it is called Singing Sand Dunes. There is a beautiful green oasis known as
+                                        Seruun bulag near the Khongor River. Return to the camp for lunch and enjoy
+                                        feeling silence and a peaceful in the beautiful surroundings Gobi Deserts.
+                                    </p>
+                                    <p><strong><em>Overnight in Ger Camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
                                     <div class="clear"></div>
                                 </div>
                             </div>
 
                             <div class="sb sb_brown">
-                                <div class="box_title">July 14 - Day 7 Fly to the Gobi Desert (1.2 hours) and then drive to Yol Valley and Gurvansaikhan National Park</div>
+                                <div class="box_title">July 7 - Day 5 Day trip to Khavtsgait Petroglyphs and Nomads day</div>
                                 <div class="box_content">
-                                    <p>This morning we fly over vast steppe to the Gobi, Mongolia’s southernmost
-                                        province of semi-arid desert. Meet your local guide and driver and then transfer
-                                        by 4WD vehicle to the Yol Valley in Gurvansaikhan National Park, situated in the
-                                        lap of Altai Mountains. On the way to our lodge, we stop to visit the local
-                                        Natural History Museum for an insight to the flora and fauna of the area.</p>
-                                    <p><strong><em>Overnight in ger camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <p>In the morning we drive to the site of the Khavtsgait Petroglyphs. The Khavtsgait
+                                        Petroglyphs from the Bronze Age (4000-3000 BC) are beautifully carved on many
+                                        rocks on the top of a sacred mountain. It is easy to find the rock paintings
+                                        there because they are spread on rocks all around. The area is very rocky and
+                                        can be slippery to climb, but by carefully following a path up the mountain, you
+                                        can reach the top to see these beautiful rock paintings.
+                                        <br> The petroglyphs were carved and painted with motifs consisting of animals,
+                                        hunting scenes and weapons. They depict various animals related to everyday life
+                                        of ancient people including deer, bears, wolves and hunters, and wolves with
+                                        livestock. Other paintings depict more domestic scenes of yaks pulling carts,
+                                        the wheels and horses flattened sideways like hieroglyphs, and herders on
+                                        horseback. The engravings vary in size, ranging from two-centimeters to the real
+                                        life size of horses.
+                                        <br>After the rest, we will visit a herder family nearby. We will spend some
+                                        time there getting to know the family members and their casual yet unique daily
+                                        lifestyle. It is a good chance to see how the family members cooperate together
+                                        to do their daily even hourly chores such as milking mares, fencing and milking
+                                        the goats. If you wish, you are welcome to try some mare's fermented milk and
+                                        other dairy products.
+                                    </p>
+                                    <p><strong><em>Overnight in Ger Camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
                                     <div class="clear"></div>
                                 </div>
                             </div>
 
                             <div class="sb sb_brown">
-                                <div class="box_title">July 15 - Day 8 Drive to Khongor Sand Dune</div>
-                                <div class="box_content">
-                                    <p>Take in the stunning scenery of the Gobi-Altai mountain range as you transfer to
-                                        the towering sand dunes of Khongoryn Els, home to the “Singing Sands.” These
-                                        spectacular dunes get their name from the noise made by the shifting sands in
-                                        the wind. Because of its isolation from the rest of the country, the Singing
-                                        Sands were the best-kept secret for the last thousand years of Mongolian
-                                        history. You will visit a camel breeding family nearby and feel the breeze in
-                                        your hair as you ride one of their camels across the dunes before returning to
-                                        the ger camp. </p>
-                                    <p><strong><em>Overnight in Ger camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-
-                            <div class="sb sb_brown">
-                                <div class="box_title">July 16 - Day 9 Day trip to Khavtsgait Petroglyphs and Nomads day</div>
-                                <div class="box_content">
-                                    <p>In the morning we drive to the site of the Khavtsgait Petroglyphs. The
-                                        KhavtsgaitPetroglyphs from the Bronze Age (4000-3000 BC) are beautifully carved
-                                        on many rockson the top of a sacred mountain. It is easy to find the rock
-                                        paintings there because theyare spread on rocks all around. The area is very
-                                        rocky and can be slippery to climb, butby carefully following a path up the
-                                        mountain, you can reach the top to see thesebeautiful rock paintings.
-                                        <br> The petroglyphs were carved and painted with motifs consisting of animals,hunting
-                                        scenes and weapons. They depict various animals related to everyday life of
-                                        ancient people including deer, bears, wolves and hunters, and wolves with
-                                        livestock.Other paintings depict more domestic scenes of yaks pulling carts, the
-                                        wheels and horsesflattened sideways like hieroglyphs, and herders on horseback.
-                                        The engravings vary insize, ranging from two-centimeters to the real life size
-                                        of horses.
-                                        <br> After the rest, we will visit a herder family nearby. We will spend
-                                        some time theregetting to know the family members and their casual yet unique
-                                        daily lifestyle. It is agood chance to see how the family members cooperate
-                                        together to do their daily evenhourly chores such as milking mares, fencing and
-                                        milking the goats. If you wish, you arewelcome to try some mare's fermented milk
-                                        and other dairy products.</p>
-                                    <p><strong><em>Overnight in Ger camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
-                                    <div class="clear"></div>
-                                </div>
-                            </div>
-
-                            <div class="sb sb_brown">
-                                <div class="box_title">July 17 Day 10 Drive to the Flaming Cliffs</div>
+                                <div class="box_title">July 8 Day 6 Drive to the Flaming Cliffs</div>
                                 <div class="box_content">
                                     <p>Following breakfast, we drive to Bayanzag. After lunch and some rest, we drive to
                                         Bayan Zag, popularly called as “The Flaming Cliffs” for its glowing orange rock.
                                         It was here, in 1922, that Dr. This area got international name as Roy Chapman
                                         Andrews and his exploration team from the American Museum of Natural History
                                         discovered the first nest of dinosaur eggs here. The area is haven for the
-                                        natural history scientists as the area is rich in dinosaur fossils.</p>
-                                    <p><strong><em>Overnight in Ger camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                        natural history scientists as the area is rich in dinosaur fossils.
+                                    </p>
+                                    <p><strong><em>Overnight in ger camp<br/> Meals: Breakfast, lunch & dinner</em></strong></p>
                                     <div class="clear"></div>
                                 </div>
                             </div>
 
                             <div class="sb sb_brown">
-                                <div class="box_title">July 18 Day 11 Back to Ulaanbaatar</div>
+                                <div class="box_title">July 9 Day 7 Return to Ulaanbaatar</div>
                                 <div class="box_content">
-                                    <p>Following breakfast, transfer back to the airport and fly to Ulaanbaatar. There
-                                        is more to see if you are interested. Visit the Bogd Khan Winter Palace
-                                        Museum-residence of Bodg Jabzan Damba Hutagt VIII-Mongolia's last theocrat. Or
-                                        take leisurely stroll in the town center. In the evening, enjoy dinner and local
-                                        folklore dance shows.</p>
+                                    <p>After breakfast, we return to Muron for our afternoon flight to Ulaanbaatar. Upon
+                                        arrival, transfer to the hotel in the city and rest of the day is open for you
+                                        to pursue your own interest.
+                                    </p>
                                     <p><strong><em>Overnight in 4* hotel<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
                                     <div class="clear"></div>
                                 </div>
                             </div>
 
                             <div class="sb sb_brown">
-                                <div class="box_title">July 19 Day 12 Depart Mongolia</div>
+                                <div class="box_title">July 10 Day 8 To Lake Khovsgul in the North.</div>
+                                <div class="box_content">
+                                    <p><em><strong>1.2 hours flight to Muron and 4 hrs drive to the Lake
+                                                Khovsgul</strong></em>
+                                        <br>Following breakfast, we are transferred to the airport for flight to Muron
+                                        in the north. Muron is the headquarter of the Khovsgul Province. We meet our
+                                        local guide at the airport and then we drive by 4WD vehicle through the vast
+                                        Mongolian steppe into the forested mountains and finally we arrive at the Lake
+                                        Khovsgul-Mongolia's largest lake. The lake, also known as the "Dark Blue Pearl"
+                                        of Mongolia is situated amidst the pristine nature with beautiful forests,
+                                        mountains and meadows and abundant with bird species and orchids.
+                                    </p>
+                                    <p><strong><em>Overnight in Ger camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">July 11 - Day 9 Rural Naadam Festival in Khuvsgul lake</div>
+                                <div class="box_content">
+                                    <p>During whole lovely day you enjoy watch Naadam festival or three manly sports
+                                        such as wrestling, archery and horse racing. Visit opening ceremony of Naadam
+                                        festival at the national stadium. And you will see archery, wrestling and horse
+                                        racing during Naadam festival. Naadam festival is of the victory of the People’s
+                                        Revolution. Mongolia celebrates its independence and its rich cultural heritage
+                                        with a festival of sports and revelry in Ulaanbaatar. The distinctly Mongolian
+                                        feel and flair of the Naadam Festival make it a wonderful spectacle, a joyous
+                                        time, and an intriguing cultural event. Colorful ceremonies and parading
+                                        soldiers kick off the celebrations.
+                                    </p>
+                                    <p><strong><em>Overnight in Ger camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">July 12 Day 10 Discover Khuvsgul National park</div>
+                                <div class="box_content">
+                                    <p>During whole lovely day, you will have an opportunity to ride reindeer and
+                                        observe them. We spend the next two days in walking, hiking, horseback riding in
+                                        the environs of the lake and the nearby mountains and visiting the local nomadic
+                                        families. Optional boating trip is available on request.
+                                        <strong>Walking and hiking in the lake shores, Horse riding trek near the lake,
+                                            visiting yak breeding family and experience their unique lifestyle
+                                        </strong>
+                                    </p>
+                                    <p><strong><em>Overnight in Ger camp<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">July 13 Day 11 Back to Ulaanbaatar</div>
+                                <div class="box_content">
+                                    <p>Following breakfast, transfer back to the airport and fly to Ulaanbaatar. There
+                                        is more to see if you are interested. Visit the Bogd Khan Winter Palace
+                                        Museum-residence of Bodg Jabzan Damba Hutagt VIII-Mongolia's last theocrat. Or
+                                        take leisurely stroll in the town center. In the evening, enjoy dinner and local
+                                        folklore dance shows.
+                                    </p>
+                                    <p><strong><em>Overnight in 4* hotel<br/> Meals: Breakfast, lunch and dinner</em></strong></p>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>
+
+                            <div class="sb sb_brown">
+                                <div class="box_title">July 14 Day 12 Depart Mongolia</div>
                                 <div class="box_content">
                                     <p>Transfer to the airport for flight to next destination</p>
                                     <div class="clear"></div>

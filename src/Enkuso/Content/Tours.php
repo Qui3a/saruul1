@@ -356,7 +356,7 @@ I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was th
                 'https://farm1.staticflickr.com/606/22001782614_c84035df4c_b.jpg',
             ),
             'region' => 'Southern and Northern part of Mongolia.',
-            'availableTime' => 'July 3-14, July 8-19, 2017',
+            'availableTime' => 'July 3-14 & 8-19, 2017-2018',
             'map' => 'https://farm4.staticflickr.com/3893/15331947735_2397de96b0_m.jpg',
             'mapLarge' => 'https://farm4.staticflickr.com/3893/15331947735_43f59777b6_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
