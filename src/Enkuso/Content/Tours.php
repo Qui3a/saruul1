@@ -975,8 +975,8 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
         'eagle-festival-and-gobi-desert' => array(
             'name' => 'Golden Eagle Festival & Gobi Desert 2017',
             'layout' => 'eagle-festival-and-gobi-desert.html.twig',
-            'duration' => '13 days',
-            'duration2' => '13 days / 12 nights',
+            'duration' => '14 days',
+            'duration2' => '14 days / 13 nights',
             'type' => 'cultural',
             'highlights' => array(
             ),
@@ -991,7 +991,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 '/tourimg/golden-eagle-and-gobi/eagle-festival (7).jpg',
             ),
             'region' => 'Western & Southern part of Mongolia.',
-            'availableTime' => 'Sep 22 - Oct 4, 2017',
+            'availableTime' => 'Sep 21 - Oct 4, 2017',
             'map' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_m.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
@@ -1013,7 +1013,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
             'list_order' => 16,
             'list_img' => '/images/special_offer_01.jpg',
-            'price_int' => 2895,
+            'price_int' => 3295,
 
         ),
 
