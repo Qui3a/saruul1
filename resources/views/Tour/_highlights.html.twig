@@ -1,0 +1,13 @@
+
+{% if tour.highlights is not empty %}
+    <!-- widget_recent_comments -->
+    <div class="widget-container widget_popular">
+        <h3 class="widget-title">Highlights</h3>
+        <ul>
+            {% for highlight in tour.highlights %}
+                <li><a href="javascript:;">{{ highlight }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <!--/ widget_recent_comments -->
+{% endif %}
