@@ -131,6 +131,11 @@ class Seo
             'description' =>  "Experience Jewels of Mongolia with Rural Naadam Festival 2017. This trip gives you a great opportunity to see all highlights of Naadam Festival in Mongolia.",
             'keyword' =>      "Naadam festival 2017"
         ),
+        'jewels-of-mongolia' => array(
+            'title' =>        "Vacation Mongolia, Mongolia Vacation, Mongolia Vacation Packages, Vacations in Mongolia",
+            'description' =>  "Travel All Mongolia offer a large range of vacation package, from sightseeing tours, cultural tours, trekking tours and festival tours for travelers.",
+            'keyword' =>      "Mongolia Vacations, Mongolia Vacation Packages, Vacations in Mongolia, Vacation in Mongolia"
+        ),
         'unparalleled-luxury-tour' => array(
             'title' =>        "Luxury Tour Mongolia, Mongolian Luxury Travel, Luxury Tours to Mongolia",
             'description' =>  "Luxury Tour Mongolia, Mongolian Luxury Travel, Luxury Tours to Mongolia",
