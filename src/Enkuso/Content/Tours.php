@@ -860,7 +860,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 'https://farm1.staticflickr.com/645/21926406028_0c6999daa6_b.jpg',
             ),
             'region' => 'Southern and Central part of Mongolia.',
-            'availableTime' => 'July 3-18',
+            'availableTime' => 'July 3-18, 2017-2018',
             'map' => 'https://farm6.staticflickr.com/5626/22094273121_e6241f4136_m.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5626/22094273121_57761d4370_k.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
