@@ -15,7 +15,7 @@
         </div>
 
         <!-- topmenu -->
-        <nav id="topmenu" class="clearfix" style="padding-top: 30px;">
+        <nav id="topmenu" class="clearfix">
             <ul class="dropdown">
                 <li class="menu-level-0 current-menu-ancestor"><a href="{{ path('homepage') }}"><span>Home</span></a></li>
                 <li class="menu-level-0"><a href="{{ path('page_show', {'slug':'testimonials'}) }}"><span>Testimonials</span></a></li>
@@ -112,3 +112,69 @@
     </div>
 </div>
 <!--/ header top bar -->
+
+<style>
+    .header_top {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+    .header_top .logo {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .header_top nav {
+        padding-top: 30px;
+    }
+    .header_top.smaller {
+        height: 75px;
+    }
+    .header_top.smaller .container {
+        padding-top: 0;
+    }
+    .header_top.smaller .logo {
+        width: auto;
+        height: 60px;
+        line-height: 60px;
+        font-size: 30px;
+    }
+    .header_top.smaller .abs-info {
+        display: none;
+    }
+
+    @media all and (max-width: 660px) {
+        .header_top.smaller .logo {
+            display: none;
+        }
+        .header_top.smaller nav {
+            padding-top: 0;
+        }
+    }
+</style>
+
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 300,
+                header = document.querySelector(".header_top");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
