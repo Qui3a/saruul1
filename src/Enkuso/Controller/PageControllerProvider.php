@@ -182,7 +182,7 @@ class PageControllerProvider implements ControllerProviderInterface
             if ($form->isValid()) {
 
                 $message = $form->getData();
-		if (stripos($message['content'],"http://")===false) {
+		if (stripos($message['content'],"http://")===false && stripos($message['content'],"https://")===false) {
             $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
                 ->setUsername($app['smtp.mail'])
                 ->setPassword($app['smtp.pass']);
@@ -241,7 +241,7 @@ class PageControllerProvider implements ControllerProviderInterface
 
                 $message = $form->getData();
 
-                if (stripos($message['comment'],"http://")===false) {
+                if (stripos($message['comment'],"http://")===false && stripos($message['comment'],"https://")===false) {
                     $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
                         ->setUsername($app['smtp.mail'])
                         ->setPassword($app['smtp.pass']);
@@ -473,7 +473,7 @@ class PageControllerProvider implements ControllerProviderInterface
 
                 $message = $form->getData();
 
-                if (stripos($message['comment'],"http://")===false) {
+                if (stripos($message['comment'],"http://")===false && stripos($message['comment'],"https://")===false) {
                     $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
                         ->setUsername($app['smtp.mail'])
                         ->setPassword($app['smtp.pass']);
@@ -529,7 +529,7 @@ class PageControllerProvider implements ControllerProviderInterface
 
                 $message = $form->getData();
 
-                if (stripos($message['comment'],"http://")===false) {
+                if (stripos($message['comment'],"http://")===false && stripos($message['comment'],"https://")===false) {
                     $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
                         ->setUsername($app['smtp.mail'])
                         ->setPassword($app['smtp.pass']);

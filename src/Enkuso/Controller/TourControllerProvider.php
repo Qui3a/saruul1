@@ -73,7 +73,7 @@ class TourControllerProvider implements ControllerProviderInterface
 
                 $message = $form->getData();
 
-		if (stripos($form->get('content')->getData(),"http://")===false) {
+		if (stripos($form->get('content')->getData(),"http://")===false && stripos($form->get('content')->getData(),"https://")===false) {
                 $mail = \Swift_Message::newInstance()
                     ->setSubject('['.$app['company']['name'].'] '.$form->get('name')->getData())
                     ->setFrom(array($form->get('email')->getData()))
