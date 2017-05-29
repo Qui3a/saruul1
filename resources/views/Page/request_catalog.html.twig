@@ -101,6 +101,13 @@
                         </div>
                     </div>
 
+                    <div class="form_col_1" style="margin-right: 30px;">
+                        <div class="row alignleft field_text">
+                            {{ form_label(form.comment) }}
+                            {{ form_widget(form.comment, { 'attr': {'class': 'inputField required', 'rows': '10'} }) }}
+                            {{ form_errors(form.comment) }}
+                        </div>
+                    </div>
                     {{ form_rest(form) }}
 
                     <div class="actions">
