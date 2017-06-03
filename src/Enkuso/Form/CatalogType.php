@@ -38,7 +38,6 @@ class CatalogType extends AbstractType
         $builder->add('home_phone', 'text', array('label'=>'Home phone'));
         $builder->add('mobile_phone', 'text', array('label'=>'Mobile phone'));
         $builder->add('email', 'email', array('label'=>'Your e-mail address'));
-        $builder->add('comment', 'textarea', array('label'=>'Comment'));
     }
 
     public function getDefaultOptions(array $options)
@@ -88,7 +87,6 @@ class CatalogType extends AbstractType
                     new Assert\NotBlank(),
                     new Assert\Email(),
                 ),
-                'comment'   => new Assert\NotBlank(),
             ),
             'allowExtraFields'  => false,
         ));
