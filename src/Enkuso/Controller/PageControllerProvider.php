@@ -81,7 +81,7 @@ class PageControllerProvider implements ControllerProviderInterface
         })->bind('gallery');
 
         /** Group travel */
-        $controllers->get('join-our-group-travel-2017', function() use ($app) {
+        $controllers->get('join-our-group-travel-2018', function() use ($app) {
 
             return $app['twig']->render('Page/group_travel.html.twig', array(
             ));

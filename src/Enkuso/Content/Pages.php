@@ -239,8 +239,8 @@ Cancellation Fees: <br/>
             'content' => 'travel-accomodations.html'
 
         ),
-        'trip-calendar-2017' => array(
-            'title' => 'JOIN OUR SMALL GROUP TRAVEL 2017',
+        'trip-calendar-2018' => array(
+            'title' => 'JOIN OUR SMALL GROUP TRAVEL 2018',
             'body' => '',
             'content' => 'trip_calendar.html',),
         'privacy-policy' => array(

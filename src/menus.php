@@ -37,7 +37,7 @@ $app['main_menu'] = function($app) {
             $tours->setCurrent(true);
         $tours->addChild($tour['name'], array('route' => 'tour_show', 'routeParameters' => array('slug' => $key)))->setLabel('<i class="icon-caret-right"></i> '.$tour['name'] . (isset($tour['duration']) ? ' ('.$tour['duration'].')' : '') )->setExtra('safe_label', true)->setCurrentUri($uri);
     }
-    $tours->addChild('Trip calendar', array('route' => 'page_show', 'routeParameters' => array('slug' => 'trip-calendar-2017')))->setLabel('<i class="icon-caret-right"></i> Trip Calendar')->setExtra('safe_label', true)->setCurrentUri($uri);
+    $tours->addChild('Trip calendar', array('route' => 'page_show', 'routeParameters' => array('slug' => 'trip-calendar-2018')))->setLabel('<i class="icon-caret-right"></i> Trip Calendar')->setExtra('safe_label', true)->setCurrentUri($uri);
 
     $menu->addChild('Gallery', array('route' => 'gallery'));
     $menu->addChild('Tourist events', array('route' => 'page_show', 'routeParameters' => array('slug' => 'tourist-events')))->setCurrentUri($uri);
