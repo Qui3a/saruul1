@@ -973,7 +973,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
         ),
 
         'eagle-festival-and-gobi-desert' => array(
-            'name' => 'Golden Eagle Festival & Gobi Desert 2018',
+            'name' => 'Golden Eagle Festival & Gobi Desert 2017-2018',
             'layout' => 'eagle-festival-and-gobi-desert.html.twig',
             'duration' => '14 days',
             'duration2' => '14 days / 13 nights',
@@ -991,7 +991,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 '/tourimg/golden-eagle-and-gobi/eagle-festival (7).jpg',
             ),
             'region' => 'Western & Southern part of Mongolia.',
-            'availableTime' => 'Sep 7-20 & Sep 21 - Oct 4, 2018',
+            'availableTime' => 'Sep 7-20 & Sep 21 - Oct 4, 2017-2018',
             'map' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_m.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
@@ -1018,7 +1018,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
         ),
 
         'golden-eagle-festival' => array(
-            'name' => 'Golden Eagle Festival & Hustai National Park 2018',
+            'name' => 'Golden Eagle Festival & Hustai National Park 2017-2018',
             'layout' => 'golden-eagle-festival.html.twig',
             'duration' => '8 days',
             'duration2' => '8 days / 7 nights',
@@ -1034,11 +1034,11 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 '/tourimg/golden-eagle/eagle (5).jpg',
             ),
             'region' => 'Western part of Mongolia.',
-            'availableTime' => 'Sep 14-21 & Sep 28 - Oct 5, 2018',
+            'availableTime' => 'Sep 14-21 & Sep 28 - Oct 5, 2017-2018',
             'map' => 'https://farm6.staticflickr.com/5642/22199130788_18efaf4b22_m.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5642/22199130788_18efaf4b22_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
-            'pdf' => 'golden-eagle-festival-2018',
+            'pdf' => 'golden-eagle-festival-2017-2018',
             'itinerary' => '',
             'overview' => "<p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes.</p>
             <p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
@@ -1459,7 +1459,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'Ultimate Mongolia' => 'Ultimate Mongolia',
             'Western, Southern and Northern Mongolia Expedition' => 'Western, Southern and Northern Mongolia Expedition',
             'Gobi Desert tour' => 'Gobi Desert tour',
-            'Golden Eagle Festival & Hustai National Park 2018' => 'Golden Eagle Festival & Hustai National Park 2018',
+            'Golden Eagle Festival & Hustai National Park 2017-2018' => 'Golden Eagle Festival & Hustai National Park 2017-2018',
             'Eagle Festival and Gobi Desert' => 'Eagle Festival & Gobi Desert',
             'Western Mongolia, Gobi Desert and Eagle Hunting Family' => 'Western Mongolia, Gobi Desert & Eagle Hunting Family',
             'Buddhism tour' => 'Buddhism tour',
