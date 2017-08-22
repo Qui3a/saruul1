@@ -632,7 +632,7 @@ region in Mongolia; explore the beautiful lakes and mountains via a private jeep
 
             'list_order' => 2,
             'list_img' => '/images/special_offer_19.jpg',
-            'price_int' => 2895,
+            'price_int' => 2489,
         ),
 
         'taste-of-mongolia-with-naadam-festival' => array(
