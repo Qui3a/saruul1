@@ -1013,7 +1013,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
             'list_order' => 16,
             'list_img' => '/images/special_offer_01.jpg',
-            'price_int' => 3295,
+            'price_int' => 3489,
 
         ),
 
