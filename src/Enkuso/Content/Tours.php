@@ -991,7 +991,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 '/tourimg/golden-eagle-and-gobi/eagle-festival (7).jpg',
             ),
             'region' => 'Western & Southern part of Mongolia.',
-            'availableTime' => 'Sep 7-20 & Sep 21 - Oct 4, 2018-2019',
+            'availableTime' => 'Sep 6-19, Sep 13-26 & Sep 27 - Oct 10, 2018',
             'map' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_m.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
