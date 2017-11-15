@@ -122,9 +122,9 @@ class Seo
             'keyword' =>      "Eagle Festival Mongolia, mongolian eagle hunting festival"
         ),
         'eagle-festival-and-gobi-desert' => array(
-            'title' =>        "Eagle Hunting Festival 2017-2018, Golden Eagle Festival 2017-2018, Golden Eagle Festival Mongolia",
+            'title' =>        "Eagle Hunting Festival 2018-2019, Golden Eagle Festival 2018-2019, Golden Eagle Festival Mongolia",
             'description' =>  "Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet.",
-            'keyword' =>      "Golden Eagle Festival Mongolia, Eagle Hunting Festival 2017-2018, Golden Eagle Festival 2017-2018, Mongolia Golden Eagle Festival"
+            'keyword' =>      "Golden Eagle Festival Mongolia, Eagle Hunting Festival 2018-2019, Golden Eagle Festival 2018-2019, Mongolia Golden Eagle Festival"
         ),
         'jewels-of-mongolia-with-rural-naadam-festival-in-khuvsgul-lake' => array(
             'title' =>        "Naadam Festival 2018 | Jewels of Mongolia with Rural Naadam Festival",
