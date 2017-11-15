@@ -160,8 +160,8 @@
             <div class="f_col f_col_3" style="width: 300px;">
                 <h3>ADVENTURE TOURS:</h3>
                 <ul>
-                    <li><a href="{{ path('tour_show', {'slug' : 'eagle-festival-and-gobi-desert'}) }}"><span>Golden Eagle Festival &amp; Gobi Desert 2018-2019 (14 days / 13 nights)</span></a></li>
-                    <li><a href="{{ path('tour_show', {'slug' : 'golden-eagle-festival'}) }}"><span>Golden Eagle Festival & Hustai National Park 2018-2019 (8 days / 7 nights)</span></a></li>
+                    <li><a href="{{ path('tour_show', {'slug' : 'eagle-festival-and-gobi-desert'}) }}"><span>Golden Eagle Festival &amp; Gobi Desert 2018 (14 days / 13 nights)</span></a></li>
+                    <li><a href="{{ path('tour_show', {'slug' : 'golden-eagle-festival'}) }}"><span>Golden Eagle Festival & Hustai National Park 2018 (8 days / 7 nights)</span></a></li>
                     {% for slug, tour in app.content_tours.tours if tour.type is not defined %}
                         <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} {% if tour.duration is defined %}({{ tour.duration2 }}){% endif %}</span></a></li>
                     {% endfor %}
