@@ -146,18 +146,37 @@
                 </ul>
             </div>
 
-            <div class="f_col f_col_3" style="width: 300px;">
+            <div class="f_col f_col_3" style="width: 270px;">
                 <h3>CULTURAL JOURNEY:</h3>
                 <ul>
+                    {% set loopIndex = 0 %}
                     {% for slug, tour in app.content_tours.tours %}
                         {% if tour.duration is defined and tour.type is defined and tour.type == 'cultural' %}
-                        <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} ({{ tour.duration2 }})</span></a></li>
+                            {% set loopIndex = loopIndex + 1 %}
+                            {% if loopIndex <= 10 %}
+                            <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} ({{ tour.duration2 }})</span></a></li>
+                            {% endif %}
                         {% endif %}
                     {% endfor %}
                 </ul>
             </div>
 
-            <div class="f_col f_col_3" style="width: 300px;">
+            <div class="f_col f_col_3" style="width: 270px;">
+                <h3>CULTURAL JOURNEY:</h3>
+                <ul>
+                    {% set loopIndex = 0 %}
+                    {% for slug, tour in app.content_tours.tours %}
+                        {% if tour.duration is defined and tour.type is defined and tour.type == 'cultural' %}
+                            {% set loopIndex = loopIndex + 1 %}
+                            {% if loopIndex > 10 %}
+                            <li><a href="{{ path('tour_show', {'slug' : slug}) }}"><span>{{ tour.name }} ({{ tour.duration2 }})</span></a></li>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="f_col f_col_3" style="width: 270px;">
                 <h3>ADVENTURE TOURS:</h3>
                 <ul>
                     <li><a href="{{ path('tour_show', {'slug' : 'eagle-festival-and-gobi-desert'}) }}"><span>Golden Eagle Festival &amp; Gobi Desert 2018 (14 days / 13 nights)</span></a></li>
