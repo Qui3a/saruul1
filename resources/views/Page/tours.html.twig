@@ -23,7 +23,7 @@
     <div class="middle_row row_light_gray">
         <div class="container clearfix">
             <!-- special offer -->
-            <div class="" style="width: 470px;float:left;">
+            <div class="" style="width: 550px;float:left;margin-right: 20px;">
                 {% for tour in tours if tour.duration2 is defined %}
                     {% if loop.index <= tours|length / 2 %}
                     <div class="special_item">
@@ -44,7 +44,7 @@
             </div>
             <!--/ special offer -->
             <!-- special offer -->
-            <div class="" style="width: 470px;float:left;">
+            <div class="" style="width: 550px;float:left">
                 {% for tour in tours if tour.duration2 is defined %}
                     {% if loop.index > tours|length / 2 %}
                     <div class="special_item">
@@ -74,5 +74,6 @@
     {{ include('Tour/_tour_style.html.twig') }}
     <style type="text/css">
         .special_text .special_price a, .special_text h3 a, .special_text .info_row {color: black;}
+        .special_text {  width: 210px;  }
     </style>
 {% endblock %}
