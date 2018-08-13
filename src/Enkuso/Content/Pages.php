@@ -253,6 +253,7 @@ Cancellation Fees: <br/>
             'content' => 'sitemap.html',),
         'testimonials' => array(
             'title' => 'Testimonials',
+            'hide_title' => true,
             'body' => '',
             'content' => 'testimonials.html',),
         'mongolian-arts-and-culture' => array(
