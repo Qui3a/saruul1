@@ -954,7 +954,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 'https://farm1.staticflickr.com/742/22112971025_2955b49e84_b.jpg',
             ),
             'region' => 'Southern, central and western part of Mongolia',
-            'availableTime' => 'June 10-25, <br>June 17 – July 2, <br>July 15 – 30, <br>July 22-31, <br>Aug 5-20, <br>Aug 20 - Sep 4',
+            'availableTime' => 'June 10-25, <br>June 17 – July 2, <br>July 15 – 30, <br>July 22-31, <br>Aug 5-20, <br>Aug 20 - Sep 4, <br>Sep 1-16',
             'map' => 'https://farm6.staticflickr.com/5815/22112224215_672324c6bc_m.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5815/22112224215_672324c6bc_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
