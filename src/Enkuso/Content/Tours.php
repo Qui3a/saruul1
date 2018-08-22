@@ -661,7 +661,7 @@ region in Mongolia; explore the beautiful lakes and mountains via a private jeep
                 'https://c1.staticflickr.com/1/337/31105372263_37d750e05b_b.jpg',
             ),
             'region' => 'Central & southern part of Mongolia',
-            'availableTime' => '<br>&nbsp;&nbsp; 2-13th of July (<span style="color: red">6 spaces left</span>), <br>&nbsp;&nbsp; 6-17th of July, <br>&nbsp;&nbsp; 9-20th of July, 2018',
+            'availableTime' => '<br>&nbsp;&nbsp; 2-13th of July (<span style="color: red">6 spaces left</span>), <br>&nbsp;&nbsp; 6-17th of July, <br>&nbsp;&nbsp; 9-20th of July, 2019',
             'map' => '/tourimg/taste-of-mongolia-with-naadam/map_s.jpg',
             'mapLarge' => '/tourimg/taste-of-mongolia-with-naadam/map_l.jpg',
             'bs_img' => '/img/tour/em_main.jpg',
