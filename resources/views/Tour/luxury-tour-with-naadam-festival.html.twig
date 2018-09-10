@@ -215,7 +215,7 @@
 
                             {# buttons #}
                             <a class="btn btn_default" href="{{ path('booking') }}"><span>BOOK TRIP</span></a>
-                            <a class="btn btn_blue addthis_button_email" title="Send to a friend"><i class="icon icon-envelope-alt"></i> <span>SEND TO A FRIEND</span></a>
+                            {{ include('Tour/_send_to_a_friend.html.twig') }}
                             {#<a class="btn btn-info" href="{{ path('request_quote',{'slug':slug}) }}">REQUEST A QUOTE</a>#}
                             {% if tour.pdf is defined and tour.pdf is not null %}
                                 <a class="btn btn_cyan" href="{{ path('download_pdf',{'slug':tour.pdf}) }}"><span>DOWNLOAD PDF</span></a>
@@ -369,7 +369,7 @@
 
                             {# buttons #}
                             <a class="btn btn_default" href="{{ path('booking') }}"><span>BOOK TRIP</span></a>
-                            <a class="btn btn_blue addthis_button_email" title="Send to a friend"><i class="icon icon-envelope-alt"></i> <span>SEND TO A FRIEND</span></a>
+                            {{ include('Tour/_send_to_a_friend.html.twig') }}
                             {#<a class="btn btn-info" href="{{ path('request_quote',{'slug':slug}) }}">REQUEST A QUOTE</a>#}
                             {% if tour.pdf is defined and tour.pdf is not null %}
                                 <a class="btn btn_cyan" href="{{ path('download_pdf',{'slug':tour.pdf}) }}"><span>DOWNLOAD PDF</span></a>
