@@ -82,6 +82,9 @@ class PageControllerProvider implements ControllerProviderInterface
 
         /** Group travel */
         $controllers->get('join-our-group-travel-2018', function() use ($app) {
+            return $app->redirect($app['url_generator']->generate('group_travel'));
+        });
+        $controllers->get('join-our-group-travel-2019', function() use ($app) {
 
             return $app['twig']->render('Page/group_travel.html.twig', array(
             ));
