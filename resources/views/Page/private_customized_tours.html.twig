@@ -95,13 +95,13 @@
                                     <div class="form_col_2" style="margin-right: 0px;">
                                     <div class="row field_text">
                                         {{ form_label(form.comment) }}
-                                        {{ form_widget(form.comment, { 'attr': {'class': 'inputField required', 'rows': '30'} }) }}
+                                        {{ form_widget(form.comment, { 'attr': {'class': 'inputField required', 'rows': '14'} }) }}
                                         {{ form_errors(form.comment) }}
                                     </div>
                                     </div>
                                 </div>
 
-                                <div class="form_col_1" style="margin-right: 0px;">
+                                <div class="form_col_1" style="margin-right: 0px;width: 300px;">
                                     <div class="row alignleft field_text">
                                         {{ form_label(form.preferences) }}
                                         {% for option in form.preferences %}
