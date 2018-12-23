@@ -898,6 +898,49 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'price_int' => 3465,
         ),
 
+        'overland-discovery-with-golden-eagle-hunting-festival' => array(
+            'name' => 'Overland Discovery with Golden Eagle Hunting Festival',
+            'layout' => 'overland-discovery-with-golden-eagle-hunting-festival.html.twig',
+            'duration' => '19 days',
+            'duration2' => '19 days / 18 nights',
+            'type' => 'cultural',
+            'highlights' => array(
+                'Karakhorum, site of ancient monasteries and location of the ancient Mongol Empire\'s capital',
+                'Flaming Cliffs in the Gobi, where Roy Chapman Andrews discovered the first dinosaur eggs the world had ever seen',
+                'Ride camels and walk along Mongolia\’s largest sand dunes at Khongor sand Dune',
+                'Stay in an authentic Mongolian traditional ger camp',
+                'Hiking through shore of Ugii Lake',
+                'Enjoy the hospitality of the local people by visiting a family ‘ger’',
+                'Explore Gobi Gurvan Saikhan National Park',
+                'Explore the capital Ulaanbaatar and the Gandan Monastery',
+                'Soak in sensual natural hot springs',
+                'Observing wild horses',
+                'Golden Eagle Hunting Festival',
+                'Visiting Kazakh Family',
+            ),
+            'pictures' => array(
+                // zuragnuud
+                'https://farm5.staticflickr.com/4846/31498502727_4d73178c89_k.jpg',
+                'https://farm8.staticflickr.com/7884/31498503247_8d2a08a648_h.jpg',
+                'https://farm5.staticflickr.com/4849/31498503837_31775d5080_k.jpg',
+            ),
+            'region' => 'Southern, Western & Central part of Mongolia',
+            'availableTime' => 'Sep 22 – Oct 10, 2019',
+            'map' => null,
+            'mapLarge' => null,
+            'bs_img' => '/img/tour/jeep_main.jpg',
+            'pdf' => 'overland-discovery-with-golden-eagle-hunting-festival',
+            'itinerary' => '',
+            'overview' => "",
+            'testimonial' => "<p>We were delighted with our Mongolian experience. The ger camp was highlight and the traditional Mongolian concert was really enjoyable. Our overall experience was extremely positive.</p>
+<p>Thank you for looking after us so well.</p>
+<strong>Jane Ferguson Group from Australia</strong>",
+
+            'list_order' => 8,
+            'list_img' => '/images/special_offer_16.jpg',
+            'price_int' => 4389,
+        ),
+
         'ultimate-mongolia' => array(
             'name' => 'Ultimate Mongolia',
             'layout' => 'ultimate-mongolia.html.twig',
@@ -1473,6 +1516,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             'Treasures of Mongolia' => 'Treasures of Mongolia',
             'Overland Discovery' => 'Overland Discovery',
             'Overland Discovery with Rural Naadam Festival' => 'Overland Discovery with Rural Naadam Festival',
+            'Overland Discovery with Golden Eagle Hunting Festival' => 'Overland Discovery with Golden Eagle Hunting Festival',
             'Luxury tour with Naadam festival' => 'Luxury tour with Naadam festival',
             'Discover Central Mongolia' => 'Discover Central Mongolia',
             'Horse trip around khuvsgul lake' => 'Horse trip around khuvsgul lake',
