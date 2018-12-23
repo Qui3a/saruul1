@@ -583,37 +583,39 @@ class PageControllerProvider implements ControllerProviderInterface
 
                 $message = $form->getData();
 
-                $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
-                    ->setUsername($app['smtp.mail'])
-                    ->setPassword($app['smtp.pass']);
+                if (stripos($message['comment'],"http://")===false && stripos($message['comment'],"https://")===false) {
+                    $transporter = \Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
+                        ->setUsername($app['smtp.mail'])
+                        ->setPassword($app['smtp.pass']);
 
-                $mail = \Swift_Message::newInstance($transporter)
-                    ->setSubject('Requesting catalog: '.$form->get('first_name')->getData())
-                    ->setFrom(array($form->get('email')->getData()))
-                    ->setReplyTo(array($form->get('email')->getData()))
-                    ->setTo($app['company']['email'])
-                    ->setBody('<b>First Name: </b> '.$form->get('first_name')->getData().'<br/>'
-                        .'<b>Last Name: </b>'.$form->get('last_name')->getData().'<br/>'
-//                        .'<b>Title: </b>'.$form->get('title')->getData().'<br/>'
-//                        .'<b>Organization: </b>'.$form->get('organization')->getData().'<br/>'
-                        .'<b>Address: </b>'.$form->get('address_line_1')->getData().'<br/>'
-                        .'<b>Address line 2: </b>'.$form->get('address_line_2')->getData().'<br/>'
-                        .'<b>City: </b>'.$form->get('city')->getData().'<br/>'
-                        .'<b>Country: </b>'.$form->get('country')->getData().'<br/>'
-                        .'<b>Zip code: </b>'.$form->get('zip_code')->getData().'<br/>'
-                        .'<b>Home phone: </b>'.$form->get('home_phone')->getData().'<br/>'
-                        .'<b>Mobile phone: </b>'.$form->get('mobile_phone')->getData().'<br/>'
-                        .'<b>Email: </b>'.$form->get('email')->getData().'<br/>'
-                        .'<b>Country from IP address: </b>'.$app['visitor_country'].'<br/>'
-                        , 'text/html');
+                    $mail = \Swift_Message::newInstance($transporter)
+                        ->setSubject('Private Customized Tour Request: ' . $form->get('first_name')->getData())
+                        ->setFrom(array($form->get('email')->getData()))
+                        ->setReplyTo(array($form->get('email')->getData()))
+                        ->setTo($app['company']['email'])
+                        ->setBody('<b>First Name: </b> ' . $form->get('first_name')->getData() . '<br/>'
+                            . '<b>Last Name: </b>' . $form->get('last_name')->getData() . '<br/>'
+                            . '<b>Email: </b>' . $form->get('email')->getData() . '<br/>'
+                            . '<b>Nationality: </b>' . $form->get('nationality')->getData() . '<br/>'
+                            . '<b>Phone numbers: </b>' . $form->get('phone_numbers')->getData() . '<br/>'
+                            . '<b>Traveling Children?: </b>' . $form->get('traveling_children')->getData() . '<br/>'
+                            . '<b>Accommodation level: </b>' . $form->get('accommodation_level')->getData() . '<br/>'
+                            . '<b>Tour start date: </b>' . $form->get('tour_start_date')->getData() . '<br/>'
+                            . '<b>Tour end date: </b>' . $form->get('tour_end_date')->getData() . '<br/>'
+                            . '<b>Budget: </b>' . $form->get('budget')->getData() . '<br/>'
+                            . '<b>Preferences: </b>' . $form->get('preferences')->getData() . '<br/>'
+                            . '<b>Comment: </b>' . $form->get('comment')->getData() . '<br/>'
+                            . '<b>Country from IP address: </b>' . $app['visitor_country'] . '<br/>'
+                            , 'text/html');
 
-                $app['mailer']->send($mail);
+                    $app['mailer']->send($mail);
+                }
 
-                return $app->redirect($app['url_generator']->generate('catalog_success'));
+                return $app->redirect($app['url_generator']->generate('private_customized_tours_success'));
             }
 
             return $app['twig']->render('Page/private_customized_tours.html.twig', array(
-                'form'      => $form->createView(),
+                'form' => $form->createView(),
             ));
         })->bind('private_customized_tours_send');
 

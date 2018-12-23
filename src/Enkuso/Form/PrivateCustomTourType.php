@@ -99,12 +99,24 @@ class PrivateCustomTourType extends AbstractType
                 'phone_numbers' => array(
                     new Assert\NotBlank(),
                 ),
+                'traveling_children' => new Assert\Choice(array(
+                    'choices' => array_keys(['Yes' => 'Yes', 'No' => 'No'])
+                )),
+                'accommodation_level' => new Assert\Choice(array(
+                    'choices' => array_keys(self::$accommodation_levels)
+                )),
                 'tour_start_date' => array(
                     new Assert\NotBlank(),
                 ),
                 'tour_end_date' => array(
                     new Assert\NotBlank(),
                 ),
+                'budget' => new Assert\Choice(array(
+                    'choices' => array_keys(self::$budget)
+                )),
+                'preferences' => new Assert\Choice(array(
+                    'choices' => array_keys(self::$preferences)
+                )),
                 'comment' => array(
                     new Assert\NotBlank(),
                 ),

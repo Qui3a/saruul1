@@ -1,0 +1,69 @@
+{% extends 'layout.html.twig' %}
+
+{% block content %}
+    <!-- header -->
+    <div class="header header_thin" style="background-image:url(/images/slider8_mini.jpg)">
+
+        <div class="header_title">
+            <strong><span>Private Customized Tours</span></strong>
+        </div>
+
+    </div>
+    <!--/ header -->
+
+    <!-- breadcrumbs -->
+    <div class="middle_row row_white breadcrumbs">
+        <div class="container">
+            <p><a href="{{ path('homepage') }}">Home</a> <span class="separator">&rsaquo;</span>
+                <span class="current">Private Customized Tours</span></p>
+        </div>
+    </div>
+    <!--/ breadcrumbs -->
+
+    <!-- middle -->
+    <div id="middle" class="cols2">
+        <div class="container clearfix">
+            <!-- content -->
+            <div class="content">
+                <div class="entry">
+                    <div class="contact_box">
+                        <h2>Thank you</h2>
+                        <div class="box_content clearfix">
+                            Your request sent successfully.
+                            <br/><br/>
+                            <p>Thank you for submitting your inquiry. We will answer for your question shortly.</p>
+                        </div>
+                    </div>
+                </div><!--end row-->
+            </div>
+            <!-- sidebar -->
+            <div class="sidebar" style="margin-top: 35px;">
+                <div class="box">
+                    <div style="margin: 10px;">
+                        {% include 'Page/_contact_information.html.twig' %}
+                    </div>
+                    <!-- subscribe buttons -->
+                    <div class="widget-container subscribe_btn">
+                        <div>
+                            <a href="{{ path('page_show', {'slug':'trip-calendar-2019'}) }}"><img
+                                        src="/images/group_travel_2019.jpg" alt="Join our group travel 2019"/></a>
+                        </div>
+                    </div>
+                    <!--/ subscribe buttons -->
+
+                </div>
+            </div>
+            <!--/ sidebar -->
+        </div>
+    </div>
+{% endblock %}
+
+{% block stylesheets %}
+    {{ parent() }}
+    {{ include('Tour/_tour_style.html.twig') }}
+    <style>
+        #middle .content {
+            width: auto;
+        }
+    </style>
+{% endblock %}
