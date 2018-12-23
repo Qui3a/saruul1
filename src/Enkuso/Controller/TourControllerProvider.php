@@ -36,7 +36,13 @@ class TourControllerProvider implements ControllerProviderInterface
                 $tours[$slug]['slug'] = $slug;
             }
             usort($tours, function($a, $b){
-                return $a['list_order'] - $b['list_order'];
+                if (isset($a['list_order']) && isset($b['list_order'])) {
+                    return $a['list_order'] - $b['list_order'];
+                }
+                if (isset($a['list_order'])) {
+                    return 1;
+                }
+                return 0;
             });
             $app['seo_key'] = 'tours';
 
