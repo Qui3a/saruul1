@@ -61,12 +61,12 @@ class PrivateCustomTourType extends AbstractType
         $builder->add('email', 'email', array('label' => 'Your e-mail address'));
         $builder->add('nationality', 'text', array('label' => 'Nationality'));
         $builder->add('phone_numbers', 'text', array('label' => 'Phone numbers'));
-        $builder->add('traveling_children', 'checkbox', array('label' => 'Traveling Children?'));
+        $builder->add('traveling_children', 'choice', array('label' => 'Traveling Children?', 'choices' => ['Yes' => 'Yes', 'No' => 'No'], 'expanded' => true, 'required' => true));
         $builder->add('accommodation_level', 'choice', array('label' => 'Level of accommodation', 'choices' => self::$accommodation_levels));
         $builder->add('tour_start_date', 'text', array('label' => 'Tour Start Date'));
         $builder->add('tour_end_date', 'text', array('label' => 'Tour End Date'));
         $builder->add('budget', 'choice', array('label' => 'Budget for per person', 'choices' => self::$budget));
-        $builder->add('preferences', 'choice', array('label' => 'What do you want to see and do in your custom tour?', 'choices' => self::$preferences));
+        $builder->add('preferences', 'choice', array('label' => 'What do you want to see and do in your custom tour?', 'choices' => self::$preferences, 'multiple' => true, 'expanded' => true));
         $builder->add('comment', 'textarea', array('label' => 'Comments'));
     }
 
