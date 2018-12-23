@@ -588,6 +588,11 @@ class PageControllerProvider implements ControllerProviderInterface
                         ->setUsername($app['smtp.mail'])
                         ->setPassword($app['smtp.pass']);
 
+                    $preferences = '';
+                    foreach ($form->get('preferences')->getData() as $datum) {
+                        $preferences .= (empty($preferences) ? '' : ', ') . $datum;
+                    }
+
                     $mail = \Swift_Message::newInstance($transporter)
                         ->setSubject('Private Customized Tour Request: ' . $form->get('first_name')->getData())
                         ->setFrom(array($form->get('email')->getData()))
@@ -603,7 +608,7 @@ class PageControllerProvider implements ControllerProviderInterface
                             . '<b>Tour start date: </b>' . $form->get('tour_start_date')->getData() . '<br/>'
                             . '<b>Tour end date: </b>' . $form->get('tour_end_date')->getData() . '<br/>'
                             . '<b>Budget: </b>' . $form->get('budget')->getData() . '<br/>'
-                            . '<b>Preferences: </b>' . $form->get('preferences')->getData() . '<br/>'
+                            . '<b>Preferences: </b>' . $preferences . '<br/>'
                             . '<b>Comment: </b>' . $form->get('comment')->getData() . '<br/>'
                             . '<b>Country from IP address: </b>' . $app['visitor_country'] . '<br/>'
                             , 'text/html');
