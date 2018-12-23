@@ -257,6 +257,11 @@ class Seo
             'description'   => 'Mongolian Arts and Culture, The Tale of Khoomii, Long song of Mongolia, The Legend of a Long Song, Horse head fiddle: Morin khuur, Tsam dance',
             'keyword'       => 'Mongolian Arts and Culture, The Tale of Khoomii, Long song of Mongolia, The Legend of a Long Song, Horse head fiddle: Morin khuur, Tsam dance'
         ),
+        'private-customized-tours' => array(
+            'title'         => 'Private Customized Tours',
+            'description'   => 'Private Customized Tours, Travel All Mongolia',
+            'keyword'       => 'Private Customized Tours, Travel All Mongolia'
+        ),
         'all' => array(
             'title' =>        "Mongolia Travel Guide, Tours Mongolia, Adventure Travel Mongolia, Active Adventure tours Mongolia, travel Mongolia",
             'description' =>  "Travel to Mongolia and discover adventure travel in a land of stark, barren and spectacular beauty, a world without boundaries, where vast plains are matched only by the enormous blue sky. This is nature on an almost unimaginable scale, dwarfing all who pass through it. The endless wilderness populated only by the nomadic peoples and their livestock who live day to day in the awe-inspiring landscape.",

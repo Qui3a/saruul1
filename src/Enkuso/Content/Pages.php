@@ -264,6 +264,10 @@ Cancellation Fees: <br/>
             'title' => 'Our Lodge',
             'body' => '',
             'content' => 'our-lodge.html',),
+        'private-customized-tours' => array(
+            'title' => 'Private Customized Tours',
+            'body' => '',
+            'content' => 'private-customized-tours.html',),
     );
 
     /**
