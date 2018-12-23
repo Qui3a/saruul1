@@ -50,4 +50,9 @@
 {% block stylesheets %}
     {{ parent() }}
     {{ include('Tour/_tour_style.html.twig') }}
+    <style>
+        #middle.full_width .content, #middle.full_width .post-detail {
+            width: auto;
+        }
+    </style>
 {% endblock %}
