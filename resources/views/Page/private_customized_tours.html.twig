@@ -61,6 +61,11 @@
                                         {{ form_widget(form.tour_start_date, { 'attr': {'class': 'inputField required', 'placeholder': 'mm/dd/yyyy'} }) }}
                                         {{ form_errors(form.tour_start_date) }}
                                     </div>
+                                    <div class="row alignleft field_text">
+                                        {{ form_label(form.comment) }}
+                                        {{ form_widget(form.comment, { 'attr': {'class': 'inputField required', 'rows' => 30} }) }}
+                                        {{ form_errors(form.comment) }}
+                                    </div>
                                 </div>
 
                                 <div class="form_col_1" style="margin-right: 30px;">
@@ -96,7 +101,7 @@
                                         {{ form_label(form.preferences) }}
                                         {% for option in form.preferences %}
                                             <div>
-                                            {{ form_widget(option, { 'attr': {'class': 'inputField'} }) }}
+                                            {{ form_row(option, { 'attr': {'class': 'inputField'} }) }}
                                             </div>
                                         {% endfor %}
                                         {{ form_errors(form.preferences) }}
