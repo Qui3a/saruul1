@@ -35,32 +35,63 @@
 
                                 {{ form_errors(form) }}
 
-                                <div class="form_col_1" style="margin-right: 30px;">
-                                    <div class="row alignleft field_text">
-                                        {{ form_label(form.first_name) }}
-                                        {{ form_widget(form.first_name, { 'attr': {'class': 'inputField required'} }) }}
-                                        {{ form_errors(form.first_name) }}
+                                <div>
+                                    <div class="form_col_1" style="margin-right: 30px;">
+                                        <div class="row alignleft field_text">
+                                            {{ form_label(form.first_name) }}
+                                            {{ form_widget(form.first_name, { 'attr': {'class': 'inputField required'} }) }}
+                                            {{ form_errors(form.first_name) }}
+                                        </div>
+                                        <div class="row alignleft field_text">
+                                            {{ form_label(form.email) }}
+                                            {{ form_widget(form.email, { 'attr': {'class': 'inputField required'} }) }}
+                                            {{ form_errors(form.email) }}
+                                        </div>
+                                        <div class="row alignleft field_text">
+                                            {{ form_label(form.phone_numbers) }}
+                                            {{ form_widget(form.phone_numbers, { 'attr': {'class': 'inputField required'} }) }}
+                                            {{ form_errors(form.phone_numbers) }}
+                                        </div>
+                                        <div class="row alignleft field_text">
+                                            {{ form_label(form.accommodation_level) }}
+                                            {{ form_widget(form.accommodation_level, { 'attr': {'class': 'select_styled', 'style':'height: 38px;width: 230px;'} }) }}
+                                            {{ form_errors(form.accommodation_level) }}
+                                        </div>
+                                        <div class="row alignleft field_text">
+                                            {{ form_label(form.tour_start_date) }}
+                                            {{ form_widget(form.tour_start_date, { 'attr': {'class': 'inputField required', 'placeholder': 'mm/dd/yyyy'} }) }}
+                                            {{ form_errors(form.tour_start_date) }}
+                                        </div>
                                     </div>
-                                    <div class="row alignleft field_text">
-                                        {{ form_label(form.email) }}
-                                        {{ form_widget(form.email, { 'attr': {'class': 'inputField required'} }) }}
-                                        {{ form_errors(form.email) }}
+
+                                    <div class="form_col_1" style="margin-right: 30px;">
+                                        <div class="row alignleft field_text">
+                                            {{ form_label(form.last_name) }}
+                                            {{ form_widget(form.last_name, { 'attr': {'class': 'inputField required'} }) }}
+                                            {{ form_errors(form.last_name) }}
+                                        </div>
+                                        <div class="row alignleft field_text">
+                                            {{ form_label(form.nationality) }}
+                                            {{ form_widget(form.nationality, { 'attr': {'class': 'inputField required'} }) }}
+                                            {{ form_errors(form.nationality) }}
+                                        </div>
+                                        <div class="row alignleft field_text">
+                                            {{ form_label(form.traveling_children) }}
+                                            {{ form_widget(form.traveling_children, { 'attr': {'class': 'inputField required', 'style':'height: 34px;'} }) }}
+                                            {{ form_errors(form.traveling_children) }}
+                                        </div>
+                                        <div class="row alignleft field_text">
+                                            {{ form_label(form.budget) }}
+                                            {{ form_widget(form.budget, { 'attr': {'class': 'select_styled', 'style':'height: 38px;width: 230px;'} }) }}
+                                            {{ form_errors(form.budget) }}
+                                        </div>
+                                        <div class="row alignleft field_text">
+                                            {{ form_label(form.tour_end_date) }}
+                                            {{ form_widget(form.tour_end_date, { 'attr': {'class': 'inputField required', 'placeholder': 'mm/dd/yyyy'} }) }}
+                                            {{ form_errors(form.tour_end_date) }}
+                                        </div>
                                     </div>
-                                    <div class="row alignleft field_text">
-                                        {{ form_label(form.phone_numbers) }}
-                                        {{ form_widget(form.phone_numbers, { 'attr': {'class': 'inputField required'} }) }}
-                                        {{ form_errors(form.phone_numbers) }}
-                                    </div>
-                                    <div class="row alignleft field_text">
-                                        {{ form_label(form.accommodation_level) }}
-                                        {{ form_widget(form.accommodation_level, { 'attr': {'class': 'select_styled', 'style':'height: 38px;width: 230px;'} }) }}
-                                        {{ form_errors(form.accommodation_level) }}
-                                    </div>
-                                    <div class="row alignleft field_text">
-                                        {{ form_label(form.tour_start_date) }}
-                                        {{ form_widget(form.tour_start_date, { 'attr': {'class': 'inputField required', 'placeholder': 'mm/dd/yyyy'} }) }}
-                                        {{ form_errors(form.tour_start_date) }}
-                                    </div>
+
                                     <div class="row alignleft field_text">
                                         {{ form_label(form.comment) }}
                                         {{ form_widget(form.comment, { 'attr': {'class': 'inputField required', 'rows': '30'} }) }}
@@ -70,38 +101,11 @@
 
                                 <div class="form_col_1" style="margin-right: 30px;">
                                     <div class="row alignleft field_text">
-                                        {{ form_label(form.last_name) }}
-                                        {{ form_widget(form.last_name, { 'attr': {'class': 'inputField required'} }) }}
-                                        {{ form_errors(form.last_name) }}
-                                    </div>
-                                    <div class="row alignleft field_text">
-                                        {{ form_label(form.nationality) }}
-                                        {{ form_widget(form.nationality, { 'attr': {'class': 'inputField required'} }) }}
-                                        {{ form_errors(form.nationality) }}
-                                    </div>
-                                    <div class="row alignleft field_text">
-                                        {{ form_label(form.traveling_children) }}
-                                        {{ form_widget(form.traveling_children, { 'attr': {'class': 'inputField required', 'style':'height: 34px;'} }) }}
-                                        {{ form_errors(form.traveling_children) }}
-                                    </div>
-                                    <div class="row alignleft field_text">
-                                        {{ form_label(form.budget) }}
-                                        {{ form_widget(form.budget, { 'attr': {'class': 'select_styled', 'style':'height: 38px;width: 230px;'} }) }}
-                                        {{ form_errors(form.budget) }}
-                                    </div>
-                                    <div class="row alignleft field_text">
-                                        {{ form_label(form.tour_end_date) }}
-                                        {{ form_widget(form.tour_end_date, { 'attr': {'class': 'inputField required', 'placeholder': 'mm/dd/yyyy'} }) }}
-                                        {{ form_errors(form.tour_end_date) }}
-                                    </div>
-                                </div>
-
-                                <div class="form_col_1" style="margin-right: 30px;">
-                                    <div class="row alignleft field_text">
                                         {{ form_label(form.preferences) }}
                                         {% for option in form.preferences %}
                                             <div>
-                                            {{ form_row(option, { 'attr': {'class': 'inputField'} }) }}
+                                                {{ form_field(option) }}
+                                                {{ form_label(option) }}
                                             </div>
                                         {% endfor %}
                                         {{ form_errors(form.preferences) }}
