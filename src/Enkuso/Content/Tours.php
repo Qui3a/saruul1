@@ -584,7 +584,29 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
             'bs_img' => '/img/tour/best_main.jpg',
             'pdf' => 'gobi-desert-tour',
             'itinerary' => '',
-            'overview' => "<p>This trip gives you a chance to enjoy amazing Gobi Desert. The Gobi is not just sand and gravel and dead animals. It diversifies into mountains and evergreen forest and geological freak shows - including a dune system as long and high as a mountain range - and sustains an array of endangered species that includes wild ass, wild camels and snow leopards.</p><p>At a place named Bayanzag is a convulsive gash in the steppe, a geological phenomenon of wind-sculpted sandstone known as the Flaming Cliffs. It was given this name by Chapman Andrews because the sandstone glows red in the light of the setting sun. He also called it</p>",
+            'overview' => "<p>Our Gobi trip takes a week including a domestic flight. The Gobi is the 
+southernmost desert in the world and certainly the highlight of 
+Mongolia, choosing our Gobi trip you will enjoy a walk in the gorgeous 
+Yol valley which reminds alpine meadow, internationally famous dinosaur 
+site, Flaming cliffs, where the first dinosaur egg nest was discovered, 
+up to 300 meters towering Singing Dunes, the biggest oasis in the Gobi, 
+where you will do a camel riding along the dunes and climb to hill to 
+see the Bronze age related “natural installation” of petroglyphs and 
+beautiful, endless view of the Gobi. You will spend three nights of your 
+five day Gobi trip in the deluxe gers of our “Gobi Nomad Lodge without 
+any extra charge. The deluxe gers are equipped with private shower, 
+bathroom and air conditioner which make your stay comfortable and 
+relaxing. Within the trip we also offer you to visit a regular nomadic 
+family and learn about their unique and disappearing nomadic lifestyle 
+and nomadic way of thinking. Right on arrival to the Gobi you will be 
+met by our driver who will provide you a comfortable and air conditioned 
+service during the trip. Please, notice that we provide one English 
+speaking tour guide throughout whole trip. Besides the Gobi trip you can 
+extend your Mongolia trip picking other interesting destinations as 
+Karakorum, ancient capital city of Great Mongol Empire, Khustai national 
+park, home to the extinct wild horses and learn about one of Mongolia’s 
+successful conservation programs or visit the pristine, turquoise blue 
+Khuvsgul lake respected anciently by the Mongolians as “Mother sea”.</p>",
             'testimonial' => '<p>Hello,</p><p>I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was the holiday of a lifetime. Mongolia is a fantastic destination because the scenery is just beautiful and the people are so friendly. Soyoloo was our tour guide and he spoke very good English, he was always punctual, very helpful and generally took care of us. He had very good knowledge of Mongolia, so we were well informed well of the history of Mongolia, the summer festival Nadaam, the traditional gers in the countryside, and the city of Ulaanbaatar. Visiting the traditional gers with Soyoloo was especially fun because We got to do so many different activities like try archery, try some of the Mongolian food, ride a camel, have our names written in Mongolian and we even had Mongolian music played to us. I had learnt that Mongolia is such a fascinating and unique country, which is extremely picturesque, and we would absolutely love to visit the country again in the future. I would recommend anyone thinking of going to Mongolia through Travel All Mongolia, to absolutely go, and get in contact with Soyoloo, because you will be well looked after and you will never forget the holiday.
 </p>
 <strong>Kayleigh Jones from England</strong>',
