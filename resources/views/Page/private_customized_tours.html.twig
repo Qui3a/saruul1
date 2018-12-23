@@ -101,8 +101,7 @@
                                         {{ form_label(form.preferences) }}
                                         {% for option in form.preferences %}
                                             <div>
-                                            {{ form_field(option, { 'attr': {'class': 'inputField'} }) }}
-                                            {{ form_label(option) }}
+                                            {{ form_row(option, { 'attr': {'class': 'inputField'} }) }}
                                             </div>
                                         {% endfor %}
                                         {{ form_errors(form.preferences) }}
