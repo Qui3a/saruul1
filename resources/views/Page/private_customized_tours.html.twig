@@ -58,7 +58,7 @@
                                     </div>
                                     <div class="row alignleft field_text">
                                         {{ form_label(form.tour_start_date) }}
-                                        {{ form_widget(form.tour_start_date, { 'attr': {'class': 'inputField required'} }) }}
+                                        {{ form_widget(form.tour_start_date, { 'attr': {'class': 'inputField required', 'placeholder': 'mm/dd/yyyy'} }) }}
                                         {{ form_errors(form.tour_start_date) }}
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@
                                     </div>
                                     <div class="row alignleft field_text">
                                         {{ form_label(form.traveling_children) }}
-                                        {{ form_widget(form.traveling_children, { 'attr': {'class': 'inputField required'} }) }}
+                                        {{ form_widget(form.traveling_children, { 'attr': {'class': 'inputField required', 'style':'height: 34px;'} }) }}
                                         {{ form_errors(form.traveling_children) }}
                                     </div>
                                     <div class="row alignleft field_text">
@@ -86,8 +86,16 @@
                                     </div>
                                     <div class="row alignleft field_text">
                                         {{ form_label(form.tour_end_date) }}
-                                        {{ form_widget(form.tour_end_date, { 'attr': {'class': 'inputField required'} }) }}
+                                        {{ form_widget(form.tour_end_date, { 'attr': {'class': 'inputField required', 'placeholder': 'mm/dd/yyyy'} }) }}
                                         {{ form_errors(form.tour_end_date) }}
+                                    </div>
+                                </div>
+
+                                <div class="form_col_1" style="margin-right: 30px;">
+                                    <div class="row alignleft field_text">
+                                        {{ form_label(form.preferences) }}
+                                        {{ form_widget(form.preferences, { 'attr': {'class': 'inputField'} }) }}
+                                        {{ form_errors(form.preferences) }}
                                     </div>
                                 </div>
 
