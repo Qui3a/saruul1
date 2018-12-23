@@ -63,7 +63,7 @@
                                     </div>
                                     <div class="row alignleft field_text">
                                         {{ form_label(form.comment) }}
-                                        {{ form_widget(form.comment, { 'attr': {'class': 'inputField required', 'rows' => 30} }) }}
+                                        {{ form_widget(form.comment, { 'attr': {'class': 'inputField required', 'rows' => '30'} }) }}
                                         {{ form_errors(form.comment) }}
                                     </div>
                                 </div>
@@ -101,7 +101,8 @@
                                         {{ form_label(form.preferences) }}
                                         {% for option in form.preferences %}
                                             <div>
-                                            {{ form_row(option, { 'attr': {'class': 'inputField'} }) }}
+                                            {{ form_field(option, { 'attr': {'class': 'inputField'} }) }}
+                                            {{ form_label(option) }}
                                             </div>
                                         {% endfor %}
                                         {{ form_errors(form.preferences) }}
