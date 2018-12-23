@@ -104,8 +104,7 @@
                                         {{ form_label(form.preferences) }}
                                         {% for option in form.preferences %}
                                             <div>
-                                                {{ form_field(option) }}
-                                                {{ form_label(option) }}
+                                                {{ form_row(option) }}
                                             </div>
                                         {% endfor %}
                                         {{ form_errors(form.preferences) }}
