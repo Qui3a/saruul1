@@ -94,7 +94,11 @@
                                 <div class="form_col_1" style="margin-right: 30px;">
                                     <div class="row alignleft field_text">
                                         {{ form_label(form.preferences) }}
-                                        {{ form_widget(form.preferences, { 'attr': {'class': 'inputField'} }) }}
+                                        {% for option in form.preferences %}
+                                            <div>
+                                            {{ form_widget(option, { 'attr': {'class': 'inputField'} }) }}
+                                            </div>
+                                        {% endfor %}
                                         {{ form_errors(form.preferences) }}
                                     </div>
                                 </div>
@@ -135,7 +139,7 @@
     {{ parent() }}
     {{ include('Tour/_tour_style.html.twig') }}
     <style>
-        #middle.full_width .content, #middle.full_width .post-detail {
+        #middle .content {
             width: auto;
         }
     </style>
