@@ -696,7 +696,7 @@ region in Mongolia; explore the beautiful lakes and mountains via a private jeep
 
             'list_order' => 20,
             'list_img' => '/images/special_offer_12.jpg',
-            'price_int' => 2689,
+            'price_int' => 2998,
         ),
 
         'treasures-of-mongolia' => array(
