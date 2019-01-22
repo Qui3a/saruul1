@@ -925,7 +925,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 'https://farm5.staticflickr.com/4849/31498503837_31775d5080_k.jpg',
             ),
             'region' => 'Southern, Western & Central part of Mongolia',
-            'availableTime' => 'Sep 22 – Oct 10, 2019',
+            'availableTime' => 'Sep 21 – Oct 9, 2019',
             'map' => null,
             'mapLarge' => null,
             'bs_img' => '/img/tour/jeep_main.jpg',
