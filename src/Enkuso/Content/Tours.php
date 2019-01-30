@@ -1054,10 +1054,10 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
         ),
 
         'eagle-festival-and-gobi-desert' => array(
-            'name' => 'Golden Eagle Festival & Gobi Desert 2019',
+            'name' => 'Golden Eagle Festival, Gobi Desert, Terelj & Hustai National Park',
             'layout' => 'eagle-festival-and-gobi-desert.html.twig',
-            'duration' => '14 days',
-            'duration2' => '14 days / 13 nights',
+            'duration' => '15 days',
+            'duration2' => '15 days / 14 nights',
             'type' => 'cultural',
             'highlights' => array(
             ),
@@ -1072,15 +1072,15 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
                 '/tourimg/golden-eagle-and-gobi/eagle-festival (7).jpg',
             ),
             'region' => 'Western & Southern part of Mongolia.',
-            'availableTime' => 'Sep 6-19, Sep 13-26 & Sep 27 - Oct 10, 2019',
+            'availableTime' => 'Sep 4-18 & Sep 25- Oct 9, 2019 <br> Sep 2-16 & Sep 23- Oct 7, 2020',
             'map' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_m.jpg',
             'mapLarge' => 'https://farm6.staticflickr.com/5635/22173683418_7f809bf618_b.jpg',
             'bs_img' => '/img/tour/jeep_main.jpg',
             'pdf' => "golden-eagle-festival-and-gobi-desert-2019",
             'itinerary' => '',
-            'overview' => "<p>This trip gives you a chance to enjoy amazing Gobi Desert. The Gobi is not just sand and gravel and dead animals. It diversifies into mountains and evergreen forest and geological freak shows - including a dune system as long and high as a mountain range - and sustains an array of endangered species that includes wild ass, wild camels and snow leopards.</p>
-            <p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes. </p>
-            <p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
+            'overview' => "<p>This trip gives you a chance to enjoy amazing Gobi Desert. The Gobi is not just sand and gravel and dead animals. It diversifies into mountains and evergreen forest and geological freak shows - including a dune system as long and high as a mountain range - and sustains an array of endangered species that includes wild ass, wild camels and snow leopards.
+</p><p>Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet. The inhabitants of this area with its rich mix of cultures are mostly ethnic Kazakhs wearing their traditional embroidered clothes. 
+</p><p>The “Eagle festival” is a tournament of falconers from the region, who hunt with trained eagles. Once a year, they come together from their home village to measure their skills. There are about 380 falconers organized in an association. They are of all ages, from the teenage boy to the octogenarian, but in keeping with tradition, no girls or women may practice the art. </p>",
             'testimonial' => '<p>Travel All Mongolia put on an excellent tour, well organized with
             comfortable vehicles, functional & comfortable Ger camps, and a very
             knowledgeable and personable guide whose love for her country shows.  We
@@ -1094,7 +1094,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
             "Travel All Mongolia".</p><strong>Esther Thavikulwat from USA</strong>',
             'list_order' => 16,
             'list_img' => '/images/special_offer_01.jpg',
-            'price_int' => 3489,
+            'price_int' => 3698,
 
         ),
 
