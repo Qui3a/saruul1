@@ -460,7 +460,7 @@ Tour group from USA September</strong>",
 
             'list_order' => 19,
             'list_img' => '/images/special_offer_21.jpg',
-            'price_int' => 5995,
+            'price_int' => 6998,
         ),
 
         'horse-trip-around-khuvsgul-lake' => array(
