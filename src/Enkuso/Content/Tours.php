@@ -53,7 +53,7 @@ class Tours
 <strong>Adam Singer family, USA</strong>",
             'list_order' => 14,
             'list_img' => '/images/special_offer_04.jpg',
-            'price_int' => 3585,
+            'price_int' => 3798,
 
         ),
 
@@ -92,7 +92,7 @@ class Tours
 <strong>Adam Singer family, USA</strong>",
             'list_order' => 14,
             'list_img' => '/images/special_offer_04.jpg',
-            'price_int' => 3395,
+            'price_int' => 3698,
 
         ),
 
@@ -140,7 +140,7 @@ food  and AMAZING scenery. Quite a family destination. From this experience make
 <strong>Adam Singer family, USA</strong>",
             'list_order' => 13,
             'list_img' => '/images/special_offer_03.jpg',
-            'price_int' => 3345,
+            'price_int' => 3598,
 
         ),
 
@@ -175,7 +175,7 @@ food  and AMAZING scenery. Quite a family destination. From this experience make
 <strong>Jane Ferguson Group from Australia</strong>",
             'list_order' => 12,
             'list_img' => '/images/special_offer_22.jpg',
-            'price_int' => 6985,
+            'price_int' => 6998,
 
         ),
 
@@ -335,7 +335,7 @@ I had a very enjoyable and unforgettable holiday in Mongolia, as it truly was th
 
             'list_order' => 20,
             'list_img' => '/images/special_offer_07.jpg',
-            'price_int' => 2895,
+            'price_int' => 2698,
         ),
 
         'jewels-of-mongolia-with-rural-naadam-festival-in-khuvsgul-lake' => array(
@@ -460,7 +460,7 @@ Tour group from USA September</strong>",
 
             'list_order' => 19,
             'list_img' => '/images/special_offer_21.jpg',
-            'price_int' => 6998,
+            'price_int' => 5998,
         ),
 
         'horse-trip-around-khuvsgul-lake' => array(
@@ -567,7 +567,7 @@ We were very happy to have a Mongolian Luxury Tours provide for our trip to Mong
 
             'list_order' => 4,
             'list_img' => '/images/special_offer_20.jpg',
-            'price_int' => 1485,
+            'price_int' => 1598,
         ),
 
         'gobi-desert-tour' => array(
@@ -629,7 +629,7 @@ Khuvsgul lake respected anciently by the Mongolians as “Mother sea”.</p>",
 
             'list_order' => 3,
             'list_img' => '/images/special_offer_gobi.jpg',
-            'price_int' => 1590,
+            'price_int' => 1798,
         ),
 
         'taste-of-mongolia' => array(
@@ -753,7 +753,7 @@ The wild horses were amazing and we took so many photos, it was so hard to choos
 
             'list_order' => 5,
             'list_img' => '/images/special_offer_13.jpg',
-            'price_int' => 2995,
+            'price_int' => 2595,
         ),
 
         'buddhism-tour' => array(
@@ -865,7 +865,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
             'list_order' => 17,
             'list_img' => '/images/special_offer_15.jpg',
-            'price_int' => 3145,
+            'price_int' => 3398,
         ),
 
         'overland-discovery-with-rural-naadam-festival' => array(
@@ -911,7 +911,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
             'list_order' => 8,
             'list_img' => '/images/special_offer_16.jpg',
-            'price_int' => 3465,
+            'price_int' => 3698,
         ),
 
         'overland-discovery-with-golden-eagle-hunting-festival' => array(
@@ -1001,7 +1001,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
             'list_order' => 7,
             'list_img' => '/images/special_offer_17.jpg',
-            'price_int' => 3885,
+            'price_int' => 4398,
         ),
 
 
@@ -1050,7 +1050,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 
             'list_order' => 6,
             'list_img' => '/images/special_offer_18.jpg',
-            'price_int' => 3695,
+            'price_int' => 3998,
         ),
 
         'eagle-festival-and-gobi-desert' => array(
@@ -1188,7 +1188,7 @@ You will enjoy a stay at a hot spring resort for two days where you can soak in 
 ",
             'list_order' => 15,
             'list_img' => '/images/special_offer_02.jpg',
-            'price_int' => 2995,
+            'price_int' => 3198,
 
         ),
 
