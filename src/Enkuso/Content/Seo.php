@@ -92,14 +92,14 @@ class Seo
             'keyword' =>      "Mongolia horse tour, riding tours, riding treks in Mongolia, Mongolia adventure horse trip, Mongolia adventure horse tours"
         ),
         'a-classic-journey-of-mongolia-with-naadam-festival' => array(
-            'title' =>        "Naadam Festival 2019, Naadam Festival Tour, Naadam Festival Travel",
+            'title' =>        "Naadam Festival 2020, Naadam Festival Tour, Naadam Festival Travel",
             'description' =>  "Naadam festival is celebrated every year at 11-13th July in Central stadium. Mongolia celebrates its independence and its rich cultural heritage with a festival of sports and revelry in Ulaanbaatar.",
-            'keyword' =>      "Naadam Festival 2019, Naadam Festival Tour, Naadam Festival Travel, Mongolian Naadam Festival, Naadam Festival, Naadam Festival 2019"
+            'keyword' =>      "Naadam Festival 2020, Naadam Festival Tour, Naadam Festival Travel, Mongolian Naadam Festival, Naadam Festival, Naadam Festival 2020"
         ),
         'taste-of-mongolia-with-naadam-festival' => array(
-            'title' =>        "Naadam Festival 2019, Naadam festival 2019 dates, Mongolian Naadam Festival ",
+            'title' =>        "Naadam Festival 2020, Naadam festival 2020 dates, Mongolian Naadam Festival ",
             'description' =>  "Naadam festival is celebrated every year at 11-13th July in Central stadium. Mongolia celebrates its independence and its rich cultural heritage with a festival of sports and revelry in Ulaanbaatar. ",
-            'keyword' =>      "Naadam Festival 2019, Mongolian Naadam Festival, Naadam Festival, Naadam Festival Tours "
+            'keyword' =>      "Naadam Festival 2020, Mongolian Naadam Festival, Naadam Festival, Naadam Festival Tours "
         ),
         'taste-of-mongolia' => array(
             'title' =>        "Taste of Mongolia, Go deep into the Mongolian outback and experience life as a nomad",
@@ -122,14 +122,14 @@ class Seo
             'keyword' =>      "Eagle Festival Mongolia, mongolian eagle hunting festival"
         ),
         'eagle-festival-and-gobi-desert' => array(
-            'title' =>        "Eagle Hunting Festival 2019, Golden Eagle Festival 2019, Golden Eagle Festival Mongolia",
+            'title' =>        "Eagle Hunting Festival 2020, Golden Eagle Festival 2020, Golden Eagle Festival Mongolia",
             'description' =>  "Every year during the first week of October, the “Eagle festival” is celebrated in Bayan Ulgii, in the far west of Mongolia. The aimag of Bayan Ulgii is situated in the breathtaking scenery of the Altai mountain range, where four Asian countries meet.",
-            'keyword' =>      "Golden Eagle Festival Mongolia, Eagle Hunting Festival 2019, Golden Eagle Festival 2019, Mongolia Golden Eagle Festival"
+            'keyword' =>      "Golden Eagle Festival Mongolia, Eagle Hunting Festival 2020, Golden Eagle Festival 2020, Mongolia Golden Eagle Festival"
         ),
         'jewels-of-mongolia-with-rural-naadam-festival-in-khuvsgul-lake' => array(
-            'title' =>        "Naadam Festival 2019 | Jewels of Mongolia with Rural Naadam Festival",
-            'description' =>  "Experience Jewels of Mongolia with Rural Naadam Festival 2019. This trip gives you a great opportunity to see all highlights of Naadam Festival in Mongolia.",
-            'keyword' =>      "Naadam festival 2019"
+            'title' =>        "Naadam Festival 2020 | Jewels of Mongolia with Rural Naadam Festival",
+            'description' =>  "Experience Jewels of Mongolia with Rural Naadam Festival 2020. This trip gives you a great opportunity to see all highlights of Naadam Festival in Mongolia.",
+            'keyword' =>      "Naadam festival 2020"
         ),
         'jewels-of-mongolia' => array(
             'title' =>        "Vacation Mongolia, Mongolia Vacation, Mongolia Vacation Packages, Vacations in Mongolia",
@@ -142,9 +142,9 @@ class Seo
             'keyword' =>      "Luxury Tour Mongolia, Mongolian Luxury Travel, Luxury Tours to Mongolia"
         ),
         'overland-discovery-with-rural-naadam-festival' => array(
-            'title' =>        "Naadam Festival 2019, Rural Naadam Festival Mongolia, Mongolian Naadam Festival, Local Naadam Festival Mongolia",
+            'title' =>        "Naadam Festival 2020, Rural Naadam Festival Mongolia, Mongolian Naadam Festival, Local Naadam Festival Mongolia",
             'description' =>  "Begin in the capital, where the skills of that nomadic army are preserved at the extraordinary Naadam Festival. Marvel at incredible displays of horsemanship, archery and wrestling from your seat at Mongolia’s National Naadam Festival. Attend the opening ceremony, cheer wrestlers and archers, listen to famous throat singing, camp with a nomadic family & sleep in a traditional felt gers in the Gobi Desert.",
-            'keyword' =>      "Mongolia Naadam Fesitval 2019, Naadam Festival 2019, Naadam Festival 2019 dates, Mongolian Naadam"
+            'keyword' =>      "Mongolia Naadam Fesitval 2020, Naadam Festival 2020, Naadam Festival 2020 dates, Mongolian Naadam"
         ),
         # Pages
         'tourist-attractions' => array(
